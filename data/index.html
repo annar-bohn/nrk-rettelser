@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRK Rettelser • Live oversikt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        .correction { transition: all 0.2s; }
+        .correction:hover { transform: translateX(4px); }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen">
+    <div class="max-w-3xl mx-auto p-6">
+        <header class="mb-10 border-b border-zinc-800 pb-8">
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-newspaper text-4xl text-red-500"></i>
+                <div>
+                    <h1 class="text-4xl font-bold tracking-tight">NRK Rettelser</h1>
+                    <p class="text-zinc-400">Automatisk oversikt • Oppdatert hver 6. time • annar-bohn.github.io/nrk-rettelser</p>
+                </div>
+            </div>
+            <div class="mt-4 flex gap-4 flex-wrap">
+                <button onclick="loadRemoteData()" class="bg-emerald-600 hover:bg-emerald-700 px-6 py-3 rounded-xl font-medium flex items-center gap-2 transition">
+                    <i class="fa-solid fa-rotate"></i> Hent siste fra feed
+                </button>
+                <button onclick="showAddForm()" class="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-xl font-medium flex items-center gap-2 transition">
+                    <i class="fa-solid fa-plus"></i> Legg til manuell rettelse
+                </button>
+                <button onclick="exportData()" class="bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl font-medium flex items-center gap-2 transition">
+                    <i class="fa-solid fa-download"></i> Eksporter JSON
+                </button>
+                <label class="bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl font-medium flex items-center gap-2 transition cursor-pointer">
+                    <i class="fa-solid fa-upload"></i> Importer JSON
+                    <input type="file" id="importFile" accept=".json" class="hidden" onchange="importData(event)">
+                </label>
+            </div>
+        </header>
+
+        <div class="mb-6">
+            <input id="search" onkeyup="filterList()" type="text" placeholder="Søk i artikler eller feil..." 
+                   class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-red-500">
+        </div>
+
+        <div id="list" class="space-y-8"></div>
+    </div>
+
+    <!-- Add modal (full) -->
+    <div id="modal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+        <div class="bg-zinc-900 rounded-3xl max-w-lg w-full mx-4 p-8">
+            <h2 class="text-2xl font-semibold mb-6">Ny rettelse</h2>
+            <form id="addForm" onsubmit="addCorrection(event)">
+                <div class="space-y-4">
+                    <input id="date" type="datetime-local" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4">
+                    <input id="title" placeholder="Tittel på artikkel eller kort beskrivelse" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4">
+                    <textarea id="what" rows="3" placeholder="Hva var feil?" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4"></textarea>
+                    <textarea id="correction" rows="3" placeholder="Hva ble rettet til?" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4"></textarea>
+                    <input id="url" type="url" placeholder="Lenke til artikkelen[](https://...)" required class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4">
+                </div>
+                <div class="flex gap-3 mt-8">
+                    <button type="button" onclick="hideModal()" class="flex-1 py-4 rounded-2xl border border-zinc-700 hover:bg-zinc-800">Avbryt</button>
+                    <button type="submit" class="flex-1 py-4 bg-red-600 hover:bg-red-700 rounded-2xl font-medium">Lagre rettelse</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let corrections = [];
+        const DATA_URL = "https://raw.githubusercontent.com/annar-bohn/nrk-rettelser/main/data/corrections.json";
+
+        async function loadRemoteData() {
+            try {
+                const res = await fetch(DATA_URL + "?t=" + Date.now());
+                const remote = await res.json();
+                corrections = [...remote, ...corrections.filter(c => !remote.find(r => r.url === c.url))];
+                localStorage.setItem('nrkCorrections', JSON.stringify(corrections));
+                renderList();
+            } catch(e) { alert('Kunne ikke laste remote data – sjekk at corrections.json finnes'); }
+        }
+
+        function renderList(filtered = corrections) {
+            const container = document.getElementById('list');
+            container.innerHTML = filtered.length ? '' : '<p class="text-zinc-500 text-center py-12">Ingen treff ennå</p>';
+            filtered.sort((a,b) => new Date(b.date) - new Date(a.date)).forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'correction bg-zinc-900 border border-zinc-800 rounded-3xl p-6';
+                div.innerHTML = `
+                    <div class="flex justify-between text-sm text-zinc-500 mb-3">
+                        <span>${new Date(c.date).toLocaleDateString('no-NO', {weekday:'long', day:'numeric', month:'long', year:'numeric', hour:'2-digit', minute:'2-digit'})}</span>
+                        ${c.auto ? '<span class="text-emerald-400 text-xs">Automatisk</span>' : ''}
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">${c.title}</h3>
+                    <div class="grid grid-cols-1 gap-4 text-sm">
+                        <div><span class="text-red-400 font-medium">Feil:</span> ${c.what}</div>
+                        <div><span class="text-emerald-400 font-medium">Rettet til:</span> ${c.correction}</div>
+                    </div>
+                    <a href="${c.url}" target="_blank" class="mt-4 inline-flex items-center gap-2 text-red-500 hover:text-red-400 text-sm font-medium">
+                        Les artikkelen <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function addCorrection(e) { /* identical to previous version – omitted for brevity but copy full from earlier message if needed */ 
+            e.preventDefault();
+            const newEntry = {
+                id: Date.now(),
+                date: document.getElementById('date').value,
+                title: document.getElementById('title').value,
+                what: document.getElementById('what').value,
+                correction: document.getElementById('correction').value,
+                url: document.getElementById('url').value,
+                auto: false
+            };
+            corrections.unshift(newEntry);
+            localStorage.setItem('nrkCorrections', JSON.stringify(corrections));
+            renderList();
+            hideModal();
+            document.getElementById('addForm').reset();
+        }
+
+        function showAddForm() { document.getElementById('modal').classList.remove('hidden'); document.getElementById('date').value = new Date().toISOString().slice(0,16); }
+        function hideModal() { document.getElementById('modal').classList.add('hidden'); }
+        function filterList() {
+            const term = document.getElementById('search').value.toLowerCase();
+            const filtered = corrections.filter(c => 
+                [c.title, c.what, c.correction].some(txt => txt.toLowerCase().includes(term))
+            );
+            renderList(filtered);
+        }
+        function exportData() { /* same as before */ 
+            const dataStr = JSON.stringify(corrections, null, 2);
+            const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+            const link = document.createElement('a'); link.href = dataUri; link.download = `nrk-rettelser-${new Date().toISOString().slice(0,10)}.json`; link.click();
+        }
+        function importData(e) { /* same */ 
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = ev => {
+                try { corrections = JSON.parse(ev.target.result); localStorage.setItem('nrkCorrections', JSON.stringify(corrections)); renderList(); } 
+                catch(err) { alert('Ugyldig JSON'); }
+            };
+            reader.readAsText(file);
+        }
+
+        window.onload = () => {
+            const saved = localStorage.getItem('nrkCorrections');
+            if (saved) corrections = JSON.parse(saved);
+            renderList();
+            loadRemoteData(); // auto fetch on load
+            setInterval(loadRemoteData, 30*60*1000);
+        };
+    </script>
+</body>
+</html>
