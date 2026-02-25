@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1740582000,
+    "date": "2026-02-26T14:30:00",
+    "title": "Fosen-saken – antall demonstranter",
+    "what": "Artikkelen oppga feil antall aktivister i leiren (oppgitt 85, var 62).",
+    "correction": "Rettet til korrekt tall 62. Kilde: politiets oppdaterte rapport.",
+    "url": "https://www.nrk.no/nyheter/fosen-...",
+    "auto": false
+  },
+  {
+    "id": 1740581000,
+    "date": "2026-02-25T09:15:00",
+    "title": "Skattesak – hemmelighold",
+    "what": "Påsto feilaktig at alle opplysninger om en næringsdrivendes skatt var hemmelige.",
+    "correction": "Rettet og lagt til lenke til Skatteetatens offentlighetsprinsipp.",
+    "url": "https://www.nrk.no/norge/skatt-...",
+    "auto": false
+  }
+]
