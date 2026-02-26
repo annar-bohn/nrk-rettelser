@@ -2,51 +2,64 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime
 import time
 import os
+from datetime import datetime
 
 DATA_FILE = "data/corrections.json"
 os.makedirs("data", exist_ok=True)
 
 # Load existing
 if os.path.exists(DATA_FILE):
-    with open(DATA_FILE) as f:
+    with open(DATA_FILE, encoding="utf-8") as f:
         corrections = json.load(f)
 else:
     corrections = []
 
 existing_urls = {c["url"] for c in corrections}
 
-# Fetch latest NRK news RSS
+# Fetch RSS
 feed = feedparser.parse("https://www.nrk.no/nyheter/siste.rss")
 
-for entry in feed.entries[:30]:  # last 30 articles
+trigger_phrases = [
+    "I en tidligere versjon",
+    "NRK retter",
+    "RETTELSE",
+    "NRK har rettet",
+    "Endringen er gjort",
+    "rettet i artikkelen",
+    "feilen ble rettet",
+    "korrigert",
+    "Rettelse:",
+    "Vi har rettet"
+]
+
+print(f"Scanning {len(feed.entries)} recent articles...")
+
+new_count = 0
+for entry in feed.entries[:60]:
     url = entry.link
     if url in existing_urls:
         continue
 
     print(f"Checking {url}")
     try:
-        r = requests.get(url, headers={"User-Agent": "NRK-Rettelser-Bot/1.0 (+https://github.com/YOUR-USERNAME/nrk-rettelser)"}, timeout=10)
+        r = requests.get(url, headers={"User-Agent": "NRK-Rettelser-Bot/1.0"}, timeout=12)
         soup = BeautifulSoup(r.text, "html.parser")
-        
-        # Look for correction blocks
-        text = soup.get_text()
-        if any(phrase in text for phrase in ["I en tidligere versjon", "NRK retter", "RETTELSE", "NRK har rettet", "Endringen er gjort"]):
-            
-            # Extract the whole correction paragraph(s)
-            correction_block = ""
-            for p in soup.find_all(["p", "div", "strong", "em"]):
-                if any(phrase in p.get_text() for phrase in ["I en tidligere versjon", "NRK retter", "RETTELSE"]):
-                    correction_block = p.get_text(strip=True)[:500] + "..." if len(p.get_text()) > 500 else p.get_text(strip=True)
+        text = soup.get_text().lower()
+
+        if any(phrase.lower() in text for phrase in trigger_phrases):
+            # Extract correction block better
+            correction_block = "Korrigert (se artikkelen for detaljer)"
+            for tag in soup.find_all(['p', 'div', 'strong', 'h2']):
+                t = tag.get_text(strip=True)
+                if any(phrase in t for phrase in trigger_phrases):
+                    correction_block = t[:600]
                     break
-            if not correction_block:
-                correction_block = "Korrigert (detaljer i artikkelen)"
 
             new_entry = {
                 "id": int(time.time()),
-                "date": entry.published,
+                "date": entry.published or datetime.now().isoformat(),
                 "title": entry.title,
                 "what": "Feil i tidligere versjon (automatisk oppdaget)",
                 "correction": correction_block,
@@ -55,9 +68,10 @@ for entry in feed.entries[:30]:  # last 30 articles
             }
             corrections.append(new_entry)
             existing_urls.add(url)
-            print(f"→ Added correction: {entry.title}")
-        
-        time.sleep(1.5)  # be nice to NRK servers
+            new_count += 1
+            print(f"✓ Added: {entry.title}")
+
+        time.sleep(1.2)  # be gentle to NRK
     except Exception as e:
         print(f"Error on {url}: {e}")
 
@@ -65,4 +79,4 @@ for entry in feed.entries[:30]:  # last 30 articles
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(corrections, f, ensure_ascii=False, indent=2)
 
-print(f"Done. Total corrections: {len(corrections)}")
+print(f"Done. Total corrections: {len(corrections)} | New this run: {new_count}")
