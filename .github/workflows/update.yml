@@ -2,12 +2,16 @@ name: Update NRK corrections
 on:
   schedule:
     - cron: '0 */6 * * *'   # every 6 hours
-  workflow_dispatch:       # manual run button
+  workflow_dispatch:         # manual run button
 
-# ←←←←←← THIS BLOCK IS THE FIX
+# Allow the workflow to push updated corrections.json back to the repo
 permissions:
   contents: write
-# ←←←←←←
+
+# Opt into Node.js 24 now to avoid deprecation warnings
+# (Node.js 20 actions are deprecated and will be forced to Node.js 24 from June 2026)
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   update:
@@ -21,4 +25,4 @@ jobs:
       - run: python scraper.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Auto-update corrections from NRK RSS"
+          commit_message: "Auto-update corrections from NRK RSS"
