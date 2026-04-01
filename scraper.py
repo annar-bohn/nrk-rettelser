@@ -36,7 +36,8 @@ TRIGGERS = [
     "tidligere skrev vi",
 ]
 
-# Load existing corrections
+NAV_NOISE = ("hopp til innhold", "nrk tv", "nrk radio", "nrk super", "nrk p3")
+
 if os.path.exists(DATA_FILE):
     with open(DATA_FILE) as f:
         corrections = json.load(f)
@@ -52,16 +53,63 @@ def has_trigger(text):
     return any(phrase in t for phrase in TRIGGERS)
 
 
+def is_nav_noise(text):
+    t = text.lower()
+    return any(t.startswith(prefix) for prefix in NAV_NOISE)
+
+
 def extract_correction_blocks(soup):
     blocks = []
-    for el in soup.find_all(["p", "aside", "div", "blockquote"]):
-        # Skip large containers that would just be the whole article
-        if len(el.find_all(["p", "div"])) > 3:
+    for el in soup.find_all("p"):
+        text = el.get_text(strip=True)
+        if not text or len(text) > 800:
             continue
-        pt = el.get_text(strip=True)
-        if has_trigger(pt):
-            blocks.append(pt[:600])
-    return " | ".join(blocks) if blocks else "Korrigert (detaljer i artikkelen)"
+        if is_nav_noise(text):
+            continue
+        if has_trigger(text):
+            blocks.append(text[:700])
+    if not blocks:
+        for el in soup.find_all(["aside", "blockquote"]):
+            text = el.get_text(strip=True)
+            if not text or len(text) > 500:
+                continue
+            if is_nav_noise(text):
+                continue
+            if has_trigger(text):
+                blocks.append(text[:700])
+    if not blocks:
+        for el in soup.find_all("div"):
+            if el.find(["p", "div"]):
+                continue
+            text = el.get_text(strip=True)
+            if not text or len(text) > 400:
+                continue
+            if is_nav_noise(text):
+                continue
+            if has_trigger(text):
+                blocks.append(text[:700])
+    return " | ".join(blocks) if blocks else None
+
+
+def extract_page_title(soup):
+    h1 = soup.find("h1")
+    if h1:
+        return h1.get_text(strip=True)[:200]
+    title_el = soup.find("title")
+    if title_el:
+        t = title_el.get_text(strip=True)
+        for suffix in [" - NRK", " | NRK"]:
+            if t.endswith(suffix):
+                t = t[: -len(suffix)]
+        return t.strip()[:200]
+    return ""
+
+
+def extract_pub_date(soup):
+    time_el = soup.find("time", attrs={"datetime": True})
+    if time_el:
+        return time_el.get("datetime", "")
+    return ""
 
 
 def check_article(url, title="", pub_date="", source="rss"):
@@ -74,14 +122,18 @@ def check_article(url, title="", pub_date="", source="rss"):
         soup = BeautifulSoup(r.text, "html.parser")
         if not has_trigger(soup.get_text()):
             return
-
         correction_block = extract_correction_blocks(soup)
-        date_str = pub_date or datetime.now(timezone.utc).isoformat()
-
+        if correction_block is None:
+            print(f"  -> Trigger funnet men ingen ren rettelsestekst. Hopper over.")
+            return
+        if not title:
+            title = extract_page_title(soup) or url
+        if not pub_date:
+            pub_date = extract_pub_date(soup) or datetime.now(timezone.utc).isoformat()
         corrections.append({
             "id": int(time.time() * 1000),
-            "date": date_str,
-            "title": title or url,
+            "date": pub_date,
+            "title": title,
             "what": "Feil i tidligere versjon (automatisk oppdaget)",
             "correction": correction_block,
             "url": url,
@@ -90,27 +142,32 @@ def check_article(url, title="", pub_date="", source="rss"):
         })
         existing_urls.add(url)
         new_count += 1
-        print(f"  -> Rettelse funnet: {title or url}")
+        print(f"  -> Rettelse funnet: {title}")
     except Exception as e:
         print(f"  Feil ved {url}: {e}")
 
 
-# --- RSS scan ---
 print("=== RSS-feeds ===")
 rss_urls = []
+seen_in_rss = set()
 for feed_url in RSS_FEEDS:
-    feed = feedparser.parse(feed_url)
-    for entry in feed.entries:
-        if entry.link not in existing_urls and entry.link not in rss_urls:
-            rss_urls.append((entry.link, entry.get("title", ""), entry.get("published", "")))
+    try:
+        feed = feedparser.parse(feed_url)
+        for entry in feed.entries:
+            if entry.link not in existing_urls and entry.link not in seen_in_rss:
+                rss_urls.append((entry.link, entry.get("title", ""), entry.get("published", "")))
+                seen_in_rss.add(entry.link)
+    except Exception as e:
+        print(f"Feil ved feed {feed_url}: {e}")
 
+print(f"Sjekker {len(rss_urls)} artikler fra RSS")
 for url, title, pub_date in rss_urls:
     check_article(url, title=title, pub_date=pub_date, source="rss")
     time.sleep(1.0)
 
 
-# --- Sitemap scan (recently modified articles = possible silent corrections) ---
 print("\n=== Sitemap-skanning (siste 7 dager) ===")
+
 
 def get_sitemap_urls(days_back=7, max_urls=200):
     cutoff = datetime.now(timezone.utc) - timedelta(days=days_back)
@@ -121,7 +178,6 @@ def get_sitemap_urls(days_back=7, max_urls=200):
     except Exception as e:
         print(f"Kunne ikke laste sitemap-indeks: {e}")
         return []
-
     recent_sitemaps = []
     for sitemap in root.findall("sm:sitemap", ns):
         lastmod_text = sitemap.findtext("sm:lastmod", namespaces=ns)
@@ -133,9 +189,7 @@ def get_sitemap_urls(days_back=7, max_urls=200):
                     recent_sitemaps.append(loc)
             except ValueError:
                 pass
-
     print(f"Fant {len(recent_sitemaps)} nylig oppdaterte under-sitemaps")
-
     urls = []
     for sm_url in recent_sitemaps[:20]:
         try:
@@ -156,7 +210,6 @@ def get_sitemap_urls(days_back=7, max_urls=200):
         if len(urls) >= max_urls:
             break
         time.sleep(0.5)
-
     return urls[:max_urls]
 
 
@@ -167,7 +220,6 @@ for url in sitemap_urls:
     time.sleep(1.0)
 
 
-# Save
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(corrections, f, ensure_ascii=False, indent=2)
 
