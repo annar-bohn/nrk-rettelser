@@ -11,33 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  migrate:
-    runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
-      - name: Migrate corrections.json → corrections_raw.json
-        run: python migrate_to_raw.py
-
-      - name: Commit corrections_raw.json
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: migrate to corrections_raw.json"
-          file_pattern: data/corrections_raw.json
-
   backfill2:
-    needs: migrate
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -54,6 +28,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests beautifulsoup4
+
+      - name: Migrate corrections.json → corrections_raw.json
+        run: python migrate_to_raw.py
 
       - name: Run second-pass backfill
         run: python backfill2.py
