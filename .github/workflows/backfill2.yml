@@ -1,0 +1,94 @@
+name: Backfill 2 – retting / presisering / etter publisering
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: nrk-rettelser
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Migrate corrections.json → corrections_raw.json
+        run: python migrate_to_raw.py
+
+      - name: Commit corrections_raw.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: migrate to corrections_raw.json"
+          file_pattern: data/corrections_raw.json
+
+  backfill2:
+    needs: migrate
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run second-pass backfill
+        run: python backfill2.py
+
+      - name: Commit corrections_raw.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: backfill2 – retting/presisering/etter publisering"
+          file_pattern: data/corrections_raw.json
+
+  enrich-qa:
+    needs: backfill2
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run enrichment + QA
+        run: python enrich_qa.py
+
+      - name: Commit enriched data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: enrich-qa after backfill2"
+          file_pattern: data/corrections_raw.json data/corrections.json
