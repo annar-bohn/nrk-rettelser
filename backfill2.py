@@ -70,6 +70,10 @@ ARTICLE_SECTIONS = (
     "/buskerud/", "/telemark/", "/agder/", "/mr/", "/sognogfjordane/",
     "/hordaland/", "/stfold/", "/akershus/", "/stor-oslo/",
     "/ytring/", "/nyttig/", "/livsstil/", "/sapmi/",
+    # Merged regions + content sections
+    "/vestfoldogtelemark/", "/tromsogfinnmark/", "/vestfold/",
+    "/sorlandet/", "/osloogviken/", "/ostlandssendingen/",
+    "/viten/", "/dokumentar/", "/klima/",
 )
 
 MAX_PAGES_PER_TERM = 50

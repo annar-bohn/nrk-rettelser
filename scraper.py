@@ -75,6 +75,10 @@ ARTICLE_SECTIONS = (
     "/buskerud/", "/telemark/", "/agder/", "/mr/", "/sognogfjordane/",
     "/hordaland/", "/stfold/", "/akershus/", "/stor-oslo/",
     "/ytring/", "/nyttig/", "/livsstil/", "/sapmi/",
+    # Merged regions + content sections
+    "/vestfoldogtelemark/", "/tromsogfinnmark/", "/vestfold/",
+    "/sorlandet/", "/osloogviken/", "/ostlandssendingen/",
+    "/viten/", "/dokumentar/", "/klima/",
 )
 
 # Nav/boilerplate text that signals we've matched the wrong element
