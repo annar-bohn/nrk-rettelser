@@ -9,9 +9,10 @@ from datetime import datetime, timezone
 # Configuration
 # ---------------------------------------------------------------------------
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODEL = "gemini-3.1-flash-lite-preview"  # 500 RPD free tier
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY
+    + GEMINI_MODEL + ":generateContent?key=" + GEMINI_API_KEY
 )
 
 HEADERS = {
@@ -48,18 +49,29 @@ Rettelsestekst funnet av scraper: {correction_text_raw}
 Rettelsesdato (fra scraper): {correction_date_raw}
 
 Oppgave:
-1. Klassifiser om dette er en ekte rettelse. Svar med ett av: genuine_correction, uncertain
-2. Trekk ut en kort beskrivelse av hva som ble rettet (maks 200 tegn), på norsk. Hvis usikkert, sett tom streng.
+1. Klassifiser om dette er en ekte rettelse. Svar med ett av:
+   - genuine_correction — artikkelen inneholder en tydelig rettelse, presisering eller beklagelse
+   - uncertain — det er uklart om dette er en reell rettelse
+   - not_a_correction — dette er IKKE en rettelse (f.eks. vanlig oppdatering, falsk positiv fra scraper)
+
+2. Trekk ut en kort beskrivelse av hva som ble rettet (maks 200 tegn), på norsk. Hvis usikkert eller ikke en rettelse, sett tom streng.
+
 3. Oppgi datoen for rettelsen i ISO 8601-format (YYYY-MM-DD) hvis den kan utledes. Ellers null.
-4. Kategoriser nyhetstype (news_category): sports, culture, politics, economy, science, local, world, other
-5. Klassifiser feiltype (correction_type): factual_error, wrong_name, wrong_number, wrong_image, wrong_date, mistranslation, misleading_title, missing_context, source_error, retracted_claim, other
+
+4. Kategoriser nyhetstype (news_category). Velg én:
+   sports, culture, politics, economy, science, health, technology, local, world, crime, weather, entertainment, other
+
+5. Klassifiser feiltype (correction_type). Velg én:
+   factual_error, wrong_name, wrong_number, wrong_image, wrong_date, wrong_location, mistranslation, misleading_title, missing_context, source_error, retracted_claim, spelling_grammar, attribution_error, other
+
 6. Journalist (bekreft eller korriger): bruk informasjon fra artikkelen. Tom streng hvis ukjent.
+
 7. Ansvarlig redaktør: bruk informasjon fra artikkelen. Tom streng hvis ukjent.
 {custom_fields_instructions}
 
 Svar KUN med gyldig JSON i dette formatet (ingen markdown, ingen forklaringer utenfor JSON):
 {{
-  "qa_status": "genuine_correction" | "uncertain",
+  "qa_status": "genuine_correction" | "uncertain" | "not_a_correction",
   "correction_description": "...",
   "correction_date": "YYYY-MM-DD" | null,
   "news_category": "...",
@@ -163,7 +175,7 @@ def extract_metadata(html, url):
         body_text = article_el.get_text(separator=" ", strip=True)
     else:
         body_text = soup.get_text(separator=" ", strip=True)
-    meta["article_body"] = body_text[:4000]
+    meta["article_body"] = body_text[:20000]
 
     return meta
 
@@ -285,8 +297,8 @@ def process_entry(entry):
         intro_text=entry.get("intro_text", ""),
         journalist=entry.get("journalist", ""),
         responsible_editor=entry.get("responsible_editor", ""),
-        article_body=entry.get("article_body", "")[:2000],
-        correction_text_raw=correction_text_raw[:700],
+        article_body=entry.get("article_body", "")[:20000],
+        correction_text_raw=correction_text_raw[:2000],
         correction_date_raw=entry.get("date", ""),
         custom_fields_instructions=custom_fields_instructions,
         custom_fields_json=custom_fields_json,
@@ -323,7 +335,7 @@ def process_entry(entry):
     )
 
     if entry.get("article_body"):
-        entry["article_body"] = entry["article_body"][:4000]
+        entry["article_body"] = entry["article_body"][:20000]
 
     print(f"  -> qa_status={entry['qa_status']}, type={entry.get('correction_type')}")
     return True

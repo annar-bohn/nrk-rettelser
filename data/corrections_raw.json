@@ -19,66 +19,6 @@
     "article_body": "25. mars 2026 kl. 14:29 Krever ett års fengsel for Isak Dreyer Aktor legger ned påstand om ett års fengsel til «Norges tøffeste»-profil Isak Dreyer, mens de som skjøt bjørnemoren og ungen bør straffes med to års fengsel. RETTELSE: I en tidligere versjon av denne meldingen sto det at aktor hadde nedlagt påstand om seks måneders fengsel. Krever ett års fengsel for Isak Dreyer Aktor legger ned påstand om ett års fengsel til Isak Dreyer, mens de som skjøt bjørnemoren og ungen bør straffes med to års fengsel. Av Ine-Sofie Bruhaug og Lars-Petter Kalkenberg"
   },
   {
-    "id": 1773849337773,
-    "date": "Wed, 18 Mar 2026 12:04:17 GMT",
-    "title": "Svenske henrettet i Iran i dag",
-    "what": "Feil i tidligere versjon (automatisk oppdaget)",
-    "correction": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "url": "https://www.nrk.no/nyheter/svenske-henrettet-i-iran-i-dag-1.17814693",
-    "auto": true,
-    "correction_text_raw": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "headline": "Svenske henrettet i Iran i dag",
-    "qa_status": "pending"
-  },
-  {
-    "id": 1772600278805,
-    "date": "Wed, 04 Mar 2026 00:47:56 GMT",
-    "title": "Drapsдømt mann henrettet i Florida",
-    "what": "Feil i tidligere versjon (automatisk oppdaget)",
-    "correction": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "url": "https://www.nrk.no/nyheter/drapsdomt-mann-henrettet-i-florida-1.17793572",
-    "auto": true,
-    "correction_text_raw": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "headline": "Drapsдømt mann henrettet i Florida",
-    "qa_status": "pending"
-  },
-  {
-    "id": 1773033171510,
-    "date": "Sun, 08 Mar 2026 22:12:27 GMT",
-    "title": "Arve Tellefsen har holdt sin siste konsert",
-    "what": "Feil i tidligere versjon (automatisk oppdaget)",
-    "correction": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "url": "https://www.nrk.no/nyheter/arve-tellefsen-har-holdt-sin-siste-konsert--1.17799927",
-    "auto": true,
-    "correction_text_raw": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "headline": "Arve Tellefsen har holdt sin siste konsert",
-    "qa_status": "pending"
-  },
-  {
-    "id": 1774767387525,
-    "date": "Sat, 28 Mar 2026 23:27:14 GMT",
-    "title": "Houthiene sier de har angrepet nye mål i Israel",
-    "what": "Feil i tidligere versjon (automatisk oppdaget)",
-    "correction": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "url": "https://www.nrk.no/nyheter/houthiene-sier-de-har-angrepet-nye-mal-i-israel--1.17829429",
-    "auto": true,
-    "correction_text_raw": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "headline": "Houthiene sier de har angrepet nye mål i Israel",
-    "qa_status": "pending"
-  },
-  {
-    "id": 1772805966180,
-    "date": "Fri, 06 Mar 2026 11:36:00 GMT",
-    "title": "Regjeringen på Island ber Alltinget åpne for folkeavstemning om EU",
-    "what": "Feil i tidligere versjon (automatisk oppdaget)",
-    "correction": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "url": "https://www.nrk.no/nyheter/regjeringen-pa-island-ber-alltinget-apne-for-folkeavstemning-om-eu-1.17797338",
-    "auto": true,
-    "correction_text_raw": "Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer).",
-    "headline": "Regjeringen på Island ber Alltinget åpne for folkeavstemning om EU",
-    "qa_status": "pending"
-  },
-  {
     "id": 1775073745738,
     "date": "Wed, 21 Jan 2026 12:19:57 GMT",
     "title": "Slik betalte Djesa ned gjelden",
@@ -19269,5 +19209,1695 @@
     "qa_status": "pending",
     "correction_text_raw": "Sakene skapte stort engasjement og er lesne av totalt over 350.000 personar etter publisering avhovudartikkeleni november.",
     "headline": "Folkefest i Lykkelandet"
+  },
+  {
+    "id": 1775266658161,
+    "date": "2026-03-26T22:20:06+01:00",
+    "title": "Helseplattformen",
+    "correction": "– Det er bra at Helseplattformen AS har kommet i mål med retting av de feilene som ble avdekt i tilsynet, sier tilsynsdirektør Malin Rygg.",
+    "url": "https://www.nrk.no/mr/helseplattformen-1.15866613",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266659940,
+    "date": "2026-03-25T08:59:30+01:00",
+    "title": "Russisk eksporthamn i brann",
+    "correction": "Seinare på dagen kom Latvias forsvarsminister Andris Sprüds med ei retting om at dronen truleg var ukrainsk.",
+    "url": "https://www.nrk.no/urix/russland-og-ukraina-angriper-hverandre-1.17823741",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266661645,
+    "date": "2025-08-17T11:30:50+02:00",
+    "title": "Tordner mot internasjonal storavis: – Trist og rart",
+    "correction": "Flere utenlandske medier har identifisert datteren til Gjert Ingebrigtsen. Bistandsadvokat Mette Yvonne Larsen forventer retting og beklagelse.",
+    "url": "https://www.nrk.no/rogaland/mette-yvonne-larsen-i-harnisk-over-utenlandske-medier-som-identifiserer-ingebrigtsen-datter-1.17521356",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266664184,
+    "date": "2025-12-09T08:26:08+01:00",
+    "title": "Helseplattformen trues med dagbøter – fant 119 feil",
+    "correction": "Totalt avdekket tilsynet 119 feil knyttet til universell utforming. Etter at fristen for retting av over, var fremdeles 64 feil uløste, ifølge direktoratet.",
+    "url": "https://www.nrk.no/trondelag/helseplattformen-trues-med-dagboter-1.17684758",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266667357,
+    "date": "2013-09-15T10:49:36+02:00",
+    "title": "Trur ikkje på trynefaktor",
+    "correction": "Skulane i Møre og Romsdal stoppar forsøk med anonym retting av prøver etter at det viste seg at det hadde null effekt. | Etter påtrykk frå blant anna Elevorganisasjonen vart anonym retting av prøver innført i fleire vidaregåande skular over heile landet. Dei er redde for at trynefaktoren i stor grad bestemmer kva karakter læraren gir ein elev. | Sjølv om vedtaket om anonym retting av prøver vart møtt med massive protestar frå lærarane, gennomførte dei vidaregåande skulane i Møre og Romsdal ei slik prøveordning ved terminprøve før eksamen i engelsk på Vg1 og i norsk på Vg2 i skuleåret 2012/13. | No snur Møre og Romsdal, fordi skulane har rapportert inn at skilnadane på anonym og kjent retting ikkje er signifikant målbare. | «Alle skolene melder at det ikke er signifikante avvik mellom anonym retting og ordinære prøvesituasjoner. Rapporten sier at det ikke er noe som tyder på at vurdering og karaktersetting ikke blir gjennomført på en profesjonell og rettferdig måte.» | I tillegg slo rapporten fast at skulane brukte ekstra tid på å administrere ordninga med anonym retting. | Ho fortel at deira erfaring er at lærarane bruker ulike metodar, for eksempel anonym retting eller at dei rettar for kvarandre. | Med anonym retting får heller ikkje læraren følgje utviklinga til kvar enkelt elev, for å kunne gi dei individuell tilbakemelding, poengterer Lied overfor Aftenposten. | – Vi synest det er veldig raskt å trekke tilbake forsøket etter berre eitt skuleår, og at avgjerda er teken på tynt grunnlag. Vi meiner anonym retting er ei meir rettferdig form for vurdering, uttalar han til Aftenposten. | Undersøkjinga han viser til, vart gjennomført i fjor, og sju av ti elevar svarte ja til anonym retting av prøver. Undersøkjinga Utdanningsforbundet har gjort viser at lærarane seier at elevane ikkje er opptekne av å få prøvene retta anonymt.",
+    "url": "https://www.nrk.no/mr/trur-ikkje-pa-trynefaktor-1.11242493",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266668554,
+    "date": "2014-04-10T19:45:08+02:00",
+    "title": "–Anonym retting er feil medisin, hvis det er trynefaktoren man vil til livs",
+    "correction": "Vi har jo hatt anonym retting i skolen i alle år. Vi kaller det eksamen. | Hognestad understreker at dette ikke er forskningsbaserte resultater, men at han har så lang erfaring med anonym retting, at han kan dokumentere en klar tendens. | – Det er en risikosport å være lærer. Det handler om mennesker og relasjoner. Jeg driver ikke her og avlyser trynefaktorens eksistens i norsk skole, men når det framstilles sånn at anonym retting er botemidlet for å komme trynefaktoren til livs, så mener jeg at jeg faktisk skulle ha merket tegn på det, mener forskeren. | Les også:Fjerner anonym retting | Stavangerforskeren peker på at anonym retting langt fra er et ukjent fenomen i den norske skolen. | – Vi har jo hatt anonym retting i skolen i alle år. Vi kaller det eksamen, sier Hognestad. | Rogaland fylkeskommune har innført anonym retting etter forslag fra stortingsrepresentant Tina bru fra Høyre. Rogaland er i gang med enprøveordning, som skal vurderes til sommeren. | Rogaland fylkeskommune har innført anonym retting etter forslag fra stortingsrepresentant Tina bru fra Høyre. | – Jeg har aldri hevdet at trynefaktoren er så stor i norsk skole at dette danner grunnlag for å kreve anonym retting, men mange elever opplever en følelse av at det finnes en stor grad av trynefaktor når karakterer settes. | Mitt poeng har aldri vært å ha anonym retting for at elevene skal få verken bedre eller dårligere karakterer, men for at de skal få riktige karakterer. | – Hvis en elev kan få bekreftet at man får tilnærmet lik, eller dårligere karakter, med anonym retting som uten, så mener jeg det er verdt å prøve ut. Det kan i så fall gjøre at eleven får avkreftet sine mistanker. I den grad trynefaktor finnes i skolen, er jeg overbevist om at den stort sett kommer eleven til gode, ikke motsatt, sier Bru. | Stortingsrepresentanten mener likevel det er bekymringsverdig at karakteren går ned ved anonym retting. | Les også:Kritiske til innføringa av anonym retting | – Mitt poeng har aldri vært å ha anonym retting for at elevene skal få verken bedre eller dårligere karakterer, men for at de skal få riktige karakterer.",
+    "url": "https://www.nrk.no/rogaland/forsker-avviser-trynefaktoren-1.11661893",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266671115,
+    "date": "2014-09-19T17:02:48+02:00",
+    "title": "– Anonym retting påvirker ikke elevenes resultater",
+    "correction": "Fylkesrådmannen vil avslutte prøveordning med anonym retting i videregående. Høyre vil fortsette utprøvingen. | De videregående skolene i Rogaland har det siste skoleåret prøvet ut anonym retting av oppgaver. Bildet viser elever ved Sola videregående skole. | Fylkesrådmann Trond Nerdal mener at anonym retting ikke skal innføres som fylkeskommunal ordning i de videregående skole i fylket. | Fylkesrådmannen mener politikerne bør vedta at ordningen med anonym retting likevel kan videreføres som en lokal ordning på den enkelte videregående skolen. | Han mener det kan være et godt supplement til vanlig retting av faglæreren. | Det har vært praktiske problemer i forbindelse med gjennomføringen av forsøket med anonym retting. | Det har også vært problemer med den digitale løsningen som blir brukt i forbindelse med anonym retting av besvarelser. | Da elevene ble spurt om hvordan karakterene ble etter den anonyme rettingen, svarte 38 prosent at det ikke var noen endring. En betydelig andel av elevene svarte at de fikk dårligere karakter, mens det var få som svarte at fikk bedre karakter enn ved vanlig retting. | Bjørn Sæstad som er Høyres fraksjonsleder i opplæringsutvalget i Rogaland fylke mener prøveordningen med anonym retting bør videreføres. | – Det har vi absolutt. Jeg har vanskelig for å slippe saken fordi jeg mener at det har noe for seg med anonym retting. Jeg mener at dette er et gode for den enkelte elev, og vi er nødt for å prøve det ut over mye lengre tid for å se om det har noe for seg, mener Sæstad.",
+    "url": "https://www.nrk.no/rogaland/vil-avslutte-anonym-retting-1.11941669",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266672336,
+    "date": "2025-07-10T12:09:35+02:00",
+    "title": "Norsk Tipping brøt loven - lotteritilsynet varsler full gjennomgang",
+    "correction": "Videre sier han at Norsk Tipping jobber hardt med gjenoppretting av tilliten gjennom flere spor, med blant annet flere gjennomganger rundt hendelsene med både ekstern og intern ekspertise.",
+    "url": "https://www.nrk.no/innlandet/norsk-tipping-brot-loven---lotteritilsynet-varsler-full-gjennomgang-1.17487705",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266674047,
+    "date": "2014-10-01T07:20:53+02:00",
+    "title": "Det blir mer anonym retting i videregående",
+    "correction": "Forsøket med anonym retting av prøver i videregående skole skal fortsette. Dette er mistillit til lærerne, mener utdanningsforbundet | Forsøket med anonym retting av prøver i videregående skole skal fortsette. (Arkivbilde) | – Det blir mer byråkrati, mer papirarbeid for lærerne, og lærerne får mindre tid til elevene. Det viktigste er å høre på lærerne, og de ønsker ikke anonym retting, sier Venstre-politiker Kjartan Lunde, som tilhører mindretallet i opplæringsutvalget. | Venstre-politiker Kjartan Lunde mener at anonym retting betyr mer byråkrati og mer papirarbeid for lærerne. | Flertallet bestemte tirsdag at prøveprosjektet med anonym retting av prøver i videregående skole skal fortsette ett år til. Høyre, FrP og KrF ville ha ennå ett år for å finne ut om det er slik noen påstår, at lærerne gir trynetillegg, eventuelt fratrekk når de gir karakterer. | Lærerne er mot prøveordningen med anonym retting. De mener det fører til ekstraarbeid og at det ikke har noen vesentlig innvirkning på karakterene som elevene får.",
+    "url": "https://www.nrk.no/rogaland/anonym-retting-prosjekt-fortsetter-1.11961063",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266675437,
+    "date": "2015-09-29T16:36:37+02:00",
+    "title": "JA TIL ANONYM RETTING: – NRK Rogaland – Lokale nyheter, TV og radio",
+    "correction": "Flertallet i opplæringsutvalget i fylket ønsker å gjøre ordningen med anonym retting permanent. Det ble vedtatt på møtet i dag.Hvor lenge vedtaket blir stående, er likevel uvisst, for det nye flertallet som tar over i fylket seinere i høst, har lovet å avskaffe ordningen.",
+    "url": "https://www.nrk.no/rogaland/ja-til-anonym-retting_-1.12577698",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266677741,
+    "date": "2026-01-19T07:24:59+01:00",
+    "title": "Ber regjeringa ta ansvar for nye røykereglar: – Skyv ansvaret nedover",
+    "correction": "Kommunane kan, som før, gi påbod om retting og tvangsmulkt ved brot på forbodet. Dette då til den ansvarlege for området, eksempelvis eit idrettslag eller selskap, ikkje den som røykjer.",
+    "url": "https://www.nrk.no/innlandet/nytt-roykeforbod-skaper-forvirring-_-ber-helseministeren-komme-pa-banen-1.17727325",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266679328,
+    "date": "2014-09-21T17:36:51+02:00",
+    "title": "– Dette beviser at lærerne driver med trynefaktor",
+    "correction": "Elevorganisasjonen mener det er helt feil å avslutte prøveordninga med anonym retting i den videregående skolen. | Selv om anonym retting viser at mange elever får dårligere karakterer, mener Elevorganisasjonen at ordninga bør fortsette. Illustrasjonsbilde. | Marcus Nitschke mener anonym retting har noe for seg. | Det er fylkesrådmannen som mener at anonym rettingikke bør innføres som en fylkeskommunal ordning i Rogaland.",
+    "url": "https://www.nrk.no/rogaland/vil-fortsette-med-anonym-retting-1.11943573",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266680974,
+    "date": "2013-05-01T11:45:38+02:00",
+    "title": "Fotballklubber får skatteamnesti",
+    "correction": "Klubbene vil kunne gjøre opp for seg gjennom ordningen med frivillig retting,skriver VG. | -Jeg kan ikke si hvor mange det dreier seg om, men alle klubber og spillere som har samarbeidet og gitt opplysninger til granskerne, kan under visse forutsetninger omfattes av frivillig retting fram til 1. juni, forteller seksjonssjef Heide Lindsjørn i Skattedirektoratets rettsavdeling til VG.",
+    "url": "https://www.nrk.no/sport/fotballklubber-far-skatteamnesti-1.11008231",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266685187,
+    "date": "2021-02-19T13:52:01+01:00",
+    "title": "Lite opphold – Vinterstudio – NRK Sport",
+    "correction": "Etter et fall som krevde litt retting på noen porter, er Fabian Wilkens Solheim klar på toppen nå.",
+    "url": "https://www.nrk.no/sport/vinterstudio/lite-opphold-1.15382567",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266686551,
+    "date": "2021-03-02T22:33:52+01:00",
+    "title": "Fire milliarder kroner fra skjulte utenlandsformuer oppgitt i fjor",
+    "correction": "I 2020 gjennom ordningen «frivillig retting» ble 164 millioner kroner i skattbare inntekter oppgitt til Skatteetaten. Skjulte formuer for 4,1 milliarder ble også oppgitt. | Gjennom ordningen med frivillig retting kan du i ettertid melde fra om formue og inntekt som ikke er oppgitt. | De som får innvilget frivillig retting må betale skatten de skylder pluss renter, men slipper straff i form av tilleggsskatt og mulig politianmeldelse. | Totalsummen på innmeldte beløp i forbindelse med frivillig retting er nå på over 80 milliarder kroner i formue og cirka tre milliarder i inntekt.",
+    "url": "https://www.nrk.no/norge/fire-milliarder-kroner-fra-utenlandsformuer-oppgitt-i-fjor-1.15397229",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266687836,
+    "date": "2025-11-18T09:13:31+01:00",
+    "title": "Slår alarm om nytt lovforslag: – Gjør overvåkning lovlig",
+    "correction": "Ifølge henne ligger innsyn, retting og sletting fortsatt i kjernen av EUs personvernpraksis.",
+    "url": "https://www.nrk.no/norge/slar-alarm-om-nytt-lovforslag_-_-gjor-overvakning-lovlig-1.17655856",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266689536,
+    "date": "2015-10-07T06:05:03+02:00",
+    "title": "Straumlaust i Tingvoll",
+    "correction": "Feilsøking og retting går føre seg.",
+    "url": "https://www.nrk.no/mr/straumlaust-i-tingvoll-1.12590092",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266691023,
+    "date": "2022-04-23T15:10:01+02:00",
+    "title": "Nettselskap skroter vaktordning – flere frykter for beredskapen",
+    "correction": "Landets nest største nettselskap endrer strømberedskapen. Flere frykter den nye ordningen vil bety lengre tid på retting av feil i nettet.",
+    "url": "https://www.nrk.no/trondelag/tensio-skroter-vaktordning-for-stromberedskap---frykter-det-vil-ta-lengre-tid-med-feilretting-1.15936823",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266692659,
+    "date": "2015-11-23T13:32:01+01:00",
+    "title": "– Vi må verne om lærernes fritid",
+    "correction": "Byråden vil derfor fjerne forsøket med anonym retting av prøver og fire litt på kravene til såkalt obligatorisk TRAS-kartlegging av alle barnehagebarna.",
+    "url": "https://www.nrk.no/vestland/_-vi-ma-verne-om-laerernes-fritid-1.12667938",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266693901,
+    "date": "2014-08-18T06:13:21+02:00",
+    "title": "Flere nordmenn melder om skjult formue i skatteparadiser",
+    "correction": "Ifølge Skatteetaten var det 153 personer som ba om frivillig retting i første halvår. Det vil si skjult formue og inntekt som de tidligere ikke har oppgitt til beskatning. Dette er en økning på 35 prosent fra første halvår i fjor. | Ordningen med frivillig retting innebærer at personer som på eget initiativ melder fra til skattekontoret om skjulte verdier, i utlandet eller i Norge, slipper å betale tilleggsskatt på opptil 60 prosent. | NRK har vært i kontakt med de største skatteadvokatfirmaene som forteller om en økning av klienter som ønsker hjelp til frivillig retting av skjulte formuer. | De arbeider med frivillig retting av skjult formue i utlandet og har sett en økning de siste årene.",
+    "url": "https://www.nrk.no/norge/153-meldte-fra-om-skjulte-formuer-1.11883536",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266695097,
+    "date": "2024-03-12T15:21:53+01:00",
+    "title": "Problemer med nettsiden til Oslo kommune – Stor-Oslo",
+    "correction": "Det bekrefter kommunen til NRK, og sier at det jobbes retting av feilen fra leverandøren. Men ved 15.00-tiden ble feilen rettet.",
+    "url": "https://www.nrk.no/stor-oslo/problemer-med-nettsiden-til-oslo-kommune-1.16801667",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266696332,
+    "date": "2013-01-22T10:33:57+01:00",
+    "title": "Vil fjerne anonyme skoleprøver",
+    "correction": "Dermed har ikke lærerne hatt mulighet til å se hvilke elever som har forfattet de ulike prøvene. Nå skal Fylkesmannen i Møre og Romsdal avgjøre om Ålesund kommune skal få lov til å fortsette med anonym retting. | Snart kan det bli slutt på anonym retting av prøver ved ungdomsskolene i Ålesund, slik som her ved skolen i Skarbøvika. | – Det er jo et spørsmål om denne anonyme rettingen fører til at elevene får dårligere tilbakemelding, slik at de ikke har like god sjanse til å forbedre seg. | –Lærerne er utdannet til å utføre et profesjonelt skjønn. Der er også klare krav i forskriftene for hvordan dette arbeidet skal foregå. Elevene skal være orientert om kriteriene for retting og karaktersetting, og det er viktig at det er tillit rundt dette. Vi mener at ordningen med anonyme prøver er et tegn på mistillit til det profesjonelle skjønnet som lærerne utøver, sier leder i Utdanningsforbundet i Møre og Romsdal, Borghild Moe til NRK. | Moe sier til NRK at det foregår en god del retting av prøver, der læreren ikke kjenner til hvilke elever som har levert besvarelsen.",
+    "url": "https://www.nrk.no/mr/vil-fjerne-anonyme-skoleprover-1.10881298",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266697551,
+    "date": "2016-01-01T16:58:00+01:00",
+    "title": "800 var uten strøm i Snåsa",
+    "correction": "NTE sendte ut mannskaper for å lokalisere feilen og starte med retting. Kunder ble koblet inn igjen etter hvert.",
+    "url": "https://www.nrk.no/trondelag/800-var-uten-strom-i-snasa-1.12729261",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266699024,
+    "date": "2023-04-09T17:42:04+02:00",
+    "title": "Maria (19) vil ha anonyme prøver – mener trynefaktor dominerer",
+    "correction": "Og det vil Maria Strand Munkhaug gjøre noe med. Hun ønsker at anonym retting av prøver skal bli standarden, ikke unntaket. | Videre mener Munkhaug at anonym retting av prøver kan være en trygghet, også for læreren sin del. | Hun tror ikkelærere ønsker å sette karakter basert på trynefaktor, men at det er menneskelig. Derfor mener hun at anonym retting av prøver kan være et fint verktøy for lærerne. | – Hvis norsk skole skal være en arena med muligheter for alle, så trenger vi en skole der alle blir vurdert på likt grunnlag uavhengig av hvem du er som person. Derfor må trynefaktoren ut av norsk skole og anonym retting av prøver må inn, understreker politikeren.",
+    "url": "https://www.nrk.no/nordland/anonyme-prover-i-skolen-_-mener-trynefaktor-ikke-er-en-arsak-til-forskjellsbehandling-1.16363253",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266702291,
+    "date": "2015-09-29T05:17:15+02:00",
+    "title": "Slutter med anonym retting",
+    "correction": "FORSØKSORDNING STOPPA: Prøveprosjektet med anonym prøveretting blir avslutta for godt. | – Dei rapportane me har fått frå skulane og dei undersøkingane me har gjort, viser at det ikkje er noko systematisk forskjell om rettinga er anonym eller ei. Dermed heller ikkje systematisk forskjell når det gjeld såkalla trynefaktor, seier Randi Hummervoll, seksjonssjef i administrasjonen i Rogaland fylkeskommune. | – Heile saka handlar om anonym retting oppfattast som mistillit, sa ho.",
+    "url": "https://www.nrk.no/rogaland/forsoksordninga-med-anonym-retting-blir-stoppa-1.12575988",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266703851,
+    "date": "2017-12-12T07:41:01+01:00",
+    "title": "Trynefaktor påvirket ikke – Siste nytt – NRK",
+    "correction": "Trynefaktor har ikke innvirkning på karakterer. Det er konklusjonen etter at to ungdomsskoler i Bærum har prøvd ut anonym retting i ett år, skriverBudstikka.",
+    "url": "https://www.nrk.no/nyheter/trynefaktor-pavirket-ikke-1.13821000",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266705421,
+    "date": "2014-12-22T12:05:04+01:00",
+    "title": "Fleire stader utan straum",
+    "correction": "Området er saumfare med helikopter, og ein ny linjetråd må truleg flygast ut på grunn av det vanskelege terrenget. Venta retting er sett til klokka 16.",
+    "url": "https://www.nrk.no/vestland/fleire-stader-utan-straum-1.12115796",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266707291,
+    "date": "2014-10-01T11:29:39+02:00",
+    "title": "- Tok seg til rette i havnekassa",
+    "correction": "\"Kystverkets hovedkontor gir med dette varsel etter forvaltningsloven § 16 om at vi vil vurdere å gjøre vedtak etter havne- og farvannsloven § 48 og pålegge kommunen retting/stansing med hjemmel i havne- og farvannsloven § 57. | For det tilfellet at det alt er gjort slik utbetaling, kommer vi til å gi pålegg om retting, som betyr at midlene må føres tilbake til havnekapitalen.\" | - Havne- og farvannsloven gir hjemmel for myndigheten etter loven til å iverksette ulike forvaltningstiltak, blant annet pålegg om retting/stansing av forhold i strid med loven, forelegg, tvangsfullbyrdelse og tvangsmulkt, sier hun.",
+    "url": "https://www.nrk.no/ostfold/--tok-seg-til-rette-i-havnekassa-1.11961416",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266708611,
+    "date": "2025-12-23T05:24:00+01:00",
+    "title": "Reidun fryktar at det einaste spesialiserte MS-senteret blir lagt ned",
+    "correction": "NRK rettar: I ein tidlegare versjon stod det at Kjersti Toppe var tidlegare helseminister. Det riktige er at Toppe var barne- og familieminister. Retting gjort 23. desember 2025 kl. 09.45.",
+    "url": "https://www.nrk.no/vestland/ms-pasientane-kan-mista-sitt-einaste-nasjonale_-hogspesialiserte-rehabiliteringssenter-1.17690154",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266710028,
+    "date": "2017-04-05T21:56:20+02:00",
+    "title": "Nausteiere må fjerne innredning – hvis ikke kan de få bot",
+    "correction": "I fjor sommerkontrollerte Levanger kommune flere naust i kommunen, da de mente mange var utformet som og ble brukt som fritidsboliger. Nå har kommunen sendt ut forhåndsvarsel om pålegg om retting til 18 nausteiere og forhåndsvarsel om overtredelsesgebyr til 14. | Arvid Hovdal er en av nausteierne som har fått forhåndsvarsel om retting og tvangsmulkt.",
+    "url": "https://www.nrk.no/trondelag/nausteiere-ma-fjerne-innredning-_-hvis-ikke-kan-de-fa-bot-1.13461539",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266712866,
+    "date": "2015-11-09T10:04:11+01:00",
+    "title": "Ålesund kommune må rette fleire avvik",
+    "correction": "Ifølge kommunikasjonssjef Anne Bente Skjellum gjeld dei fleste avvika skjema og postliste levert av ein ekstern leverandør. Og kommunen jobbar no med ein plan for rettinga, slik at mellom anna innsyn i og tilgang til postlister skal bli lettare.",
+    "url": "https://www.nrk.no/mr/fire-avvik-ma-bli-retta-pa-nettsidene-1.12644030",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266714076,
+    "date": "2025-12-09T08:17:51+01:00",
+    "title": "Helseplattformen trues med dagbøter – Siste nytt – NRK",
+    "correction": "Totalt avdekket tilsynet 119 feil knyttet til universell utforming. Etter at fristen for retting av over, var fremdeles 64 feil uløste, ifølge direktoratet.",
+    "url": "https://www.nrk.no/nyheter/helseplattformen-trues-med-dagboter-1.17684732",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266718544,
+    "date": "2016-12-21T15:19:40+01:00",
+    "title": "Privatskole i Trondheim får fortsette",
+    "correction": "De finner likevel at riktig reaksjon i saken er pålegg om retting av de kritiserte forholdene. Departementet noterer også at flere av de punktene direktoratet anførte allerede er brakt i orden.",
+    "url": "https://www.nrk.no/trondelag/nidaros-idrettsungdomsskole-i-trondheim-far-fortsette-1.13286892",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266721602,
+    "date": "2006-06-21T08:32:33+02:00",
+    "title": "Streik stanser feilretting",
+    "correction": "Feilretting på strømnettet stanser helt opp etter at 353 ansatte i Eidsiva Energi er i streik fra onsdag morgen. | De streikende arbeider til daglig med montasje, vedlikehold og feilretting på strømnettet. | - I et stort selskap som Eidsiva har vi til vanlig flere feilrettinger hver dag, forteller konserntillitsvalgt Arild Haugstad. | - Nå vil slik retting ikke bli foretatt unntatt hvis liv og helse er i fare, eller hvis store materielle verdier står på spill, sier han.",
+    "url": "https://www.nrk.no/innlandet/streik-stanser-feilretting-1.626549",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266722907,
+    "date": "2014-07-14T09:54:21+02:00",
+    "title": "Frp vil ha karakterkrav for opptak til videregående",
+    "correction": "Frp vil ha krav til at elever må ha karakter 2 eller bedre i fagene norsk, matte og engelsk for å komme inn på videregående opplæring, skriver Klassekampen.– I dag gjør vi ungdommen en bjørnetjeneste når vi ikke stiller krav til dem. Vi risikerer at ungdommen ikke får noe ut av tre år på videregående, sier utdanningspolitisk talskvinne Bente Thorsen (Frp) til avisen.Ifølge VG var det i fjor 6.779 elever som gikk ut fra grunnskolen med karakter 1 eller som ikke var vurdert i ett eller flere fag.Frp vil også ha fritt skolevalg nasjonalt, anonym retting av prøver og språkopplæring til barn med dårlige språkkunnskaper før skolestart. Dette er blant kravene partiet vil ha gjennomført i løpet av regjeringsperioden.",
+    "url": "https://www.nrk.no/nordland/frp-vil-ha-karakterkrav-for-opptak-1.11830439",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266724175,
+    "date": "2015-01-10T23:42:15+01:00",
+    "title": "300 færre utan straum – NRK Vestland",
+    "correction": "Dei fleste straumkundane til SFE på Atløy har fått tilbake straumen, opplyser selskapet. Framleis er abonnentar på Værlandet og Bulandet, altså nær 400 kundar, utan straum. Retting kan først skje søndag.",
+    "url": "https://www.nrk.no/vestland/300-faerre-utan-straum-1.12143470",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266725780,
+    "date": "2013-12-03T11:21:57+01:00",
+    "title": "Montelius-saken: Avsa kjennelse før tidsfrist utløp",
+    "correction": "Spørsmålene de to advokatene og tingretten skal ta stilling til gjelder retting knyttet til Eivind Hansen. | Retting vil slik retten ser det, gå ut over hva som er bestemt i straffeprosessloven § 45 og § 46. | §§ 44-46 dreier seg om retting av dommer / kjennelser. § 48 dreier seg om tilleggsavgjørelser retten kan gjøre.",
+    "url": "https://www.nrk.no/ostfold/avsa-kjennelse-for-frist-utlop-1.11393580",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266727147,
+    "date": "2024-02-28T15:30:40+01:00",
+    "title": "Meråker uten mobildekning – får ikke ringt nødnummer",
+    "correction": "– Vi mistenker at det er en fiberfeil ved Meråker sentral. Entreprenør er på plass for å feilsøke og starte retting av feil, sier Roald Orheim til NRK. Han er informasjonssjef i Telenor.",
+    "url": "https://www.nrk.no/trondelag/meraker-i-trondelag-uten-mobildekning-_-far-ikke-ringt-nodnummer-1.16782493",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266728407,
+    "date": "2022-12-25T16:29:02+01:00",
+    "title": "Straumfeil på Smøla – NRK Møre og Romsdal – Lokale nyheter, TV og radio",
+    "correction": "Montørar skal ha funne feilen og vere i gang med retting.",
+    "url": "https://www.nrk.no/mr/straumfeil-pa-smola-1.16233545",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266729659,
+    "date": "2015-01-10T20:46:57+01:00",
+    "title": "Straumproblem i FØrde – NRK Vestland",
+    "correction": "Like før klokka 21 melde Sunnfjord Energi om feil på linja i Indre Angedal, frå Grimelandshaug til botnen. Det blir arbeidd med retting, og venta innkopling er mellom komma 21 og 21:30.",
+    "url": "https://www.nrk.no/vestland/straumproblem-i-forde-1.12143329",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266731322,
+    "date": "2015-01-10T22:36:21+01:00",
+    "title": "700 personar var utan straum",
+    "correction": "– I morgon klokka 8 reiser vi med båt og helikopter ut til øyane, og har ekstramannskap med frå Florø for å finne feil og starte retting, seier Aase til NRK.",
+    "url": "https://www.nrk.no/vestland/700-personar-var-utan-straum-1.12143439",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266732862,
+    "date": "2007-11-15T14:48:50+01:00",
+    "title": "Hvitere tannhelse",
+    "correction": "Undersøkelser viser at norske tenner trolig er blant de friskeste i verden. Pussig nok får dette oss til å bruke enda mer penger på nettopp tenner. Bleking, retting og kosmetiske behandlinger er årsaken.",
+    "url": "https://www.nrk.no/kultur/hvitere-tannhelse-1.4049809",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266734422,
+    "date": "2017-12-12T06:31:49+01:00",
+    "title": "Ingen \"trynefaktor\" på Bærumsskoler – Stor-Oslo",
+    "correction": "Karakterene på to ungdomsskoler i Bærum ble så å si identiske, enten lærerne visste hvem som svarte eller ikke. Det er konklusjonen etter at to ungdomsskoler prøvde ut anonym retting i ett år, skriverBudstikka.",
+    "url": "https://www.nrk.no/stor-oslo/ingen-_trynefaktor_-pa-baerumsskoler-1.13820923",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266735987,
+    "date": "2017-03-30T10:17:41+02:00",
+    "title": "Lettelse og glede ved skolen etter gladmeldingen",
+    "correction": "Kunnskapsdepartementer har nemlig kommet frem til et annet resultat enn Utdanningsdirektoratet når det gjelder skolens godkjenning for å drive videre eller ikke. THIS har nå fått pålegg om retting og ikke stenging, som tidligere vedtatt. | 2009/10: Første tilsyn, sju pålegg om retting | 2012/13: Andre tilsyn, 15 pålegg om retting. Skolen fikk informasjon om oppfølgingstilsyn. | Desember 2014: Foreløpig tilsynsrapport med 12 pålegg om retting. | Juni 2015: Tilsynsrapport/vedtak med 12 pålegg om retting. Skolen får en siste sjanse | Januar 2016: Udir innhenter mer informasjon om skolens retting. | April 2016: Udir vurderer rettingen og finner den mangelfull. De sender varsel om tilbaketrekking av skolens godkjenning.",
+    "url": "https://www.nrk.no/trondelag/lettelse-og-glede-ved-skolen-etter-gladmeldingen-1.13451974",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266737274,
+    "date": "2017-08-22T11:11:52+02:00",
+    "title": "Straumlause i Meland – NRK Vestland",
+    "correction": "107 husstandar i Meland er utan straum, etter at det oppstod ein feil på BKK sitt nett tysdag morgon. Feilen har oppstått i området rundt Beitingen, Skjelsand, Opsøy og Golfbanen, og forventa retting er klokka 13.",
+    "url": "https://www.nrk.no/vestland/straumlause-i-meland-1.13652526",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266738942,
+    "date": "2025-10-14T09:21:12+02:00",
+    "title": "Digitale løsninger",
+    "correction": "Fem av kommunane har no fått endeleg rapport og pålegg om retting innan august.",
+    "url": "https://www.nrk.no/nyheter/digitale-losninger-1.13956657",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266741405,
+    "date": "2013-07-29T20:33:08+02:00",
+    "title": "Vil fjerne forbudet mot drikking på offentlig plass",
+    "correction": "– Det er ikke den viktigste valgkampsaken til unge Høyre, vi er mer opptatt av skolepolitikk og anonym retting av prøver. Men dette er en detalj i et større bilde, sier hun.",
+    "url": "https://www.nrk.no/mr/vil-forandre-alkoholloven-1.11156159",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266744496,
+    "date": "2016-04-08T10:32:34+02:00",
+    "title": "Fått strømmen tilbake – NRK Vestland",
+    "correction": "Over 4000 kunder i Bergen vest mistet strømmen da BKK jobbet retting av feil i en transformator i Loddefjord. Områdene som ble rammet er Utskot, Djuvik, Sævild, Sandviksanden og Øpstebø. Kundene skal nå ha fått strømmen tilbake.",
+    "url": "https://www.nrk.no/vestland/fatt-strommen-tilbake--1.12890988",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266745843,
+    "date": "2019-12-09T08:37:45+01:00",
+    "title": "Skole må holde stengt – NRK Møre og Romsdal – Lokale nyheter, TV og radio",
+    "correction": "Det har oppstått en feil ved varmeanlegget til Nordlandet barneskole i dag. Skolen blir stengt i dag og elevene permitteres. Feilen er under retting og skolen har forhåpentligvis åpent til vanlig tid i morgen, melder Kristiansund kommune.",
+    "url": "https://www.nrk.no/mr/skole-ma-holde-stengt-1.14814870",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266747505,
+    "date": "2018-10-31T05:28:59+01:00",
+    "title": "FM-stasjon trues med straff – Siste nytt – NRK",
+    "correction": "Nasjonal kommunikasjonsmyndighet krever at Asker og Bærum Lokalradio stanser sine ulovlige FM-sendinger, skriverDN. De varsles nå om pålegg om retting av feil. Hvis ikke det skjer, vil tvangsmulkt på opptil 8000 kroner per ukedag begynne torsdag.",
+    "url": "https://www.nrk.no/nyheter/fm-stasjon-trues-med-straff-1.14272227",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266749046,
+    "date": "2018-03-22T08:52:33+01:00",
+    "title": "Naudetatane rykte ut til feil kommune",
+    "correction": "Det gjekk 16 minutt frå politiet meldt om uhellet ved Førde kyrkje, til dei kom ut med ei retting der dei presiserte at det var tale om Sande kyrkje.",
+    "url": "https://www.nrk.no/vestland/naudetatane-rykte-ut-til-feil-kommune-1.13974102",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266750237,
+    "date": "2014-09-05T06:01:52+02:00",
+    "title": "MOPEDEN ER BORTE: – NRK Vestland",
+    "correction": "Politiet kommer nå med en retting. Mopeden som ble stjålet på Ask er ikke kommet til rette. Den er savnet og politiet ber om tips. Det er snakk om en oransje Rieju RS2, med registreringsnummer som starter med JZ.",
+    "url": "https://www.nrk.no/vestland/mopeden-er-borte_--1.11916156",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266751494,
+    "date": "2014-03-21T17:15:53+01:00",
+    "title": "Elevar slår ring rundt frustrerte lærarar",
+    "correction": "– Eg synst det er eit heilt forferdeleg at dette i det heile teke blir vurdert. Lærarane våre får mindre tid til å førebu undervisning, mindre tid til retting og oppfølginga blir dårlegare. Dette svekkjer kvaliteten i skulen. Eg ser veldig få positive ting med dette forslaget, seier Signe. | – Det er ofte slik at lærarane blir mistenkeleggjorde i saker som gjeld deira yrkesgruppe. For eksempel at me ikkje vil ha anonym retting fordi me vil ha makta til å gi vilkårlege karakterar til dei me likar og ikkje likar, og at me ikkje vil ha lenger arbeidsår fordi me vil ha den lange ferien vår og gjera minst mogleg. | – Korleis skal læraren få tid til retting og alle andre arbeidsoppgåver med korte arbeidsdagar? | – Det skal vera mogleg å få dette til å gå rundt sjølv om ein jobbar ein time mindre i veka. Det finst lærarar som har gjort dette før, og dei er fornøgde. Det kan kanskje gå lenger tid før elevane får igjen prøvar, men det blir god tid til å prioritera retting også. | KS sin forhandlingsleiar seier at dersom læraren har kontorplass på skulen, er det naturleg at rettinga går føre seg der.",
+    "url": "https://www.nrk.no/rogaland/elevar-stottar-frustrerte-laerarar-1.11599997",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266754275,
+    "date": "2021-04-07T10:26:57+02:00",
+    "title": "Straumen tilbake for dei fleste – NRK Møre og Romsdal – Lokale nyheter, TV og radio",
+    "correction": "Dei fleste som var ramma av straumbrot i Ålesunds-området har no fått tilbake straumen, melderMørenett. Nesten 1150 var på det meste utan straum, og av desse er det berre vel 100 som framleis er straumlause. Retting pågår, melder Mørenett.",
+    "url": "https://www.nrk.no/mr/straumen-tilbake-for-dei-fleste-1.15445990",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266755547,
+    "date": "2019-03-04T14:14:46+01:00",
+    "title": "Uoppgitte formuer fra Hordaland – NRK Vestland",
+    "correction": "I 2018 ble 74 saker fra Hordaland om frivillig retting ferdigbehandlet av Skatteetaten. Dette innebar 454 millioner kroner i fastsatt formue og 24 millioner kroner i inntekt, skriver Skatteetaten i enpressemelding. 46 nye saker ble meldt inn samme året.",
+    "url": "https://www.nrk.no/vestland/uoppgitte-formuer-fra-hordaland-1.14457048",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266756782,
+    "date": "2024-12-26T08:30:37+01:00",
+    "title": "Strømbrudd i Stavanger – NRK Rogaland – Lokale nyheter, TV og radio",
+    "correction": "Drøyt 600 husstander på Våland i Stavanger skal ha vært uten strøm fra sent onsdag kveld, melderStavanger Aftenblad. De aller fleste skal ha fått strømmen tilbake i løpet av natta og morgenen. Torsdag morgen melder Lnett at retting pågår.",
+    "url": "https://www.nrk.no/rogaland/strombrudd-i-stavanger-1.17183297",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266758431,
+    "date": "2008-10-08T14:41:56+02:00",
+    "title": "Filmer i DivX-format",
+    "correction": "Etter forbrukerkjøpsloven har et produkt en mangel dersom det ikke svarer til opplysninger som selgeren i sin markedsføring eller ellers har gitt om tingen eller dens bruk. Når det foreligger en mangel, har du rett til å kreve retting eller omlevering, eller prisavslag dersom spilleren verken blir rettet eller omlevert. Til sist kan du heve kjøpet, så lenge mangelen ikke er uvesentlig.",
+    "url": "https://www.nrk.no/livsstil/filmer-i-divx-format-1.6251790",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266760028,
+    "date": "2015-01-13T11:41:52+01:00",
+    "title": "Måtte bruke talglys i skoletimen",
+    "correction": "– Det er lyn som har tatt isolatorer hos oss. Vi har folk på alle steder med feil og jobber med retting, sier informasjonskonsulent Tore Wuttudal til NRK.",
+    "url": "https://www.nrk.no/trondelag/strombrudd-i-ytre-namdal-1.12147698",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266763705,
+    "date": "2015-01-11T12:16:45+01:00",
+    "title": "1600 husstandar framleis utan straum",
+    "correction": "– Me har ikkje oversikta no. Men det er klart at tre som dett over linjer gjer store skader. I tillegg er det også fleire master som er knekte. Så me har nok nokre veker med arbeid foran oss, både med opprydding og retting av skader som har skjedd under stormen, seier Lassesen.",
+    "url": "https://www.nrk.no/rogaland/framleis-utan-straum-1.12143821",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266766280,
+    "date": "2008-07-11T06:08:52+02:00",
+    "title": "Krever 7.3 millioner av John Bauer",
+    "correction": "- Vi krever nå tilbakebetalt 7.3 millioner kroner. I tillegg holder vi tilbake deler av statstilskuddet, og vi krever retting av lovbrudd. Vi setter nå i gang et utvidet tilsyn på områder vi må forsikre oss om at elevene får et forsvarlig tilbud.",
+    "url": "https://www.nrk.no/norge/krever-7.3-millioner-av-john-bauer-1.6135278",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266767567,
+    "date": "2024-11-13T16:31:51+01:00",
+    "title": "Ny rekord for Bitcoin: Kostar éin million kroner",
+    "correction": "Retting 5. juni 2025: I ei tidligare utgåve skreiv vi atTrump har promotert Dogecoin. Det riktige er Elon Musk har promotert Dogecoin, mendan Trump har etablert byrået Doge (med same namn som Dogecoin) og at han i tillegg har promotert kryptovaluta generelt.",
+    "url": "https://www.nrk.no/norge/ny-rekord-for-bitcoin_-kostar-ein-million-kroner-1.17125471",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266768836,
+    "date": "2016-02-04T16:45:02+01:00",
+    "title": "Rekordmange varsel om ukjente konti – Siste nytt – NRK",
+    "correction": "384 personer kontaktet Skatteetaten i fjor for å varsle om penger det skulle vært skattet av. Til sammen dreier det seg om frivillig retting på 7,8 milliarder i formue og 190 millioner kroner i inntekt. De fleste av sakene gjaldt penger i utlandet.",
+    "url": "https://www.nrk.no/nyheter/rekordmange-varsel-om-ukjente-konti-1.12788252",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266770112,
+    "date": "2017-09-07T07:05:45+02:00",
+    "title": "Skjulte verdiar i utlandet – NRK Møre og Romsdal – Lokale nyheter, TV og radio",
+    "correction": "Skatteetaten ber om at dei som har skjulte verdiar i utlandet, skundar seg å søke om frivillig retting, for å unngå straff. Siste frist er 30. september. I første halvdel av 2017 har 26 personar kontakta Skatt Midt-Noreg for å ordne opp.",
+    "url": "https://www.nrk.no/mr/skjulte-verdiar-i-utlandet-1.13676528",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266771346,
+    "date": "2021-10-13T09:51:23+02:00",
+    "title": "Fritidsboliger må bli naust igjen – NRK Nordland",
+    "correction": "Flere fritidsboliger i Skivika havn i Bodø må tilbakeføres til naust. Statsforvalteren har nå stadfesta Bodø kommunes pålegg om retting av ulovlig utførte bruksendringer på fire naust i småbåthavna. Dette betyr at nausteierne i Bodø ikke lenger kan benytte naustene som fritidsboliger.",
+    "url": "https://www.nrk.no/nordland/fritidsboliger-ma-bli-naust-igjen-1.15688162",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266772687,
+    "date": "2025-09-04T12:21:49+02:00",
+    "title": "Leverte klage fra 20.000 nordlendinger – krever døgnåpen hjertebehandling",
+    "correction": "– Her må vi huske på hvilke roller vi har. Når det er eventuelle feil og mangler som for eksempel krever at man gjør retting av tilbudet som Helsetilsynet påpeker, så er det viktig at man er i dialog med Helsetilsynet om det.",
+    "url": "https://www.nrk.no/nordland/pci_-professor-mener-helse-nord-ikke-forstar-sitt-juridiske-ansvar-1.17552350",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266773941,
+    "date": "2020-12-18T10:59:42+01:00",
+    "title": "Politibetjent sikta for promillekøyring",
+    "correction": "Retting kl. 11.21, 18. desember: NRK Vestland skreiv først at mannen er tiltalt. Dette er no retta til sikta.",
+    "url": "https://www.nrk.no/vestland/politibetjent-sikta-for-promillekoyring-1.15295286",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266775435,
+    "date": "2015-01-14T11:04:15+01:00",
+    "title": "Lyn og torevêr slår ut radio- og tv-signal",
+    "correction": "– DAB gir oss betre moglegheiter for overvaking og kontroll av nettet, noko som gjer det lettare å stilla diagnosar ved feil. Det gjer at me kan vera meir proaktive når det gjeld retting på DAB samanlikna med FM-nettet. På FM-nettet er det også ei rekke stasjonar kor me er avhengige av at publikum ringer inn for å fortelja om feil, noko som ikkje er tilfelle på DAB.",
+    "url": "https://www.nrk.no/rogaland/lyn-og-torever-slar-ut-radio--og-tv-signal-1.12149721",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266777454,
+    "date": "2015-09-17T07:53:20+02:00",
+    "title": "– Nå må vi rydde i økonomien",
+    "correction": "Koalisjonen fjerner også ordningen med anonym retting av prøver i skolen, og hevder at denne ordningen ikke har fungert.",
+    "url": "https://www.nrk.no/mr/_-na-ma-vi-rydde-i-okonomien-1.12558123",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266778913,
+    "date": "2015-08-16T10:28:55+02:00",
+    "title": "Telenor-feil på Hitra og Frøya er rettet",
+    "correction": "– Vi jobbet med å rette feilen i går og i natt, men fikk ikke foretatt permanent retting, forklarte Krokan til NRK tidligere.",
+    "url": "https://www.nrk.no/trondelag/telenor-feil-pa-hitra-og-froya-er-rettet-1.12501653",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266780212,
+    "date": "2017-03-29T18:13:22+02:00",
+    "title": "Trondheim International School får fortsette",
+    "correction": "Kunnskapsdepartementer har nemlig kommet frem til et annet resultat enn Utdanningsdirektroatet når det gjelder skolens godkjenning for å drive videre eller ikke. ThIS har nå fått pålegg om retting og ikke stengig, som tidligere vedtatt. | 2009/10: Første tilsyn, sju pålegg om retting | 2012/13: Andre tilsyn, 15 pålegg om retting. Skolen fikk informasjon om oppfølgingstilsyn. | Desember 2014: Foreløpig tilsynsrapport med 12 pålegg om retting. | Juni 2015: Tilsynsrapport/vedtak med 12 pålegg om retting. Skolen får en siste sjanse | Januar 2016: Udir innhenter mer informasjon om skolens retting. | April 2016: Udir vurderer rettingen og finner den mangelfull. De sender varsel om tilbaketrekking av skolens godkjenning.",
+    "url": "https://www.nrk.no/trondelag/trondheim-international-school-far-fortsette-1.13451200",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266781505,
+    "date": "2017-12-22T12:33:14+01:00",
+    "title": "Facebook droppar «falske nyheiter»-åtvaring",
+    "correction": "«Forsking, som tek for seg retting av feilinformasjon, har derimot vist at det å ha eit tydeleg varsel, som eit raudt flagg, ved sida av ein artikkel, vil forsterke ei allereie djupt forankra tru – altså motsett effekt enn det som var tiltenkt», skriv Tessa Lyons i Facebook i eit blogginnlegg.",
+    "url": "https://www.nrk.no/kultur/facebook-droppar-_falske-nyheiter_-atvaring-1.13837351",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266782716,
+    "date": "2014-04-24T05:01:55+02:00",
+    "title": "– Vi er klare for å streike",
+    "correction": "Hun forteller om travle perioder med retting av prøver – og samtaler med elever og foreldre. Også bruker hun mye tid på å planlegge undervisningen.",
+    "url": "https://www.nrk.no/buskerud/_-vi-er-klare-for-a-streike-1.11680770",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266784496,
+    "date": "2014-03-21T09:04:01+01:00",
+    "title": "Fant frem rødblyanten etter å ha lest fylkeskommunens stillingsannonse",
+    "correction": "– En tydelig og vanlig feil i den utlysningen er datoen. Det står søknadsfrist «3. April», og april har en stor A. Det er en slik retting som kommer automatisk i Word. Datamaskinen overskriver hodet. Det er komma der det skal være punktum, stor bokstav, liten bokstav. Det er ikke veldig fæle feil, men slums gjennom hele teksten, sier han.",
+    "url": "https://www.nrk.no/ostfold/fant-frem-rodblyanten-1.11620307",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266787535,
+    "date": "2024-09-17T16:19:36+02:00",
+    "title": "Hizbollah: Åtte år gamal jente drepen då faren sin person­søkar eks­ploderte",
+    "correction": "Retting 17. september klokka 19.37: Kjelder skriv tysdag kveld at den drepne jenta var åtte år gamal, ikkje 10. | Retting 17. september klokka 22.40: Libanons helsedepartement korrigerte antal døde og skadde til ni døde og 2750 skadde.",
+    "url": "https://www.nrk.no/urix/mange-skadde-etter-eksplosjonar-i-midtausten-1.17047557",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266789322,
+    "date": "2015-10-12T05:21:21+02:00",
+    "title": "Trynefaktor viktigare enn partifarge",
+    "correction": "Den same tendensen med meir retting av stemmesetlane kan også valansvarleg i Sandnes kommune, Trine Bolstad, fortelje om. Sjølv om ho ennå ikkje har gått igjennom alle røystesetlar for å koma fram til eit eksakt tal.",
+    "url": "https://www.nrk.no/rogaland/trynefaktor-viktigare-enn-partifarge-1.12596519",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266790743,
+    "date": "2023-11-21T12:50:27+01:00",
+    "title": "Randklev bru åpnes før sommeren",
+    "correction": "Reparasjon vil i hovedsak skje gjennom utbytting eller retting av delene som er deformert.",
+    "url": "https://www.nrk.no/innlandet/randklev-bru-i-ringebu-apnes-for-sommeren-1.16646191",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266792306,
+    "date": "2024-12-10T10:39:52+01:00",
+    "title": "Salma-laks er historie – over 100 tilsette mister jobben",
+    "correction": "NRK presiserer: I ein tidlegare tidligere versjon skreiv NRK at Bremnes Seashore hadde eit resultat før skatt på 210 millionar kroner i 2023. Det stemmer for selskapet som driv oppdrett i sjø, som juridisk sett heiter Seashore Sjø AS. Salma-laks er eit samarbeid mellom ei rekke selskap som inngår i Bremnes Seashore-konsernet. Det er derfor meir presist å bruke konserntal, som viser eit resultat før skatt på 160 millionar kroner i 2023. Retting gjort 11. desember klokka 12.36.",
+    "url": "https://www.nrk.no/vestland/kuttar-ut-produksjon-av-salma-laks-_-100-tilsette-mister-jobben-1.17162899",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266793590,
+    "date": "2021-06-25T09:12:54+02:00",
+    "title": "Foreslår skjerping av skatteamnesti – Siste nytt – NRK",
+    "correction": "I et forslag til regjeringen går Skatteetaten inn for å stramme inn dagens regler for skatteamnesti for dem som har skjult formue eller inntekt i utlandet. Etter dagens regler unngår man tilleggsskatt og en eventuell straffesak dersom man selv i ettertid melder om skjult formue eller inntekt, såkalt frivillig retting.",
+    "url": "https://www.nrk.no/nyheter/foreslar-skjerping-av-skatteamnesti-1.15552564",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266795485,
+    "date": "2021-02-16T17:52:14+01:00",
+    "title": "Lærere etterlyser kompensasjon for overtid under pandemien",
+    "correction": "Lærere har en arbeidsavtale som innebærer undervisning, forberedelser og retting. Alt arbeidet må ikke gjøres på skolen og er derfor ikke like synlig.",
+    "url": "https://www.nrk.no/buskerud/laerere-etterlyser-kompensasjon-for-overtid-under-pandemien-1.15370978",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266796677,
+    "date": "2015-08-06T21:20:29+02:00",
+    "title": "60 abonnentar var utan internett og telefon i fire dagar",
+    "correction": "– Vi kan forsikre at retting av feil på denne sentralen er gjeve høg prioritet. Prioritering av rettingsarbeidet vart sett feilaktig ned på fredagen. Dette skulle aldri ha skjedd, seier han. | – Det vart diverre ikkje utført ytterlegare feilretting før måndag 20. juli. Telenor kan forsikre at eventuelle framtidige feil på denne sentralen skal følgast opp kontinuerleg fram til feilen blir retta, seier Krokan.",
+    "url": "https://www.nrk.no/vestland/innbyggjarane-reagerar-pa-lag-prioritet-1.12487513",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266798083,
+    "date": "2016-02-04T06:52:27+01:00",
+    "title": "Rekordmange flagger hjem utenlandsformuer",
+    "correction": "Det er en økning på 30 prosent fra 2014, da 295 personer kontaktet etaten med ønske om såkalt frivillig retting av skatteopplysninger.",
+    "url": "https://www.nrk.no/norge/rekordmange-flagger-hjem-hemmelige-formuer-1.12785262",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266799525,
+    "date": "2016-10-12T07:30:09+02:00",
+    "title": "Streik rammer 3600 kunder i Finnmark",
+    "correction": "Etter at montørene er tatt ut i streik, melder Luostejok Kraftlag at de i liten grad vil kunne foreta retting av feil på strøm og fiber samt begrensning i nytilkoblinger på strøm og fiber. Streiken betyr også ingen eller redusert kundekontakt, sier administrerende direktør i Luostejok kraftlag, Ole G. Thomassen.",
+    "url": "https://www.nrk.no/sapmi/streik-rammer-3600-kunder-i-finnmark-1.13175129",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266800799,
+    "date": "2022-02-03T18:29:36+01:00",
+    "title": "Pernille Sørensen er sjuk – Christian Mikkelsen er vikar",
+    "correction": "RETTING kl. 20.00: NRK skreiv fyrst at Pernille Sørensen hadde fått korona. Det stemmer ikkje. Det riktige er at ho har symptom, men ho har ikkje testa positivt for viruset.",
+    "url": "https://www.nrk.no/kultur/pernille-sorensen-er-sjuk-_-christian-mikkelsen-blir-vikar-pa-nytt-pa-nytt-1.15838862",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266802148,
+    "date": "2017-07-27T18:02:50+02:00",
+    "title": "Elevar kunne finna søsken dei ikkje visste om i Itslearning",
+    "correction": "Support-avdelinga identifiserte raskt dette som eit problem, og gav saka vidare til utviklarane for retting. Men det tok nesten tre månadar før feilen var retta.",
+    "url": "https://www.nrk.no/vestland/elevar-kunne-finna-sosken-dei-ikkje-visste-om-i-itslearning-1.13606866",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266806546,
+    "date": "2023-10-09T19:52:35+02:00",
+    "title": "Over 300 uten strøm i Lillehammer – NRK Innlandet – Lokale nyheter, TV og radio",
+    "correction": "Elvia skal være kjent med feilen og jobber med retting.",
+    "url": "https://www.nrk.no/innlandet/over-300-uten-strom-i-lillehammer-1.16589080",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266807833,
+    "date": "2022-07-10T16:30:44+02:00",
+    "title": "Visste ikke om gamle kulturminner på eiendommen – må rive og restaurere",
+    "correction": "Fylkeskommunen har sendt et varsel til grunneier, og kommer til å sende et vedtak om fjerning, retting og tilbakelegging av masse, opplyser Smiseth.",
+    "url": "https://www.nrk.no/innlandet/visste-ikke-om-gamle-kulturminner-pa-eiendommen-_-ma-rive-og-restaurere-1.16019940",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266809051,
+    "date": "2022-07-14T17:16:15+02:00",
+    "title": "Kraftselskap meiner utbygging ikkje var årsaka til dødsulukka i Tokagjelet",
+    "correction": "NVE bad om fleire analysar etter rapporten vart sendt, for å vurdere om det er grunnlag for lovbrotsgebyr, pålegg om retting eller politimelding.",
+    "url": "https://www.nrk.no/vestland/kraftselskap-meiner-utbygging-ikkje-var-arsaka-til-dodsulukka-i-tokagjelet-1.16036546",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266810420,
+    "date": "2016-01-29T05:45:00+01:00",
+    "title": "Ga knekkebrød i stedet for penger",
+    "correction": "– Vedtaket ble sendt ut nå nettopp. Nå skal de få litt tid til å tenke seg om, og så skal de komme med en plan for retting av avviket, sier Budal Pettersen.",
+    "url": "https://www.nrk.no/buskerud/delte-ut-knekkebrod---bryter-loven-mener-fylkesmannen-1.12774622",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266811749,
+    "date": "2016-02-16T22:30:17+01:00",
+    "title": "Lærarmangelen: – Meir alvorleg enn vi er klar over",
+    "correction": "– Det mest slitsame er alt utanfor klasserommet. Både planlegging, retting, vurdering, oppfølging og samtalar med heimen. Det er absolutt nok å henga fingrane i, seier Dahl Ellingsen.",
+    "url": "https://www.nrk.no/vestland/laerarmangelen_-_-meir-alvorleg-enn-vi-er-klar-over-1.12806955",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266813022,
+    "date": "2017-09-22T14:36:32+02:00",
+    "title": "Sikkerhetsdirektør bekymret over eksplosiv-tilsyn: – En uakseptabel situasjon",
+    "correction": "– Det er jo også 16 bedrifter som hadde ting i orden. Ja, det er en stor andel som hadde feil. Disse er påpekt og bedriftene har fått pålegg om retting, og det forventer vi at har skjedd, sier hun.",
+    "url": "https://www.nrk.no/nordland/sikkerhetsdirektor-bekymret-over-eksplosiv-tilsyn_-_-en-uakseptabel-situasjon-1.13701511",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266814300,
+    "date": "2011-01-12T12:40:11+01:00",
+    "title": "Truer skole med godkjenningsnekt",
+    "correction": "Direktoratet har vurdert tilbaketrekking av skolens godkjenning, men har etter en samlet vurdering konkludert med at de heller vil ilegge skolen pålegg om retting av de lovstridige forholdene med en klar tidsfrist for når alle lovbruddene skal være rettet.",
+    "url": "https://www.nrk.no/norge/truer-skole-med-godkjenningsnekt-1.7460114",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266815527,
+    "date": "2014-06-25T12:04:32+02:00",
+    "title": "Nektar å seie kva skular som blir råka",
+    "correction": "Det har vekt reaksjonar, ettersom mange lærarar er avhengige av fleksibel arbeidstid for å få arbeidsdagen til å gå rundt – blant anna fordi arbeidet inneber oppgåver utanfor klasserommet òg, som planlegging og retting.",
+    "url": "https://www.nrk.no/vestland/seier-ikkje-kvar-dei-vil-streika-1.11797244",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266817301,
+    "date": "2020-05-02T17:59:54+02:00",
+    "title": "Han står bak legendemål for Viking, men har null kampar i statistikken",
+    "correction": "Retting måndag 4. mai: Ein tidlegare versjon av denne saka gav inntrykk av at Maudal sto oppført med mirakelmålet. Det er ikkje riktig, for denne kampen er ikkje med i statistikken i det heile tatt.",
+    "url": "https://www.nrk.no/rogaland/han-star-bak-legendemal-for-viking_-men-har-null-kampar-i-statistikken-1.15002744",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266819338,
+    "date": "2024-09-25T12:13:30+02:00",
+    "title": "Mann varetektsfengsla: Sikta for oppfordring til brotsverk i Kamerun",
+    "correction": "Retting klokka 14.19 25. september:",
+    "url": "https://www.nrk.no/urix/pagripen-i-noreg-_-sikta-for-lovbrot-mot-menneskeheita-1.17057580",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266822490,
+    "date": "2016-10-12T10:34:13+02:00",
+    "title": "Streik rammer 3600 kunder – NRK Sápmi - samiske nyheter, kultur og underholdning",
+    "correction": "3600 strømkunder i Karasjok, Porsanger og Lebesby blir nå berørt av streiken i energisektoren. Etter en utvidelsen av streiken tirsdag, er 19 ansatte i Luostejok kraftlag tatt ut av daglig tjeneste. Kraftlaget melder at de i liten grad vil kunne foreta retting av feil på strøm og fiber under streiken, og at de ikke vil kunne ha kundekontakt.",
+    "url": "https://www.nrk.no/sapmi/streik-rammer-3600-kunder-1.13175261",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266823666,
+    "date": "2024-03-28T11:06:29+01:00",
+    "title": "Feil på mobilnettet – NRK Vestland",
+    "correction": "– Det er åtte basestasjoner som er berørte. Vi har målt bruddet til samme tunnel som togulykken skjedde i. Det er derfor komplisert å komme inn dit, og komplisert å komme i gang med retting, sier dekningsdirektør Bjørn Amundsen tilBergensavisen.",
+    "url": "https://www.nrk.no/vestland/feil-pa-mobilnettet-1.16823891",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266826267,
+    "date": "2018-02-28T05:38:28+01:00",
+    "title": "Stadig flere melder fra om skjulte formuer i utlandet",
+    "correction": "Mens det i 2017 kom inn 924 saker under ordningen om frivillig retting, kom det inn 515 saker året før. Det tilsvarer en økning på 80 prosent.",
+    "url": "https://www.nrk.no/norge/stadig-flere-melder-fra-om-skjulte-formuer-i-utlandet-1.13937225",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266827595,
+    "date": "2011-11-03T19:00:41+01:00",
+    "title": "– Ingen lures av energimerking",
+    "correction": "– Ved innlogging identifiseres brukerne, og alle opplysninger registreres og lagres i systemet. Dersom eieren har lagt inn feil opplysninger når en bolig skal selges, er dette akkurat det samme som å gi andre typer feilaktige opplysninger ved boligsalg. Det kan gi grunnlag for prisavslag, krav om retting samt tilbakeholdelse av kjøpesummen, sier hun.",
+    "url": "https://www.nrk.no/livsstil/_-ingen-lures-av-energimerking-1.7861593",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266829703,
+    "date": "2015-01-10T22:18:43+01:00",
+    "title": "Slik herja vinden i Florø i kveld",
+    "correction": "Telenor melde tidlegare i dag om at fem basestasjonar i fylket var ute, og at ein truleg ikkje ville kome i gang med retting av feil før søndag.",
+    "url": "https://www.nrk.no/vestland/slik-herja-vinden-i-floro-i-kveld-1.12143387",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266831085,
+    "date": "2007-12-03T15:55:42+01:00",
+    "title": "Tøffere mot byggherrer",
+    "correction": "- Det kan være aktuelt å pålegge byggestopp, å pålegge retting, å gi gebyrer, og firmaer som ikke retter seg kan miste sentral godkjenning, sier Kleppa, som understreker at den nye loven vil gjelde fra 2009.",
+    "url": "https://www.nrk.no/norge/toffere-mot-byggherrer-1.4204412",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266832435,
+    "date": "2021-03-03T15:14:59+01:00",
+    "title": "Oppga skjulte verdier for 60 mill. – NRK Møre og Romsdal – Lokale nyheter, TV og radio",
+    "correction": "Personer fra Møre og Romsdal meldte ifra om 60 millioner kroner i skjulte verdier i fjor, melder Skatteetaten. Her i fylket ble det behandla 12 saker gjennom ordninga «Frivillig retting», der man i ettertid kan melde fra om formue og inntekt en tidligere ikke har oppgitt. Da slipper man å risikere tilleggsskatt og politianmeldelse, men må betale skatt og renter man skylder.",
+    "url": "https://www.nrk.no/mr/oppga-skjulte-verdier-for-60-mill.-1.15399926",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266834158,
+    "date": "2021-07-21T19:57:19+02:00",
+    "title": "Full forvirring om stogg i laksefisket",
+    "correction": "Feilen blei oppdaga same dag, men rettinga har ikkje nådd ut i alle. Direktoratet har no teke tak i saka. | Retting tysdag 27.juli klokka 11.30: I ein tidlegare versjon av artikkelen skreiv vi att fiske i Namsenvassdraget vert stengt 17.august. Det er feil. Sesongen forset til den 31.august, opplyser elveeigarlaget.",
+    "url": "https://www.nrk.no/vestland/full-forvirring-om-stogg-i-laksefisket-1.15582052",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266835914,
+    "date": "2021-11-12T18:34:51+01:00",
+    "title": "Hevder vindkraftutbygger tilbyr hver enkelt reineier millionbeløp for beiteområder – igjen",
+    "correction": "(Saken er oppdatert med nytt sitat og retting av tittel)",
+    "url": "https://www.nrk.no/sapmi/hevder-grenselandet-as-tilbyr-millioner-til-hver-enkelt-driftsenhetseier-i-distrikt-13-1.15727952",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266837141,
+    "date": "2017-02-07T06:14:32+01:00",
+    "title": "Skattekrimsjefen: – Folk er redde for at det snart er for sent",
+    "correction": "– Det har vært mye om frivillig retting, skjulte formuer og Panama Papers i media de siste årene, og det påvirker nok mange som har ubeskattet inntekt og formue. Noen tenker nok at de må oppgi det før det blir oppdaget, mens andre ønsker å få ordnet opp i forholdene uavhengig av omtalen, sier Wright.",
+    "url": "https://www.nrk.no/stor-oslo/rekordmange-melder-fra-om-hemmelige-formuer-1.13362406",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266839243,
+    "date": "2018-09-02T13:38:29+02:00",
+    "title": "Her bygger Ap-politikaren utan løyve",
+    "correction": "– Dersom det er grunnlag for byggeløyve kan saka ende med gebyr. Ved avslag vil ein vanlegvis få pålegg om retting og tilbakeføring av området, seier Roar Sætre.",
+    "url": "https://www.nrk.no/vestland/her-bygger-ap-politikaren-utan-loyve-1.14187414",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266841040,
+    "date": "2013-06-27T20:52:13+02:00",
+    "title": "Nå får du vite hvem som kikker deg i kortene",
+    "correction": "– Men dersom de ikke ønsker å innrette seg for å oppfylle kravet, kan det bli aktuelt å bruke de generelle sanksjonsmidlene vi har etter ekomloven. For eksempel pålegg om retting, eller i ytterste konsekvens overtredelsesgebyr, forteller Lindeberg.",
+    "url": "https://www.nrk.no/livsstil/strengere-bruk-av-cookies-1.11103813",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266842811,
+    "date": "2020-04-08T13:19:54+02:00",
+    "title": "Korona-krisen ga Maajja-Krihke (20) en ny språkarena",
+    "correction": "- Dette er en digital møteplass hvor vi lar språket flyte og bare snakker om løst og fast på sørsamisk. Ikke med grammatisk retting, eller med noe språkpoliti. Et sted hvor vi får mulighet til å bruke språket i hverdagen, forklarer Bransfjell.",
+    "url": "https://www.nrk.no/sapmi/hadde-ikke-mulighet-til-a-motes---opprettet-digital-sprakkafe-1.14976059",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266846004,
+    "date": "2020-08-26T18:32:14+02:00",
+    "title": "Fylkesmannen anmelder Forsvarsbygg til politiet for andre gang: – Veldig uheldig",
+    "correction": "Samtidig som anmeldelsene er under behandling har Fylkesmannen sendt et pålegg om retting av det som er gjort i området.",
+    "url": "https://www.nrk.no/nordland/fylkesmannen-i-nordland-har-anmeldt-forsvarsbygg-for-andre-gang-for-manglende-tillatelser-1.15136627",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266847769,
+    "date": "2015-01-10T17:37:02+01:00",
+    "title": "Uvêret råkar ferjer, straum og telefonnett",
+    "correction": "Straumselskapa har i stor grad hatt kontroll på straumforsyninga, men BKK melder at kundar i Gulen, Masfjorden og Høyanger-sør er utan straum på grunn av uvêret. Kraftselskapet har over 20 000 kundar utan straum like før klokka 18 laurdag, og dei opplyser på sine nettsider at dei driv kontinuerleg feilretting, men at det kan ta tid før straumen er tilbake på grunn av uvêret. | Like før klokka 21 melde Sunnfjord Energi om feil på linja i Indre Angedal, frå Grimelandshaug til botnen. Det blir arbeidd med retting, og venta innkopling er mellom komma 21 og 21:30.",
+    "url": "https://www.nrk.no/vestland/uveret-rakar-ferjer_-straum-og-telefonnett-1.12143013",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266849686,
+    "date": "2014-11-14T13:59:11+01:00",
+    "title": "Åpner for full omkamp om grunnlovsspråket",
+    "correction": "– Vi vil fremme Gravers siste versjon én gang til, slik at vi får et moderne bokmål og retting av ortografien, sier Arbeiderpartiets Martin Kolberg til NRK.",
+    "url": "https://www.nrk.no/kultur/apner-for-full-omkamp-om-grunnlovsspraket-1.12043561",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266851042,
+    "date": "2014-10-28T17:13:14+01:00",
+    "title": "Strømbrudd etter trefall i vinden – NRK Innlandet – Lokale nyheter, TV og radio",
+    "correction": "Rundt 2500 av Eidsivas kunder i Østre og Vestre Toten er strømløse på grunn av kraftig vind som har ført til trefall over høyspentlinjer, opplyser Eidsiva. Kunder på Bøverbru og Kolbu har vært uten strøm siden kl. 15.30. Eidsiva har også strømløse kunder i Raufoss. Også på Hof Finnskog i Åsnes og Gravberget i Våler er kunder rammet av strømbrudd. Eidsivas mannskaper arbeider med feilsøking og retting.",
+    "url": "https://www.nrk.no/innlandet/strombrudd-etter-trefall-i-vinden-1.12011609",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266852315,
+    "date": "2018-02-28T08:31:19+01:00",
+    "title": "Meldte fra om inntekt og formue – NRK Møre og Romsdal – Lokale nyheter, TV og radio",
+    "correction": "I 2017 meldte 92 personer fra til Skatt Midt-Norge om skjulte inntekter og formuer i utlandet. 46 saker ble ferdigbehandlet, noe som gjorde at skattbare inntekter økte med 28 millioner kroner og formuer med 714 millioner kroner. Frivillig retting er en ordning der du forteller Skatteetaten om verdier som skulle ha vært oppgitt til beskatning. Du må betale skatten, men du slipper tilleggsskatt og eventuell anmeldelse.",
+    "url": "https://www.nrk.no/mr/meldte-fra-om-inntekt-og-formue-1.13938001",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266853543,
+    "date": "2023-05-25T08:12:17+02:00",
+    "title": "Finanstilsynet gir Verdipapirsentralen gebyr på 1 million kroner – Siste nytt – NRK",
+    "correction": "I en pressemelding skriver Finanstilsynet at det har gitt Verdipapirsentralen ASA pålegg om retting i forbindelse med brudd på bestemmelsene om kontroll med kontoførere.",
+    "url": "https://www.nrk.no/nyheter/finanstilsynet-gir-verdipapirsentralen-gebyr-pa-1-million-kroner-1.16421284",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266854740,
+    "date": "2022-01-11T06:15:17+01:00",
+    "title": "Den norske krafteksporten gjekk ned i 2021",
+    "correction": "Oppdatering #2:Statnett har publisert ei retting av statistikken for eksport/import av kraft. I denne er bruttoeksporten høgare i 2021 (25,8 TWh) enn i 2014 (21,9 TWh).",
+    "url": "https://www.nrk.no/vestland/den-norske-krafteksporten-gjekk-ned-i-2021-1.15804144",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266855952,
+    "date": "2022-03-10T07:50:10+01:00",
+    "title": "Christel mistet håret som 12-åring",
+    "correction": "– Hår er jo en del av identiteten vår. Og spesielt i en kultur hvor man gjør så mye med håret fra barnealderen med fletting og retting, sier Al-Mustafa og fortsetter:",
+    "url": "https://www.nrk.no/kultur/christel-mistet-haret-som-12-aring-1.15863724",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266857261,
+    "date": "2017-10-06T17:09:37+02:00",
+    "title": "Bankane er nesten i normal drift igjen",
+    "correction": "– Det tek lenger tid å rette feilen enn det vi hadde trudd. Vi gjorde ei retting som gav effekt, men vi hadde håpa på større effekt, seier kommunikasjonsdirektør i Evry, Geir Remman.",
+    "url": "https://www.nrk.no/vestland/framleis-heilt-i-det-bla-nar-bankproblem-er-loyste-1.13722603",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266858487,
+    "date": "2014-05-27T18:14:02+02:00",
+    "title": "– Vi jobber tross alt med mennesker",
+    "correction": "Han tror at Hvis folk hadde visst hvor mye tid lærerne bruker på for eksempel retting i helger og på kvelder, så ville de forstått motstanden mot obligatorisk arbeidstid.",
+    "url": "https://www.nrk.no/trondelag/vil-ikke-ha-bunden-arbeidstid-1.11743352",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266859707,
+    "date": "2022-02-27T09:04:12+01:00",
+    "title": "La fiberkabel gjennom rekefelt utan løyve",
+    "correction": "Kommunen har i to brev bede selskapet om forklaring, utan å få dette skriftleg. Denne veka varsla kommunen at dei vurderer pålegg om retting og tvangsmulkt.",
+    "url": "https://www.nrk.no/vestland/la-fiberkabel-gjennom-rekefelt-utan-loyve-1.15867742",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266863481,
+    "date": "2019-03-14T17:01:43+01:00",
+    "title": "Kommunen krev at populær tursti blir dekka med jord: – Heilt hòl i hovudet",
+    "correction": "«utført arbeider knyttet til vegene med mellomlagring av stein, påfylling av masser og utfylling i elv/vassdrag med rør av et slik omfang at dette krever søknad og tillatelse. (..) Det er vanskelig å se at retting av forholdene som er beskrevet i pålegget er i konflikt med allmenhetens ferdselsinteresser i området.»",
+    "url": "https://www.nrk.no/vestland/kommunen-krev-at-populaer-tursti-blir-dekka-med-jord_-_-heilt-hol-i-hovudet-1.14472553",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266864893,
+    "date": "2018-11-07T16:16:11+01:00",
+    "title": "Bonde dømt til fengsel for vanskjøtsel av kuer",
+    "correction": "Ifølge dommen fra tingretten ble Fredrikstad-mannens drift sett på som en risikodrift, der det var nødvendig med hyppige tilsyn og der det etter hvert tilsyn ble gitt pålegg om retting",
+    "url": "https://www.nrk.no/ostfold/bonde-domt-til-fengsel-for-vanskjotsel-av-kuer-1.14283280",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266866126,
+    "date": "2023-02-08T20:04:21+01:00",
+    "title": "Over 2000 uten strøm på Vestlandet – Siste nytt – NRK",
+    "correction": "De skriver videre at de er i full gang med lokalisering og retting av feil, og at alt tilgjengelig mannskap er ute.",
+    "url": "https://www.nrk.no/nyheter/over-2000-uten-strom-pa-vestlandet-1.16290060",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266867359,
+    "date": "2024-09-24T01:48:20+02:00",
+    "title": "Helsedirekoratet kan gi bøter for brudd på alkoholloven – Siste nytt – NRK",
+    "correction": "Før hadde direktoratet bare mulighet til å kreve retting av lovbruddet, og tvangsbot om rettingen ikke skjer innen en gitt frist.",
+    "url": "https://www.nrk.no/nyheter/helsedirekoratet-kan-gi-boter-for-brudd-pa-alkoholloven-1.17055415",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266868945,
+    "date": "2021-06-21T15:04:12+02:00",
+    "title": "Fjernet 13 av 14 Instagram-innlegg etter kritikk fra Helsedirektoratet",
+    "correction": "Straffen for bryte loven om alkoholreklame, er i første rekke å rette opp feilen. Det er Helsedirektoratet som kommer med pålegg om retting og en frist for dette. Men det kan også vanke en økonomisk svie, i form av tvangsmulkt.",
+    "url": "https://www.nrk.no/trondelag/dde-fjernet-rai-rai-instagram-innlegg_-kjendiser-og-bryggeri-reklamerer-for-alkohol-i-sosiale-medier-1.15544386",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266870265,
+    "date": "2021-01-22T15:48:19+01:00",
+    "title": "Stort strømbrudd i Sirdal – Kundene har fått strømmen tilbake",
+    "correction": "Agder Energi nett hadde siden fredag drevet feilsøking og retting av feil. Det var mange brudd og feil som skulle rettes opp, og det var ikke klart hvor lang tid dette vil ta.",
+    "url": "https://www.nrk.no/rogaland/stort-strombrudd-i-sirdal-_-kundene-har-fatt-strommen-tilbake-1.15340608",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266873715,
+    "date": "2015-10-15T11:21:56+02:00",
+    "title": "Samiske tall forteller 8: Avdekket lovbrudd i samiskopplæringen i Nordland og Oslo/Akershus",
+    "correction": "Fylkesmannen i Oslo og Akershus gjennomførte fem tilsyn med samiskopplæringa i 2012. Tilsyn ble gjennomført i Oppegård, Oslo, Rælingen, Skedsmo og Ås kommune.Alle de fem tilsynene ble avsluttet med pålegg om retting.",
+    "url": "https://www.nrk.no/sapmi/samiske-tall-forteller-8_-avdekket-lovbrudd-i-samiskopplaeringen-i-nordland-og-oslo_akershus-1.12604311",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266875040,
+    "date": "2016-04-29T07:54:42+02:00",
+    "title": "Forbudt å felle store trær på egen tomt",
+    "correction": "– Vi kan gi overtredelsesgebyr og pålegg om retting, altså replanting av trær på omtrent samme størrelse. I ytterste konsekvens kan vi politianmelde flere, sier hun.",
+    "url": "https://www.nrk.no/stor-oslo/forbudt-a-felle-store-traer-pa-egen-tomt-1.12918834",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266877314,
+    "date": "2020-07-01T15:48:58+02:00",
+    "title": "Tvilar på at øya får 30 arbeidsplassar på vindkraftanlegg",
+    "correction": "– Dei krev vedlikehald heile tida. Dette blir bra, seier Haugen. Sandøy Energi opplyser at dei brukar mellom ein og to månader i året på vedlikehald og retting på dei fem vindturbinane. I tillegg utfører eit eksternt firma to større servicar i året.",
+    "url": "https://www.nrk.no/mr/tvilar-pa-lovnad-om-lokale-arbeidsplassar-i-vindkraftprosjektet-havsul-1.15065198",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266881434,
+    "date": "2024-11-21T05:41:22+01:00",
+    "title": "Familien skulle flytte frå Danmark til Bergen før jul – så slo konkursen inn",
+    "correction": "NRK rettar: I ein tidlegare versjon av saka stod det at selskapet Webu har overtatt Siljustøl-prosjektet. Det rette er at Webu er og alltid har vore utbyggar, og at JH Nævdal var leid inn som hovudentreprenør. Retting gjort 21. november kl. 09.36.",
+    "url": "https://www.nrk.no/vestland/store-byggeselskap-gar-konkurs_-privatkundar-i-uvisse_-byggebransjen-i-krise-1.17128094",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266882660,
+    "date": "2021-03-30T19:34:13+02:00",
+    "title": "Røst og Værøy uten nødnett – NRK Nordland",
+    "correction": "Utfallet skjedde midt på dagen i dag og det er meldt om retting innen kl 09.00 i morgen 31.03.21. Driftsorganisasjonen for nødnett skal sende ut mannskaper i morgen tidlig for å rette feilen.",
+    "url": "https://www.nrk.no/nordland/rost-og-vaeroy-uten-nodnett-1.15439500",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266884063,
+    "date": "2014-10-30T20:38:45+01:00",
+    "title": "Store problemer i Telenors mobilnett – løst etter to timer",
+    "correction": "– Vi fant ganske raskt ut hvor feilen lå, og det viste seg at det var en oppgradering av en database som hadde gått galt. Da vi hadde funnet feilen startet vi retting, sier hun.",
+    "url": "https://www.nrk.no/norge/store-problemer-i-telenors-mobilnett-1.12017144",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266886671,
+    "date": "2019-06-25T18:36:55+02:00",
+    "title": "Drømmeleiligheten ble et mareritt",
+    "correction": "– Det vil således være sannsynlig at kommunen varsler pålegg om retting og pålegg om opphør av bruk av leilighetene på et eller annet tidspunkt, skriver hun.",
+    "url": "https://www.nrk.no/ostfold/drommeleiligheten-ble-et-mareritt-1.14597891",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266887978,
+    "date": "2024-12-18T00:18:14+01:00",
+    "title": "Kommunen takkar ja: Opnar for basseng-gåve frå milliardær",
+    "correction": "NRK rettar: I ein tidlegare versjon av saka ble det gitt inntrykk av at kommunen allereie hadde avgjort å bygga symjehallen. Det rette er at kommunen går vidare i planarbeidet for å bygga hallen med gåvepengar frå Alsaker. Endeleg investeringsavgjerd er ikkje fatta. Retting gjort 8. oktober 2025 klokka 17.36.",
+    "url": "https://www.nrk.no/vestland/tysnes-kommune-takkar-ja-til-laksemilliardaerens-symjehall-_-bygd-der-han-krev-1.17174045",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266889204,
+    "date": "2022-04-26T21:51:07+02:00",
+    "title": "Eika-kunder fikk feilaktig trekk på konto – Siste nytt – NRK",
+    "correction": "– Dette er sterkt beklagelig, og vi jobber med å få orden på problemet så raskt som mulig. Feilen oppsto i forbindelse med retting av feil hos en av våre underleverandører, som førte til følgefeil i våre kjernesystemer, sier informasjonsdirektør Sigurd Ulven i Eika Gruppen tilOppland Arbeiderblad.",
+    "url": "https://www.nrk.no/nyheter/eika-kunder-fikk-feilaktig-trekk-pa-konto-1.15945113",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266890430,
+    "date": "2022-12-08T18:13:55+01:00",
+    "title": "Mobiloperatøren Ice hadde problemer torsdag – Siste nytt – NRK",
+    "correction": "– Våre ingeniører gikk umiddelbart i gang med feilsøking og retting. Feilkilden ble raskt identifisert som en systemfeil, og klokken 16.30 var den rettet. Vi begynte å se gode tegn til bedring like etter rettingen, skriver kommunikasjonssjef Sebastian Storvik i en epost til NTB.",
+    "url": "https://www.nrk.no/nyheter/mobiloperatoren-ice-hadde-problemer-torsdag-1.16213176",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266894138,
+    "date": "2021-03-03T07:10:49+01:00",
+    "title": "60 millioner i skjulte verdier – NRK Møre og Romsdal – Lokale nyheter, TV og radio",
+    "correction": "Personer fra Møre og Romsdal meldte ifra om 60 millioner kroner i skjulte verdier i fjor, melder Skatteetaen. Her i fylket ble det behandla 12 saker gjennom ordninga Frivillig retting, der man i ettertid kan melde fra om formue og inntekt en tidligere ikke har oppgitt. Da slipper man å risikere tilleggsskatt og politianmeldelse, men må betale skatt og renter man skylder. I hele landet ble 4,1 milliarder kroner meldt inn i fjor, og det ga 164 millioner ekstra til staten.",
+    "url": "https://www.nrk.no/mr/60-millioner-i-skjulte-verdier-1.15398843",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266895340,
+    "date": "2021-03-01T12:18:21+01:00",
+    "title": "Gir ut helt ny versjon av omstridt Marte Michelet-bok til høsten",
+    "correction": "– Vi er fornøyd med at de imøtekommer kravet om retting av feilene i boken, men forutsetter også at de bytter inn fra alle som har mottatt feil bok så langt og er ikke tilfreds med at de i mellomtiden vil forsøke å selge en bok de vet og har erkjent at inneholder injurierende feil, skriver Elden i en e-post til NTB. | – Problemene vi har påpekt i boken handler ikke først og fremst om enkeltfeil i isolerte kapitler, men om at uetterrettelig kildebruk og sviktende konklusjoner er gjennomgående i boken. Feilaktige premisser og en problematisk metode kan ikke rettes opp i på en forsvarlig måte gjennom smårettelser, men krever en omskriving av boken.",
+    "url": "https://www.nrk.no/kultur/gir-ut-helt-ny-versjon-av-omstridt-marte-michelet-bok-til-hosten-1.15395911",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266896573,
+    "date": "2023-12-18T19:05:49+01:00",
+    "title": "Houthi-talsperson til NRK om skipsangrep: – Ingen klarar å skjula kor dei skal",
+    "correction": "Retting 1:I ein tidlegare versjon av denne saka skreiv NRK at Houthi-militsen sidan 7. oktober har gått til angrep på sivile og militære skip i Raudehavet, i solidaritet med Hamas. Det rette er 3. desember.",
+    "url": "https://www.nrk.no/norge/houthi-talsperson-til-nrk-om-skipsangrep_-_-ingen-klarar-a-skjula-kor-dei-skal-1.16684200",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266897808,
+    "date": "2023-09-07T10:24:42+02:00",
+    "title": "Demens-syke Bente fikk ikke forsvarlig behandling på sykehjemmet",
+    "correction": "«Statsforvalteren ber Namsos kommune lage en plan for retting av forholdene, slik at medisinering med antipsykotika til demente skjer på en forsvarlig måte, og at pasient og pårørende får informasjon i henhold til loven».",
+    "url": "https://www.nrk.no/trondelag/demens-syke-bente-fikk-ikke-forsvarlig-behandling-pa-sykehjemmet-1.16541668",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266899171,
+    "date": "2016-08-11T07:09:37+02:00",
+    "title": "Komsa skole pusses opp – NRK Sápmi - samiske nyheter, kultur og underholdning",
+    "correction": "Alta kommune må ut med nye fire millioner kroner for å få pusset opp Komsa skole. Fra før er det satt av fem millioner kroner. Skolen har i flere år slitt med dårlig inneklima, og kommuneoverlegen har gitt flere pålegg om retting. De nye fire millionene skal gå til leie av en skole rigg med fire klasserom som en midlertidig løsning på arealutfordringene mens skolen pusses opp. Formannskapet skal i neste uke ta stilling til om det skal bevilges mer penger. Oppussingen er tenkt startet i september eller oktober i år.",
+    "url": "https://www.nrk.no/sapmi/komsa-skole-pusses-opp-1.13082954",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266900413,
+    "date": "2021-09-05T11:02:37+02:00",
+    "title": "Torgeir har berre tre tenner – har ikkje råd til å fikse resten",
+    "correction": "Retting 18.50, 05.09.21:I den fyrst publiserte versjonen av saka kom det ikkje fram at SV (fem representantar), Raudt (ein representant) og MDG (ein representant) stemte for dei to forslaga om nye tannhelsereformer i Stortinget i juni.",
+    "url": "https://www.nrk.no/vestland/uforetrygda-torgeir-ma-betale-150.000-kroner-for-a-fa-tenner-1.15613301",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266901742,
+    "date": "2013-10-19T21:10:57+02:00",
+    "title": "Mørkeblå mistillit",
+    "correction": "Lærarane er ikkje til å stola på. Dei driv med forskjellsbehandling av elevane ut frå trynefaktor, og Høgre er difor ivrige tilhengarar av anonym retting. Samtidig skriv dei i regjeringserklæringa at «ingenting betyr meir for elevanes læring enn læraren». Folkevalde lokalpolitikarar tenkjer ikkje på innbyggarane sitt beste, der dei sit som småkongar i kvar sin kommunestyresal og nektar å slå seg saman med andre.",
+    "url": "https://www.nrk.no/ytring/morkebla-mistillit-1.11296308",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266903287,
+    "date": "2014-10-21T13:31:00+02:00",
+    "title": "Mulig at millioner må betales tilbake",
+    "correction": "– I vårt brev av 29. september i år gir vi kommunen frist til 01. desember med å dokumentere at kommunens forvaltning og bruk av havnekapitalen skjer i tråd med reglene i Havne- og farvannsloven. Det presiseres at dette er kommunens ansvar. Det ligger i dette at dersom fristen ikke overholdes, så vil vi måtte vurdere å gå videre med saken i tråd med vårt varsel om pålegg om retting/stansing, sier Kristin Frotvedt - seniorrådgiver og jurist ved Kystforvaltningsavdelingen på Kystverkets hovedkontor i Ålesund.",
+    "url": "https://www.nrk.no/ostfold/mulig-at-millioner-ma-betales-tilbake-1.11998188",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266904819,
+    "date": "2014-10-07T17:18:11+02:00",
+    "title": "Båtplassaken i Halden: Har allerede utbetalt til privat grunneier",
+    "correction": "I et brev fra Kystverket til kommunen den 20. juni år ble det varslet om at Kystverket ville vurdere å gjøre vedtak etter havne- og farvannsloven § 48, og pålegge kommunen retting/stansing av pengebruk fra havnekassa til de private bryggene på Høvleriet med hjemmel i havne- og farvannsloven § 57.",
+    "url": "https://www.nrk.no/ostfold/har-allerede-utbetalt-1.11972692",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266906226,
+    "date": "2014-05-28T19:46:00+02:00",
+    "title": "Årsresultat blir hevda å vere feilaktig - Finanstilsynet vil sjå nærare på saka",
+    "correction": "- Vi kan kritisere revisor, og vi kan pålegge retting, altså pålegge revisor å endre sitt arbeid og sine rutinar. I svært sjeldne tilfelle kan vi også tilbakekalle godkjenninga til å drive som revisor, seier Bellamy som seier det dei finn ved eit slikt tilsyn i yttarste konsekvens også kan ende med ei politimelding.",
+    "url": "https://www.nrk.no/vestland/finanstilsynet-inn-i-fjord1-braket-1.11746104",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266910711,
+    "date": "2014-08-10T14:56:15+02:00",
+    "title": "Lærermytene",
+    "correction": "Lærerne har i dag noe frihet til å styre dagene sine selv. Jeg jobber i barneskolen og har 33,5 timer bundet på skolen hver uke. Da har jeg igjen 10 timer til retting og forarbeid, samt kontakt med foreldre og elever via pc og telefon. Jeg skal altså jobbe minst 43,5 timer hver uke.",
+    "url": "https://www.nrk.no/ytring/laerermytene-1.11869895",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266911997,
+    "date": "2022-03-08T19:27:20+01:00",
+    "title": "Sebastian har satt usynlig tannregulering på over 150 nordmenn det siste året",
+    "correction": "Han driver privat praksis ved Colosseum tannlege i Oslo, og forteller at han vet om flere og flere kolleger som bruker mer og mer tid på retting av tenner som er friske, men litt skjeve.",
+    "url": "https://www.nrk.no/trondelag/invisalign_-sebastian-daroste-setter-usynlige-tannreguleringer-pa-voksne-1.15856136",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266914548,
+    "date": "2024-04-28T09:29:44+02:00",
+    "title": "Bakenga fyrer laus mot kommentator etter bokkritikk: – Har aldri respektert fyren",
+    "correction": "Bakenga understrekar at det ikkje er eitt ord i boka som er usant frå hans side, sjølv om det har blitt ei retting i boka frå forlaget, før ho gjekk i trykken.",
+    "url": "https://www.nrk.no/sport/fyrer-laus-mot-kommentator-etter-bokkritikk_-_-har-aldri-respektert-fyren-1.16861540",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266915839,
+    "date": "2019-07-11T11:10:05+02:00",
+    "title": "Dette var registrert som tørkeloft. Då brannen braut ut, måtte folk rømma frå fire soverom",
+    "correction": "Det førte til varsel om umiddelbar bruksstopp og pålegg om retting og tvangsmulkt.",
+    "url": "https://www.nrk.no/vestland/bergen-har-oppretta-innsatsstyrke-mot-ulovleg-og-farleg-utleige_-og-_svarteliste_-over-huseigarar-1.14500573",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266917163,
+    "date": "2022-08-30T06:59:14+02:00",
+    "title": "13 år lang drikkevannslekkasje – Stor-Oslo",
+    "correction": "Kommunen har varslet pålegg om retting av forholdene, noe som kan bli svært kostbart for beboerne.",
+    "url": "https://www.nrk.no/stor-oslo/13-ar-lang-drikkevannslekkasje--1.16084527",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266920718,
+    "date": "2025-02-05T12:01:25+01:00",
+    "title": "Storaksjon mot kosmetiske klinikker – Siste nytt – NRK",
+    "correction": "– Dessverre ser vi fortsatt mange lovbrudd. Spesielt alvorlig er det at noen klinikker fortsetter å bryte loven, til tross for advarsler, veiledning eller pålegg om retting, sier enhetsleder Tove Gullstein Jahr i DMP.",
+    "url": "https://www.nrk.no/nyheter/storaksjon-mot-kosmetiske-klinikker-1.17253888",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266922299,
+    "date": "2017-05-03T13:01:34+02:00",
+    "title": "Entreprenør slår alarm om sikring av over 100 tunnelar",
+    "correction": "Øyre vil ikkje kommentera Mesta sin påstand om at konflikten kan få følger for kvaliteten på sikkerhetsutrustninga, og at vegvesenet ikkje bestiller retting av påviste feil og manglar.",
+    "url": "https://www.nrk.no/vestland/entreprenor-slar-alarm-om-sikring-av-over-100-tunnelar-1.13479857",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266923732,
+    "date": "2023-11-23T07:21:31+01:00",
+    "title": "Helsevesenet kneler",
+    "correction": "Endringslogg: I den første publiseringen av kronikken stod det at Helse Nord hadde fremmet kuttforslag for sykehusene i Nord-Norge. Det korrekte er at det foreligger utredninger fra flere arbeidsgrupper i Helse Nord. Disse vil bli behandlet av helseforetakets styre i januar. Retting ble foretatt 23.11. kl.10.26.",
+    "url": "https://www.nrk.no/ytring/helsevesenet-kneler-1.16647800",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266925028,
+    "date": "2022-07-21T09:11:45+02:00",
+    "title": "Mario Draghi leverer ny avskjedssøknad – Siste nytt – NRK",
+    "correction": "I ei retting skriv Reuters at Draghi ikkje nytta ordet «resignering», men at han «vil informere presidenten om sine intensjonar» etter at tre koalisjonsparti trekte støtta til regjeringa hans.",
+    "url": "https://www.nrk.no/nyheter/mario-draghi-leverer-ny-avskjedssoknad-1.16044541",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266926613,
+    "date": "2014-09-11T10:36:57+02:00",
+    "title": "Krever 4,3 millioner i erstatning",
+    "correction": "Striden gjelder om ærekrenkelsen er uaktsom, og de er uenige om det er gitt samtidig imøtegåelse, og om den Andersen har brukt sin rett til å kreve retting.",
+    "url": "https://www.nrk.no/ostfold/morgan-andersen-mot-aftenposten-1.11926667",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266927828,
+    "date": "2024-10-30T13:45:03+01:00",
+    "title": "BKK øker beredskapen etter farevarsel – NRK Vestland",
+    "correction": "Dersom det skulle oppstå hendelser som krever retting og feilsøking ute av fysisk mannskap, kan dette kunne ta lengre tid dersom det er fare for flom og skred. | – I en situasjon som dette må vi først og fremst vurdere sikkerheten til mannskapet vårt som jobber ute i felt. Vi sender ikke ut folk i områder hvor det ikke er trygt. Feilrettingen kan altså ta lengere tid enn normalt, sier Tystad.",
+    "url": "https://www.nrk.no/vestland/bkk-oker-beredskapen-etter-farevarsel-1.17104022",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266929203,
+    "date": "2018-05-29T22:03:59+02:00",
+    "title": "Fylkeslegen har åpnet tre tilsynssaker knyttet til kommunelegen i Fedje",
+    "correction": "Sakene kan ende med alt fra henleggelse eller pålegg om retting av avvik, til oversendelse til Helsetilsynet, som både kan gi advarsler og tilbakekalle autorisasjoner.",
+    "url": "https://www.nrk.no/vestland/fylkeslegen-har-apnet-tre-tilsynssaker-knyttet-til-kommunelegen-i-fedje-1.14057935",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266932478,
+    "date": "2025-06-07T21:57:16+02:00",
+    "title": "Ny brann i Lærdal – medan regjeringa får kritikk for å kutte i sikring av verna trehus",
+    "correction": "I første versjon stod det at regjeringa føreslår å halvere støtta til brannsikring av trehusmiljø frå ti til 5 millionar. Det riktige er at den samla løyvinga til brannsikring og andre tiltak blir redusert med 5 millionar. Endringane vart gjort 8. juni klokka 09.30",
+    "url": "https://www.nrk.no/vestland/ny-brann-i-laerdal_-fortidsminneforeningen-kritiserer-regjeringas-kutt-i-brannsikring-av-verna-bygg-1.17447465",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266934079,
+    "date": "2015-09-03T11:16:08+02:00",
+    "title": "Stadig fleire søkjer om å få returnere til heimlandet",
+    "correction": "– Det siste året har talet på assisterte returar gått ned. Men vi ser at denne trenden snudde då endringane vart gjort kjent, særleg i slutten av august, seier leiar av retureininga i Utlendingsdirektoratet, Katinka Hartmann.",
+    "url": "https://www.nrk.no/norge/stadig-fleire-sokjer-om-a-fa-returnere-til-heimlandet-1.12533021",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266938264,
+    "date": "2025-11-01T17:39:57+01:00",
+    "title": "Skeptisk til villreintiltak: – Folk sluttar ikkje å gå på Hårteigen",
+    "correction": "Ho trur også at med god informasjon og dialog, vil folk tilpasse seg og forstå kvifor det er gjort endringar.",
+    "url": "https://www.nrk.no/vestland/skeptisk-til-villreintiltak_-_-folk-sluttar-ikkje-a-ga-pa-harteigen-1.17634431",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266940184,
+    "date": "2025-05-25T14:09:26+02:00",
+    "title": "NFF endra handsregel før TV-episode: – Det er jo heilt merkeleg",
+    "correction": "– Ja, det er gjort endringar i det dokumentet i tråd med desse to situasjonane etter faglege diskusjonar med Uefa, slik at alt materiell er 100 prosent oppdaterte. Det gjer vi ofte, fortel Terje Hauge til NRK.",
+    "url": "https://www.nrk.no/sport/bjornar-posse-sandboe-kritiserer-nff-for-a-ha-endra-dommarreglement-for-tv-episode-1.17431274",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266941848,
+    "date": "2016-04-12T05:49:03+02:00",
+    "title": "Dei gjekk glipp av 90.000 kroner – på grunn av slurv",
+    "correction": "– Det er gjort endringar i år, så vi er spente på å sjå kva som skjer, seier Sandnes.",
+    "url": "https://www.nrk.no/vestland/dei-gjekk-glipp-av-90.000-kroner-_-pa-grunn-av-slurv-1.12896070",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266943788,
+    "date": "2017-01-12T11:03:05+01:00",
+    "title": "Meteorolog: – Rart at ikkje vatnet gjekk lenger opp",
+    "correction": "– Vi synest det er rart at ikkje vatnet då har gått over kaikanten framfor Bryggen. Men kanskje er Bryggen meir robust enn vi trudde. Det kan hende det er gjort endringar i grunnen som gjer at vatnet ikkje kjem så lett opp.",
+    "url": "https://www.nrk.no/vestland/vatnet-gjekk-ikkje-like-hogt-som-meteorologane-frykta-1.13318470",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266945502,
+    "date": "2012-08-23T14:29:47+02:00",
+    "title": "Jentene er framleis flinkast i grunnskulen",
+    "correction": "Han peikar også på at karakterane i matematikk er svakare enn tidlegare. Men det er likevel ikkje grunnlag for å seie at elevane er svakare i matematikk, det kan like godt vere at karakterane no er meir realistiske. Det er gjort endringar i karaktersetjinga dei siste åra, opplyser Digre.",
+    "url": "https://www.nrk.no/norge/jentene-er-flinkast-i-det-meste-1.8291190",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266946799,
+    "date": "2015-10-29T22:16:30+01:00",
+    "title": "«Er det hærverk, eller ein glipp?»",
+    "correction": "– Vi har gjort som vi skal, men eg kan forstå at folk reagerer og trur det har gått litt på halv åtte. Årsaka er at det er gjort endringar i kontraktane.",
+    "url": "https://www.nrk.no/vestland/_er-det-haerverk_-eller-ein-glipp__-1.12628850",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266948618,
+    "date": "2020-04-03T05:37:31+02:00",
+    "title": "Staten har hemmelege lager med naudproviant",
+    "correction": "NRK presiserer at det er gjort endringar i saka etter at ho vart publisert. I ei tidlegare utgåve stod det at hemmelege lager med naudproviant skal sikre matforsyninga til Noreg. Det riktige er at det er lager med naudproviant skal sikre landet med mat i heilt spesielle situasjonar. I tillegg skal samarbeid med matvaredistributørane sikre landet matvarer, både til vanleg og i kriser.",
+    "url": "https://www.nrk.no/vestland/staten-har-hemmelege-lager-med-naudproviant-1.14968446",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266950365,
+    "date": "2023-01-23T16:03:46+01:00",
+    "title": "Den tiltalte vaktsjefen tok over vakta tidlegare for å vera hyggeleg",
+    "correction": "– Eg følte då eg stod der at eg hadde god nok erfaring for å vere der. Eg følgde prosedyrane og reglane som var. Så ser eg jo at det er gjort endringar og at ein no må ha lenger segltid for å kunne ha nokon under opplæring. Det er vanskeleg å seie om det ville vore utslagsgivande i min situasjon.",
+    "url": "https://www.nrk.no/vestland/knm-_helge-ingstad_-rettssaka_-den-tiltalte-vaktsjefen-tok-over-vakta-tidlegare-for-a-vera-hyggeleg-1.16267639",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266955047,
+    "date": "2020-02-17T10:23:31+01:00",
+    "title": "Fylkesordførar: – Distriktskommunar må snakke fram livet på bygda",
+    "correction": "NRK rettar: I ein tidlegare versjon av saka skreiv NRK at Askeland meinte kommunar sutra. Artikkelen er endra 16.06.",
+    "url": "https://www.nrk.no/vestland/jon-askeland-meiner-distriktskommunar-ma-snakke-fram-livet-pa-bygda-1.14902899",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266956392,
+    "date": "2018-11-01T14:12:25+01:00",
+    "title": "– Det er økonomisk kraft i regionen til å bygge sjukehuset",
+    "correction": "Artikkelen er endra etter første publisering. Eit spørsmål om endringar i pengefordeling internt i Helse Midt-Noreg blei oppfatta som eit spørsmål om realismen i investeringar i regionen. Svaret kunne dermed tolkast som om Helseministeren ville endre inntektsfordelinga til føretaka. Det er ikkje riktig.",
+    "url": "https://www.nrk.no/mr/_-det-er-okonomisk-kraft-i-regionen-til-a-bygge-sjukehuset-1.14274615",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775266958313,
+    "date": "2020-03-14T16:49:23+01:00",
+    "title": "Bad folk unngå bykjernen og kjøpesentera",
+    "correction": "I ein tidlegare versjon av artikkelen gjekk det fram at målingane først og fremst var sendt til folk på handletur. Artikkelen er endra etter opplysningar om målemetoden Ålesund kommune har brukt. Det er ikkje grunnlag for å slå fast at målinga berre omfatta folk som var på handletur og teksten er endra i tråd med det. Sjå vidare forklaring nedst i artikkelen.",
+    "url": "https://www.nrk.no/mr/bad-folk-unnga-bykjernen-og-kjopesentera-1.14944585",
+    "auto": true,
+    "source": "search_backfill2",
+    "qa_status": "pending"
   }
 ]

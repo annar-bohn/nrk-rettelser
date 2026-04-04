@@ -1,0 +1,81 @@
+name: Backfill – full sitemap crawl
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Look back N days'
+        required: false
+        default: '730'
+      max_sitemaps:
+        description: 'Max sitemaps to process (500 = all)'
+        required: false
+        default: '500'
+
+concurrency:
+  group: nrk-rettelser
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sitemap-backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run cleanup (remove placeholder entries)
+        run: python cleanup_and_add.py
+
+      - name: Run sitemap backfill
+        run: python backfill_sitemap.py --days ${{ github.event.inputs.days }} --max-sitemaps ${{ github.event.inputs.max_sitemaps }}
+
+      - name: Commit new corrections
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: sitemap backfill (${{ github.event.inputs.days }} days)"
+          file_pattern: data/corrections_raw.json data/sitemap_progress.json
+
+  enrich-qa:
+    needs: sitemap-backfill
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run enrichment + QA
+        run: python enrich_qa.py
+
+      - name: Commit enriched data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: enrich-qa after sitemap backfill"
+          file_pattern: data/corrections_raw.json data/corrections.json

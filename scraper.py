@@ -29,11 +29,20 @@ TRIGGERS = [
     "nrk korrigerer",
     "nrk beklager",
     "rettelse:",
+    "rettelse",
+    "retting:",
+    "retting",
     "korrigering:",
+    "presisering:",
     "endringen er gjort",
+    "endringane er gjort",
+    "endringane vart gjort",
+    "det er gjort endringar",
     "vi har rettet",
     "artikkelen er oppdatert",
+    "artikkelen er endra",
     "tidligere skrev vi",
+    "etter publisering",
 ]
 
 # Nav/boilerplate text that signals we've matched the wrong element
@@ -68,9 +77,10 @@ def extract_correction_blocks(soup):
     Strategy:
       1. Prefer <p> tags (focused, rarely contain nav junk).
          Accept only if text is short enough to be a correction note (≤ 800 chars).
-      2. If no <p> match, try <aside> / <blockquote> / short <div>s (≤ 500 chars).
-      3. Skip anything that starts with NRK navigation boilerplate.
-      4. Return None if nothing usable found — caller should skip the entry.
+      2. If no <p> match, try <aside> / <blockquote> (≤ 2000 chars for fact-box corrections).
+      3. Fall back to small <div>s (≤ 800 chars).
+      4. Skip anything that starts with NRK navigation boilerplate.
+      5. Return None if nothing usable found — caller should skip the entry.
     """
     blocks = []
 
@@ -82,18 +92,18 @@ def extract_correction_blocks(soup):
         if is_nav_noise(text):
             continue
         if has_trigger(text):
-            blocks.append(text[:700])
+            blocks.append(text[:2000])
 
-    # Pass 2: other semantic elements (no large containers)
+    # Pass 2: semantic elements like <aside> fact-boxes and <blockquote>
     if not blocks:
         for el in soup.find_all(["aside", "blockquote"]):
             text = el.get_text(strip=True)
-            if not text or len(text) > 500:
+            if not text or len(text) > 2000:
                 continue
             if is_nav_noise(text):
                 continue
             if has_trigger(text):
-                blocks.append(text[:700])
+                blocks.append(text[:2000])
 
     # Pass 3: small <div>s as a last resort
     if not blocks:
@@ -102,12 +112,12 @@ def extract_correction_blocks(soup):
             if el.find(["p", "div"]):
                 continue
             text = el.get_text(strip=True)
-            if not text or len(text) > 400:
+            if not text or len(text) > 800:
                 continue
             if is_nav_noise(text):
                 continue
             if has_trigger(text):
-                blocks.append(text[:700])
+                blocks.append(text[:2000])
 
     return " | ".join(blocks) if blocks else None
 

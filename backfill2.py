@@ -25,9 +25,15 @@ os.makedirs("data", exist_ok=True)
 HEADERS = {"User-Agent": "NRK-Rettelser-Backfill/1.0 (+https://github.com/annar-bohn/nrk-rettelser)"}
 
 SEARCH_TERMS = [
-    ("retting:",          False),
-    ("presisering:",      False),
-    ("etter publisering", False),
+    # Already searched in previous backfill runs:
+    # ("retting:",          False),
+    # ("presisering:",      False),
+    # ("etter publisering", False),
+    # New Nynorsk/broader terms:
+    ("retting",              False),
+    ("endringane vart gjort", False),
+    ("det er gjort endringar", False),
+    ("artikkelen er endra",  False),
 ]
 
 TRIGGERS = [
@@ -39,12 +45,18 @@ TRIGGERS = [
     "nrk korrigerer",
     "nrk beklager",
     "rettelse:",
+    "rettelse",
     "retting:",
+    "retting",
     "presisering:",
     "korrigering:",
     "etter publisering",
     "endringen er gjort",
+    "endringane er gjort",
+    "endringane vart gjort",
+    "det er gjort endringar",
     "vi har rettet",
+    "artikkelen er endra",
     "artikkelen er oppdatert",
     "tidligere skrev vi",
 ]
@@ -92,23 +104,23 @@ def extract_correction_blocks(soup):
         if not text or len(text) > 800 or is_nav_noise(text):
             continue
         if has_trigger(text):
-            blocks.append(text[:700])
+            blocks.append(text[:2000])
     if not blocks:
         for el in soup.find_all(["aside", "blockquote"]):
             text = el.get_text(strip=True)
-            if not text or len(text) > 500 or is_nav_noise(text):
+            if not text or len(text) > 2000 or is_nav_noise(text):
                 continue
             if has_trigger(text):
-                blocks.append(text[:700])
+                blocks.append(text[:2000])
     if not blocks:
         for el in soup.find_all("div"):
             if el.find(["p", "div"]):
                 continue
             text = el.get_text(strip=True)
-            if not text or len(text) > 400 or is_nav_noise(text):
+            if not text or len(text) > 800 or is_nav_noise(text):
                 continue
             if has_trigger(text):
-                blocks.append(text[:700])
+                blocks.append(text[:2000])
     return " | ".join(blocks) if blocks else None
 
 
