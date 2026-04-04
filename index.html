@@ -129,6 +129,82 @@
     }
     .correction-link:hover { text-decoration: underline; }
 
+    .correction-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.4rem;
+    }
+
+    .badge {
+      background: #eef2fa;
+      color: #1550c3;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 2px;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .badge--type {
+      background: #f0f0ee;
+      color: #555;
+    }
+
+    .correction-section {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #bbb;
+      margin-left: 0.2rem;
+    }
+
+    .correction-description {
+      font-size: 0.85rem;
+      color: #666;
+      font-style: italic;
+      line-height: 1.5;
+      margin-bottom: 0.3rem;
+    }
+
+    .correction-byline {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      color: #999;
+      margin-top: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .correction-byline .sep {
+      color: #ccc;
+    }
+
+    /* ── Filters ── */
+    .filter-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+
+    .filter-row select {
+      font-family: inherit;
+      font-size: 0.82rem;
+      padding: 0.4rem 0.6rem;
+      border: 1.5px solid #ccc;
+      border-radius: 3px;
+      background: #fff;
+      color: #1a1a1a;
+      outline: none;
+      transition: border-color 0.15s;
+      cursor: pointer;
+    }
+    .filter-row select:focus { border-color: #1550c3; }
+
     .empty {
       text-align: center;
       color: #aaa;
@@ -182,6 +258,14 @@
   <div class="search-wrap">
     <input id="search" type="text" placeholder="Søk i listen" oninput="filterList()">
   </div>
+  <div class="filter-row">
+    <select id="filterCategory" onchange="filterList()">
+      <option value="">Alle kategorier</option>
+    </select>
+    <select id="filterType" onchange="filterList()">
+      <option value="">Alle feiltyper</option>
+    </select>
+  </div>
   <div id="list"></div>
 </main>
 
@@ -194,12 +278,32 @@
   let corrections = [];
   const DATA_URL = "https://raw.githubusercontent.com/annar-bohn/nrk-rettelser/main/data/corrections.json";
 
+  const CATEGORY_LABELS = {
+    sports: 'Sport', culture: 'Kultur', politics: 'Politikk',
+    economy: 'Økonomi', science: 'Vitenskap', health: 'Helse',
+    technology: 'Teknologi', local: 'Distrikt', world: 'Utenriks',
+    crime: 'Krim', weather: 'Vær', entertainment: 'Underholdning',
+    other: 'Annet'
+  };
+
+  const TYPE_LABELS = {
+    factual_error: 'Faktafeil', wrong_name: 'Feil navn',
+    wrong_number: 'Feil tall', wrong_image: 'Feil bilde',
+    wrong_date: 'Feil dato', wrong_location: 'Feil sted',
+    mistranslation: 'Feil oversettelse', misleading_title: 'Villedende tittel',
+    missing_context: 'Manglende kontekst', source_error: 'Kildefeil',
+    retracted_claim: 'Tilbaketrukket påstand',
+    spelling_grammar: 'Skrivefeil/språk', attribution_error: 'Attribusjonsfeil',
+    other: 'Annet'
+  };
+
   async function loadRemoteData() {
     try {
       const res = await fetch(DATA_URL + "?t=" + Date.now());
       corrections = await res.json();
       localStorage.setItem('nrkCorrections', JSON.stringify(corrections));
-      renderList();
+      populateFilters();
+      filterList();
     } catch(e) { /* fail silently, show cached */ }
   }
 
@@ -214,6 +318,39 @@
     return d.toLocaleDateString('no-NO', { day: 'numeric', month: 'long', year: 'numeric' });
   }
 
+  function formatTimeToCorrect(hours) {
+    if (hours == null) return null;
+    if (hours < 1) return 'Under 1 time';
+    if (hours < 24) {
+      const h = Math.round(hours);
+      return h === 1 ? '1 time' : h + ' timer';
+    }
+    const days = Math.round(hours / 24);
+    return days === 1 ? '1 dag' : days + ' dager';
+  }
+
+  function populateFilters() {
+    const catSet = new Set(), typeSet = new Set();
+    corrections.forEach(c => {
+      if (c.news_category) catSet.add(c.news_category);
+      if (c.correction_type) typeSet.add(c.correction_type);
+    });
+
+    const catSelect = document.getElementById('filterCategory');
+    const typeSelect = document.getElementById('filterType');
+    const prevCat = catSelect.value, prevType = typeSelect.value;
+
+    catSelect.innerHTML = '<option value="">Alle kategorier</option>';
+    [...catSet].sort((a,b) => (CATEGORY_LABELS[a]||a).localeCompare(CATEGORY_LABELS[b]||b, 'no'))
+      .forEach(v => { catSelect.innerHTML += `<option value="${v}">${esc(CATEGORY_LABELS[v]||v)}</option>`; });
+
+    typeSelect.innerHTML = '<option value="">Alle feiltyper</option>';
+    [...typeSet].sort((a,b) => (TYPE_LABELS[a]||a).localeCompare(TYPE_LABELS[b]||b, 'no'))
+      .forEach(v => { typeSelect.innerHTML += `<option value="${v}">${esc(TYPE_LABELS[v]||v)}</option>`; });
+
+    catSelect.value = prevCat; typeSelect.value = prevType;
+  }
+
   function renderList(list) {
     const src = list !== undefined ? list : [...corrections].sort((a,b) => new Date(b.date) - new Date(a.date));
     const container = document.getElementById('list');
@@ -225,22 +362,64 @@
     }
 
     document.getElementById('count').textContent = src.length.toLocaleString('no-NO') + ' rettelser';
-    container.innerHTML = src.map(c => `
+    container.innerHTML = src.map(c => {
+      const catLabel = CATEGORY_LABELS[c.news_category];
+      const typeLabel = TYPE_LABELS[c.correction_type];
+      const ttc = formatTimeToCorrect(c.time_to_correct_hours);
+      const corrText = c.correction || c.what || '';
+      const hasDesc = c.correction_description && c.correction_description !== corrText;
+
+      let meta = '';
+      if (catLabel || typeLabel || c.nrk_section) {
+        meta = '<div class="correction-meta">';
+        if (catLabel) meta += `<span class="badge">${esc(catLabel)}</span>`;
+        if (typeLabel) meta += `<span class="badge badge--type">${esc(typeLabel)}</span>`;
+        if (c.nrk_section) meta += `<span class="correction-section">${esc(c.nrk_section)}</span>`;
+        meta += '</div>';
+      }
+
+      let desc = '';
+      if (hasDesc) desc = `<p class="correction-description">${esc(c.correction_description)}</p>`;
+
+      let byline = '';
+      const parts = [];
+      if (c.journalist) parts.push(esc(c.journalist));
+      if (ttc) parts.push('Rettetid: ' + esc(ttc));
+      if (parts.length) byline = `<div class="correction-byline">${parts.join('<span class="sep">&middot;</span>')}</div>`;
+
+      return `
       <div class="correction-item">
         <div class="correction-date">${esc(formatDate(c.date))}</div>
+        ${meta}
         <div class="correction-title">${esc(c.title || '')}</div>
-        <p class="correction-text">${esc(c.correction || c.what || '')}</p>
+        ${desc}
+        <p class="correction-text">${esc(corrText)}</p>
+        ${byline}
         <a class="correction-link" href="${esc(c.url)}" target="_blank" rel="noopener">Les artikkelen →</a>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
   }
 
   function filterList() {
     const term = document.getElementById('search').value.toLowerCase();
-    if (!term) { renderList(); return; }
-    const filtered = [...corrections]
-      .filter(c => [c.title, c.correction, c.what].some(t => t && t.toLowerCase().includes(term)))
-      .sort((a,b) => new Date(b.date) - new Date(a.date));
+    const catFilter = document.getElementById('filterCategory').value;
+    const typeFilter = document.getElementById('filterType').value;
+
+    let filtered = [...corrections];
+
+    if (catFilter) filtered = filtered.filter(c => c.news_category === catFilter);
+    if (typeFilter) filtered = filtered.filter(c => c.correction_type === typeFilter);
+
+    if (term) {
+      filtered = filtered.filter(c => {
+        const catLabel = CATEGORY_LABELS[c.news_category] || '';
+        const typeLabel = TYPE_LABELS[c.correction_type] || '';
+        return [c.title, c.correction, c.what, catLabel, typeLabel, c.journalist, c.correction_description]
+          .some(t => t && t.toLowerCase().includes(term));
+      });
+    }
+
+    filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
     renderList(filtered);
   }
 
@@ -257,7 +436,7 @@
     document.getElementById('list').innerHTML = '<p class="empty">Laster…</p>';
     try {
       const saved = localStorage.getItem('nrkCorrections');
-      if (saved) { corrections = JSON.parse(saved); renderList(); }
+      if (saved) { corrections = JSON.parse(saved); populateFilters(); filterList(); }
     } catch(e) {}
     loadRemoteData();
     setInterval(loadRemoteData, 30 * 60 * 1000);

@@ -210,14 +210,16 @@
     <h2>Datakilder</h2>
     <p>Vi henter artikler fra to kilder:</p>
     <ul>
-      <li><strong>RSS-strømmer</strong> — NRKs toppsaker, nyheter, sport, kultur og livsstil sjekkes hver sjette time for nye artikler.</li>
-      <li><strong>Nettstedskart (sitemap)</strong> — NRKs <code>sitemap.xml</code> inneholder over 500 del-kart med sist-endret-datoer. Artikler som er oppdatert de siste 7 dagene sjekkes også, slik at stille rettelser i eldre saker kan fanges opp.</li>
+      <li><strong>Søkebasert skanning</strong> — NRKs søkemotor spørres med 10 rettelsesrelaterte søkeord. De to første resultatsidene per søkeord sjekkes. Tar ca. 30 sekunder og fanger de fleste nye rettelser raskt.</li>
+      <li><strong>Nettstedskart (sitemap)</strong> — NRKs <code>sitemap.xml</code> inneholder hundrevis av del-kart. Artikler som er endret de siste 30 dagene sjekkes — opptil 1 000 URL-er fra 50 del-kart. Tar 5–15 minutter og fanger faktaboks-rettelser som NRK-søk ikke indekserer.</li>
     </ul>
+    <p>Begge metodene mater inn i samme rådatafil, som deretter berikes og kvalitetssikres.</p>
   </div>
 
   <div class="metode-section">
     <h2>Slik oppdages rettelser</h2>
-    <p>Hvert artikkelvedlegg analyseres for kjente uttrykk som indikerer en rettelse. Vi ser etter disse ordene og vendingene (uten hensyn til store/små bokstaver):</p>
+    <p>Hver artikkel analyseres for kjente uttrykk som indikerer en rettelse. Vi ser etter disse ordene og vendingene (uten hensyn til store/små bokstaver):</p>
+    <p style="margin-top: 0.5rem; margin-bottom: 0.2rem; font-weight: 700; font-size: 0.82rem;">Bokmål</p>
     <div class="trigger-list">
       <span class="trigger-tag">i en tidligere versjon</span>
       <span class="trigger-tag">i en eldre versjon</span>
@@ -227,27 +229,56 @@
       <span class="trigger-tag">nrk korrigerer</span>
       <span class="trigger-tag">nrk beklager</span>
       <span class="trigger-tag">rettelse:</span>
+      <span class="trigger-tag">rettelse</span>
       <span class="trigger-tag">retting:</span>
-      <span class="trigger-tag">presisering:</span>
+      <span class="trigger-tag">retting</span>
       <span class="trigger-tag">korrigering:</span>
-      <span class="trigger-tag">etter publisering</span>
+      <span class="trigger-tag">presisering:</span>
       <span class="trigger-tag">endringen er gjort</span>
       <span class="trigger-tag">vi har rettet</span>
       <span class="trigger-tag">artikkelen er oppdatert</span>
       <span class="trigger-tag">tidligere skrev vi</span>
+      <span class="trigger-tag">etter publisering</span>
     </div>
-    <p style="margin-top: 0.75rem;">Når en slik formulering finnes, hentes den aktuelle avsnittet ut og lagres som rettelsesteksten.</p>
+    <p style="margin-top: 0.6rem; margin-bottom: 0.2rem; font-weight: 700; font-size: 0.82rem;">Nynorsk</p>
+    <div class="trigger-list">
+      <span class="trigger-tag">endringane er gjort</span>
+      <span class="trigger-tag">endringane vart gjort</span>
+      <span class="trigger-tag">det er gjort endringar</span>
+      <span class="trigger-tag">artikkelen er endra</span>
+    </div>
+    <p style="margin-top: 0.75rem;">Når en slik formulering finnes, hentes rettelsesteksten ut med en tre-trinns strategi:</p>
+    <ul>
+      <li><strong>&lt;p&gt;-elementer</strong> — sjekkes først (opptil 800 tegn per blokk)</li>
+      <li><strong>&lt;aside&gt; og &lt;blockquote&gt;</strong> — for faktaboks-rettelser (opptil 2 000 tegn)</li>
+      <li><strong>&lt;div&gt;-elementer</strong> — siste utvei (opptil 800 tegn)</li>
+    </ul>
+    <p>Navigasjonstekst og andre kjente støykilder filtreres bort automatisk.</p>
   </div>
 
   <div class="metode-section">
-    <h2>Kvalitetssikring med KI</h2>
-    <p>Alle nye funn går gjennom et automatisk QA-steg som bruker Googles Gemini-modell. KI-en vurderer om teksten faktisk er en redaksjonell rettelse (og ikke f.eks. en markedsføringstekst eller navigasjonstekst som tilfeldigvis inneholder triggerord).</p>
-    <p>Oppføringer som ikke godkjennes av QA-steget ekskluderes fra den publiserte listen.</p>
+    <h2>Berikelse og kvalitetssikring med KI</h2>
+    <p>Alle nye funn går gjennom et automatisk berikelsesteg som bruker <strong>Google Gemini 3.1 Flash Lite</strong>. Opptil 20 000 tegn av artikkelens brødtekst sendes til modellen for kontekst. KI-en produserer følgende for hver oppføring:</p>
+    <ul>
+      <li><strong>QA-validering</strong> — klassifiserer funnet som <em>ekte rettelse</em>, <em>usikker</em> eller <em>ikke en rettelse</em>. Oppføringer som ikke godkjennes filtreres bort fra den publiserte listen.</li>
+      <li><strong>Nyhetskategori</strong> — én av 13 kategorier: Sport, Kultur, Politikk, Økonomi, Vitenskap, Helse, Teknologi, Distrikt, Utenriks, Krim, Vær, Underholdning, Annet.</li>
+      <li><strong>Feiltype</strong> — én av 14 typer: Faktafeil, Feil navn, Feil tall, Feil bilde, Feil dato, Feil sted, Feil oversettelse, Villedende tittel, Manglende kontekst, Kildefeil, Tilbaketrukket påstand, Skrivefeil/språk, Attribusjonsfeil, Annet.</li>
+      <li><strong>Rettetid</strong> — tid fra publisering til rettelse, beregnet ut fra artikkelens publiseringsdato og rettelsesdato.</li>
+      <li><strong>Oppsummering</strong> — en kort beskrivelse av hva som ble rettet.</li>
+      <li><strong>Journalist og ansvarlig redaktør</strong> — hentet og verifisert fra artikkelens metadata.</li>
+    </ul>
   </div>
 
   <div class="metode-section">
     <h2>Oppdateringsfrekvens</h2>
-    <p>Skraperen kjører automatisk hver sjette time via GitHub Actions. Nye rettelser dukker normalt opp på siden innen seks timer etter at de er publisert på nrk.no.</p>
+    <p>Datainnsamlingen kjøres automatisk via GitHub Actions med tre arbeidsflyter:</p>
+    <ul>
+      <li><strong>Søkebasert skraping</strong> — kjører hver 6. time (og kan startes manuelt). Søker NRK og beriker nye funn.</li>
+      <li><strong>Sitemap-skanning</strong> — kjører ukentlig (søndager) og kan startes manuelt. Dyp gjennomgang av nettstedskartet for å fange rettelser som NRK-søk ikke indekserer.</li>
+      <li><strong>Manuell bakover-skanning</strong> — startes manuelt for å finne historiske rettelser via NRK-søk.</li>
+    </ul>
+    <p>Alle arbeidsflyter bruker en felles samtidighetsgruppe slik at de ikke kjører parallelt og skaper konflikter.</p>
+    <p>Nye rettelser dukker normalt opp på siden innen seks timer etter at de er publisert på nrk.no.</p>
   </div>
 
   <div class="metode-section caveat-section">
