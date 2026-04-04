@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>// ACCESS DENIED //</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #000;
+      font-family: 'Courier New', Courier, monospace;
+      color: #00ff41;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    canvas#matrix-rain {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+    }
+
+    #game-container {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ── Glitch header ── */
+    .glitch-header {
+      font-size: 1.6rem;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      animation: glitch 3s infinite;
+      margin-bottom: 1.5rem;
+    }
+    @keyframes glitch {
+      0%, 92%, 100% {
+        text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41;
+        opacity: 1;
+      }
+      93% {
+        text-shadow: 3px 0 #ff0000, -3px 0 #0000ff;
+        opacity: 0.85;
+      }
+      94% {
+        text-shadow: -2px 0 #ff0000, 2px 0 #0000ff;
+        opacity: 0.9;
+      }
+      95% {
+        text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41;
+        opacity: 1;
+      }
+      96% {
+        text-shadow: 4px 0 #ff0000, -4px 0 #0000ff;
+        opacity: 0.8;
+      }
+      97% {
+        text-shadow: 0 0 10px #00ff41;
+        opacity: 1;
+      }
+    }
+
+    .glow {
+      text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 40px #003300;
+    }
+
+    .highlight {
+      color: #ff3333;
+      font-weight: bold;
+      text-shadow: 0 0 8px #ff3333;
+    }
+
+    /* ── Intro ── */
+    #intro {
+      text-align: center;
+      background: rgba(0, 15, 0, 0.88);
+      border: 1px solid #00ff41;
+      border-radius: 4px;
+      padding: 2.5rem 2rem;
+    }
+    #intro p {
+      margin: 0.8rem 0;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    #intro .subtitle {
+      font-size: 0.85rem;
+      color: #009926;
+      margin-top: 1.5rem;
+    }
+
+    /* ── Buttons ── */
+    button {
+      background: transparent;
+      border: 1px solid #00ff41;
+      color: #00ff41;
+      padding: 0.6rem 2rem;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: all 0.3s;
+      margin-top: 1.2rem;
+    }
+    button:hover {
+      background: #00ff41;
+      color: #000;
+      box-shadow: 0 0 15px #00ff41;
+    }
+
+    /* ── Question blocks ── */
+    .question-block {
+      background: rgba(0, 15, 0, 0.88);
+      border: 1px solid #00551a;
+      border-radius: 4px;
+      padding: 1.5rem;
+      margin: 0.8rem 0;
+      width: 100%;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease, border-color 0.3s;
+    }
+    .question-block.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .question-block.correct {
+      border-color: #00ff41;
+    }
+
+    .q-label {
+      font-size: 0.8rem;
+      color: #009926;
+      margin-bottom: 0.6rem;
+      letter-spacing: 1px;
+    }
+    .q-text {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+    .q-text code {
+      background: rgba(0, 255, 65, 0.1);
+      padding: 2px 6px;
+      border-radius: 2px;
+      color: #33ff66;
+    }
+
+    .answer-row {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    input[type="text"] {
+      background: #000;
+      border: 1px solid #00551a;
+      color: #00ff41;
+      font-family: inherit;
+      font-size: 1rem;
+      padding: 0.5rem 0.7rem;
+      flex: 1;
+      outline: none;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    input[type="text"]:focus {
+      border-color: #00ff41;
+      box-shadow: 0 0 8px rgba(0, 255, 65, 0.4);
+    }
+    input[type="text"]:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .taunt {
+      color: #ff3333;
+      font-style: italic;
+      margin-top: 0.6rem;
+      min-height: 1.4em;
+      font-size: 0.9rem;
+    }
+    .praise {
+      color: #00ff41;
+      font-style: italic;
+      margin-top: 0.6rem;
+      font-size: 0.9rem;
+    }
+    .status-mark {
+      color: #00ff41;
+      font-size: 0.85rem;
+      margin-top: 0.4rem;
+    }
+
+    /* ── Shake animation ── */
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-6px); }
+      40% { transform: translateX(6px); }
+      60% { transform: translateX(-4px); }
+      80% { transform: translateX(4px); }
+    }
+    .shake {
+      animation: shake 0.35s ease;
+    }
+
+    /* ── Final reveal ── */
+    #final-reveal {
+      text-align: center;
+      width: 100%;
+    }
+    .final-header {
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+      margin-bottom: 1.5rem;
+      animation: glitch 3s infinite;
+    }
+    .final-clue-box {
+      border: 2px solid #00ff41;
+      padding: 2rem 1.5rem;
+      border-radius: 4px;
+      background: rgba(0, 15, 0, 0.9);
+      font-size: 1.2rem;
+      line-height: 1.6;
+      animation: pulse-glow 2s ease-in-out infinite;
+      min-height: 3.5rem;
+    }
+    @keyframes pulse-glow {
+      0%, 100% {
+        box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        text-shadow: 0 0 5px #00ff41;
+      }
+      50% {
+        box-shadow: 0 0 25px rgba(0, 255, 65, 0.6), 0 0 50px rgba(0, 255, 65, 0.2);
+        text-shadow: 0 0 15px #00ff41, 0 0 30px #003300;
+      }
+    }
+    .final-subtext {
+      margin-top: 1.2rem;
+      font-size: 0.9rem;
+      color: #009926;
+    }
+
+    /* ── Cursor blink ── */
+    .cursor::after {
+      content: '█';
+      animation: blink 0.7s step-end infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 500px) {
+      .glitch-header { font-size: 1.1rem; letter-spacing: 1px; }
+      #intro { padding: 1.5rem 1rem; }
+      .question-block { padding: 1rem; }
+      .answer-row { flex-direction: column; }
+      .final-clue-box { font-size: 1rem; padding: 1.5rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="matrix-rain"></canvas>
+
+<div id="game-container">
+
+  <!-- ── INTRO ── -->
+  <div id="intro">
+    <h1 class="glitch-header">// SYSTEM BREACH DETECTED //</h1>
+    <p class="glow">Well, well, well&hellip; if it isn't <span class="highlight">31Nach0</span>.</p>
+    <p>You think you can hack your way to the Easter egg? <br>Let me be real &mdash; I have <em>serious</em> doubts.</p>
+    <p>Prove you're not just another script kiddie. <br>Answer all <strong>5 questions</strong> to unlock the final clue.</p>
+    <p class="subtitle">No Googling. No mercy. No second chances.<br>(OK fine, you get second chances. You'll need them.)</p>
+    <button id="start-btn" onclick="startGame()">[ JACK IN ]</button>
+  </div>
+
+  <!-- ── QUESTIONS ── -->
+  <div id="questions-area" style="display:none;">
+
+    <div class="question-block" id="q0">
+      <p class="q-label">&gt; LEVEL 1 // DECODE THIS</p>
+      <p class="q-text">
+        What does the binary <code>01001000 01001001</code> spell in ASCII?<br>
+        Come on, <span class="highlight">31Nach0</span> &mdash; even a calculator could do this.
+      </p>
+      <div class="answer-row">
+        <input type="text" id="a0" placeholder="Type your answer..." autocomplete="off">
+        <button onclick="submitAnswer(0)">SUBMIT</button>
+      </div>
+      <p class="taunt" id="t0"></p>
+    </div>
+
+    <div class="question-block" id="q1">
+      <p class="q-label">&gt; LEVEL 2 // FOLLOW THE WHITE RABBIT</p>
+      <p class="q-text">
+        In <em>The Matrix</em>, what color pill does Neo take to see the truth?<br>
+        Don't embarrass yourself here, <span class="highlight">31Nach0</span>.
+      </p>
+      <div class="answer-row">
+        <input type="text" id="a1" placeholder="Type your answer..." autocomplete="off">
+        <button onclick="submitAnswer(1)">SUBMIT</button>
+      </div>
+      <p class="taunt" id="t1"></p>
+    </div>
+
+    <div class="question-block" id="q2">
+      <p class="q-label">&gt; LEVEL 3 // MEME PROTOCOL</p>
+      <p class="q-text">
+        What is the HTTP status code for "Not Found"?<br>
+        You know, like your hacking skills, <span class="highlight">31Nach0</span>.
+      </p>
+      <div class="answer-row">
+        <input type="text" id="a2" placeholder="Type your answer..." autocomplete="off">
+        <button onclick="submitAnswer(2)">SUBMIT</button>
+      </div>
+      <p class="taunt" id="t2"></p>
+    </div>
+
+    <div class="question-block" id="q3">
+      <p class="q-label">&gt; LEVEL 4 // SPEAK THE MACHINE</p>
+      <p class="q-text">
+        What does <code>print('Hello, World!')</code> produce as output?<br>
+        Surely even <em>you</em> know this one, <span class="highlight">31Nach0</span>.
+      </p>
+      <div class="answer-row">
+        <input type="text" id="a3" placeholder="Type your answer..." autocomplete="off">
+        <button onclick="submitAnswer(3)">SUBMIT</button>
+      </div>
+      <p class="taunt" id="t3"></p>
+    </div>
+
+    <div class="question-block" id="q4">
+      <p class="q-label">&gt; LEVEL 5 // HACK THE PLANET</p>
+      <p class="q-text">
+        What is the name of the 1995 movie where hackers shout "Hack the planet!"?<br>
+        Last chance, <span class="highlight">31Nach0</span>. Prove you're not a total noob.
+      </p>
+      <div class="answer-row">
+        <input type="text" id="a4" placeholder="Type your answer..." autocomplete="off">
+        <button onclick="submitAnswer(4)">SUBMIT</button>
+      </div>
+      <p class="taunt" id="t4"></p>
+    </div>
+
+  </div>
+
+  <!-- ── FINAL REVEAL ── -->
+  <div id="final-reveal" style="display:none;">
+    <h2 class="final-header">// <span class="highlight">31Nach0</span> &mdash; ACCESS GRANTED //</h2>
+    <div class="final-clue-box">
+      <span id="clue-text" class="cursor"></span>
+    </div>
+    <p class="final-subtext">Now go find it, <span class="highlight">31Nach0</span>. Clock is ticking. &#9200;</p>
+  </div>
+
+</div>
+
+<script>
+  // ═══════════════════════════════════════════
+  //  MATRIX RAIN
+  // ═══════════════════════════════════════════
+  const canvas = document.getElementById('matrix-rain');
+  const ctx = canvas.getContext('2d');
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+
+  const fontSize = 16;
+  let columns = Math.floor(canvas.width / fontSize);
+  let drops = new Array(columns).fill(0).map(() => Math.floor(Math.random() * -40));
+
+  const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789@#$%&*<>{}[]01';
+
+  window.addEventListener('resize', () => {
+    columns = Math.floor(canvas.width / fontSize);
+    drops = new Array(columns).fill(0).map(() => Math.floor(Math.random() * -40));
+  });
+
+  function drawRain() {
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.font = fontSize + 'px monospace';
+
+    for (let i = 0; i < drops.length; i++) {
+      const char = chars[Math.floor(Math.random() * chars.length)];
+      // Brighter head character
+      if (Math.random() > 0.6) {
+        ctx.fillStyle = '#aaffaa';
+      } else {
+        ctx.fillStyle = '#00ff41';
+      }
+      ctx.fillText(char, i * fontSize, drops[i] * fontSize);
+
+      if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+      drops[i]++;
+    }
+  }
+  setInterval(drawRain, 33);
+
+  // ═══════════════════════════════════════════
+  //  GAME LOGIC
+  // ═══════════════════════════════════════════
+  let currentQuestion = 0;
+
+  const taunts = [
+    "Pathetic, 31Nach0. Try again.",
+    "ERROR: Brain.exe not found. Try harder.",
+    "Even my grandma's firewall is smarter than that.",
+    "Is that your final answer? Because it's WRONG.",
+    "LMAO. You sure you didn't mean to open Roblox instead?",
+    "Access DENIED. Just like your dignity right now.",
+    "That answer was weaker than a WEP password, 31Nach0.",
+    "Bruh. Even a ChatGPT hallucination would do better.",
+    "Wrong. The Matrix has you... confused, apparently.",
+    "01010111 01010010 01001111 01001110 01000111. That spells WRONG.",
+    "Nope. Go ask Morpheus for help, 31Nach0.",
+    "You're making script kiddies look like pros right now.",
+    "Wow. Just... wow. Try again, 31Nach0.",
+    "My toaster could answer this. And it doesn't even have Wi-Fi."
+  ];
+
+  const praise = [
+    "Lucky guess, 31Nach0. Don't get cocky.",
+    "Fine. Even a broken clock is right twice a day.",
+    "Huh. Maybe you're not COMPLETELY hopeless. Maybe.",
+    "OK OK, I'll give you that one. Barely.",
+    "Impressive... for a noob. Final question incoming."
+  ];
+
+  function checkAnswer(index, input) {
+    const normalized = input.toLowerCase().replace(/[^a-z0-9]/g, '');
+    switch (index) {
+      case 0: return normalized === 'hi';
+      case 1: return normalized.includes('red');
+      case 2: return normalized === '404';
+      case 3: return normalized.includes('helloworld');
+      case 4: return normalized === 'hackers';
+    }
+    return false;
+  }
+
+  function startGame() {
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('questions-area').style.display = 'block';
+    setTimeout(() => {
+      document.getElementById('q0').classList.add('visible');
+      document.getElementById('a0').focus();
+    }, 100);
+  }
+
+  function submitAnswer(index) {
+    if (index !== currentQuestion) return;
+
+    const input = document.getElementById('a' + index);
+    const tauntEl = document.getElementById('t' + index);
+    const block = document.getElementById('q' + index);
+    const userAnswer = input.value.trim();
+
+    if (!userAnswer) {
+      tauntEl.className = 'taunt';
+      tauntEl.textContent = "You didn't even type anything, 31Nach0. Are you scared?";
+      return;
+    }
+
+    if (checkAnswer(index, userAnswer)) {
+      // Correct!
+      input.disabled = true;
+      block.querySelector('button').disabled = true;
+      block.classList.add('correct');
+      tauntEl.className = 'praise';
+      tauntEl.textContent = '✓ ' + praise[index];
+
+      currentQuestion++;
+
+      if (currentQuestion < 5) {
+        // Reveal next question
+        setTimeout(() => {
+          const next = document.getElementById('q' + currentQuestion);
+          next.classList.add('visible');
+          setTimeout(() => {
+            document.getElementById('a' + currentQuestion).focus();
+          }, 600);
+        }, 1000);
+      } else {
+        // All done — final reveal
+        setTimeout(showFinalClue, 1500);
+      }
+    } else {
+      // Wrong!
+      tauntEl.className = 'taunt';
+      tauntEl.textContent = taunts[Math.floor(Math.random() * taunts.length)];
+      input.classList.add('shake');
+      input.value = '';
+      input.focus();
+      setTimeout(() => input.classList.remove('shake'), 400);
+    }
+  }
+
+  function showFinalClue() {
+    document.getElementById('questions-area').style.display = 'none';
+    const reveal = document.getElementById('final-reveal');
+    reveal.style.display = 'block';
+    reveal.style.opacity = '0';
+    reveal.style.transition = 'opacity 1s ease';
+    setTimeout(() => { reveal.style.opacity = '1'; }, 50);
+
+    const clueText = 'Det bor en Baker i \u00f8stre Aker, men en enda bedre en spiller her.';
+    const clueEl = document.getElementById('clue-text');
+
+    setTimeout(() => {
+      typeWriter(clueEl, clueText, 55);
+    }, 1200);
+  }
+
+  function typeWriter(element, text, speed) {
+    let i = 0;
+    element.textContent = '';
+    element.classList.add('cursor');
+    function type() {
+      if (i < text.length) {
+        element.textContent += text.charAt(i);
+        i++;
+        setTimeout(type, speed);
+      } else {
+        element.classList.remove('cursor');
+      }
+    }
+    type();
+  }
+
+  // Enter key to submit
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      const activeInput = document.getElementById('a' + currentQuestion);
+      if (activeInput && document.activeElement === activeInput) {
+        submitAnswer(currentQuestion);
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
