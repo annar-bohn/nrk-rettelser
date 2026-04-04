@@ -20899,5 +20899,17 @@
     "auto": true,
     "source": "search_backfill2",
     "qa_status": "pending"
+  },
+  {
+    "id": 1775267582903,
+    "date": "Sun, 22 Mar 2026 06:43:51 GMT",
+    "title": "Jeg ble butikkens verste mareritt: En «Karen»",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Vis til: Forbrukerkjøpsloven § 29 – Retting og omlevering (avhjelp) | Vis til: Forbrukerkjøpsloven § 29 – Retting og omlevering (avhjelp). | Vis til: § 29. Retting og omlevering (avhjelp)",
+    "correction": "Vis til: Forbrukerkjøpsloven § 29 – Retting og omlevering (avhjelp) | Vis til: Forbrukerkjøpsloven § 29 – Retting og omlevering (avhjelp). | Vis til: § 29. Retting og omlevering (avhjelp)",
+    "url": "https://www.nrk.no/nyttig/xl/karen-guiden_-en-guide-til-forbrukerrettigheter-1.17758500",
+    "auto": true,
+    "source": "rss",
+    "qa_status": "pending"
   }
 ]
