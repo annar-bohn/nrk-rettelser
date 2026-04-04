@@ -21430,5 +21430,101 @@
     "source": "rss",
     "qa_status": "pending",
     "headline": "Jeg ble butikkens verste mareritt: En «Karen»"
+  },
+  {
+    "id": 1775289680983,
+    "date": "2026-03-06T12:36:00+01:00",
+    "title": "Regjeringen på Island ber Alltinget åpne for folkeavstemning om EU – Siste nytt – NRK",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: NRK pushet at avstemningen skal foregå 28. august. Riktig dato er 29. august.",
+    "correction": "Rettelse: NRK pushet at avstemningen skal foregå 28. august. Riktig dato er 29. august.",
+    "url": "https://www.nrk.no/nyheter/regjeringen-pa-island-ber-alltinget-apne-for-folkeavstemning-om-eu-1.17797338",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775289682578,
+    "date": "2026-03-23T05:14:26+01:00",
+    "title": "Slik kan du frigjøre deg fra tekgigantene",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 1316:",
+    "correction": "Rettelse 1316:",
+    "url": "https://www.nrk.no/norge/slik-kan-du-gjore-deg-mer-uavhengig-av-teknologigigantene-1.17800060",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775289685989,
+    "date": "2026-02-20T11:59:41+01:00",
+    "title": "Idrettsleder innrømmer å ha filmet seksuelt innhold av barn i over ti år",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 13:35:",
+    "correction": "Rettelse 13:35:",
+    "url": "https://www.nrk.no/ostfold/idrettsleder-innrommer-a-ha-filmet-seksuelt-innhold-av-barn-i-over-ti-ar-1.17778073",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775289686775,
+    "date": "2026-03-03T14:17:28+01:00",
+    "title": "Dette tjener den nye Helse Nord-direktøren – får dekket pendling og leilighet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 04.03: NRK skrev tidligere at Lind hadde ei lønn på over tre millioner kroner. Denne summen inkluderte også andre godtkjørelser. I artikkelen er summen endret til 2,5 millioner kroner for å gi et riktigere sammenligningsgrunnlag til de andre direktørlønningene oppgitt i saken.",
+    "correction": "Rettelse 04.03: NRK skrev tidligere at Lind hadde ei lønn på over tre millioner kroner. Denne summen inkluderte også andre godtkjørelser. I artikkelen er summen endret til 2,5 millioner kroner for å gi et riktigere sammenligningsgrunnlag til de andre direktørlønningene oppgitt i saken.",
+    "url": "https://www.nrk.no/nordland/dette-er-lonnen-til-ny-helse-nord-direktor-per-b.-ronning-1.17790864",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775289700304,
+    "date": "2017-12-13T11:27:21+01:00",
+    "title": "Ønsker seg en presisering – NRK Nordland",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Styremedlem Kari Jørgensen ønsker seg en presisering av hvordan investeringskostnader ved opprettelse av PCI-tilbud i Nordlandssykehuset vil dekkes. Det samme gjelder lønnsmidler for stillinger opprettet ved UNN og Nordlandssykehuset. – Det andre er bekymringen for om PCI-drift i Bodø kan gi krav om effektivisering av drift i øvrige deler av helseforetaket.",
+    "correction": "Styremedlem Kari Jørgensen ønsker seg en presisering av hvordan investeringskostnader ved opprettelse av PCI-tilbud i Nordlandssykehuset vil dekkes. Det samme gjelder lønnsmidler for stillinger opprettet ved UNN og Nordlandssykehuset. – Det andre er bekymringen for om PCI-drift i Bodø kan gi krav om effektivisering av drift i øvrige deler av helseforetaket.",
+    "url": "https://www.nrk.no/nordland/onsker-seg-en-presisering-1.13823169",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775289725292,
+    "date": "2025-09-03T08:54:14+02:00",
+    "title": "Konsernsjefen fikk full bonus – eierkommunene fikk ingenting",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Endringer:NRK har etter publisering presisert bedre i saken at lønna til Eirik Frantzen på 4,9 millioner kroner er inkludert bonus, samt at Frantzens bonus ble opptjent i 2023 mens kommunenes utbytte var for strømpris i 2024.",
+    "correction": "Endringer:NRK har etter publisering presisert bedre i saken at lønna til Eirik Frantzen på 4,9 millioner kroner er inkludert bonus, samt at Frantzens bonus ble opptjent i 2023 mens kommunenes utbytte var for strømpris i 2024.",
+    "url": "https://www.nrk.no/nordland/konsernsjef-i-nordkraft-fikk-full-bonus-_-narvik-kommune-reagerer-1.17547116",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775289854779,
+    "date": "2026-03-06T12:36:00+01:00",
+    "title": "Regjeringen på Island ber Alltinget åpne for folkeavstemning om EU – Siste nytt – NRK",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: NRK pushet at avstemningen skal foregå 28. august. Riktig dato er 29. august.",
+    "correction": "Rettelse: NRK pushet at avstemningen skal foregå 28. august. Riktig dato er 29. august.",
+    "url": "https://www.nrk.no/nyheter/regjeringen-pa-island-ber-altinget-apne-for-folkeavstemning-om-eu-1.17797338",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1775289864267,
+    "date": "2026-03-14T11:23:37+01:00",
+    "title": "Strømbrudd i Innlandet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Kraftig vind torsdag og fredag førte til flere feil i nettet. Elvia jobber fortsatt med feilretting.",
+    "correction": "Kraftig vind torsdag og fredag førte til flere feil i nettet. Elvia jobber fortsatt med feilretting.",
+    "url": "https://www.nrk.no/innlandet/strombrudd-i-innlandet-1.16076794",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
