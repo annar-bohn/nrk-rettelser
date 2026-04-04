@@ -183,7 +183,7 @@ def extract_metadata(html, url):
 def call_gemini(prompt):
     """
     Call the Gemini API with the given prompt.
-    Returns a parsed dict, "RATE_LIMITED" on 429, or None on error.
+    Returns a parsed dict, "RATE_LIMITED" on 429 (after retries), or None on error.
     """
     if not GEMINI_API_KEY:
         print("  [Gemini] No API key set, skipping.")
@@ -193,39 +193,47 @@ def call_gemini(prompt):
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.1},
     }
-    try:
-        resp = requests.post(GEMINI_URL, json=payload, timeout=30)
-        if resp.status_code == 429:
-            print("  [Gemini] Rate limited (429).")
-            return "RATE_LIMITED"
-        if resp.status_code != 200:
-            print(f"  [Gemini] Error {resp.status_code}: {resp.text[:200]}")
+    max_retries = 3
+    for attempt in range(max_retries + 1):
+        try:
+            resp = requests.post(GEMINI_URL, json=payload, timeout=30)
+            if resp.status_code == 429:
+                if attempt < max_retries:
+                    wait = 60 * (attempt + 1)
+                    print(f"  [Gemini] Rate limited (429), waiting {wait}s (attempt {attempt + 1}/{max_retries})...")
+                    time.sleep(wait)
+                    continue
+                print("  [Gemini] Rate limited (429) after all retries.")
+                return "RATE_LIMITED"
+            if resp.status_code != 200:
+                print(f"  [Gemini] Error {resp.status_code}: {resp.text[:200]}")
+                return None
+
+            data = resp.json()
+            text = (
+                data.get("candidates", [{}])[0]
+                .get("content", {})
+                .get("parts", [{}])[0]
+                .get("text", "")
+            )
+
+            text = text.strip()
+            if text.startswith("```"):
+                lines = text.splitlines()
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines and lines[-1].strip() == "```":
+                    lines = lines[:-1]
+                text = "\n".join(lines).strip()
+
+            return json.loads(text)
+        except json.JSONDecodeError as e:
+            print(f"  [Gemini] JSON parse error: {e}")
             return None
-
-        data = resp.json()
-        text = (
-            data.get("candidates", [{}])[0]
-            .get("content", {})
-            .get("parts", [{}])[0]
-            .get("text", "")
-        )
-
-        text = text.strip()
-        if text.startswith("```"):
-            lines = text.splitlines()
-            if lines[0].startswith("```"):
-                lines = lines[1:]
-            if lines and lines[-1].strip() == "```":
-                lines = lines[:-1]
-            text = "\n".join(lines).strip()
-
-        return json.loads(text)
-    except json.JSONDecodeError as e:
-        print(f"  [Gemini] JSON parse error: {e}")
-        return None
-    except Exception as e:
-        print(f"  [Gemini] Exception: {e}")
-        return None
+        except Exception as e:
+            print(f"  [Gemini] Exception: {e}")
+            return None
+    return None
 
 
 def calc_hours(pub_date_str, corr_date_str):
@@ -384,7 +392,7 @@ def run(raw_path, output_path, max_entries=450):
             rate_limited = True
             break
 
-        time.sleep(1)
+        time.sleep(4)  # Stay under 15 RPM Gemini rate limit
 
     print(f"Processed {processed} entries.")
 
