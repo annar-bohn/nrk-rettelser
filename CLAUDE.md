@@ -18,7 +18,7 @@ Inspirert av vg.no/rettelser. Publisert via GitHub Pages.
 | `cleanup_and_add.py` | Fjerner placeholder-oppføringer fra corrections_raw.json |
 | `migrate_to_raw.py` | Engangsmigrering fra gammelt `corrections.json`-format |
 | `backfill.py` | Første bakover-skanning (eldre artikler, historisk) |
-| `index.html` | Forsiden – laster `data/corrections.json` og viser søkbar liste |
+| `index.html` | Forsiden – laster `data/corrections.json`, viser søkbar liste med kategori-/feiltypefiltre, badges, AI-oppsummering, journalist og rettetid |
 | `stats.html` | Statistikkside med grafer og nøkkeltall |
 | `metode.html` | Metodeside som forklarer hvordan innsamlingen fungerer |
 
