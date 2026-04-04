@@ -139,7 +139,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, default=730, help="Look back N days (default 730)")
     parser.add_argument("--max-sitemaps", type=int, default=500, help="Max sitemaps to process")
+    parser.add_argument("--max-minutes", type=int, default=240, help="Time budget in minutes (default 240)")
     args = parser.parse_args()
+    start_time = time.time()
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=args.days)
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -263,6 +265,11 @@ def main():
             json.dump(corrections, f, ensure_ascii=False, indent=2)
 
         print(f"  Done: {sm_new} new corrections, {total_checked} total checked so far")
+
+        elapsed_min = (time.time() - start_time) / 60
+        if elapsed_min > args.max_minutes:
+            print(f"\nTime budget reached ({elapsed_min:.0f} min > {args.max_minutes} min). Progress saved, will resume next run.")
+            break
 
     print(f"\n{'=' * 60}")
     print(f"Sitemap backfill complete!")

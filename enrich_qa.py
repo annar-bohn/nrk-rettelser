@@ -341,7 +341,7 @@ def process_entry(entry):
     return True
 
 
-def run(raw_path, output_path):
+def run(raw_path, output_path, max_entries=450):
     os.makedirs(os.path.dirname(raw_path), exist_ok=True)
 
     if os.path.exists(raw_path):
@@ -359,7 +359,10 @@ def run(raw_path, output_path):
             entry["headline"] = entry["title"]
 
     pending = [e for e in entries if e.get("qa_status") == "pending"]
-    print(f"Found {len(pending)} pending entries to process")
+    # Sort newest first so top-of-page articles get enriched first
+    pending.sort(key=lambda x: x.get("date") or "", reverse=True)
+    pending = pending[:max_entries]
+    print(f"Found {len(pending)} pending entries to process (max {max_entries})")
 
     rate_limited = False
     processed = 0
@@ -435,4 +438,8 @@ def run(raw_path, output_path):
 
 
 if __name__ == "__main__":
-    run("data/corrections_raw.json", "data/corrections.json")
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--max-entries", type=int, default=450, help="Max entries to enrich per run (default 450)")
+    args = parser.parse_args()
+    run("data/corrections_raw.json", "data/corrections.json", max_entries=args.max_entries)

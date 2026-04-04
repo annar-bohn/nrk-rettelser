@@ -2,7 +2,7 @@ name: Backfill – full sitemap crawl
 
 on:
   schedule:
-    - cron: '17 3 * * 0'  # Weekly: Sundays at 03:17
+    - cron: '17 3 * * *'  # Daily at 03:17
   workflow_dispatch:
     inputs:
       days:
@@ -48,7 +48,7 @@ jobs:
         run: |
           DAYS="${{ github.event.inputs.days }}"
           MAX="${{ github.event.inputs.max_sitemaps }}"
-          python backfill_sitemap.py --days "${DAYS:-90}" --max-sitemaps "${MAX:-500}"
+          python backfill_sitemap.py --days "${DAYS:-90}" --max-sitemaps "${MAX:-500}" --max-minutes 240
 
       - name: Commit new corrections
         uses: stefanzweifel/git-auto-commit-action@v5
