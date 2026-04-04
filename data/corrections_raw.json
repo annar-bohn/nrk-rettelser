@@ -22776,7 +22776,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/finnmark-fylkeskommune-delte-millionstotte-til-42-festivaler-1.17766622",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "42 festivaler fikk støtte i rekordhøy tildelingsrunde"
   },
   {
     "id": 1775312689271,
@@ -22788,7 +22789,8 @@
     "url": "https://www.nrk.no/urix/forsker_-_-oppsiktsvekkende-om-europeiske-land-blir-med-i-trumps-_fredsrad_-1.17736987",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Forsker: – Oppsiktsvekkende om europeiske land blir med i Trumps «fredsråd»"
   },
   {
     "id": 1775312738647,
@@ -22800,7 +22802,8 @@
     "url": "https://www.nrk.no/innlandet/stengt-for-togtrafikk-mellom-eidsvoll-og-hamar-_-kjoreledning-revet-ned-1.17725815",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Tog rev ned kjøreledning – påvirket togtrafikken i flere timer"
   },
   {
     "id": 1775312913893,
@@ -22812,7 +22815,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/svt_-russisk-spionasje-oker-ved-grensen-1.17711544",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "SVT: Russisk spionasje øker ved grensen"
   },
   {
     "id": 1775312930119,
@@ -22824,7 +22828,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/xl/kongsberg-utstyr-videresolgt-til-russland-_-kan-bidra-til-beskyttelse-av-atomvapen-i-russland-1.17616047",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Norsk teknologi kan ha bidratt til å beskytte Putins atomvåpen"
   },
   {
     "id": 1775312978942,
@@ -22836,7 +22841,8 @@
     "url": "https://www.nrk.no/urix/dette-er-gjengen-trump-vil-skal-skape-fred-i-gaza-1.17734125",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Dette er gjengen Trump vil skal skape fred i Gaza"
   },
   {
     "id": 1775313012750,
@@ -22848,7 +22854,8 @@
     "url": "https://www.nrk.no/norge/xl/dobbeltdrapsdomte-stig-millehaugen-om-flukten-og-om-livet-som-yrkeskriminell-1.16395087",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Stig Millehaugen sitt liv"
   },
   {
     "id": 1775313023840,
@@ -22860,7 +22867,8 @@
     "url": "https://www.nrk.no/kultur/_-stor-sjanse-for-at-dette-kan-vera-framtida-var-1.17687180",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "– Stor sjanse for at dette kan vera framtida vår"
   },
   {
     "id": 1775313208959,
@@ -22872,7 +22880,8 @@
     "url": "https://www.nrk.no/nordland/store-utfordringer-med-snovaeret-1.17779122",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Snøskred, flere ulykker og stengt rullebane: – Håper vi slipper å sove på flyplassen"
   },
   {
     "id": 1775313259570,
@@ -22884,7 +22893,20 @@
     "url": "https://www.nrk.no/nyheter/boligmarkedet-1.11110086",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Boligmarkedet",
+    "nrk_section": "nyheter",
+    "publication_date": "2013-07-01T11:08:01+02:00",
+    "modified_date": "2026-03-24T07:44:28+01:00",
+    "intro_text": "Boligprisene i Norge måles av bransjeorganisasjonen Eiendom Norge, som presenterer boligprisstatistikk hver måned. Boligprisene er historisk høye flere steder i Norge og i landet generelt.",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "24. mars 2026 kl. 07:44 Nyhetssenter Stor-Oslo Boligmarkedet Unge boligkjøpere har det tøffest i Oslo-området De fem vanskeligste kommunene å kjøpe bolig i er i Oslo-området. Det viser Førstehjemindeksen, en undersøkelse gjennomført av Norske Boligbyggelags Landsforbund (NBBL). På Nesodden konkurrerer førstegangskjøperne om kun 0,6 prosent av boligene på markedet. I Bærum og Oslo er 3,5 prosent av boligene tilgjengelige. Neste på lista er Ås (4,1 prosent) og Nordre Follo (4,9 prosent). Hvis man er villig til å slå seg ned i randsonen til byene eller i enkelte småbyer, er det lettere å skaffe seg egen bolig for førstegangskjøpere. I for eksempel Notodden, Kongsvinger, Kongsberg, Skien og Porsgrunn kan omtrent halvparten av typiske single førstegangskjøpere klare å kjøpe en bolig. – Felles for alle kommunene innenfor pendlingsavstand til Oslo er at terskelen for første boligkjøp er blitt langt høyere de siste 15 årene, sier sjeføkonom Hilde Midsem i NBBL. I en tidligere versjon av saken skrev vi at prosenten det konkurreres om i Oslo var 0,5 prosent. NTB har senere rettet opp i tallene, og den korrekte prosenten er 3,5. Foto: Gorm Kallestad / NTB",
+    "correction_description": "Prosentandelen boliger tilgjengelig for førstegangskjøpere i Oslo ble rettet fra 0,5 prosent til 3,5 prosent etter feil i tallgrunnlag fra NTB.",
+    "correction_date": "2026-03-24",
+    "news_category": "economy",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": null
   },
   {
     "id": 1775313343672,
@@ -22896,7 +22918,8 @@
     "url": "https://www.nrk.no/sport/tottenham-naermer-seg-nedrykk-etter-nytt-tap-1.17796527",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Krise etter Strand Larsen-scoring: NRK-ekspert tror Tottenham rykker ned"
   },
   {
     "id": 1775313362853,
@@ -22908,7 +22931,8 @@
     "url": "https://www.nrk.no/urix/iraner-i-norge_-_-dette-er-var-siste-sjanse-1.17789122",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Iraner i Norge: – Dette er vår siste sjanse"
   },
   {
     "id": 1775313481246,
@@ -22920,7 +22944,8 @@
     "url": "https://www.nrk.no/nyheter/henrettelser-i-usa-1.11489451",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Henrettelser i USA"
   },
   {
     "id": 1775313483921,
@@ -22932,7 +22957,8 @@
     "url": "https://www.nrk.no/innlandet/sikkerhetssonen-opprettholdes-dovrebanen-forblir-stengt-brann-harpefoss-1.17765822",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Dovrebanen åpnet for trafikk etter lagerbrann – sikkerhetssone opprettholdes"
   },
   {
     "id": 1775313577573,
@@ -22944,7 +22970,20 @@
     "url": "https://www.nrk.no/tromsogfinnmark/styret-i-finnmarkssykehuset-ga-ledelsen-kritikk-for-handteringen-av-varsler-1.17822363",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Rystet etter varslersakene: – Vi har sviktet på alle nivåer",
+    "nrk_section": "tromsogfinnmark",
+    "publication_date": "2026-03-24T15:46:20+01:00",
+    "modified_date": "2026-03-25T11:20:26+01:00",
+    "intro_text": "Styret i Finnmarkssykehuset er rystet over tilfeller av seksuell trakassering i helseforetaket. Flere stiller spørsmål ved kompetansen hos dem som skal behandle varsler.",
+    "journalist": "Hanne Larsen, Bethel Britto, Ingrid Hjellbakk Kvamstø",
+    "responsible_editor": "",
+    "article_body": "Rystet etter varslersakene: – Vi har sviktet på alle nivåer Styret i Finnmarkssykehuset er rystet over tilfeller av seksuell trakassering i helseforetaket. Flere stiller spørsmål ved kompetansen hos dem som skal behandle varsler. Styreleder Trine Olsen og direktør Ole Hope gikk gjennom varslersakene som NRK har avdekket under styremøte tirsdag. Foto: Allan Klo / NRK Hanne Larsen – Journalist Journalist Bethel Britto – Journalist Journalist Vi rapporterer fra Hammerfest, Finnmark Publisert 24.03.2026, kl. 15.46 Oppdatert 25.03.2026, kl. 11.20 Publisert 24.03.2026, kl. 15.46 Oppdatert 25.03.2026, kl. 11.20 Vi rapporterer fra Hammerfest, Finnmark Under dagens styremøte i Finnmarkssykehuset fikk styret en redegjørelse om hvordan foretaket håndterer saken om varsler i ambulansetjenesten i Finnmark. – Jeg er ikke trygg på at vi ikke har flere saker andre steder i foretaket, sa direktør i Finnmarkssykehuset, Ole Hope, til styret. Flere av styremedlemmene var rystet og tydelig preget etter gjennomgangen til direktøren. – Det er uttrykk for at vi har sviktet som organisasjon, og vi har sviktet egentlig på alle nivåer, sa Andreas Moan. Han har vært nestleder i styret i mange år. Andreas Moan, nestleder i Finnmarkssykehusets styre. Foto: Allan Klo / NRK NRK har sett innholdet i 26 skriftlige varsler fra ambulansetjenesten i Finnmark de siste ti årene. Flere av varslene er mot ledere . 11 av dem handler om seksuell trakassering. Og mer enn halvparten av disse varslene involverer lærlinger . Varslene dreier seg om sexpress, nedsettende kvinnesyn og trusler. Flere av de som har varslet, opplevde å ikke ha blitt tatt på alvor . Styreleder Trine Olsen og direktør Ole Hope under dagens styremøte i Finnmarkssykehuset. Foto: Allan Klo / NRK Gråtkvalt styremedlem Styreleder Trine Olsen, som hadde sitt første styremøte i dag som ny leder, sa seg enig med Moan. – Jeg støtter meg til det som øvrige styremedlemmer har sagt. Det er en veldig alvorlig sak. Og jeg er helt enig med Andreas. Det er svikt på alle nivå. Les også Ella varslet om lederen – mistet drømmejobben Styremedlem Evy Fjellstad, som representerer de ansatte, var gråtkvalt da hun tok ordet. – Det her syns jeg som styremedlem er helt forferdelig. – Jeg tenker at i tillegg til de tiltakene som nå er gjort, så skal styret ha årlig eller halvårlig rapportering fra ledelsen på hva de har gjort, og om ting har blitt bedre, sa Fjellstad. Stilte flere spørsmål Til NRK har sykehuset opplyst at de har registrert ett varsel mellom 2015 og 2025. Dette var også noe av det som styremedlemmer stilte spørsmål ved under møtet. Hvordan definerer man varsler? Hvor mange av de ansatte kjenner til reglementet rundt varsling, ikke minst hva forstår lærlingene? Og hvor og hvorfor stopper varsler opp? Styreleder Olsen oppsummerte med at mange i styret var bekymret rundt varslingssakene som dreier seg om maktubalanse. – Og det stilles spørsmål ved om vi har kompetente ledere, som tar imot bekymringer fra medarbeidere på en ordentlig måte, og forstår at dette er en varslingssak eller ikke. Ole Hope svarte at hvis folk har meldt at de har varslet, så har sakene deres blitt vurdert. – Vi har ingen indikasjoner på at saker som er kommet til varslingsinstituttet, eller til ressursgruppen, ikke er behandlet riktig. Men faktagjennomgangen skal avdekke om det er blitt gjennomført, sa Hope. Les også Lærlingen ble gravid og fikk truende meldinger av kollegen: Sykehuset kaller det en «personalsak» – Det har vært taust Direktøren berømmet også NRKs avsløringer, som dermed bidrar til å gjøre foretaket i stand til å bli bedre. – At NRK har løftet dette så grundig, gjør at vi er satt bedre i stand til å handle enn vi var forut for NRKs avsløringer. Hope sa også at han hadde blitt gjort oppmerksom at det sannsynligvis kan være saker han ikke har fått vite om. Disse har blitt håndtert på et lavere nivå. – Vi har hatt ledermøter om tematikken. Vi har skrevet til ledere at hvis de vet noe, så må det komme fram. – Og det har vært helt taust. Jeg har ikke mottatt noen ting. Jeg har ingen annen mulighet enn å agere på det jeg vet. Les også Frykter mørketall i ambulansetjenesten: – Kan være langt flere hendelser Styreleder Olsen sa at det var bra at tiltak er satt i verk, og hun utfordret styret på hvor ofte de skulle følge opp saken i styremøtene fremover. Hope sa at det dessverre ikke er mulig å gjøre noe med det som har vært. – Men vi kan handle for å rydde opp og rette opp i feil. Og vi kan handle for å unngå at det skjer igjen. Les også Krever at ledere må gå etter trakasseringssaker Diskusjon i Stortinget Varslene i Finnmarkssykehuset har også blitt tema i Stortinget. Både Frp og Høyre krever redegjørelse av helseministeren, der førstnevnte mener en uavhengig gransking må på plass. Et av tiltakene som er iverksatt av Finnmarkssykehuset, er opprettelsen av en ekstern varslingskanal. Dette holder ikke mener Siren Julianne Jensen, stortingsrepresentant for MDG. – Når varslere ikke blir hørt, når lovbrudd gjentas, når ledelsen selv erkjenner ukultur, og når befolkningens tillit svekkes, da kan vi ikke lenger overlate dette til interne prosesser, sier Jensen. Stortingsrepresentant Siren Julianne Jensen fra MDG krever ekstern gransking. Foto: Stortinget / Stortinget I dag løftet hun saken inn for Stortinget. Der fremmet hun et forslag om en uavhengig ekstern granskingskommisjon. – Denne må få et bredt mandat, frie arbeidsvilkår og rapportere direkte til Stortinget. Nå trenger vi sannhet, ikke flere unntak og bortforklaringer, sier Jensen. Hei! Har du innspill til oss? Har du tips etter å ha lest denne saken, vil vi gjerne høre fra deg! NRK har skrevet om flere alvorlige varslingssaker i ambulansetjenesten i Finnmark. Blant annet om vikaren «Ella» som følte seg presset til sex av sin leder , for så å miste vakter etter at hun varslet. NRK har også skrevet at Finnmarkssykehuset har mottatt flere titalls varsler fra tjenesten som omhandler blant annet sexpress, trusler og nedsettende kvinnesyn. Du kan også lese om ambulanselærlingen «Nora» som opplevde å få truende meldinger da hun ble gravid . Hun varslet, men følte at systemet sviktet henne. Vi ønsker å fortsette arbeidet med å belyse kritikkverdige forhold i ambulansetjenesten. Har du informasjon som kan hjelpe oss med å sette søkelys på dette? Ta kontakt med oss. Du kan sende oss innspill, tips og informasjon på epost eller kontakte oss kryptert via NRKs ekstra sikre varslingsmottak- NRKs SecureDrop . Reportasjeleder: Gyda Hesla. Redaktør undersøkende nord: Robin Mortensen. Bethel Britto og Ingrid Hjellbakk Kvamstø Journalister i NRK Send meg en e-post Publisert 24.03.2026, kl. 15.46 Oppdatert 25.03.2026, kl. 11.20 Varsling i ambulansetjenesten Lærlingen ble gravid og fikk truende meldinger av kollegen: Sykehuset kaller det en «personalsak» Krev statleg gransking av sextrakassering i ambulansetenesta + Vis flere Mer om: Varsling i ambulansetjenesten Finnmark OL-dronningen sikret seg millionutbetaling fra FIS + Vis flere Mer om: Finnmark Helse Hver femte eldre akuttinnlagte pasient mister grepet om virkeligheten: – En forferdelig opplevelse + Vis flere Mer om: Helse",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "health",
+    "correction_type": "other",
+    "time_to_correct_hours": 19.57
   },
   {
     "id": 1775313593639,
@@ -22956,7 +22995,8 @@
     "url": "https://www.nrk.no/vestland/politiet-mener-north-tandem-fortsatte-med-kriminell-virksomhet-etter-nrk-avsloring-1.17733428",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Politiet mener lakse­selskap fortsatte med kriminell virksom­het etter NRK-­avsløring"
   },
   {
     "id": 1775313635452,
@@ -22968,7 +23008,8 @@
     "url": "https://www.nrk.no/norge/terje-rod-larsen-til-jeffrey-epstein_-_kriser-betyr-muligheter_-1.17762903",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "«Profesjonelle fredsforhandlere» – slik skulle seksualforbryteren hjelpe Rød-Larsen"
   },
   {
     "id": 1775313658221,
@@ -22980,7 +23021,20 @@
     "url": "https://www.nrk.no/sorlandet/atte-strandsonesaker-skal-gjennomgas-1.17802045",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Åtte strandsone­saker skal gjennomgås: – Har tatt sakene som har størst negativ effekt",
+    "nrk_section": "sorlandet",
+    "publication_date": "2026-03-10T12:57:29+01:00",
+    "modified_date": "2026-03-11T07:49:22+01:00",
+    "intro_text": "Etter å ha saumfart 23 byggesaker i strandsonen har Statsforvalteren satt klørne i åtte av dem for å stramme opp praksisen.",
+    "journalist": "Amalie Sande Henden, Elisabeth Sandve, Erik Wiig Andersen, Espen Bierud",
+    "responsible_editor": "",
+    "article_body": "Åtte strandsone­saker skal gjennomgås: – Har tatt sakene som har størst negativ effekt Etter å ha saumfart 23 byggesaker i strandsonen har Statsforvalteren satt klørne i åtte av dem for å stramme opp praksisen. Statsforvalter Gina Lund orienterte om status i saken om bygging i strandsonen i Agder. Foto: Erik Wiig Andersen / NRK Amalie Sande Henden – Journalist Journalist + 3 til Elisabeth Sandve – Journalist Journalist Erik Wiig Andersen – Journalist Journalist Espen Bierud – Journalist Journalist Publisert 10.03.2026, kl. 12.57 Oppdatert 11.03.2026, kl. 07.49 Publisert 10.03.2026, kl. 12.57 Oppdatert 11.03.2026, kl. 07.49 Tirsdag ettermiddag holdt Statsforvalter i Agder Gina Lund pressekonferanse om gjennomgangen de har hatt av byggesaker i strandsonen. Gjennomgangen ble satt i gang etter at det ble avdekket at kunnskapsminister Kari Nessa Nordtuns (Ap) familie fikk bygge hytte nær vannkanten i Farsund. Les også Frykter man må rive nye bygg: – Skjelver litt i buksa Statsforvalteren i Agder vurderer nå å åpne lovlighetskontroll i sju byggesaker i strandsonen fra 2025. En åttende sak er allerede avgjort. – Vi har tatt de sakene som har størst negativ effekt, blant annet for allmennheten, natur og miljø, sier Lund. Sakene er i kommunene Kristiansand, Lillesand, Grimstad og Farsund. I Kristiansand og Farsund handler det i stor grad om brygger og plattinger. I Lillesand og Grimstad gjelder det oppføring av hytter og et svømmebasseng. En av disse sakene er en byggetillatelse gitt til rederarving Knut T. Ugland. De åtte inkluderer også saken som alt begynte med, ifølge Fædrelandsvennen . Ifølge Lund er det 10.000 flere bygg i strandsonen i Agder nå enn det var for 20 år siden. I fjor fikk Kunnskapsminister Kari Nessa Nordtun og mannen lov til å bygge ny hytte i strandsonen i Farsund. Saken skapte debatt. Foto: Erik Tveit sivilarkitekt AS Oppdaget feil i 8 av 10 saker Da statsforvalteren begynte å undersøke bygging i strandsonen i fjor, gikk de langt tilbake i tid. – Vi har vært avhengig av å gå tilbake i tid, fordi vi må kjenne fortiden for å forme fremtiden. Dette har blitt gjort: 1200 oversendte dispensasjonsvedtak ble gjennomgått fra alle kommunene i 2024 og 2025. Omkring 600 av dem var fra 2025, og om lag 450 av dem var fra kystkommunene. 225 av sakene var knyttet til 100-metersbeltet. 178 av de 225 gjaldt innvilget dispensasjon. I de 178 sakene ble det avdekket mangler i 80 prosent. Av disse er det 23 de har sett nærmere på. Nå gjenstår åtte. Lund sier gjennomgangen har bidratt til å løfte et tema av stor samfunnsmessig betydning. – Det er bred enighet om at strandsonen representerer store verdier som vi må ta vare på for framtidige generasjoner. – En unødvendig prosess Ordfører i Grimstad Beate Skretting (H) er kritisk til at hyttesakene skal opp igjen. – Jeg mener fremdeles at dette er en unødvendig prosess. Disse sakene har ligget på Statsforvalterens bord tidligere, og jeg mener at de har hatt anledning til å se på dem og klage hvis de ønsket det. Det valgte de ikke å gjøre, sier hun. Ordfører i Grimstad Beate Skretting. Foto: Svein Sundsdal / NRK Skretting legger til at hun mener det heller bør fokuseres på saker fram i tid. Hun er en av flere ordførere som har reagert sterkt på Statsforvalterens gjennomgang av vedtatte byggesaker i strandsonen. Statsforvalter Lund mener debatten er viktig og at man må stå sammen om den. – Gjennomgangen har bidratt til å kartlegge realitetene, og vårt mål er færre konflikter og ikke flere. Les også Kystkommuner vurderer rettslige skritt mot staten – Sovet i timen Ordfører Pedersen mener det er problematisk at Statsforvalteren ettergår saker bakover i tid. – Statsforvalteren skylder på knappe ressurser når de innser at embetet har unnlatt å klage på saker med dispensasjonsvedtak. Da bør statsforvalter innse at de har sovet i timen og ta konsekvensen av det, sier han. Han uttalte seg om saken først til avisen Lindesnes . Pedersen stiller spørsmål ved hvordan mulige erstatningsansvar kan bli håndtert. – Synes du myndighetene har håndtert denne prosessen godt? – Nei, det synes jeg ikke. Jeg har forståelse for at det blir reaksjoner i kommunene som blir gjenstand for denne gjennomgangen, sier han. Tidligere tirsdag ble det kjent at ingen av sakene i Lindesnes vil bli undersøkt nærmere. Ordføreren mener dette er positivt for innbyggere og utbyggere. – Det viser vi har en god forvaltning og god praksis i vår kommune, sier han. Publisert 10.03.2026, kl. 12.57 Oppdatert 11.03.2026, kl. 07.49 Agder Værgudene styrer påskegudstjenestene:  – Det er en stor dag «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Agder Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Norge Agder: Farsund Mener forvaring er for strengt: – Ikke nok holdepunkter + Vis flere Mer om: Agder: Farsund",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "local",
+    "correction_type": "other",
+    "time_to_correct_hours": 18.86
   },
   {
     "id": 1775313701676,
@@ -22992,7 +23046,8 @@
     "url": "https://www.nrk.no/vestland/de-som-eier-equinor-reagerer-etter-flere-feil_-_-det-er-en-svaert-alvorlig-bekymring-1.17776448",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Eiere og egne ansatte etter flere Equinor-feil: – Trist og litt flaut"
   },
   {
     "id": 1775313742698,
@@ -23004,7 +23059,20 @@
     "url": "https://www.nrk.no/nyheter/helse-sor-ost-1.13502238",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Helse Sør-Øst",
+    "nrk_section": "nyheter",
+    "publication_date": "2017-05-04T17:00:31+02:00",
+    "modified_date": "2026-03-27T14:20:41+01:00",
+    "intro_text": "",
+    "journalist": "Rita Kleven og Lars Håkon Pedersen",
+    "responsible_editor": "",
+    "article_body": "27. mars 2026 kl. 14:20 Nyhetssenter Innlandet Helse Sør-Øst Helse Midt-Norge Sykehuset Innlandet Regjeringen nekter å følge Stortingets anbudsvedtak I februar ble regjeringen overkjørt av Stortinget, da et flertall vedtok å skrote de nye anbudene for rehabilitering i Helse Midt-Norge og Helse Sør-Øst. Nå varsler helseminister Jan Christian Vestre (Ap) at han ikke kan pålegge de regionale helseforetakene å følge opp vedtaket. – Det vil være i strid med anskaffelsesreglene å avlyse de pågående anskaffelsene og forlenge de eksisterende avtalene, skriver Vestre i et svar til Stortinget . Departementet har vurdert at anordningsvedtaket ikke gir saklig grunn til å avlyse anbudskonkurransene. – Det vil kunne utløse krav om erstatning for fortjenestetap og tilbudskostnader hvis man likevel skulle velge å gjøre det, skriver Vestre. Han varsler at regjeringen i revidert nasjonalbudsjett vil foreslå en oppheving av vedtaket. Det var Adresseavisen som først omtalte svaret fra Vestre. Helseministeren overkjørt av Stortinget: – Vi skal følge opp vedtaket Et flertall på Stortinget har skrotet de nye anbudene for rehabilitering i to helseregioner. Av Rita Kleven og Lars Håkon Pedersen",
+    "correction_description": "Det ble rettet en feilaktig påstand om at den nye avtalen til Skogli stod i fare for å bli annullert.",
+    "correction_date": "2026-03-27",
+    "news_category": "health",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": null
   },
   {
     "id": 1775313786840,
@@ -23016,7 +23084,20 @@
     "url": "https://www.nrk.no/nyheter/tt_-svenske-henrettet-i-iran-i-dag-1.17814693",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Svenske henrettet i Iran i dag – Siste nytt – NRK",
+    "nrk_section": "nyheter",
+    "publication_date": "2026-03-18T13:04:17+01:00",
+    "modified_date": "2026-03-18T13:31:16+01:00",
+    "intro_text": "En svensk statsborger ble onsdag morgen henrettet i Iran, opplyser det svenske utenriksdepartementet. Mannen ble pågrepet i juni 2025. Iranske medier skriver at mannen var mistenkt for spionasje, og at myndighetene mener han delte bilder med den israelske etterretningen Mossad, skriver Aftonbladet. – Det er klart for oss at den juridiske prosessen som førte til henrettelsen av den svenske statsborgeren ikke har vært juridisk sikker. Ansvaret for dette ligger utelukkende hos Iran. Sverige vil for",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "18. mars 2026 kl. 13:04 Iran Svenske henrettet i Iran i dag En svensk statsborger ble onsdag morgen henrettet i Iran, opplyser det svenske utenriksdepartementet. Mannen ble pågrepet i juni 2025. Iranske medier skriver at mannen var mistenkt for spionasje, og at myndighetene mener han delte bilder med den israelske etterretningen Mossad, skriver Aftonbladet . – Det er klart for oss at den juridiske prosessen som førte til henrettelsen av den svenske statsborgeren ikke har vært juridisk sikker. Ansvaret for dette ligger utelukkende hos Iran. Sverige vil fortsette å fordømme alvorlige brudd på menneskerettighetene i Iran, sier utenriksminister Maria Malmer Stenergard i en pressemelding . De siste årene har Irans regime henrettet stadig flere mennesker. Antall henrettelser ble doblet fra 2024 til 2025, da rundt 2000 mennesker ble drept, ifølge Human Rights Watch . Iran Iran er en islamsk republikk, ledet av ayatollah Ali Khanamei siden 1989.\nDet pågår nå massive demonstrasjoner mot det ultrakonservative, undertrykkende regimet. Enkelte anslår 30.000 drepte siden 28. desember, mens regimet sier rundt 3000 er drept.",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "world",
+    "correction_type": "other",
+    "time_to_correct_hours": 0.45
   },
   {
     "id": 1775313806540,
@@ -23028,7 +23109,8 @@
     "url": "https://www.nrk.no/nyheter/reuters_-meldinger-om-luftangrep-i-aserbajdsjan-1.17797055",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Reuters: Meldinger om luftangrep i provinsen Vest-Aserbajdsjan – Siste nytt – NRK"
   },
   {
     "id": 1775313875498,
@@ -23040,7 +23122,8 @@
     "url": "https://www.nrk.no/stor-oslo/barn-pakjort-i-asker-1.17722940",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Person påkjørt i Asker – Stor-Oslo"
   },
   {
     "id": 1775313891298,
@@ -23052,7 +23135,8 @@
     "url": "https://www.nrk.no/innlandet/ny-prognose-for-eidsvoll-hamar-1.17726263",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Ny prognose for Eidsvoll-Hamar – NRK Innlandet – Lokale nyheter, TV og radio"
   },
   {
     "id": 1775313920170,
@@ -23064,7 +23148,8 @@
     "url": "https://www.nrk.no/nyheter/reuters_-minst-101-savnet-og-78-skadet-etter-senkning-av-iransk-fregatt-1.17793969",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Reuters: Mange skadet etter senkning av iransk fregatt – Siste nytt – NRK"
   },
   {
     "id": 1775313924424,
@@ -23076,7 +23161,8 @@
     "url": "https://www.nrk.no/rogaland/siste-sjanse-pa-skoyteisen_-henriette-trosset-kulden-i-bunad-1.17722831",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Siste sjanse på skøyteisen: Henriette trosset kulden i bunad – NRK Rogaland – Lokale nyheter, TV og radio"
   },
   {
     "id": 1775314028613,
@@ -23088,7 +23174,16 @@
     "url": "https://www.nrk.no/tromsogfinnmark/xl/varslet-om-sex-med-lederen-mot-hennes-vilje-_-endte-uten-drommejobben-1.17641808",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Prisen for å varsle",
+    "nrk_section": "tromsogfinnmark",
+    "publication_date": "2026-03-07T08:13:41+01:00",
+    "modified_date": "2026-03-12T15:10:41+01:00",
+    "intro_text": "",
+    "journalist": "Bethel Britto",
+    "responsible_editor": "",
+    "article_body": "En dag ble Ella invitert hjem til lederen sin. Der skjedde det noe hun ikke ville. Senere sendte lederen henne en SMS: Prisen for å varsle Varslet om sex med lederen mot hennes vilje – endte uten drømmejobben Publisert 07.03.2026, kl. 08.13 Oppdatert 12.03.2026, kl. 15.10 Bethel Britto – Journalist Journalist Vis 3 bidragsytere til +3 til Ingrid Hjellbakk Kvamstø – Journalist Journalist Egil Ursin – Illustratør Illustratør Marco Vaglieri – Illustratør Illustratør Ambulanselærling «Ella» følger nøye med på veilederen sin. «Kjell» er nærmere 20 år eldre enn henne og har mye erfaring. Han følger en pasient som trenger hjelp hjemme, inn i dusjen. Pasienten har åpenbart ikke vasket seg på lenge. Leiligheten er skitten. Føttene klistrer seg fast til gulvet. Det lukter alkohol. Ella blir imponert over hvordan Kjell viser omsorg overfor pasienten. Hun håper å bli like flink. Som veilederen sin vil hun gi alle en verdig behandling. Helt siden videregående har Ella drømt om å jobbe i ambulansetjenesten. Nå, flere år senere, står hun uten drømmejobben. Hva skjedde? «Ella» er ikke hennes ekte navn. Hun ønsker å være anonym i saken. NRK har møtt henne flere ganger. Foto: NRK NRK kjenner til identiteten til «Ella» og «Kjell», men har anonymisert dem i denne saken. Hendelsene skjedde ved en ambulansestasjon i Finnmark. NRK har snakket med Kjell. Han ønsker ikke å kommentere saken, men NRK kjenner til at han mener Ella var med på det som skjedde mellom dem. Finnmarkssykehuset viser til taushetsplikt i personalsaker og vil derfor ikke kommentere saken til Ella, utover at den ble behandlet etter gjeldende lover og regler. Les hele tilsvaret fra Finnmarkssykehuset lenger ned i saken. Veilederen Slik Ella husker det, kunne veilederen hennes, Kjell, vise seg fra ulike sider. Noen ganger opplevde hun ham som streng og kommanderende. I slike situasjoner kunne hun fort føle seg stresset og dum. Men når liv og død sto på spill, følte Ella seg trygg med Kjell ved sin side. Hun stolte på ham. De alvorligste oppdragene satte spor. – Jeg husker min aller første hjertestans, mitt første tunge psykiatrioppdrag, og første gangen jeg skulle behandle et veldig sykt barn. Egil Ursin / © NRK Ofte delte Ella inntrykkene fra et tungt oppdrag med Kjell. Det var slik de ansatte i tjenesten pleide å debrife. Egil Ursin / © NRK Disse samtalene skjedde vanligvis i ambulansebilen, fordi de kjørte lange strekninger sammen og var på vakt flere døgn i strekk. I starten hadde Kjell og Ella en fortrolig tone og holdt samtalene på et profesjonelt nivå, minnes hun. Så tok praten en ny vending. Samtalene Etter at de hadde kjent hverandre en stund, husker hun at Kjell kunne si ting som at hun var så fin, at hun var så lett å snakke med og at han aldri hadde hatt en så god relasjon til en lærling. Det fikk henne til å føle seg spesiell og sett av en mann som hun så opp til. Hun ga ham komplimenter tilbake. Gradvis opplevde Ella at samtalene med Kjell ofte ble dreid inn på sex. Ella syntes det var litt kleint, men hun ville ikke være prippen eller kjip, så hun ble med på det. I bakhodet hadde hun alltid i tankene at hans godkjennelse var avgjørende for å kunne ta fagprøven. Men en gang de var i på vei til ambulansestasjonen etter et oppdrag, gikk Kjell lenger enn han hittil hadde gjort. Hun husker at han helt ut av det blå foreslo at de skulle «stoppe bilen og knulle». Illustrasjon: Marco Vaglieri / NRK Det var verken biler eller gatelys langs veien, og det var langt til andre mennesker. Ella ble satt ut. Hun visste ikke helt hvordan hun skulle reagere. Hun lo det bort, og sa at hun ikke var interessert. Likevel gnagde spørsmålet i bakholdet hennes. – Tullet han, eller var det seriøst? Invitert hjem til Kjell Noen måneder etter den hendelsen i ambulansebilen, husker Ella at Kjell ringte henne på mobilen mens hun var på en øvelse. Ella hadde fullført utdannelsen sin, og jobbet nå som tilkallingsvikar på ambulansestasjonen. Kjell var forfremmet. Han var blitt lederen hennes. Nå ville Kjell at hun skulle komme hjem til ham. Ella avslo invitasjonen, men han fortsatte å ringe. Illustrasjon: Egil Ursin / NRK Ella minnes at hun ble stresset, han var lederen hennes, og det var vanskelig å si nei. Til slutt gikk hun med på å stikke innom. Slik husker Ella det som skjedde videre: Da hun kom inn i huset, spurte Kjell ganske fort om hun kunne bli med til soverommet. Han sa at han ville ha sex med henne. Da han var veilederen hennes, brukte han noen ganger den samme kommanderende tonen. Ella følte seg dårlig. Det var ikke noe hun ville. «Nei, vi burde ikke», sa Ella Men Kjell insisterte. I varselet hun senere sendte, står det at hun sa nei flere ganger. Men det virket ikke som om han hørte på henne. Det som skjedde etterpå, satte dype spor. På veien hjem følte hun seg skitten. Tankene raste: – Hvordan havnet jeg i denne situasjonen? Når gikk det så langt? Det som var mest smertefullt, var tillitsbruddet. Noen dager senere tikket det inn en melding fra Kjell på mobilen: NRK har sett varslet til Ella. Denne meldingen var en del av varslingsbrevet hun sendte til Finnmarkssykehuset. Grafikk: Egil Ursin / © NRK I arbeidstiden Ella bestemte seg for å prøve å glemme hele hendelsen og heller fokusere på jobb. Noen uker senere minnes Ella at Kjell ringte rett før hun skulle ta teoriprøven til førerkort for ambulansebil. Ifølge Ella ba Kjell henne om å komme til ambulansestasjonen etter at hun var ferdig med prøven. Han ville ha sex med henne igjen, husker hun. Ella ville ikke dra dit. Hun sa at hun ikke var interessert og la på. Noen minutter etterpå ringte Kjell igjen. Ella husker at han fortalte at han hadde sendt de som var på vakt ut på et oppdrag. Hun ble nervøs. Igjen visste hun ikke hvordan hun skulle klare å si nei. Hun følte hun måtte gi etter og dra til stasjonen, han var tross alt lederen hennes. Nok en gang endte det med at hun følte seg presset til å være med på noe hun ikke ville. Illustrasjon: Egil Ursin / © NRK Etterpå ville hun bare komme seg bort fra stasjonen. Hun ville ikke bli sett av noen av de andre ansatte. Men så, på veien ut, støtte hun på en av kollegaene som hadde blitt sendt ut på et oppdrag. Kollegaen fortalte at Kjell hadde sendt dem ut på et uvanlig oppdrag. NRK har snakket med denne kollegaen. Hun forteller: – Jeg har aldri gjort noe slikt, verken før eller etter. Vi var rett og slett sendt på et tulleoppdrag, sier hun til NRK. NRK har snakket med Kjell. Han ønsker ikke å kommentere hendelsen. Så ble situasjonen enda verre for Ella. Konsekvenser Kort tid etterpå fikk Ella vite at noen i Kjells nærmeste krets hadde fått vite om det som hadde skjedd mellom dem. Som tilkallingsvikar var Ella avhengig av å få tildelt vakter, og det var Kjell som hadde myndighet til å kalle inn vikarer. Etter en periode der hun hadde fått mange vakter, opplevde Ella nå at hun ikke ble ringt. Da hun sjekket vaktplanen, oppdaget hun at flere fast ansatte fikk jobbe overtid i stedet for at hun ble kalt inn. Etter flere måneder med lite jobb tok Ella kontakt med Kjell for å spørre hvorfor hun ikke ble brukt som vikar. I denne samtalen husker Ella at Kjell spurte henne om hva hun syntes om at han var lederen hennes. Helt jævlig, svarte Ella. Hun minnes at Kjell svarte at det var opp til henne om hun ville være ambulansearbeider eller ikke. Ella ble satt ut av responsen. Det virket bare så arrogant. I denne perioden sendte han henne også denne meldingen: NRK har sett varslet til Ella. Denne meldingen var en del av varslingsbrevet hun sendte til Finnmarkssykehuset. Illustrasjon: NRK Nå klarte ikke Ella å være stille lenger. Hun fortalte det som hadde skjedd til verneombudet på stasjonen. Verneombudet anbefalte Ella å si ifra til arbeidsgiveren. Men tanken på det føltes skremmende. Samtidig var hun nødt til å gjøre noe hvis hun skulle ha en fremtid i yrket. Til slutt bestemte Ella seg for å si ifra til Finnmarkssykehuset. I varselet skrev hun om tillitsforholdet mellom henne og Kjell. Hun beskrev også de seksuelle hendelsene, og hvordan Kjell i ettertid ikke hadde gitt henne vakter. Ella la også ved meldingsutveksling mellom dem. «At Kjell utnyttet sin lederposisjon til å «fryse meg ut» som en løsning på problemene han selv hadde skapt, er høyst kritikkverdig.» Ella Varselet sendt til Finnmarkssykehuset Hun hadde ikke i sin villeste fantasi trodd at varselet skulle gjøre det verre for henne. NRK har fått tilgang til varselet med meldingsutveksling, møtereferatet og brevet fra Finnmarkssykehuset til Ella. Dette er den første av flere saker der NRK setter søkelys på hvordan Finnmarkssykehuset har håndtert varsler fra ansatte i ambulansetjenesten. Flere av sakene handler om seksuell trakassering. Ellas sak er en av dem. Varslingsmøtet To uker etter at Ella varslet, ble hun kalt inn til et møte med Finnmarkssykehuset. Da hun kom inn i møterommet, ble hun møtt av to mannlige representanter fra Finnmarkssykehuset. På motsatt side av bordet satte Ella og hennes tillitsvalgte seg ned. Slik husker hun det som skjedde videre: Ella ble bedt om å forklare bakgrunnen for varselet. Det var vanskelig for henne å uttrykke seg muntlig. Hun viste til e-posten hun hadde sendt til Finnmarkssykehuset. Deretter begynte de fra Finnmarkssykehuset å stille spørsmål om de to episodene der hun og Kjell hadde hatt sex. Ella syntes det var ubehagelig å dele intime detaljer med de tre mennene på møtet. Grafikk: Marco Vaglieri / NRK Hun følte at de fra Finnmarkssykehuset vred på ting. At de fikk det til å fremstå som om det hadde vært et gjensidig forhold. På et tidspunkt husker hun at hun brøt inn: – Det var ikke et kjærlighetsforhold, sa hun. Så ble Ella spurt om den gangen hun hadde dratt hjem til Kjell. I møtereferatet står det at en av representantene fra sykehuset spurte om Ella kunne si noe konkret om hva som skjedde. Også står det: «Arbeidsgiver mener at på bakgrunn av det Ella har skrevet, fremstår situasjonen som svært alvorlig, og kan gi tanker om en mulig straffbar situasjon.» Så spør Finnmarkssykehuset, ifølge referatet: «Følte du at du var tvunget til å ha sex?» Ella svarte «ja». Hun hadde følt seg tvunget til å ha sex med Kjell. I møtereferatet står det videre: «Ella viser tydelig at hun synes det er ubehagelig å snakke om denne hendelsen.» I dag forteller Ella til NRK at hun har lurt på hvordan de kunne høre henne svare ja på spørsmålet om å være tvunget til sex, uten å stoppe opp – og ta saken på alvor. I varselet til Finnmarkssykehuset la Ella ved flere av meldingene hun hadde fått fra Kjell. Foto: NRK En annen ting Finnmarkssykehuset ville vite, ifølge referatet, var om hun hadde snakket med andre på stasjonen om varselet. Hun skjønte ikke om dette var relevant for saken. Det føltes som et avhør. – Jeg har snakket med verneombudet på stasjonen, sa hun. Det viktigste for Ella, som hun også sa i møtet, var å få frem at hun ønsket å komme tilbake til arbeid, og bli behandlet likt som de andre ambulansearbeiderne. Men så oppsto det en diskusjon om Ellas sak var et varsel eller ikke. Derfor identifiserer vi ikke Hovedregelen i pressens etiske regelverk, Vær varsom-plakaten, er at man skal være forsiktig med å identifisere personer som omtales i forbindelse med klanderverdige forhold. Hensynet til belastningen for tredjepersoner skal også veie tungt, og identifisering må begrunnes i et berettiget informasjonsbehov. NRK har vurdert at denne saken kan opplyses uten å identifisere partene med navn og bilde. Vi velger derfor å anonymisere alle involverte ansatte. Ved å bruke fiktive navn på de anklagede personene, forsøker vi å skjerme enkeltpersoner mot den personlige belastningen medieomtalen kan medføre i små lokalsamfunn. Varsleren i denne saken ønsker ikke å stå fram, og det har NRK tatt hensyn til. Varsleren og NRK er enige om hvilke detaljer det har vært viktig å få frem for offentligheten, selv om noen av dem kan medføre indirekte identifisering, særlig innad i ambulansetjenesten. Når NRK likevel har valgt å identifisere Finnmarkssykehuset er det etter en grundig avveining. Pressens faglige utvalg (PFU) har flere ganger understreket at pressen har en særskilt plikt til å belyse systemsvikt og maktmisbruk i offentlige institusjoner. Finnmarkssykehuset har det overordnede ansvaret for spesialisthelsetjenesten i fylket, inkludert ambulansetjenesten. NRK har i denne serien valgt å legge avgjørende vekt på skriftlig dokumentasjon fremfor kun muntlige påstander. Identifiseringen av sykehuset er nødvendig for å kunne dokumentere hvordan ledelsen har håndtert saken, og for å belyse et saksområde som NRK mener har stor samfunnsmessig betydning. Varsel eller ikke? Ifølge loven skal en varslingssak bli behandlet innen rimelig tid. Den skal også bli undersøkt grundig. I retningslinjer for behandling av varslingssaker i Helse Nord står det at foretaket må skrive en rapport om hvordan saken har blitt håndtert. Denne rapporten skal sendes til direktøren. Loven beskytter også en varsler mot gjengjeldelse fra arbeidsgiveren. I tillegg har de et krav på oppfølging fra dem. Men i møtet spurte de fra Finnmarkssykehuset Ella om hun anså saken som et varsel eller en klage. Ella skjønte ikke hva de mente. Hun hadde jo skrevet til dem at det var et varsel. Illustrasjon: NRK Men så sa en av representantene fra Finnmarkssykehuset: «Siden dette er en personalsak, kan det være at det ikke er å anse som et varsel i henhold til arbeidsmiljøloven.» Personalsak? Ella ble forvirret. Etter møtet ville Ella krype inn i et hjørne og gjemme seg der. Det virket ikke som Finnmarkssykehuset trodde på henne. – Jeg opplevde at de på møtet fokuserte mer på å beskytte foretaket enn å ta tak i problemet. ← Hva er et varsel ? Alle arbeidstakere har rett til å varsle om kritikkverdige forhold i arbeidsgivers virksomhet. Med kritikkverdige forhold menes forhold som er i strid med rettsregler, skriftlige etiske retningslinjer i virksomheten eller etiske normer som det er bred tilslutning til i samfunnet. Kilde: Lovdata.no Hva er ikke et varsel ifølge loven ? Ytring om forhold som kun gjelder arbeidstakers eget arbeidsforhold regnes ikke som varsling etter kapitlet her, med mindre forholdet omfattes av andre ledd. Kilde: Lovdata.no Fremgangsmåte ved varsling (1) Arbeidstaker kan alltid varsle internt. (2) Arbeidstaker kan alltid varsle eksternt til en offentlig tilsynsmyndighet eller en annen offentlig myndighet. (3) Arbeidstaker kan varsle eksternt til media eller offentligheten for øvrig dersom. Kilde: Lovdata.no Arbeidsgivers aktivitetsplikt ved varsling (1) Når det er varslet om kritikkverdige forhold i virksomheten, skal arbeidsgiver sørge for at varselet innen rimelig tid blir tilstrekkelig undersøkt. (2) Arbeidsgiver skal særlig påse at den som har varslet, har et fullt forsvarlig arbeidsmiljø. Dersom det er nødvendig, skal arbeidsgiver sørge for tiltak som er egnet til å forebygge gjengjeldelse. Kilde: Lovdata.no Forbud mot gjengjeldelse (1) Gjengjeldelse mot arbeidstaker som varsler i samsvar med §§ 2 A-1 og 2 A-2 , er forbudt. Overfor innleide arbeidstakere gjelder forbudet både for arbeidsgiver og innleier. Kilde: Lovdata.no → Tre måneder etter møtet med Finnmarkssykehuset hørte Ella fra arbeidsgiveren. Da fikk hun et brev fra daværende klinikksjefen for prehospitale tjenester, Trond Carlson. NRK har lest dette brevet. I brevet sto det at de likevel hadde valgt å se på varselet hennes som et varsel, og ikke en personalsak, selv om det virket som om det var det de mente på møtet. De hadde hatt en samtale med Kjell. Basert på fakta som kom frem, hadde de innført tiltak overfor ham. NRK vet ikke hva disse har gått ut på. Finnmarkssykehuset skrev at hvis Ella ville komme i kontakt med bedriftshelsetjenesten, kunne hun ta kontakt med dem. Det sto imidlertid ikke noe om at Ella skulle få flere vakter. Som tilkallingsvikar hadde ikke Ella krav på vakter fra Finnmarkssykehuset. Ifølge retningslinjer fra Helse Nord skal helseforetaket involvere politiet dersom en varslingssak handler om mulige straffbare forhold. I brevet står det ikke noe om at foretaket har kontaktet politiet i denne saken. Og ifølge Ella har hun aldri blitt kontaktet av politiet. Hun har heller ikke anmeldt saken selv. Utover dette brevet fikk hun ingen oppfølging fra arbeidsgiveren. Og med dette avsluttet de varslingssaken. Ella orket ikke å ta kontakt med arbeidsgiveren igjen. Ubrukt fagbrev I dag jobber ikke Ella lenger i ambulansetjenesten. Hun viser frem fagbrevet som hun ikke får brukt i Finnmark. Fagbrevet til Ella. Foto: NRK Både hendelsene og behandlingen av varslingssaken har vært belastende, forteller hun. – At Kjell misbrukte både sin makt som leder og tilliten vi hadde bygget opp, er noe som har vært vanskelig for meg. Ellas inntrykk er at saken ikke har fått noen reelle konsekvenser for Kjell. Samtidig føles det urettferdig at hun etter hvert ikke fikk tilbud om vakter fra arbeidsgiveren. Finnmarkssykehuset er det nordligste helseforetaket i landet. Hammerfest sykehus er en del av Finnmarkssykehuset. Foto: Allan Klo / NRK – Burde ha kontaktet politiet Advokat, forsker og varslingsekspert Birthe Maria Eriksen reagerer på måten Finnmarkssykehuset behandlet saken til ambulansevikaren Ella. Eriksen har doktorgrad i varsling og har vært medlem av Arbeidsdepartementets lovutvalg for varsling. NRK har fortalt om Ellas historie og referert innholdet i varslingssaken hennes til Eriksen. Basert på informasjonen Eriksen har fått fremlagt, mener hun helseforetaket burde ha sett at saken potensielt handlet om misbruk av stilling og mulige straffbare forhold. – I en så alvorlig sak burde arbeidsgiveren ha kontaktet politiet, sier Eriksen. Finnmarkssykehuset vil ikke svare på hva de gjorde i Ellas sak. På generelt grunnlag svarer de at de alltid vurderer å kontakte politiet dersom de får opplysninger om mulige lovbrudd. – Arbeidsgiver foretar ikke en strafferettslig avgjørelse, skriver HR-sjef i Finnmarkssykehuset, Kenneth Grav. Videre skriver Grav at de alltid informerer ansatte om at de selv kan velge å anmelde saken hvis de ønsker det. Eriksen forteller at arbeidsgiver har en aktivitetsplikt, som betyr at de må undersøke et varsel tilstrekkelig innen rimelig tid. I tillegg må de sette i gang tiltak som beskytter den som varsler. – Som ledd i sin særskilte omsorgsplikt burde sykehuset også ha sørget for at Ella fikk advokatbistand og eventuelt annen bistand, sier Eriksen. Eriksen viser her til at det er tale om en ung vikar som kan være utsatt for alvorlige krenkelser og rettsbrudd i en stor, statlig virksomhet. – Arbeidsgiveransvaret er omfattende i en slik situasjon. De skal både sikre at vikarens rettsvern blir ivaretatt, og ikke minst at hun er vel informert om hvilke rettigheter hun faktisk har. Til dette svarer Finnmarkssykehuset at det ikke foreligger en generell plikt for arbeidsgiver til å dekke privat advokatbistand for en varsler. – Dersom varsleren ønsker juridisk bistand, står vedkommende fritt til å engasjere dette selv, skriver Grav. Advokat, forsker og varslingsekspert Birthe Maria Eriksen. Foto: Ronald Hole Fossåskaret / NRK Eriksen mener også at rettsvernet til Ella ikke ble ivaretatt i varslingssaken. Rettsvernet skal sikre at varslere ikke blir straffet for å si ifra, men for Ella ble opplevelsen det motsatte. – At Ella etter hvert ikke fikk vakter eller oppfølging fra arbeidsgiveren, er eksempler på gjengjeldelse. Eriksen sier at gjengjeldelse overfor noen som forsøker å melde fra om alvorlige forhold, er straffbart i seg selv. – Foretaket kan risikere foretaksstraff ved å utsette varslere for represalier, sier hun. Finnmarkssykehuset har ikke svart på NRKs spørsmål om hvorfor Ella ikke fikk flere vakter i ambulansetjenesten. Viser til taushetsplikt HR-sjef Kenneth Grav sier at Finnmarkssykehuset ikke kan kommentere saken til Ella. – Saken dere viser til gjelder en konkret personalsak. Av hensyn til taushetsplikt, personvern og hensynet til de involverte parter, kan vi ikke kommentere saken, skriver han i en e-post. HR-sjef ved Finnmarkssykehuset, Kenneth",
+    "time_to_correct_hours": 126.95
   },
   {
     "id": 1775314174449,
@@ -23100,7 +23195,8 @@
     "url": "https://www.nrk.no/norge/terrordomt-i-norge_-lederen-hans-er-na-syrias-president-1.17687304",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Fadi er terrordømt i Norge: Sjefen hans er nå Syrias president"
   },
   {
     "id": 1775314186768,
@@ -23112,7 +23208,8 @@
     "url": "https://www.nrk.no/sport/maper-over-norge_-_alle-vil-vite-hemmeligheten_-1.17778558",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Utlendingene måper over Norge: «Alle vil vite hemmeligheten»"
   },
   {
     "id": 1775314256626,
@@ -23124,7 +23221,8 @@
     "url": "https://www.nrk.no/nyheter/reuters_-trump-truer-med-vin-toll-som-straff-for-_fredspanel_-nei-1.17734818",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Reuters: Trump truer med vin-toll som straff for «fredspanel»-nei – Siste nytt – NRK"
   },
   {
     "id": 1775314277694,
@@ -23136,7 +23234,8 @@
     "url": "https://www.nrk.no/sapmi/prinsesse-ingrid-alexandra-fikk-teste-ut-livet-som-reindriftsutover-1.17743451",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Grete Máret om prinsessebesøket: – Det virker som hun virkelig bryr seg"
   },
   {
     "id": 1775314284558,
@@ -23148,7 +23247,20 @@
     "url": "https://www.nrk.no/buskerud/jonas-drapet_-_skytteren_-fortalte-om-ukjente-voldssaker-1.17813760",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Jonas-drapet: «Skytteren» fortalte om ukjente voldssaker",
+    "nrk_section": "buskerud",
+    "publication_date": "2026-03-18T15:53:43+01:00",
+    "modified_date": "2026-03-18T15:53:43+01:00",
+    "intro_text": "Mannen som har innrømmet å ha drept Jonas Aarseth Henriksen, sa i retten at han har en mer omfattende voldshistorikk enn det som har kommet fram tidligere.",
+    "journalist": "Hans-Kristian Rangnes, Stian Haraldsen",
+    "responsible_editor": "",
+    "article_body": "Jonas-drapet: «Skytteren» fortalte om ukjente voldssaker Mannen som har innrømmet å ha drept Jonas Aarseth Henriksen, sa i retten at han har en mer omfattende voldshistorikk enn det som har kommet fram tidligere. Statsadvokat Vibeke Gjøslien og forsvareren til «Skytteren», Marius Dietrichson. Foto: Lise Åserud / NTB Hans-Kristian Rangnes – Journalist Journalist Stian Haraldsen – Journalist Journalist Vi rapporterer fra Borgarting lagmannsrett Publisert 18.03.2026, kl. 15.53 Publisert 18.03.2026, kl. 15.53 Vi rapporterer fra Borgarting lagmannsrett Etter advokatenes innledningsforedrag i ankesaken etter drapet på Jonas Aarseth Henriksen (30), skal de tiltalte forklare seg. «Skytteren» var den første av de tiltalte som inntok vitneboksen, og han startet med en såkalt fri forklaring, hvor han fortalte sin versjon av det som har skjedd. 30-åringen sa at han via en person han ikke vil navngi, ble spurt av «Bestilleren» om han kunne ta på seg et voldsoppdrag. – Jeg sa at det kunne være interessant. «Skytteren» har erkjent drapet, men benekter at det var planlagt. Dette må du vite om Jonas-saken Hva skjedde med Jonas Aarseth Henriksen? Jonas Aarseth Henriksen (30) ble funnet drept i bilen sin ved en øde skogsvei i Nes i Ådal 17. august 2023. Han var skutt to ganger i ryggen og døde av indre blødninger. Før drapet ble han utsatt for vold, branner og hærverk. Han leverte inn totalt 11 anmeldelser. Politiet har innrømmet at han ikke fikk den beskyttelsen han skulle fått. Hvem har gjort hva? «Bestilleren» har erkjent at han bestilte hærverk og vold mot Jonas, men benekter å ha ønsket et drap. Motivet til 35-åringen var blant annet sjalusi. Han ble dømt til 14 års fengsel. «Skytteren» har innrømmet at han påtok seg et voldsoppdrag, hvor målet var å skade Jonas både fysisk og økonomisk. 30-åringen har erkjent at han skjøt Jonas, men at det ikke var planlagt. Han ble dømt til 13 års fengsel. «Medhjelperen» har innrømmet at han filte bort registreringsnummeret på pistolen og tilpasset en lyddemper. 34-åringen var også med på flere av hærverkene. Han ble dømt til 5 år og 5 måneders fengsel. «Sjåføren» er en venn av «Skytteren», og har erkjent at han kjørte rundt på hærverksoppdrag sammen med ham. 32-åringen var ikke med da Jonas ble drept. Han ble dømt til 3 års fengsel. Hva skjer i ankesaken? Ingen av de tiltalte anket dommen fra tingretten. Riksadvokaten anket derimot straffutmålingen for «Bestilleren» og «Skytteren». Samt skyldspørsmålet for de to som ble frifunnet for medvirkning til drap. Det ble da levert en motanke fra den andre sida. I Borgarting lagmannsrett blir det en full gjennomgang av skyldspørsmålet for alle fire for drap og medvirkning til drap. Flere voldssaker Statsadvokat Vibeke Gjøslien stilte flere spørsmål om tida før «Skytteren» ble kontaktet og spurt om å påta seg et voldsoppdrag mot Jonas. Han fortalte at han var uten jobb, og trengte penger. 30-åringen innrømmet også flere tilfeller av vold han ikke er dømt for, men han ønsket ikke utdype noe mer. – Det vil jeg ikke si noe om. Det har ikke noe med denne saken å gjøre, sa han. Han er tidligere dømt for et stort våpentyveri, som han gjennomførte sammen med mannen som i Jonas-saken er omtalt som «Sjåføren». Onsdag erkjente han enda mer befatning med skytevåpen. – Jeg har omsatt noen våpen her og der, sa han. Mot slutten av rettsdagen ba forsvareren til «Skytteren», Marius Dietrichson, om ordet, under utspørringen til aktor. – Dette er grensende til respektløs eksaminasjon. Det virker som hun spør for å jage frem det han ikke vet, framfor å få fram informasjon, sa han. Statsadvokat Vibeke Gjøslien mente det var viktig å få fram hva tiltalte husket og ikke husket. Lagdommer Henrik Kolderup reagerte ikke på spørsmålsstillingen, men anmodet likevel om å ha framdriften i bakhodet, med tanke på tidsplanen. Statsadvokatene Mari Gjersøe og Vibeke Gjøslien fører saken for påtalemyndigheten. Foto: Lise Åserud / NTB Nevnte rullestol Etter å ha gått med på avtalen med «Bestilleren » , forsøkte «Skytteren» å lokke fram Jonas Aarseth Henriksen. På dette tidspunktet, sommeren 2023, hadde avdøde blitt utsatt for flere tilfeller av hærverk og også vold. Han bodde derfor ikke hjemme, og holdt en lav profil. Planen var, ifølge «Skytteren», å slå Henriksen med brekkjern. – Hvis jeg hadde slått ham i beina og kneskåla sto ut, så hadde jeg gitt meg. – Hvis kneskala ikke hadde stått ut, da? spurte Gjøslien. – Da hadde jeg sikkert slått videre. Marius Dietrichson er forsvareren til «Skytteren». Foto: Lise Åserud / NTB Etter flere turer rundt på Østlandet sommeren 2023 klarte «Skytteren» å lokke Jonas til et fiktivt jobboppdrag på ei hytte i Nes i Ådal. Oppdraget var at Jonas skulle fikse en brønn. – Jeg fikk beskjed om å gjøre det ordentlig, sånn at han ble arbeidsufør. Det var også snakk om rullestol. Tiltalte forklarte at han ble urolig mens han ventet på Henriksen ved åstedet. Han fryktet å selv bli overfalt. Derfor hentet han en pistol i bilen, som tiltalte sa han fikk til hærverkene mot Jonas. Skal på Jonas-åstedet for første gang: Varsler viktige detaljer Etter å ha hilst på Henriksen og vist ham brønnen, slo tiltalte mot ham med et brekkjern. Han er usikker på om han traff. Henriksen dro fram noe tiltalte trodde var en kniv, og han løp da mot pistolen sin. Etter drapet ble det funnet en skrutrekker på åstedet. Tiltalte avfyrte til sammen fire skudd. «Skytteren» sa i retten at han siktet på beina til Jonas. To skudd traff ham i ryggen, og han døde av indre blødninger. ← Ane Hem / NTB «BESTILLEREN» Ble dømt til 14 års fengsel for drap eller medvirkning til drap. Har innrømmet: Bestilling av trusler, hærverk og vold. Har benektet: At han ønsket Jonas Aarseth Henriksen drept. Ole Berg-Rusten / NTB «SKYTTEREN» Ble dømt til 13 års fengsel for drap eller medvirkning til drap. Har innrømmet: At han skjøt og drepte Jonas. Har benektet: At det var et planlagt drap. Sier det var et voldsoppdrag som «gikk galt». Ane Hem / NTB «MEDHJELPEREN» Dømt til 5 år og 5 måneder for medvirkning til grov kroppsskade. Har innrømmet: Hærverk. Tilpasset våpenet som han sier skulle bli brukt til hærverk. Har benektet: Kjennskap til noen drapsplaner. Ane Hem / NTB «SJÅFØREN» Ble dømt til 3 års fengsel for medvirkning til grov kroppsskade. Har innrømmet: Kjøring til møter, og var med på hærverk. Har benektet: Kjennskap til noen planer om drap. → Planlagt drap? Saken i lagmannsretten kommer til å handle mye om hva de tiltalte visste, og hva de eventuelt burde forstått kunne komme til å skje. Fire menn ble i tingretten dømt i saken. To av dem ble dømt for drap eller medvirkning til drap. De to andre ble dømt for å ha vært med på hærverk og grov vold mot Henriksen. I lagmannsretten kommer det til å, som i tingretten, handle mye om forsett og hvorvidt drapet var planlagt, eller et voldsoppdrag som gikk galt, slik «Bestilleren» og «Skytteren» sier. De to andre tiltalte sier de aldri har hørt noen prat om drap. Statsadvokat Vibeke Gjøslien kaller det en ren henrettelse, noe forsvarerne til de tiltalte bestrider. Faren til Jonas Aarseth Henriksen fortalte til NRK tirsdag at den første dagen av ankesaken ble tøffere enn han hadde forestilt seg: Familien til Jonas trodde de var forberedt – ble overrasket i retten Publisert 18.03.2026, kl. 15.53 Drapet på Jonas Aarseth Henriksen (30) Tatoverte Jonas-minner: – Jeg får ståpels på ryggen Jonas-saken: «Sjåføren» måtte vekkes av advokaten i retten + Vis flere Mer om: Drapet på Jonas Aarseth Henriksen (30) NRK Buskerud Tidligere politiadvokat forsøkt svindlet av «Petter Stordalen» + Vis flere Mer om: NRK Buskerud Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Norge",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "crime",
+    "correction_type": "other",
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775314306460,
@@ -23160,7 +23272,8 @@
     "url": "https://www.nrk.no/norge/alle-color-line-fergene-har-stoppet-pa-grunn-av-nettverksfeil-1.17714943",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Alle Color Line-fergene stoppet på grunn av nettverksfeil"
   },
   {
     "id": 1775314402671,
@@ -23172,7 +23285,20 @@
     "url": "https://www.nrk.no/rogaland/nyheter-fra-rogaland-1.16603632",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Nyheter fra Rogaland",
+    "nrk_section": "rogaland",
+    "publication_date": "2023-10-20T09:57:04+02:00",
+    "modified_date": "2026-04-04T17:19:19+02:00",
+    "intro_text": "Få med deg siste nytt fra Rogaland i denne nyhetsstrømmen.",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "4. april 2026 kl. 17:19 Nyheter fra Rogaland Vær og trafikk i Norge Sola kommune ber innbyggere og ansatte holde seg inne når «Dave» kommer Etter et samordningsmøte fredag ettermiddag har ledelsen i Sola kommune lagt planene klare for det varslede uværet. Det er ventet at uværet herjer som verst mellom klokken 13.00 og 16.00. I dette tidsrommet er beskjeden fra kommunen til innbyggerne klar: Hold dere innendørs. For å være forberedt på at strømmen eller nettet kan forsvinne, har levekårsavdelingen printet ut nødvendige lister på papir. – Dette gjør vi for å kunne gi nødvendige tjenester til hjemmeboende og på sykehjem, sier Eli Ane Nedreskår i Sola kommune. Stormen påvirker også de ansatte i kommunen. For at ingen skal måtte ferdes ute på veiene når vinden er på sitt aller kraftigste, vil flere få endret arbeidsdagen sin. – Det kan bety at enkelte hjemmetjenester blir noe skjøvet på og at vaktene for ansatte kan bli noe forlenget for å unngå at ansatte skal forflytte seg i det mest utsatte tidsrommet, sier Nedreskår.",
+    "correction_description": "",
+    "correction_date": "2026-04-04",
+    "news_category": "weather",
+    "correction_type": "other",
+    "time_to_correct_hours": 21535.37
   },
   {
     "id": 1775314449908,
@@ -23184,7 +23310,8 @@
     "url": "https://www.nrk.no/norge/hedvig-fikk-faktura-for-odelagt-pc_-_-jeg-begynte-a-grate-1.16806288",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Hedvig fikk faktura for ødelagt PC: – Jeg begynte å gråte"
   },
   {
     "id": 1775314462107,
@@ -23196,7 +23323,8 @@
     "url": "https://www.nrk.no/dokumentar/xl/psyk_-del-4_-lytt-til-de-andre-1.17171747",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Lytt til de andre"
   },
   {
     "id": 1775314593406,
@@ -23208,7 +23336,20 @@
     "url": "https://www.nrk.no/sorlandet/vaer-og-trafikk-pa-sorlandet-1.12128797",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Vær og trafikk på Sørlandet",
+    "nrk_section": "sorlandet",
+    "publication_date": "2015-01-02T16:49:31+01:00",
+    "modified_date": "2026-04-04T14:20:27+02:00",
+    "intro_text": "Her følger NRK Sørlandet uvær og trafikk, når E18 eller E39 snør igjen, strømlinjer brytes eller elver går over sine bredder.",
+    "journalist": "Regine Engelina Hatvik, Kristin Almeland Manger, Ismail Burak Akkan, Eirik Rognaldsen, Bjørne Øst",
+    "responsible_editor": "",
+    "article_body": "4. april 2026 kl. 14:20 Nyheter fra Agder Vær og trafikk på Sørlandet Vær og trafikk i Norge Ber innbyggerne holde seg innendørs Flekkefjord kommune ber innbyggere om å holde seg inne mens stormen «Dave» pågår søndag. Det er ventet ekstremt kraftige vindkast i deler av Agder. Meteorologisk institutt har sendt ut rødt farevarsel. Vinden skal begynne å ta seg opp klokken 11.00 søndag. – Kommunen oppfordrer folk til å holde seg innendørs, og å planlegge reiser i tråd med anbefalinger. Man bør sjekke de fysiske forholdene på egen eiendom, samt sikre løse gjenstander som hagemøbler, trampoliner og fritidsbåter, skriver kommunen på sine nettsider. En planlagt gudstjeneste på Hidra er utsatt til mandag på grunn av det ventede uværet. Faksimile: Meteorologisk Institutt",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "weather",
+    "correction_type": "other",
+    "time_to_correct_hours": null
   },
   {
     "id": 1775314596702,
@@ -23220,7 +23361,8 @@
     "url": "https://www.nrk.no/nordland/canada-stengde-47-lakseoppdrett-_-da-kom-villaksen-tilbake-1.17700793",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Canada stengde 47 lakseoppdrett – då kom villaksen tilbake"
   },
   {
     "id": 1775314629438,
@@ -23232,7 +23374,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/kviss_-kva-hugsar-du-fra-nyheitene-i-troms-og-svalbard-i-veke-3-i-2026-1.17732975",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Kviss: Kva hugsar du frå nyheitene i Troms og Svalbard i veka som gjekk?"
   },
   {
     "id": 1775314707456,
@@ -23244,7 +23387,20 @@
     "url": "https://www.nrk.no/vestland/stor-kostnadssmell-pa-gigantprosjektet_-_-blir-5-milliardar-dyrare-1.17810746",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Varslar gigantsprekk og full isfront: Krev krisemøte med ministeren",
+    "nrk_section": "vestland",
+    "publication_date": "2026-03-17T11:58:52+01:00",
+    "modified_date": "2026-03-20T16:03:59+01:00",
+    "intro_text": "Samarbeidet på eit av Noregs største vegprosjekt er på brestepunktet. Utanlandske toppsjefar slår alarm, og diplomatar ber statsråden ta affære i ein fastlåst konflikt med Statens vegvesen.",
+    "journalist": "Even Norheim Johansen",
+    "responsible_editor": "",
+    "article_body": "Varslar gigantsprekk og full isfront: Krev krisemøte med ministeren Samarbeidet på eit av Noregs største vegprosjekt er på brestepunktet. Utanlandske toppsjefar slår alarm, og diplomatar ber statsråden ta affære i ein fastlåst konflikt med Statens vegvesen. GIGANTISK: Sotrasambandet er eit av Noregs mest omfattande vegprosjekt, med milliardinvesteringar og ein helt ny hovudveg mellom Sotra og Bergen. Foto: Oskar Rennedal / NRK Even Norheim Johansen – Journalist Journalist Publisert 17.03.2026, kl. 11.58 Oppdatert 20.03.2026, kl. 16.03 Publisert 17.03.2026, kl. 11.58 Oppdatert 20.03.2026, kl. 16.03 Saka oppsummert Sotrasambandet, eit av Noregs største vegprosjekt, er forseinka på ubestemt tid grunna ein fastlåst konflikt mellom Statens vegvesen og utanlandske entreprenørar. Entreprenørane hevdar at prosjektet er 150 dagar bak skjema og at det er eit økonomisk gap på 5 milliardar kroner mellom kostnadane og det Vegvesenet vil betala. Tre utanlandske toppsjefar har sendt eit krisebrev til samferdsleministeren og bedt om politisk hjelp, men ministeren har avvist å møta dei. Ambassadar frå Spania, Italia og Sør-Korea har òg forsøkt å få til eit møte med regjeringa, men fått avslag. Statens vegvesen meiner entreprenørane har ansvaret for forseinkingane og avviser skuldingane om økonomisk gap. Utbyggingsdirektør i Vegvesenet meiner konflikten må løysast gjennom forhandlingar eller domstolane, ikkje på politisk nivå Neste sommar skulle gigantprosjektet Sotrasambandet opna, og løyse dei årelange bilkøane mellom Øygarden og Bergen. Like etter nyttår varsla Vegvesenet at opninga var utsett på ubestemt tid. Det dei ikkje fortalde, var at forholdet til gigantentreprenøren var fullstendig fastlåst. No kan NRK fortelja at eit av Noregs største samferdsleprosjekt har enda i ein maktkamp av dei sjeldne. Varslar om sprekk på 5 milliardar Toppsjefane for tre globale gigantselskap slår alarm i eit oppsiktsvekkjande brev sendt direkte til samferdsleminister Jon-Ivar Nygård (Ap). Sotrasambandet blir bygd gjennom ein såkalla OPS-kontrakt (offentleg-privat samarbeid). I brevet, sendt 24. februar, skildrar toppsjefane i selskapa Webuild, FCC og SK Ecoplant eit totalt havarert samarbeid med Statens vegvesen. Vidare slår dei fast at prosjektet er oppgitt å vera nærmare 150 dagar bak skjema. Endå meir dramatisk: Dei varslar òg om eit gap på 5 milliardar kroner mellom kva arbeidet faktisk kostar, og kva Statens vegvesen er villige til å betala. I brevet skriv toppsjefane at dei har gjort det som er mogleg for å unngå fastlåste situasjonar, men at dei no «desperat» leitar etter ei løysing. Dei slår fast at dei står i «et uføre med Statens vegvesen på prosjektet». Teknisk Ukeblad omtalte milliardsmellen først. Tre ambassadar bad om møte Tilspissinga har sendt saka til internasjonalt diplomatisk nivå. Før toppsjefane sende sitt eige kriserop, hadde ambassadane til Spania, Italia og Sør-Korea teke kontakt med den norske regjeringa for å få i stand eit krisemøte om situasjonen. Framstøyten var eit felles, samordna forsøk på å setta Noregshistorias største vegprosjekt på den politiske agendaen. NRK har fått tilgang til det felles svarbrevet ambassadane fekk i retur frå Samferdselsdepartementet. Svaret er ein formell og diplomatisk leksjon i korleis norsk forvaltning er bygd opp. Departementet takkar for engasjementet, men gjer det tindrande klart at regjeringa ikkje kjem til å blanda seg inn i den daglege styringa av eit enkeltprosjekt. NRK har ikkje fått innsyn i breva som seier kva ambassadane faktisk har bedt om. Men i sitt svarbrev etterlyser departementet ein agenda for å « ... forstå hvilke saker eller temaer de tre ambassadane ønsker å sette på dagsordenen ...» Departementet opplyser at embetsverket har gjennomført møte med ambassadene. – Det er fordi det er høflleg å takka ja til møter med ambassadar, opplyser pressevakt i departementet til NRK. NRK har henvendt seg til dei tre ambassadane for ein kommentar, men har enno ikkje mottatt svar. MØRKT: Arbeidet på den nye Sotrabrua pågår for full styrke, men opninga er allereie utsett med eit halvt år. Foto: Oskar Rennedal / NRK Krise: «Eit uføre» Dagen etter at ambassadane fekk dette svaret, gjekk toppsjefane for dei tre globale selskapa direkte til samferdselsministeren. I det oppsiktsvekkjande brevet skildrar dei eit totalt havarert samarbeid med Statens vegvesen «Graden av alvor i et prosjekt av denne størrelsen har medført eskalering til toppledelsen i de involverte selskapene, og administrerende direktører anmoder nå om et møte med samferdselsministeren», heiter det i brevet. Direktørane i dei tre selskapskolossane skriv at entreprenøren har «i god tro gjort det som er mulig for å unngå fastlåste situasjoner, men vi forsøker nå desperat å finne en løsning», og slår fast at dei står i «et uføre med Statens vegvesen på prosjektet». Foto: Oskar Rennedal / NRK Statsråden: – Har takka nei til møte med Sotra Link Men samferdsleminister Nygård har ingen planar om å møta toppsjefane som bygger Sotrasambandet. – Me har takka nei til møte med Sotra Link Construction, opplyser samferdsleminister Nygård gjennom presseavdelinga i departementet til NRK tysdag. Departementet viser til eit nytt brev dei sendte til Sotra Link Construction JVC 9. mars. Svaret er nær identisk til det ambassadane fekk i februar. I staden for ein møteavtale får toppsjefane for dei tre globale selskapa streng beskjed om å gå tilbake til forhandlingsbordet med byggherren: AVVISER MØTE: Samferdsleminister Jon-Ivar Nygård (Ap) vil ikkje involvere seg i konflikten på Sotrasambandet. Foto: Frode Meskau / NRK «Basert på dei oppgitte måla, vil det vere meir passande for dykk å møte Statens vegvesen på dette stadiet», heiter det i svarbrevet frå departementet. Nygård forventar at partane tar opp igjen dialogen. – Det er viktig at ein no følger korrekt saksgang, og at Statens vegvesen og OPS-selskapet Sotra Link AS saman løyser utfordringane, slik at me sikrer framgang i dette viktige vegprosjektet. Kranglar om milliardar Kjernen i den fastlåste konflikten toppsjefane no vil ha politisk hjelp til å løyse, er kampen om kven som skal ta rekninga. Entreprenørane hevdar dei har meldt inn endringskrav for over 2 milliardar kroner, men at Statens vegvesen har avvist nesten alt. Dei skal ha godteke knappe 45 millionar kroner. Samstundes skuldar dei Vegvesenet for forseinkingane, og peikar på uforutseielegheit og manglande tilgang til anleggsområde heilt sidan byggjestart. Foto: Oskar Rennedal / NRK Vegvesenet nektar å ta rekninga Men Statens vegvesen nektar å ta på seg skulda for krisa. Prosjektleiar Lene Sælen Rivenes avviser tvert at byggherren har ansvaret for at prosjektet er eit halvt år forseinka. – I OPS-kontrakten er det leverandøren som har ansvar for både prosjektering og bygging av Sotrasambandet, inkludert å hente inn nødvendige løyve. Me meiner ansvaret for forseinkinga ikkje ligg hjå oss som oppdragsgivar, slår Rivenes fast. Ho avviser òg det enorme økonomiske gapet toppsjefane viser til. – Statens vegvesen har ikkje motteke krav på 5 milliardar kroner frå Sotra Link, opplyser Rivenes. Ho understrekar at etaten berre betalar ut beløp for dei krava dei etter kontrakten har risikoen for. STUSSAR: Utbyggingsdirektør i Statens vegvesen, Kjell Inge Davik, er krystallklar på kva han meiner om at dei globale selskapa no prøver å løfte konflikten opp på politisk nivå. – Kvifor Sotra Link Construction ynskjer å løfte denne saka til eit politisk nivå, må dei sjølve svare på. Foto: Even Norheim Johansen Utbyggingsdirektør i Statens vegvesen, Kjell Inge Davik, er krystallklar på kva han meiner om at dei globale selskapa no prøver å løfte konflikten opp på politisk nivå. – I dei tilfella vi ikkje lukkast med å finne løysingar er det domstolane som avgjer sakene, ikkje politikarane. Det er eit viktig prinsipp, seier Davik. Han legg ansvaret for den uvanlege eskaleringa rett tilbake på selskapa. – Kvifor Sotra Link Construction ynskjer å løfte denne saka til eit politisk nivå, må dei sjølve svare på, seier utbyggingsdirektøren. Direktøren avviser desperasjon Overfor NRK tonar Pedro Manuel Rodríguez Hernández ned dramatikken. Han er prosjektdirektør for Sotrasambandet (Sotra Link Construction JV), og er avsendar på brevet frå dei tre toppsjefane. Trass i at dei skriv at dei «desperat forsøker å finne en løsning», forsøker han å avkrefta at situasjonen er dramatisk. – Det er viktig å framheva og avkrefta tanken du nemner i e-posten din: desperasjon. Samarbeidsselskapet bygger Noregs største infrastrukturprosjekt og er ikkje desperate eller engstelege over situasjonen; snarare er dei ivrige etter å halda eit møte med departementet for å gi ei oppdatering om dei tekniske og økonomiske aspekta ved prosjektet, skriv han, og legg til. – Det er avgjerande at realiteten i situasjonen blir formidla, skriv Hernández og viser til ein pressemelding selskapet snart vil senda ut. I ein tidlegare versjon skreiv NRK at ambassadane til Spania, Italia og Sør-Korea tok kontakt med regjeringa for å få i stand eit krisemøte om milliardsprekken. NRK har endra til at ambassadane tok kontakt for å få i stand eit møte om situasjonen. Rettinga vart gjort klokka 14.10. NRK skreiv i ein tidlegare versjon at Nygård hadde takka nei til møte med ambassadane. Det rette er at han takka nei til møte med Sotra Link. Feilen blei retta 20. mars kl 16.00. Publisert 17.03.2026, kl. 11.58 Oppdatert 20.03.2026, kl. 16.03 Samferdsel Suser av gårde i 90 km/t uten airbag: – Tenk om du krasjer Krever retningslinjer for skoleskyss til sjøs: – Det kan jeg ikke godta + Vis flere Mer om: Samferdsel Sotrasambandet Ny smell i milliardkrangelen – får straff etter for mykje overtid og for lite kvile + Vis flere Mer om: Sotrasambandet Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Norge",
+    "correction_description": "NRK har presisert at ambassadene ba om et møte om situasjonen, ikke et krisemøte om milliardsprekken, og klargjort hvem samferdselsministeren takket nei til å møte.",
+    "correction_date": "2026-03-20",
+    "news_category": "local",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 76.09
   },
   {
     "id": 1775314752493,
@@ -23256,7 +23412,8 @@
     "url": "https://www.nrk.no/urix/her-herjet-is-for-ti-ar-siden-_-na-blusser-angrepene-opp-igjen-1.17780520",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Her herjet IS for ti år siden – nå blusser angrepene opp igjen"
   },
   {
     "id": 1775314871326,
@@ -23268,7 +23425,8 @@
     "url": "https://www.nrk.no/nyheter/nye-samtaler-mellom-usa-og-venezuela-1.17752970",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Nye samtaler mellom USA og Venezuela – Siste nytt – NRK"
   },
   {
     "id": 1775314956998,
@@ -23280,7 +23438,8 @@
     "url": "https://www.nrk.no/sorlandet/inger-britt-_34_-skaper-sin-egen-babydrom-_-har-gitt-opp-datinglivet-1.17680693",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Inger Britt skaper sin egen babydrøm – har gitt opp datinglivet"
   },
   {
     "id": 1775314959219,
@@ -23292,7 +23451,8 @@
     "url": "https://www.nrk.no/nyheter/det-hvite-hus_-iran-stanser-800-henrettelser-1.17729536",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Det hvite hus: Iran stanser 800 henrettelser – Siste nytt – NRK"
   },
   {
     "id": 1775314963827,
@@ -23304,7 +23464,8 @@
     "url": "https://www.nrk.no/innlandet/matoma-og-lokale-ildsjeler-kjemper-for-a-fa-tilbake-videregaende-skole-pa-flisa-1.17758382",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Kjemper for å få tilbake skoletilbud på Flisa"
   },
   {
     "id": 1775314970097,
@@ -23316,7 +23477,8 @@
     "url": "https://www.nrk.no/norge/16-aring-tiltalt-for-medvirkning-til-flere-drap_-drapsforsok-og-drapsplanlegging-1.17733498",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "16-åring tiltalt for medvirkning til flere drap, drapsforsøk og drapsplanlegging"
   },
   {
     "id": 1775315081842,
@@ -23328,7 +23490,8 @@
     "url": "https://www.nrk.no/nyheter/trump-i-brev-til-store_-_-jeg-tenker-ikke-lenger-bare-pa-fred-1.17733160",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Trump i melding til Støre: – Jeg tenker ikke lenger bare på fred – Siste nytt – NRK"
   },
   {
     "id": 1775315175605,
@@ -23340,7 +23503,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/finnmarksbrigaden-opprettes-offisielt_-forsvaret-fremskynder-ekstra-artilleriskyts-1.17531696",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Forsvaret trappes opp i dag: Fremskynder kjøp av betydelig ildkraft"
   },
   {
     "id": 1775315264834,
@@ -23352,7 +23516,20 @@
     "url": "https://www.nrk.no/buskerud/familien-til-jonas-trodde-de-var-forberedt-_-ble-overrasket-i-retten-1.17811054",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Familien til Jonas trodde de var forberedt – ble overrasket i retten",
+    "nrk_section": "buskerud",
+    "publication_date": "2026-03-17T16:12:17+01:00",
+    "modified_date": "2026-03-17T16:12:17+01:00",
+    "intro_text": "Tirsdag startet ankerettssaken etter drapet på Jonas Aarseth Henriksen (30).",
+    "journalist": "Stian Haraldsen, Hans-Kristian Rangnes",
+    "responsible_editor": "",
+    "article_body": "Familien til Jonas trodde de var forberedt – ble overrasket i retten Tirsdag startet ankerettssaken etter drapet på Jonas Aarseth Henriksen (30). Familien til Jonas i retten: Pernille Andersson, Elin Aarseth, Ida Aarseth Pedersen, Trond Henriksen sammen med bistandsadvokat Marijana Lozic. Foto: Lise Åserud / NTB Stian Haraldsen – Journalist Journalist Hans-Kristian Rangnes – Journalist Journalist Vi rapporterer fra Borgarting lagmannsrett Publisert 17.03.2026, kl. 16.12 Publisert 17.03.2026, kl. 16.12 Vi rapporterer fra Borgarting lagmannsrett Jonas Aarseth Henriksen ble funnet drept ved en hytte i Nes i Ådal i 2023. I tingretten for et år siden sa statsadvokat Vibeke Gjøslien at drapet virket som en ren henrettelse. Det gjentok hun i dag. Gjøslien gikk i sitt innledningsforedrag gjennom det hun omtalte som personforfølgelse av Jonas i tida før drapet. Dette var hærverk og vold som «Bestilleren» har erkjent å ha betalt for. – Det samlede bevisbildet viser at drapet var planlagt, at Jonas skulle drepes i Veernveien 5, og at dette var bestilt, sa Gjøslien i Borgarting lagmannsrett. Dette må du vite om Jonas-saken Hva skjedde med Jonas Aarseth Henriksen? Jonas Aarseth Henriksen (30) ble funnet drept i bilen sin ved en øde skogsvei i Nes i Ådal 17. august 2023. Han var skutt to ganger i ryggen og døde av indre blødninger. Før drapet ble han utsatt for vold, branner og hærverk. Han leverte inn totalt 11 anmeldelser. Politiet har innrømmet at han ikke fikk den beskyttelsen han skulle fått. Hvem har gjort hva? «Bestilleren» har erkjent at han bestilte hærverk og vold mot Jonas, men benekter å ha ønsket et drap. Motivet til 35-åringen var blant annet sjalusi. Han ble dømt til 14 års fengsel. «Skytteren» har innrømmet at han påtok seg et voldsoppdrag, hvor målet var å skade Jonas både fysisk og økonomisk. 30-åringen har erkjent at han skjøt Jonas, men at det ikke var planlagt. Han ble dømt til 13 års fengsel. «Medhjelperen» har innrømmet at han filte bort registreringsnummeret på pistolen og tilpasset en lyddemper. 34-åringen var også med på flere av hærverkene. Han ble dømt til 5 år og 5 måneders fengsel. «Sjåføren» er en venn av «Skytteren», og har erkjent at han kjørte rundt på hærverksoppdrag sammen med ham. 32-åringen var ikke med da Jonas ble drept. Han ble dømt til 3 års fengsel. Hva skjer i ankesaken? Ingen av de tiltalte anket dommen fra tingretten. Riksadvokaten anket derimot straffutmålingen for «Bestilleren» og «Skytteren». Samt skyldspørsmålet for de to som ble frifunnet for medvirkning til drap. Det ble da levert en motanke fra den andre sida. I Borgarting lagmannsrett blir det en full gjennomgang av skyldspørsmålet for alle fire for drap og medvirkning til drap. Spilte av lydopptak Familien til Jonas satt bak aktoratet, og var tydelig preget da det både ble vist bilder av sønn, samboer og bror på åstedet. – Det har vært overraskende tungt. Jeg trodde det skulle bli lettere siden vi var mer forberedt på hvordan alt fungerer, men det har egentlig vært motsatt, sier far Trond Henriksen til NRK. Det ble også spilt av et lydopptak Jonas tok opp to uker før drapet. Jonas Aarseth Henriksen hadde skader flere steder på kroppen etter angrepet i Tønsberg fem måneder før drapet. – Noen ting i livet blir mindre vondt når du har vendt deg litt til det, men disse tingene kjennes bare vondere og vondere når vi skal rippe litt opp i det. I hvert fall når vi føler at vi ikke får en full sannhet og en forståelse av hvordan det har vært, sier Trond Henriksen. Han håper de får flere svar i denne runden enn i tingretten. – Vi har ikke tillit til de historiene som kom i tingretten, så det er de ærlige forklaringene om hva som egentlig har skjedd og hva som var planen bak vi håper å få fram. Krypterte meldinger – Når du gjør dette, har du høyt hat for noen. Dette er ren terror, sa Jonas i opptaket om alt han ble utsatt for i forkant. Forsvareren til «Skytteren» sier at hans klient fikk betalt 35.000 kroner for å skade Jonas. – De skulle skade ham, de skulle slå ham i beinet med et brekkjern, han skulle ikke dø. Rettens oppgave er å se på om dette kan forklares på et uskyldsperspektiv, sa Marius Dietrichson. Gjøslien viste fram bilder i retten av hva slags og hvor mange telefoner de tiltalte disponerte i tida før drapet. Flere av dem hadde ulike telefoner og en rekke SIM-kort. Advokatene Marius Dietrichson og Jon Anders Hasle i Borgarting lagmannsrett. Foto: Lise Åserud / NTB – All kommunikasjon har foregått på en kryptert meldingstjeneste, så det er svært begrenset hva politiet kan hente ut. Spesielt når de fysiske telefonene er borte, sa Gjøslien. – Det har vært en bevisst strategi av de tiltalte. Det er ikke tilfeldig, det er ikke noen tvil om at de tiltalte vet hva politiet kan finne i en slik sak. Påtalemyndigheten mener «Bestilleren» ønsket Jonas drept på grunn av sjalusi. Jonas Aarseth Henriksen hadde et kort forhold med kjæresten til «Bestilleren» i en periode de hadde en pause. «Bestilleren» har forklart at han mislikte Jonas sterkt etter at han fant ut av det. ← Ane Hem / NTB «BESTILLEREN» Ble dømt til 14 års fengsel for drap eller medvirkning til drap. Har innrømmet: Bestilling av trusler, hærverk og vold. Har benektet: At han ønsket Jonas Aarseth Henriksen drept. Ole Berg-Rusten / NTB «SKYTTEREN» Ble dømt til 13 års fengsel for drap eller medvirkning til drap. Har innrømmet: At han skjøt og drepte Jonas. Har benektet: At det var et planlagt drap. Sier det var et voldsoppdrag som «gikk galt». Ane Hem / NTB «MEDHJELPEREN» Dømt til 5 år og 5 måneder for medvirkning til grov kroppsskade. Har innrømmet: Hærverk. Tilpasset våpenet som han sier skulle bli brukt til hærverk. Har benektet: Kjennskap til noen drapsplaner. Ane Hem / NTB «SJÅFØREN» Ble dømt til 3 års fengsel for medvirkning til grov kroppsskade. Har innrømmet: Kjøring til møter, og var med på hærverk. Har benektet: Kjennskap til noen planer om drap. → Har innrømmet skuddene Fire menn ble dømt i tingretten, for ulike roller i sakskomplekset, som også inneholder trusler, vold og hærverk. «Skytteren» har innrømmet at han påtok seg et voldsoppdrag, hvor målet var å skade Jonas både fysisk og økonomisk. – Min klient har erkjent det forholdet han er tiltalt for, og hans forklaring er i stor utstrekning lagt til grunn av tingretten, sier forsvarer Marius Dietrichson. Da ankesaken startet tirsdag svarte både «Bestilleren», «Medhjelperen» og «Sjåføren» nei da lagdommer Henrik Kolderup spurte om de erklærte seg skyldig etter tiltalen på drap eller medvirkning til drap. «Bestilleren» har erkjent at han bestilte hærverk og vold mot Jonas, men benekter å ha ønsket et drap. – Det er et omfattende og komplekst faktum her, så for oss er det viktig å få fram at dette var et voldsoppdrag som gikk galt, sier hans forsvarer, Jon Anders Hasle. Skal på Jonas-åstedet for første gang: Varsler viktige detaljer Vil ha samme resultat «Medhjelperen» og «Sjåføren» ble frikjent for å ha noe med drapet å gjøre, men de ble dømt for medvirkning til grov kroppsskade. – Det min klient er opptatt av, er at sannheten kommer fram. Og hvis sannheten kommer fram på en ordentlig måte, er han sikker på at han sitter med samme resultat i lagmannsretten også, sier forsvarer Andrea Wisløff. Geir Jesinsky forsvarer «Sjåføren»: – Vi håper å få fram klart å tydelig at vår klient ikke har noen tilknytning, kjennskap eller kunnskap om at det har vært noe drap eller planlagt et drap. Statsadvokatene Mari Gjersøe og Vibeke Gjøslien fører saken for påtalemyndigheten. Foto: Lise Åserud / NTB Publisert 17.03.2026, kl. 16.12 NRK Buskerud Tidligere politiadvokat forsøkt svindlet av «Petter Stordalen» Flere syke fraktet ned fra påskefjellet + Vis flere Mer om: NRK Buskerud Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Norge Drapet på Jonas Aarseth Henriksen (30) Tatoverte Jonas-minner: – Jeg får ståpels på ryggen + Vis flere Mer om: Drapet på Jonas Aarseth Henriksen (30)",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "crime",
+    "correction_type": "other",
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775315368148,
@@ -23364,7 +23541,8 @@
     "url": "https://www.nrk.no/urix/xl/kurderne-frykter-for-fremtiden-i-syria-1.17744759",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Kurderne frykter for fremtiden i Syria"
   },
   {
     "id": 1775315422100,
@@ -23376,7 +23554,8 @@
     "url": "https://www.nrk.no/innlandet/museumsbygg-pa-finnskogen-kan-bli-arets-bygg-1.17785121",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Museumsbygg på Finnskogen kan bli årets bygg – NRK Innlandet – Lokale nyheter, TV og radio"
   },
   {
     "id": 1775315511517,
@@ -23388,7 +23567,20 @@
     "url": "https://www.nrk.no/stor-oslo/forsker_-ambassade-eksplosjonen-kan-vaere-bestilt-av-iran-1.17800006",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Ambassade-eksplosjonen: Politiet leter etter én mistenkt",
+    "nrk_section": "stor-oslo",
+    "publication_date": "2026-03-09T07:52:22+01:00",
+    "modified_date": "2026-03-09T17:37:21+01:00",
+    "intro_text": "Politiet frigir bilder av en mistenkt etter eksplosjonen ved USAs ambassade i Oslo. Ingen er foreløpig pågrepet.",
+    "journalist": "Ellinor Hopen",
+    "responsible_editor": "",
+    "article_body": "Ambassade-eksplosjonen: Politiet leter etter én mistenkt Politiet frigir bilder av en mistenkt etter eksplosjonen ved USAs ambassade i Oslo. Ingen er foreløpig pågrepet. Bildene fra politiet viser en mann i svarte klær. Ellinor Hopen – Journalist Journalist + 6 til Lea Leivestad Scharff – Journalist Journalist Ola Almås Jullumstrø – Journalist Journalist Birger Kolsrud Jåsund – Journalist Journalist Jenny Dahl Bakken – Journalist Journalist Ingrid Uleberg – Journalist Journalist Emilie Lykke – Journalist Journalist Publisert 09.03.2026, kl. 07.52 Oppdatert 09.03.2026, kl. 17.37 Publisert 09.03.2026, kl. 07.52 Oppdatert 09.03.2026, kl. 17.37 – Vi leter etter en mistenkt gjerningsperson, skriver politiet i en pressemelding. Klokken 01.03 natt til søndag fikk politiet meldingene om en eksplosjon ved den amerikanske ambassaden i Oslo. Politiet avkrefter at det er snakk om en håndgranat. Etterforskningen viser at det er en IED som ble plassert ved inngangspartiet. Krimteknikere undersøkte åstedet natt til søndag. Foto: Hans Olav Torgersen/Frilans Oslo-politiet har sikret en rekke videoer av hendelsen. Enhetsleder Frode Larsen sier til NRK at de er rimelig sikre på at personen på opptakene plasserte den hjemmelagde bomben. – Vi har ingen spor som tyder på flere mistenkte, men vi etterforsker bredt. Ingen av politiets hypoteser er så langt svekket eller styrket. Glassene ble blåst ut av dørene ved publikumsinngangen. Foto: Ola Almås Jullumstrø / NRK Ble postet video på Google Maps Rundt da eksplosjonen skjedde ble det også postet en video på ambassadens sider på Google Maps. Videoen viser Irans tidligere øverste leder, avdøde ayatolla Ali Khamenei, som ble drept i amerikanske og israelske angrep . – Vi er blitt gjort kjent med videoen, og det er en av mange ting vi nå etterforsker og utreder videre, sier Larsen. Video lastet opp på google-sida til USAs ambassade Du trenger javascript for å se video. Ingen personer ble skadet under eksplosjonen, men politiet ser svært alvorlig på saken. På søndag holdt politiet en pressekonferanse om saken, der de sa at en av hypotesene er at eksplosjonen er terror. – Vi analyserer nå en mengde informasjon, men er helt avhengige av tips fra publikum. Derfor går vi ut med disse bildene. Politiet sier de er spesielt interessert i observasjoner fra området rundt ambassaden. – Det er observasjoner av personer i området som vi ser på som interessante. Grete Metlid og Frode Larsen holdt en pressekonferanse søndag formiddag om eksplosjonen. Foto: Fredrik Varfjell / NTB Teori knyttet til Iran Politiet har flere teorier å etterforske om hvorfor det smalt. En av teoriene som har fått mye oppmerksomhet er at angrepet var knytta til USAs angrep på Iran og krigen som har fulgt i Midtøsten. – Det er ikke bekreftet at angrepet kan knyttes til Iran. Men gitt den geopolitiske konteksten, er det nærliggende å mistenke det, sier seniorforsker Vidar Skretting ved Forsvarets forskningsinstitutt. Seniorforsker Vidar Skretting ved Forsvarets forskningsinstitutt.\nForsker blant annet på religiøs ekstremisme og politisk vold. Foto: Ola Almås Jullumstrø / NRK – Det er sjelden at det er iranske agenter selv som gjennomfører slike angrep i Europa. Det man derimot har sett ofte, er at regimet har fått noen andre som står ideologisk nært det iranske regimet rekruttert til angrepet, sier Skretting og fortsetter: – Det man har sett mer av i det siste, har vært at regimet har rekruttert kriminelle til å gjennomføre angrep mot betaling. Ligner på andre angrep i Europa Forskeren sier at angrepet helt klart minner om angrepene som har vært mot israelske ambassader i Stockholm og i København de siste to årene. – Disse angrepene har vært symbolangrep mot ambassadebygningene. Der ingen har kommet i skade, men der man sender et tydelig signal. Foto: Nils Fridtjof Skumsvoll / NRK – Kan vi se for oss at dette er knytta til Foxtrot? – Ja, det er naturlig å tenke det. Fordi disse angrepene som har vært i København, og i Stockholm, har alle blitt knyttet til dette Foxrot-nettverket av svensk og dansk politi. Det man har sett i flere av disse tilfellene, er at det er kriminelle som gjør dette mot betaling, sier Skretting. – De trenger ikke nødvendigvis å være politisk eller ideologisk motiverte. Dette er rett og slett betalingstjenester. Ofte er det mindreårige som har fått ganske små beløp for å gjennomføre slike aksjoner. NRK har prøvd å komme i kontakt med den iranske ambassaden i Oslo uten svar foreløpig. Politiet sperret raskt av området rundt USAs ambassade etter et høyt smell ved ambassaden natt til søndag. Foto: Zhilwan Manbari / NRK Publisert 09.03.2026, kl. 07.52 Oppdatert 09.03.2026, kl. 17.37",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "crime",
+    "correction_type": "other",
+    "time_to_correct_hours": 9.75
   },
   {
     "id": 1775315606013,
@@ -23400,7 +23592,20 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/beltevogn-over-tuddal_gausta-kan-bli-mulig-_-moter-kritikk-fra-naturvernere-1.17832979",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Kan få beltevogn-skyttel neste vinter",
+    "nrk_section": "vestfoldogtelemark",
+    "publication_date": "2026-04-02T21:50:51+02:00",
+    "modified_date": "2026-04-02T21:50:51+02:00",
+    "intro_text": "Et nytt transporttilbud der skiturister fraktes over fjellet mellom Tuddal og Gausta, kan bli mulig allerede neste vinter.",
+    "journalist": "Dina Gjertine Svendal Kleiven, Stian Wåsjø Simonsen",
+    "responsible_editor": "",
+    "article_body": "Kan få beltevogn-skyttel neste vinter Et nytt transporttilbud der skiturister fraktes over fjellet mellom Tuddal og Gausta, kan bli mulig allerede neste vinter. Det er allerede sett på en løsning der skiturister blir kjørt over fjellet i en vogn trukket av en beltevogn. Foto: Stian Wåsjø Simonsen / NRK Dina Gjertine Svendal Kleiven – Journalist Journalist Stian Wåsjø Simonsen – Journalist Journalist Vi rapporterer fra Tuddal/Gausta Publisert 02.04.2026, kl. 21.50 Publisert 02.04.2026, kl. 21.50 Vi rapporterer fra Tuddal/Gausta Saken oppsummert: • Et forslag om beltevogn-skyttel for skiturister mellom Tuddal og Gausta kan bli realisert neste vinter. • Naturvernforbundet uttrykker bekymring for økt motorisert trafikk i et sårbart område for villrein. • Hjartdal-ordfører Bengt Halvard Odden mener løsningen vil være et løft for begge sider av fjellet og en vinn-vinn-situasjon. • Initiativtaker Oddvar Hagen har jobbet for ordningen siden 2009 og foreslår faste avganger med plass til 10–15 passasjerer. • Motstandere frykter økt belastning på naturen, mens tilhengerne mener trafikken ikke vil øke nevneverdig. • Lovendringer i motorferdselloven kan bli avgjørende for prosjektets gjennomføring. Oppsummeringen er laget av en KI-tjeneste fra OpenAI. Innholdet er kvalitetssikret av NRKs journalister før publisering. Planen er å frakte passasjerer over fjellet i en passasjervogn trukket av en beltevogn. Men planene møter motstand fra Naturvernforbundet. – Dette er et område som allerede har høy belastning, og veien er stengt på grunn av villrein. Da blir det neppe mindre skadelig med beltevogn, sier leder Truls Gulowsen til NRK. Truls Gulowsen Leder for Naturvernforbundet Hjartdal-ordfører Bengt Halvard Odden (Ap) forteller at han har hatt tett dialog med klima- og miljøminister Andreas Bjelland Eriksen om endringene i motorferdselloven. – Alt tyder på at vi er nærmere en løsning enn noensinne, sier ordføreren. Odden mener ordningen vil være et løft for begge sider av fjellet. Bengt Halvard Odden Ordfører i Hjartdal – Gausta-folk kan komme over til langrenn og Tuddal høyfjellshotell, og Tuddal-folk kan dra til et av landets største skisenter. Det er vinn-vinn for begge parter , sier han. Forslaget til ny motorferdsellov Regjeringen foreslår en helt ny og tidsmessig lov for motorferdsel i utmark og vassdrag som skal erstatte dagens lov fra 1977. Lovforslaget er nå oversendt Stortinget. Det vil fortsatt være et generelt forbud mot å kjøre i utmark. Hensynet til natur, friluftsliv og samisk kultur skal veie tungt. Beslutninger flyttes i større grad til lokalt nivå. Kommunene får verktøy til å gjøre helhetlige vurderinger, og styringen skal i stor grad skje gjennom kommunenes arealplaner. Dette gjelder for eksempel opprettelse av snøskuterløyper. I lovforslaget åpner regjeringen for flere unntak fra forbudet mot å kjøre i utmark. Dette gjelder blant annet redningstjenesten, drift av infrastruktur, jordbruk, skogbruk, reindrift, bruk av rullestol og de fleste steder elsykkel. I tillegg kan kommunene gi tillatelse til annen bruk, som for eksempel transport av varer til fritidsboliger Håndhevingen av loven skal bli enklere. Reaksjoner på lovbrudd kan være overtredelsesgebyr, bøter eller fengselsstraff ved alvorlige tilfeller. Bøter vil fortsatt være den mest vanlige reaksjonen, og man skal ikke risikere fengsel for ærlige feil. Forslaget kommer som en direkte følge av to anmodningsvedtak fra Stortinget (i 2021 og 2025). Et politisk flertall har bedt om en revisjon som gir mer lokalt selvstyre og mindre byråkrati, samtidig som naturen og friluftslivet ivaretas. Kilde: Regjeringen Etterspurt løsning i flere år Mannen som kanskje har jobbet aller mest for ordningen, er preppemaskinfører Oddvar Hagen. Han sendte sin første søknad om skytteltrafikk over fjellet allerede i 2009, og fulgte opp med en ny i 2011. Les også Flere skal få kjøre i naturen – men lovbrudd skal straffes mye hardere Likevel har planene stoppet opp i årevis. – Det har vært en regel som har stått i veien. Det håper jeg nå blir forandra på, sier Hagen. Hvis ordningen blir godkjent, ønsker han faste avganger begge veier. To til Gausta og to tilbake til Tuddal. Preppemaskinfører Oddvar Hagen har jobbet i flere år for å få på plass skytteltransporten over fjellet. Han håper nå at ordningen endelig kan bli en realitet. Foto: Stian Wåsjø Simonsen / NRK Han anslår at hele rundturen vil ta om lag en time. Hagen ser for seg en passasjerkabin montert bak beltevogna, med plass til mellom 10 og 15 passasjerer. Naturvernforbundet kritisk Til vanlig tar det rundt en halvtime å kjøre veien over fjellet mellom Tuddal og Gausta. Men når vinteren kommer, stenges fjellovergangen helt. Da gjenstår bare omveien via Tinnsjøvegen, en tur som fort blir halvannen til to timer med bil. Fylkesleder i naturvernforbundet Telemark, Helge Granlund forteller at området ligger i grenseland av Brattefjell -Vindeggen villreinområde. – Det er litt uklart hvor de endelige grensene går, og det bør avklares før man åpner for motorferdsel. Hver enkelt tur er kanskje ikke det største problemet, men summen av all trafikk gir belastning. Helge Granlund Fylkesleder i naturvernforbundet Telemark Leder for Naturvernforbundet Truls Gulowsen mener at dette høres ut som et svært dårlig begrunnet forslag om mer motorisert turisme i naturen. – Det viser hvor farlig det kan bli å la kommunene få ansvar for å styre motorferdsel i utmark, sier Gulowsen. Bekymring for natur og villrein Både ordføreren og Hagen avviser at tilbudet vil gi store inngrep i naturen. – Allerede i dag kjøres det skispor. Løypemaskinen er der uansett, så trafikken øker ikke nevneverdig, sier Odden. Han mener løsningen er et godt kompromiss mellom dem som vil holde veien vinteråpen og dem som vil ha fred og ro. – En beltevogn én til to ganger i døgnet kan jeg ikke se er et stort problem. Foto: Stian Wåsjø Simonsen / NRK Hagen hevder at villreinen uansett ikke bruker området. – Villrein har ikke vært oppi der på mange år. Jeg har farta der i mange år og sett ingenting, sier han. Les også Må stenge flere hytter og turstier i vinter: – Det blir for mye folk Hvis lovendringen går gjennom etter planen, kan det være klart innen neste vinter. – Hvis jeg bare får lov til å kjøre, så ordner resten seg, sier Hagen. Publisert 02.04.2026, kl. 21.50 Vestfold og Telemark Flere snøskred i Telemark: Fraråder skikjøring på det sterkeste Nesten-ulykker tvinger sommerbyene til å ta grep + Vis flere Mer om: Vestfold og Telemark Natur Suksess: Det største prosjektet i norsk regi + Vis flere Mer om: Natur Natur og dyreliv Norsk leopard-flørt kan ende i blodbad + Vis flere Mer om: Natur og dyreliv",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "local",
+    "correction_type": "other",
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775315725478,
@@ -23412,7 +23617,8 @@
     "url": "https://www.nrk.no/sorlandet/statsforvalteren_-har-avdekket-feil-i-80-prosent-av-dispensasjonene-i-strandsonen-i-agder-1.17756541",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Oppdaget feil i 8 av 10 strandsone-saker"
   },
   {
     "id": 1775315877299,
@@ -23424,7 +23630,8 @@
     "url": "https://www.nrk.no/nyheter/israel_-ingen-palestinsk-stat-i-gaza-1.17745459",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Israel om ein palestinsk stat: – Det kjem ikkje til å skje – Siste nytt – NRK"
   },
   {
     "id": 1775315894193,
@@ -23436,7 +23643,20 @@
     "url": "https://www.nrk.no/tromsogfinnmark/fylkeslege-anne-grethe-olsen-om-arbeidsmiljosituasjonen-1.17833090",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Fylkeslegen: – Jeg burde ha gjort det på en annen måte",
+    "nrk_section": "tromsogfinnmark",
+    "publication_date": "2026-04-01T12:24:43+02:00",
+    "modified_date": "2026-04-01T12:27:11+02:00",
+    "intro_text": "Etter ti måneder med undersøkelser har de ansatte hos Statsforvalteren i Troms og Finnmark fått de første svarene i varslingssaken som ble rettet mot fylkeslege Anne Grethe Olsen i mai 2025.",
+    "journalist": "Tove Jensen, Johan Isak Niska",
+    "responsible_editor": "",
+    "article_body": "Fylkeslegen: – Jeg burde ha gjort det på en annen måte Etter ti måneder med undersøkelser har de ansatte hos Statsforvalteren i Troms og Finnmark fått de første svarene i varslingssaken som ble rettet mot fylkeslege Anne Grethe Olsen i mai 2025. ARKIVFOTO: Fylkeslege i Troms og Finnmark, Anne Grethe Olsen. Foto: Simen Wingstad / NRK Tove Jensen – Journalist Journalist Johan Isak Niska – Journalist Journalist Publisert 01.04.2026, kl. 12.24 Oppdatert 01.04.2026, kl. 12.27 Publisert 01.04.2026, kl. 12.24 Oppdatert 01.04.2026, kl. 12.27 NRK har fått tilgang til et brev sendt fra statsforvalter Runar Sjåstad til de ansatte 26. mars. I brevet kommer det frem at en ekstern rapport fra bedriftshelsetjenesten Avonova, konkluderer med at arbeidsmiljøet ved helse- og sosialavdelingen ikke har vært forsvarlig for alle ansatte. Les brevet til de ansatte her: Informasjon til alle medarbeidere Embetsledelsen mottok våren 2025 en bekymringsmelding knyttet til arbeidsmiljøet på helse- og sosialavdelingen. Innholdet i bekymringsmeldingen var alvorlig. Derfor vurderte arbeidsgiver at saken måtte håndteres som en varslingssak mot avdelingsdirektøren på helse- og sosialavdelingen og undersøkes av eksterne. Embetet har mottatt noen innsynsbegjæringer fra media i saken, og det er grunn til å tro at den blir omtalt offentlig i nær fremtid. Det er viktig for oss at våre medarbeidere får denne informasjonen først. Derfor informerer vi alle nå. Vår bedriftshelsetjeneste, Avonova Cencus, fikk oppdraget med å undersøke varslingssaken. De involverte fikk se forslaget til mandat for oppdraget og stilte seg bak det. Avonova Cencus har brukt tid på å gjennomføre arbeidsmiljøundersøkelsen for å sikre at saken skulle bli tilstrekkelig belyst. De har jobbet helt selvstendig med undersøkelsen, og arbeidsgiver har ikke fått noen statusoppdateringer knyttet til vurderinger underveis. Arbeidsgiver har nylig mottatt rapporten fra Avonova Cencus. Rapporten er omfattende og har et alvorlig innhold. I rapporten kommer det fram at ikke alle våre ansatte har et forsvarlig psykososialt arbeidsmiljø. Dette tar embetsledelsen på største alvor. Vi er ansvarlige for å sikre at alle har et trygt og godt arbeidsmiljø. Arbeidsgiver er nå i gang med å sette seg grundig inn i innholdet i rapporten, og vurdere hvordan saken skal følges opp videre. Rapporten inneholder ikke konkrete råd om tiltak som arbeidsgiver bør iverksette. Det lå heller ikke i bestillingen til Avonova Cencus. Vi har derfor knyttet til oss eksterne ressurser som har lang erfaring med gjenoppretting og varig forbedring av arbeidsmiljø etter slike krevende saker. Jeg forstår at mange kan ha spørsmål om saken, men foreløpig kan vi ikke si noe mer. Erkjenner feil håndtering av saken Fylkeslege Anne Grethe Olsen innrømmer at hun i starten forsøkte å løse konflikten, men det førte ikke frem. – Jeg prøvde jo å løse den, men kom uheldig ut. Og i ettertid ser jeg jo at jeg burde ha gjort det på en annen måte, sier Olsen til NRK. Fylkeslegen forklarer at hun i den innledende fasen forsøkte å håndtere utfordringene på egen hånd, i stedet for å koble på embetsledelsen eller ekstern ekspertise umiddelbart. – Jeg håndterte jo dette her alene, og det burde jeg ikke ha gjort, tilføyer hun. En krevende tid Det har gått ti måneder fra det første varselet ble sendt til konklusjonene ble presentert for de ansatte. Olsen legger ikke skjul på at den lange tidsbruken har vært en stor belastning for organisasjonen. – Jeg tenker at tida har forverret de utfordringene som vi har hatt. Den tida det har tatt har vært veldig krevende for flere, sier Olsen om prosessen. Verneombud Tom Andreas Hetta opplyser til NRK at han ikke har vært direkte involvert i selve varslingssaken, men mener at den omfattende saksbehandlingen har vært nødvendig for å sikre en grundig og rettferdig behandling. Dette støttes av statsforvalter Runar Sjåstad: – Jeg tror at hvis man hadde grepet det feil an og handla uten alle fakta på bordet, så kunne det ha gjort større skade. Men at det er en ekstra påkjenning for alle at det tar lang tid, det tror jeg vi alle skjønner. Statsforvalter i Troms og Finnmark, Runar Sjåstad. Foto: Johan Isak Niska / NRK Les også: Fylkeslege Anne Grethe Olsen: – Vi savner risikovurdering Fremtiden er til vurdering Som fylkeslege har Olsen det øverste ansvaret for tilsyn med helsetjenestene i regionen. – Det er opp til statsforvalteren å vurdere hva som skal skje videre, Jeg er invitert inn i den videre prosessen, og tenker nå at dette er en løsbar situasjon, sier Olsen. Hun legger til at hun ønsker å bidra for å få tilbake det gode arbeidsmiljøet de hadde. Statsforvalteren har nå hentet inn eksterne konsulenter for å bistå avdelingen med å gjenopprette et trygt arbeidsmiljø. Publisert 01.04.2026, kl. 12.24 Oppdatert 01.04.2026, kl. 12.27 Troms og Finnmark Drapsforsøk på Vannøya: – Siktede blir løslatt Ta påske-quizen fra Troms og Finnmark + Vis flere Mer om: Troms og Finnmark Troms Drapsforsøk på Vannøya: – Siktede blir løslatt + Vis flere Mer om: Troms Finnmark OL-dronningen sikret seg millionutbetaling fra FIS + Vis flere Mer om: Finnmark",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "local",
+    "correction_type": "other",
+    "time_to_correct_hours": 0.04
   },
   {
     "id": 1775315933058,
@@ -23448,7 +23668,8 @@
     "url": "https://www.nrk.no/ytring/falske-folkebevegelser-truer-demokratiet-1.17745926",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Falske folkebevegelser truer demokratiet"
   },
   {
     "id": 1775315937951,
@@ -23460,7 +23681,8 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/klima--og-miljominister-gir-fiskerne-prioritet-til-millionpotten-1.17715979",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Fiskerne står først i køen når millionene deles ut"
   },
   {
     "id": 1775316021817,
@@ -23472,7 +23694,8 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/frosne-avlopsledninger-skaper-trobbel-i-kragero-1.17764973",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Frosne avløpsledninger skaper trøbbel i Kragerø – NRK Vestfold og Telemark – Lokale nyheter, TV og radio"
   },
   {
     "id": 1775316073422,
@@ -23484,7 +23707,8 @@
     "url": "https://www.nrk.no/nyheter/usa_-meldingar-om-skyting-i-samband-med-ice-hending-1.17741577",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Mann drepen av føderale agentar i Minneapolis – Siste nytt – NRK"
   },
   {
     "id": 1775316139791,
@@ -23496,7 +23720,8 @@
     "url": "https://www.nrk.no/nyheter/somaliland-1.15256517",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Somaliland"
   },
   {
     "id": 1775316147403,
@@ -23508,7 +23733,8 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/faerre-unge-sjekker-seg-for-livmorhalskreft-1.17734970",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "100.000 kvinner dropper celleprøven: – Det er så viktig"
   },
   {
     "id": 1775316206307,
@@ -23520,7 +23746,8 @@
     "url": "https://www.nrk.no/urix/irans-kronprins-i-eksil_-_-malet-er-a-ta-og-holde-byer-1.17720693",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Fremtidens håp eller et farlig ekko fra fortiden?"
   },
   {
     "id": 1775316217706,
@@ -23532,7 +23759,20 @@
     "url": "https://www.nrk.no/sorlandet/nyheter-fra-agder-1.16406105",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Nyheter fra Agder",
+    "nrk_section": "sorlandet",
+    "publication_date": "2023-05-11T11:11:52+02:00",
+    "modified_date": "2026-04-04T16:56:43+02:00",
+    "intro_text": "",
+    "journalist": "Line Victoria Sverdrup",
+    "responsible_editor": "",
+    "article_body": "4. april 2026 kl. 16:56 Nyheter fra Agder De fleste kirker holder påskegudstjeneste Biskop i Agder og Telemark bispedømme, Stein Reinertsen sier de fleste kirker vil holde åpent første påskedag. Samtidig understreker han at værvarselet tas på største alvor, og at kirken vil følge lokale råd der det er sendt ut rødt farevarsel. I områder med lavere faregrad planlegges gudstjenestene som normalt, men biskopen oppfordrer folk til selv å vurdere om det er trygt å dra ut. Stormen «Dave» er ventet å nå sitt høydepunkt søndag ettermiddag, med svært kraftige vindkast langs kysten. Til tross for ruskeværet tror Reinertsen på godt oppmøte, og lover en varm og stemningsfull opplevelse for dem som tar turen til kirken. Værgudene styrer påskegudstjenestene:  – Det er en stor dag Første påskedag er tradisjonelt den dagen i året som trekker flest folk til kirken. I år kolliderer imidlertid høytiden med et kraftig uvær. Av Line Victoria Sverdrup",
+    "correction_description": "",
+    "correction_date": "2026-04-04",
+    "news_category": "local",
+    "correction_type": "other",
+    "time_to_correct_hours": 25421.75
   },
   {
     "id": 1775316251522,
@@ -23544,7 +23784,20 @@
     "url": "https://www.nrk.no/trondelag/jurist_-mener-powercell-kan-ha-fort-smasparere-bak-lyset-1.17810914",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Jurist: Kan ha ført småsparere bak lyset",
+    "nrk_section": "trondelag",
+    "publication_date": "2026-03-28T15:12:24+01:00",
+    "modified_date": "2026-03-28T15:12:24+01:00",
+    "intro_text": "Sjefjurist mener PowerCell kan bli gransket av myndighetene etter NRK og SVTs saker om mulige problemer med teknologien.",
+    "journalist": "Jonas Alsaker Vikan, Beth Mørch Pettersen",
+    "responsible_editor": "",
+    "article_body": "Jurist: Kan ha ført småsparere bak lyset Sjefjurist mener PowerCell kan bli gransket av myndighetene etter NRK og SVTs saker om mulige problemer med teknologien. KAN HA VILLEDET: Sjefjurist Sverre Linton i Aktiespararna, svenske småaksjonærers interesseorganisasjon, mener PowerCell kan ha villedet kundene sine. Foto: Emil Larsson / SVT Jonas Alsaker Vikan – Journalist Journalist Beth Mørch Pettersen – Journalist Journalist Publisert 28.03.2026, kl. 15.12 Publisert 28.03.2026, kl. 15.12 – Jeg går ut fra at børsens markeds­overvåkning og disiplinærnemnd vil se på hvordan selskapet har håndtert kommunikasjonen rundt dette. Det sier sjefjurist Sverre Linton i Aksjesparernes forbund i Sverige til NRK og SVT. Han uttaler seg på bakgrunn av saken «Hydrogeneventyret» om svenske PowerCell. Selskapet har avvist at det er problemer med teknologien. Les også Nye ferjer til Lofoten: Mener svensk teknologi ikke holder det den lover I saken kommer det frem at selskapet i et internt dokument fra 2024 beskriver problemer med brenselcelleteknologien . Teknologien er blant annet solgt til det norske rederiet Torghatten. – Hvis det stemmer så kan man ha gitt uriktige opplysninger som er vesentlige til markedet. For eksempel rundt produktenes kapasitet/levetid. Det er informasjon som kan påvirke investorers vilje til å satse pengene sine i selskapet. Han mener selskapet kan ha villedet både småsparerne og investorer . PowerCell avviser kommentarene til sjefjuristen. Skal seile i Lofoten Brenselcelleteknologien fra det svenske selskapet er avgjørende for Torghatten. Rederiet har i en avtale, verdt 5 milliarder, forpliktet seg til å seile to helt nye hydrogenferjer 100 kilometer over Vestfjorden i Lofoten. Det er nettopp teknologi fra PowerCell som skal sørge for at ferjene kan gå på hydrogen. Vestfjorden er et værhardt stykke sjø mellom Bodø og øyene ytterst i Lofoten. Grafikk: NRK Sjefjurist Sverre Linton tror myndighetene i Sverige kan komme til å undersøke opplysningene som kom frem i «Hydrogeneventyret» . – Jeg kan heller ikke utelukke at Finanstilsynet og Ekobrottsmyndigheten kan komme til å etterforske både selskapet og enkeltpersoner, sier Linton til NRK. Foto: SVT / SVT PowerCell har til NRK og SVT avvist at opplysningene fra egne tester og analyser stemmer. Selskapet gjentok dette i en uttalelse i etterkant av saken og opplyser at teknologien vil fungere slik kundene forventer. – Vi vet at Sverre Lindon har svart hypotetisk på et hypotetisk resonnement etter å ha blitt bedt om å kommentere av SVT. Vi har ingen mulighet til å kommentere hypotetiske resonnement, skriver PowerCells talsperson Mårten Wikforss til NRK. Rammet småsparere PowerCell har vært kjent som en favoritt blant småsparere. Markedsverdien har ligget på rundt 1,1 milliarder kroner i begynnelsen av mars i år. Da NRK og SVT publiserte «Hydrogeneventyret», raste aksjekursen. I løpet av noen døgn var kursen gått ned med nesten tretti prosent før den stabiliserte seg. De siste ukene har kursen vært på vei oppover igjen. Kursen til PowerCell stupte etter publiseringen av SVT og NRKs første sak om selskapet. Den er nå på vei oppover. Faksimile: Nordnet: Tatt 24.03 kl 10:00 En liste NRK har fått av svenske myndigheter, viser at 5000 personer har mer enn 500 aksjer i selskapet. 26 av disse er nordmenn. – Jeg har disse aksjene fordi det er en grønn vinkling for småsparere, sier en mann fra Vestlandet. Mannen, som ønsker å være anonym, forteller at han ikke helt tror på opplysningene om problemer med teknologien PowerCell selger. – Jeg er litt forundret over den saken og føler at den er basert på antakelser. Det er veldig rart hvis det skulle stemme. Les også Listhaug om hydrogenferger: – En skandale hvis dette stemmer Norge var i 2024 blitt landet hvor PowerCell genererte størst omsetning. Den norske småspareren NRK har snakket med, forteller at han ikke har solgt sine aksjer. Han sier at han «i prinsippet har tro på selskapet». Tror ikke på problemer I en gruppe for PowerCells småsparere på Facebook, er det flere som forteller at de ikke tror på at det kan være problemer med selskapets brenselcelleteknologi, slik NRK og SVT har beskrevet. – Jeg forstår ikke helt hva skribentene forsøker å oppnå. Flere fossile løsninger eller færre? Utenfor Istanbul i Tyrkia, jobbes det med å ferdigstille skrogene før de skal slepes til Norge og få installert hydrogenteknologien fra PowerCell. Foto: Cemre Demircioğlu / The Black Sea. Det norske oljefondet var ved utløpet av 2025 blitt PowerCells nest største eier. Fondet eier aksjer for 79 millioner norske kroner, ifølge egne nettsider. – At industrielle utviklingsprosjekt blir forsinket, eller går i vasken har jo skjedd før. Det jeg lurer på er hvorfor jeg alltid er den siste som får vite det, skriver en aksjonær i Facebookgruppen. I den samme gruppen, skriver flere personer at de nå velger å kjøpe flere aksjer i selskapet: – Hvis man våger å stole på teknologien så har det aldri vært billigere enn nå, skriver en småsparer. Hei! Vi kommer til å jobbe videre med hydrogenferjene, anbudsrunden og prosessen. Har du noen tanker rundt dette, eller konkrete tips vi bør se på? Gjerne ta kontakt på e-post. Beth Mørch Pettersen og Jonas Alsaker Vikan journalister Send oss en e-post Publisert 28.03.2026, kl. 15.12 Nye hydrogenferjer i Lofoten Listhaug om hydrogenferger: – En skandale hvis dette stemmer Norge miljardsatsar i Lofoten – affären med Powercell riskerar sänka satsningen + Vis flere Mer om: Nye hydrogenferjer i Lofoten Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Norge Samferdsel Suser av gårde i 90 km/t uten airbag: – Tenk om du krasjer + Vis flere Mer om: Samferdsel",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "economy",
+    "correction_type": "other",
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775316253356,
@@ -23556,7 +23809,8 @@
     "url": "https://www.nrk.no/vestland/telia-om-datainnbrot_-_-privatpersonar-er-raka-1.17793863",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Halv million privatkundar råka i Telia-hacking"
   },
   {
     "id": 1775316261554,
@@ -23568,7 +23822,8 @@
     "url": "https://www.nrk.no/nyheter/irans-utenriksminister-avviser--umiddelbare-henrettelser-1.17728360",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Irans utenriksminister avviser umiddelbare henrettelser – Siste nytt – NRK"
   },
   {
     "id": 1775316359275,
@@ -23580,6 +23835,19 @@
     "url": "https://www.nrk.no/nyheter/syria-1.11054856",
     "auto": true,
     "source": "sitemap_backfill",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Syria",
+    "nrk_section": "nyheter",
+    "publication_date": "2013-05-31T06:07:24+02:00",
+    "modified_date": "2026-03-23T22:39:33+01:00",
+    "intro_text": "8. desember 2024 rykket opprørsstyrker inn i hovedstaden Damaskus og styrtet Assad-regimet, etter at Bashar al-Assad hadde vært ved makten i 25 år.",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "23. mars 2026 kl. 22:39 Syria Krigen i Midtøsten Raketter avfyrt fra Irak mot militærbase nordøst i Syria Minst sju raketter ble skutt opp mandag av en proiransk gruppe mot en militærbase nordøst i Syria, ifølge to irakiske sikkerhetskilder. Dette er det første angrepet av denne typen siden Israel og USA innledet krigen mot Iran. Ifølge en sikkerhetskilde og Syrian Observatory for Human Rights (SHOR), skal amerikanskledede styrker, som har vært involvert i kampen mot IS i Syria, nylig ha forlatt basen, melder NTB.",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "world",
+    "correction_type": "other",
+    "time_to_correct_hours": null
   }
 ]
