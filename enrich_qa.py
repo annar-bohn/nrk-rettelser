@@ -329,9 +329,11 @@ def process_entry(entry):
             if cf.get("enabled") and cf["name"] in result:
                 entry[cf["name"]] = result[cf["name"]]
 
+    # Prefer modified_date (reliable NRK metadata) over correction_date (Gemini guess)
+    corr_date = entry.get("modified_date") or entry.get("correction_date")
     entry["time_to_correct_hours"] = calc_hours(
         entry.get("publication_date", ""),
-        entry.get("correction_date"),
+        corr_date,
     )
 
     if entry.get("article_body"):
@@ -385,6 +387,19 @@ def run(raw_path, output_path, max_entries=450):
         time.sleep(1)
 
     print(f"Processed {processed} entries.")
+
+    # Recalculate time_to_correct_hours for ALL entries using modified_date preference
+    recalc_count = 0
+    for entry in entries:
+        if not entry.get("publication_date"):
+            continue
+        corr_date = entry.get("modified_date") or entry.get("correction_date")
+        new_ttc = calc_hours(entry.get("publication_date", ""), corr_date)
+        if new_ttc != entry.get("time_to_correct_hours"):
+            entry["time_to_correct_hours"] = new_ttc
+            recalc_count += 1
+    if recalc_count:
+        print(f"Recalculated time_to_correct_hours for {recalc_count} entries.")
 
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump(entries, f, ensure_ascii=False, indent=2)
