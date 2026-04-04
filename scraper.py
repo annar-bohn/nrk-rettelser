@@ -1,24 +1,30 @@
-import feedparser
+"""
+NRK Rettelser – ongoing scraper.
+Runs every 6 hours via GitHub Actions.
+
+Strategy:
+  1. Search-based scan: queries NRK search for correction trigger phrases,
+     checks first 2 pages per term. Fast (~30 sec), catches most corrections.
+  2. Sitemap scan: checks articles modified in the last 30 days.
+     Catches corrections in fact-boxes and non-standard markup that NRK search
+     doesn't index. Slower (~5–15 min depending on volume).
+
+For deep historical backfills, use backfill_sitemap.py instead.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import json
 import time
 import os
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 
 DATA_FILE = "data/corrections_raw.json"
 os.makedirs("data", exist_ok=True)
 
-HEADERS = {"User-Agent": "NRK-Rettelser-Bot/2.0 (+https://github.com/annar-bohn/nrk-rettelser)"}
-
-RSS_FEEDS = [
-    "https://www.nrk.no/toppsaker.rss",
-    "https://www.nrk.no/nyheter/siste.rss",
-    "https://www.nrk.no/sport/siste.rss",
-    "https://www.nrk.no/kultur/siste.rss",
-    "https://www.nrk.no/livsstil/siste.rss",
-]
+HEADERS = {"User-Agent": "NRK-Rettelser-Bot/3.0 (+https://github.com/annar-bohn/nrk-rettelser)"}
 
 TRIGGERS = [
     "i en tidligere versjon",
@@ -45,6 +51,32 @@ TRIGGERS = [
     "etter publisering",
 ]
 
+# Search terms to query NRK's search engine
+SEARCH_TERMS = [
+    "rettelse:",
+    "retting:",
+    "retting",
+    "presisering:",
+    "etter publisering",
+    "endringane vart gjort",
+    "det er gjort endringar",
+    "artikkelen er endra",
+    "i en tidligere versjon",
+    "nrk beklager",
+]
+
+# How many search result pages to check per term (20 results per page)
+MAX_SEARCH_PAGES = 2
+
+ARTICLE_SECTIONS = (
+    "/nyheter/", "/sport/", "/kultur/", "/urix/", "/norge/",
+    "/nordland/", "/vestland/", "/rogaland/", "/innlandet/",
+    "/trondelag/", "/troms/", "/finnmark/", "/ostfold/",
+    "/buskerud/", "/telemark/", "/agder/", "/mr/", "/sognogfjordane/",
+    "/hordaland/", "/stfold/", "/akershus/", "/stor-oslo/",
+    "/ytring/", "/nyttig/", "/livsstil/", "/sapmi/",
+)
+
 # Nav/boilerplate text that signals we've matched the wrong element
 NAV_NOISE = ("hopp til innhold", "nrk tv", "nrk radio", "nrk super", "nrk p3")
 
@@ -58,6 +90,10 @@ else:
 existing_urls = {c["url"] for c in corrections}
 new_count = 0
 
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
 
 def has_trigger(text):
     t = text.lower()
@@ -142,16 +178,21 @@ def extract_pub_date(soup):
     time_el = soup.find("time", attrs={"datetime": True})
     if time_el:
         return time_el.get("datetime", "")
+    meta = soup.find("meta", property="article:published_time")
+    if meta:
+        return meta.get("content", "")
     return ""
 
 
-def check_article(url, title="", pub_date="", source="rss"):
+def check_article(url, title="", pub_date="", source="search"):
+    """Fetch an article, check for correction triggers, and add if found."""
     global new_count
     if url in existing_urls:
         return
-    print(f"Checking {url}")
     try:
         r = requests.get(url, headers=HEADERS, timeout=10)
+        if r.status_code != 200:
+            return
         soup = BeautifulSoup(r.text, "html.parser")
 
         # Quick full-page check before doing detailed parsing
@@ -160,10 +201,9 @@ def check_article(url, title="", pub_date="", source="rss"):
 
         correction_block = extract_correction_blocks(soup)
         if correction_block is None:
-            print(f"  -> Trigger funnet men ingen ren rettelsestekst. Hopper over.")
             return
 
-        # Fill in title and date from the page if not supplied (sitemap entries)
+        # Fill in title and date from the page if not supplied
         if not title:
             title = extract_page_title(soup) or url
         if not pub_date:
@@ -183,40 +223,67 @@ def check_article(url, title="", pub_date="", source="rss"):
         })
         existing_urls.add(url)
         new_count += 1
-        print(f"  -> Rettelse funnet: {title}")
+        print(f"  -> Rettelse funnet: {title[:70]}")
     except Exception as e:
         print(f"  Feil ved {url}: {e}")
 
 
 # ---------------------------------------------------------------------------
-# RSS scan
+# 1. Search-based scan — query NRK search for correction phrases
 # ---------------------------------------------------------------------------
-print("=== RSS-feeds ===")
-rss_urls = []
-seen_in_rss = set()
-for feed_url in RSS_FEEDS:
+def get_search_page(query, offset=0):
+    """Fetch one page of NRK search results and return article URLs."""
+    encoded = urllib.parse.quote(f'"{query}"')
+    url = f"https://www.nrk.no/sok/?q={encoded}&scope=nrkno&from={offset}"
     try:
-        feed = feedparser.parse(feed_url)
-        for entry in feed.entries:
-            if entry.link not in existing_urls and entry.link not in seen_in_rss:
-                rss_urls.append((entry.link, entry.get("title", ""), entry.get("published", "")))
-                seen_in_rss.add(entry.link)
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(r.text, "html.parser")
+        article_urls = []
+        seen = set()
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if (
+                href.startswith("https://www.nrk.no/")
+                and "/sok/" not in href
+                and href != "https://www.nrk.no/"
+                and href not in existing_urls
+                and href not in seen
+                and any(s in href for s in ARTICLE_SECTIONS)
+            ):
+                article_urls.append(href)
+                seen.add(href)
+        has_next = any(a.get_text(strip=True) == "Neste side" for a in soup.find_all("a"))
+        return article_urls, has_next
     except Exception as e:
-        print(f"Feil ved feed {feed_url}: {e}")
+        print(f"  Feil ved søk: {e}")
+        return [], False
 
-print(f"Sjekker {len(rss_urls)} artikler fra RSS")
-for url, title, pub_date in rss_urls:
-    check_article(url, title=title, pub_date=pub_date, source="rss")
-    time.sleep(1.0)
+
+print("=== Søk-basert skanning ===")
+search_checked = 0
+for term in SEARCH_TERMS:
+    print(f"Søker: \"{term}\"")
+    for page in range(MAX_SEARCH_PAGES):
+        offset = page * 20
+        urls, has_next = get_search_page(term, offset)
+        for url in urls:
+            check_article(url, source="search")
+            search_checked += 1
+            time.sleep(0.5)
+        if not has_next:
+            break
+        time.sleep(0.5)
+
+print(f"Søk ferdig. Sjekket {search_checked} artikler.\n")
 
 
 # ---------------------------------------------------------------------------
-# Sitemap scan — recently modified articles may have silent corrections
+# 2. Sitemap scan — recently modified articles (last 30 days)
 # ---------------------------------------------------------------------------
-print("\n=== Sitemap-skanning (siste 7 dager) ===")
+print("=== Sitemap-skanning (siste 30 dager) ===")
 
 
-def get_sitemap_urls(days_back=7, max_urls=200):
+def get_sitemap_urls(days_back=30, max_urls=1000):
     cutoff = datetime.now(timezone.utc) - timedelta(days=days_back)
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     try:
@@ -241,7 +308,7 @@ def get_sitemap_urls(days_back=7, max_urls=200):
     print(f"Fant {len(recent_sitemaps)} nylig oppdaterte under-sitemaps")
 
     urls = []
-    for sm_url in recent_sitemaps[:20]:
+    for sm_url in recent_sitemaps[:50]:
         try:
             sm_xml = requests.get(sm_url, headers=HEADERS, timeout=15).text
             sm_root = ET.fromstring(sm_xml)
@@ -249,6 +316,8 @@ def get_sitemap_urls(days_back=7, max_urls=200):
                 lastmod_text = url_el.findtext("sm:lastmod", namespaces=ns)
                 loc = url_el.findtext("sm:loc", namespaces=ns)
                 if loc and lastmod_text and loc not in existing_urls:
+                    if not any(s in loc for s in ARTICLE_SECTIONS):
+                        continue
                     try:
                         lm = datetime.fromisoformat(lastmod_text.replace("Z", "+00:00"))
                         if lm > cutoff:
@@ -268,11 +337,11 @@ sitemap_urls = get_sitemap_urls()
 print(f"Sjekker {len(sitemap_urls)} artikler fra sitemap")
 for url in sitemap_urls:
     check_article(url, source="sitemap")
-    time.sleep(1.0)
+    time.sleep(0.5)
 
 
 # ---------------------------------------------------------------------------
-# Save — write to corrections_raw.json
+# Save
 # ---------------------------------------------------------------------------
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(corrections, f, ensure_ascii=False, indent=2)

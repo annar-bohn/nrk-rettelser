@@ -1,12 +1,14 @@
 name: Backfill – full sitemap crawl
 
 on:
+  schedule:
+    - cron: '17 3 * * 0'  # Weekly: Sundays at 03:17
   workflow_dispatch:
     inputs:
       days:
         description: 'Look back N days'
         required: false
-        default: '730'
+        default: '90'
       max_sitemaps:
         description: 'Max sitemaps to process (500 = all)'
         required: false
@@ -43,12 +45,15 @@ jobs:
         run: python cleanup_and_add.py
 
       - name: Run sitemap backfill
-        run: python backfill_sitemap.py --days ${{ github.event.inputs.days }} --max-sitemaps ${{ github.event.inputs.max_sitemaps }}
+        run: |
+          DAYS="${{ github.event.inputs.days }}"
+          MAX="${{ github.event.inputs.max_sitemaps }}"
+          python backfill_sitemap.py --days "${DAYS:-90}" --max-sitemaps "${MAX:-500}"
 
       - name: Commit new corrections
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "data: sitemap backfill (${{ github.event.inputs.days }} days)"
+          commit_message: "data: sitemap backfill"
           file_pattern: data/corrections_raw.json data/sitemap_progress.json
 
   enrich-qa:
