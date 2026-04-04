@@ -21,7 +21,7 @@
     "correction_date": "2026-03-25",
     "news_category": "crime",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 4.56
   },
   {
     "id": 1775073745738,
@@ -46,7 +46,7 @@
     "correction_date": "2026-02-24",
     "news_category": "economy",
     "correction_type": "other",
-    "time_to_correct_hours": 815.67
+    "time_to_correct_hours": 815.78
   },
   {
     "id": 1775073768138,
@@ -71,7 +71,7 @@
     "correction_date": "2026-04-01",
     "news_category": "world",
     "correction_type": "missing_context",
-    "time_to_correct_hours": 49.98
+    "time_to_correct_hours": 26.99
   },
   {
     "id": 1775079193820,
@@ -96,7 +96,7 @@
     "correction_date": "2025-07-22",
     "news_category": "culture",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 3.63
+    "time_to_correct_hours": 0.05
   },
   {
     "id": 1775079195075,
@@ -146,7 +146,7 @@
     "correction_date": "2017-02-27",
     "news_category": "local",
     "correction_type": "wrong_location",
-    "time_to_correct_hours": 0.05
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775079197809,
@@ -171,7 +171,7 @@
     "correction_date": "2017-05-18",
     "news_category": "world",
     "correction_type": "retracted_claim",
-    "time_to_correct_hours": 1.73
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775079199096,
@@ -196,7 +196,7 @@
     "correction_date": "2025-04-01",
     "news_category": "entertainment",
     "correction_type": "retracted_claim",
-    "time_to_correct_hours": 5.03
+    "time_to_correct_hours": 1.6
   },
   {
     "id": 1775079200449,
@@ -221,7 +221,7 @@
     "correction_date": "2020-06-21",
     "news_category": "health",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 4.59
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775079201715,
@@ -246,7 +246,7 @@
     "correction_date": null,
     "news_category": "science",
     "correction_type": "other",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 11361.87
   },
   {
     "id": 1775079203130,
@@ -271,7 +271,7 @@
     "correction_date": "2025-08-14",
     "news_category": "politics",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 47.02
+    "time_to_correct_hours": 52.65
   },
   {
     "id": 1775079204490,
@@ -296,7 +296,7 @@
     "correction_date": "2019-06-03",
     "news_category": "health",
     "correction_type": "factual_error",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 0.09
   },
   {
     "id": 1775079205755,
@@ -321,7 +321,7 @@
     "correction_date": "2025-09-11",
     "news_category": "local",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": 4.9
+    "time_to_correct_hours": 2.62
   },
   {
     "id": 1775079208057,
@@ -346,7 +346,7 @@
     "correction_date": "2025-08-15",
     "news_category": "politics",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 65.2
   },
   {
     "id": 1775079209360,
@@ -371,7 +371,7 @@
     "correction_date": "2022-06-14",
     "news_category": "crime",
     "correction_type": "wrong_date",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 0.01
   },
   {
     "id": 1775079210774,
@@ -396,7 +396,7 @@
     "correction_date": "2025-09-27",
     "news_category": "local",
     "correction_type": "factual_error",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 2.67
   },
   {
     "id": 1775079212117,
@@ -421,7 +421,7 @@
     "correction_date": "2025-07-07",
     "news_category": "world",
     "correction_type": "retracted_claim",
-    "time_to_correct_hours": 28.1
+    "time_to_correct_hours": 24.39
   },
   {
     "id": 1775079214639,
@@ -446,7 +446,7 @@
     "correction_date": "2025-07-10",
     "news_category": "local",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 6.81
+    "time_to_correct_hours": 146.4
   },
   {
     "id": 1775079215979,
@@ -471,7 +471,7 @@
     "correction_date": "2025-11-21",
     "news_category": "politics",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 16.37
+    "time_to_correct_hours": 59.97
   },
   {
     "id": 1775079217290,
@@ -496,7 +496,7 @@
     "correction_date": "2025-12-19",
     "news_category": "health",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 2.07
+    "time_to_correct_hours": 2.36
   },
   {
     "id": 1775079220517,
@@ -521,7 +521,7 @@
     "correction_date": "2025-06-27",
     "news_category": "world",
     "correction_type": "wrong_image",
-    "time_to_correct_hours": 99.08
+    "time_to_correct_hours": 102.19
   },
   {
     "id": 1775079221874,
@@ -546,7 +546,7 @@
     "correction_date": "2025-08-21",
     "news_category": "politics",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 19.2
+    "time_to_correct_hours": 15.56
   },
   {
     "id": 1775079223264,
@@ -571,7 +571,7 @@
     "correction_date": "2025-12-03",
     "news_category": "politics",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": 1.37
+    "time_to_correct_hours": 6.88
   },
   {
     "id": 1775079224625,
@@ -596,7 +596,7 @@
     "correction_date": "2025-11-02",
     "news_category": "world",
     "correction_type": "wrong_location",
-    "time_to_correct_hours": 17.53
+    "time_to_correct_hours": 16.66
   },
   {
     "id": 1775079226071,
@@ -621,7 +621,7 @@
     "correction_date": "2025-05-02",
     "news_category": "politics",
     "correction_type": "factual_error",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 23.27
   },
   {
     "id": 1775079227694,
@@ -646,7 +646,7 @@
     "correction_date": "2025-07-06",
     "news_category": "politics",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 16.7
+    "time_to_correct_hours": 19.73
   },
   {
     "id": 1775079229074,
@@ -671,7 +671,7 @@
     "correction_date": "2025-05-19",
     "news_category": "other",
     "correction_type": "factual_error",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 1.55
   },
   {
     "id": 1775079230390,
@@ -696,7 +696,7 @@
     "correction_date": "2021-01-12",
     "news_category": "health",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": 2.64
+    "time_to_correct_hours": 3.15
   },
   {
     "id": 1775079231848,
@@ -716,7 +716,8 @@
     "intro_text": "Oljefondssjef Nicolai Tangen får pepper – men for hva egentlig?",
     "journalist": "Cecilie Langum Becker",
     "responsible_editor": "",
-    "article_body": "Kommentar Selvkritikk på bestilling Oljefondssjef Nicolai Tangen får pepper – men for hva egentlig? ALVORSTYNGET: Oljefondssjef Nicolai Tangen var usedvanlig alvorstynget i Arendal tirsdag. Foto: Ole Berg-Rusten / NTB Cecilie Langum Becker – Økonomikommentator Økonomikommentator Publisert 12.08.2025, kl. 12.19 Oppdatert 12.08.2025, kl. 12.34 Publisert 12.08.2025, kl. 12.19 Oppdatert 12.08.2025, kl. 12.34 Det tok én uke med avisoppslag og partilederdebatt før oljefondet hadde solgt seg ut av elleve israelske selskaper. For mange var dette for lite og for sent. På en fremskyndet pressekonferanse i Arendal tirsdag tok oljefondssjef Nicolai Tangen selvkritikk – men gjorde det klart at de har «full kontroll». Les også Oljefondssjefen: – Det er ikkje gjort formalia-feil Han sa fondet ikke har gjort noe formelt galt, men innrømmet at Bet Shemesh allerede i mai burde vært vurdert som «høy risiko» i stedet for «middels». En slik vurdering ville enten ført til salg av aksjene eller en egen behandling i Etikkrådet. Tangen la også til at forvaltningen burde vært hentet hjem tidligere. Tirsdag var dette den eneste innrømmelsen av feil. Tangen har heller aldri vurdert sin stilling. Det er ikke helt lett å se hva han egentlig tar selvkritikk for, annet enn at han kanskje ikke har vært tilstrekkelig politisk sensitiv. Se hele pressekonferansen her Du trenger javascript for å se video. Og hva har han egentlig å beklage? Svaret på det finner man bak den siste ukens hendelser. Det er en historie om politikk, finans og omdømme – der mye av bråket handler om to ting: hvor fondet velger å investere, og hvordan det snakker om det. En betydelig utfordring er at de fleste av oss ikke kjenner til hvordan Oljefondet faktisk investerer. Les også Oljefondet har selt seg ut av 11 israelske selskap Politisk risiko regjerer I finansverdenen snakker man ofte om markedsrisiko – faren for at aksjekurser svinger. Men i denne saken er det en annen risiko som dominerer: politisk risiko. Det innebærer at en investering kan tape verdi eller bli problematisk, ikke fordi selskapet gjør det dårlig økonomisk – men fordi politikk, opinion eller mediepress gjør eierskapet vanskelig å forsvare. For Oljefondet er dette ekstra følsomt. Når fondet følger en bred indeks og eier «litt av alt», kan de si: «Vi speiler verdensmarkedet, vi velger ikke ut enkeltland eller selskaper.» Da er ansvaret mer spredt, og kritikken treffer sjeldnere. Mer personlig ansvar Men når fondet går utenfor denne listen og velger enkeltselskaper – slik det gjorde med Bet Shemesh Engines, som leverer deler til israelske kampfly – tar det på seg et mer personlig ansvar. Da er det ikke lenger bare en del av portefølje, men et konkret valg. Det gjør det lettere for politikere å peke på fondet og si: «Dette er uakseptabelt». Beit Shemesh Engines Ltd. sitt hovedkontor i Jerusalem, Israel. Foto: WIKIPEDIA COMMONS/© \"רווח הפקות\" / CC BY-SA 3.0 Ikke selskapet som får pengene En annen grunn til misforståelser er hvordan investeringene faktisk skjer. Når Oljefondet kjøper aksjer på børsen, skjer det i sekundærmarkedet – altså fra andre investorer. Pengene går til selgeren, ikke til selskapet selv. Det betyr at selskapet ikke får mer penger av at Oljefondet eier aksjene. I primærmarkedet er det noe annerledes. Der utsteder selskapet nye aksjer for å hente inn penger direkte. Men det er sjelden Oljefondet kjøper på denne måten. Eierskap i store, børsnoterte selskaper har ingen direkte betydning for aktiviteten i selskapet. Likevel oppfattes eierskap som støtte, spesielt når selskapet er knyttet til krig eller brudd på folkeretten. Her vinner symbolikken over mekanikken – det hjelper lite å forklare detaljene når opinionen ser bildet som helhet. Hvem bestemmer over oljefondets investeringer? Finans­departe­mentet Har det formelle ansvaret for hvor oljefondet kan investere og lager reglene for hvordan fondet skal arbeide. Setter rammene for hvilke selskaper fondet kan investere i eller ekskluderes fra. Disse beslutningene tas på basert på politiske vurderinger fra Stortinget, samt råd fra Etikkrådet. Finansdepartementet skal ikke ha bedt Norges Bank Investment Management (ledelsen i oljefondet) om å ikke investere i Bet Shemesh. Etikkrådet Uavhengig faglig organ som blir oppnevnt av Finansdepartementet. Vurderer selskaper på bakgrunn av etiske kriterier, som brudd på menneskerettigheter eller folkeretten. Anbefaler i slike tilfeller til Finansdepartementet at fondet enten selger seg ut av selskapet eller setter det under overvåkning. Bet Shemesh stod ikke på Etikkrådets ekskluderingsliste. Norges Bank Investment Management Ledes av Nicolai Tangen. Forkortet NBIM. Intern avdeling i Norges Bank med ansvar for den operative forvaltningen av oljefondet. Det vil si kjøp, salg og vedlikehold av investeringer. Jobber i henhold til mandat fra Finansdepartementet og beslutningen om utelukkelser fra hovedstyret basert på Etikkrådets anbefalinger. Forrige kort Neste kort Moralen trumfer For folk flest spiller det liten rolle om kjøpet skjer i sekundær- eller primærmarkedet. Det som teller, er at Norges sparepenger – vårt felles fond – står på eiersiden i selskaper som forbindes med krigføring og brudd på folkeretten. Da blir spørsmålet politisk, og det moralske ansvaret blir viktigere enn den tekniske forklaringen. Denne symbolikken kan ha høy kostnad. Når en investering skaper politisk storm, kan det skade fondets omdømme, trekke ned tilliten og i verste fall føre til politiske beslutninger som innskrenker fondets handlefrihet. Tar brodden av kritikken Salget av de elleve israelske selskapene er derfor først og fremst et grep for å redusere politisk risiko og omdømmetap. På den måten minner denne saken oss på at å forvalte verdens største statlige fond ikke bare handler om å tjene penger. I forvaltningen må man også ta politiske og etiske hensyn – samtidig som at man må forklare dette til et publikum som sjelden skiller mellom finansielle mekanismer og moralske vurderinger. En motvillig politisk aktør Oljefondet er ikke bare en gigantisk sparekonto. Det er også en politisk aktør, enten det vil eller ikke. Når fondet gjør aktive valg i konfliktområder, følger det alltid med en risiko som ikke kan måles i kroner og øre. Og når stormen først kommer, hjelper det lite å forklare at aksjene er kjøpt på børs og ikke gir selskapet penger. Folk flest ser bare at Norge eier en bit av noe de mener er galt – og da blir omdømmet skadelidende. Nicolai Tangen advarte tirsdag sterkt mot en politisering av fondet. Fondets investeringer skal ikke påvirkes av fargen på partiene som styrer. Derfor burde fondet vært flinkere i forkant med å forklare hvorfor de eier det de eier – og hva de velger bort. Salget av de elleve israelske selskapene sender et signal om at fondet tar situasjonen på alvor. Men det løser ikke det store spørsmålet: Hva skjer neste gang fondet eier noe som blir politisk giftig? Når man først starter med å fjerne selskaper som ikke faller i god jord politisk, er det vanskelig å stoppe. Listen over diktaturer og land som opererer i etiske gråsoner er mange. Da sitter man igjen med få markeder. Les også Oljefondet i hardt vær: Derfor ble det bråk Lettest å trekke seg ut Det enkleste hadde vært å trekke seg ut av Israel. Det har finansminister Jens Stoltenberg vært helt tydelig på at ikke er aktuelt. Det hadde ikke falt i god jord hos USA, som i disse dager trekker opp og ned tollsatser nesten fra uke til uke. Finansminister Jens Stoltenberg (Ap) på vei inn til Dagsnytt 18. Foto: Frida Wattne Lindland / NRK Selv om Oljefondet formelt er «helt uavhengig» av politikken, vil omverdenen alltid tolke beslutningene som uttrykk for norsk politikk. I en tid der markeder, etikk og diplomati veves tettere sammen enn før, kan små endringer i porteføljen få store politiske ringvirkninger. For Oljefondet betyr det at neste storm kan komme like brått som denne – og at det er best å være forberedt. NRK retter: I en tidligere versjon av denne saken sto det at det tok én uke med avisoppslag og partilederdebatt før oljefondet begynte å selge seg ut av elleve israelske selskaper. Det riktige er at det etter denne uka ble kjent at de hadde solgt seg ut av selskapene. Feilen ble rettet klokka 12.33. Publisert 12.08.2025, kl. 12.19 Oppdatert 12.08.2025, kl. 12.34 Bank og finans Noregs Bank om renteforvirring: – Vi har ei litt anna oppfatting av dette Mari ønsker at aksjer og pensjon var pensum: – Finansverdenen føles som en lukket dør + Vis flere Mer om: Bank og finans Norge Tidligere politiadvokat forsøkt svindlet av «Petter Stordalen» + Vis flere Mer om: Norge Økonomi Historisk priskutt i nabolandet: – Vi kommer til å handle enda mer i Sverige + Vis flere Mer om: Økonomi"
+    "article_body": "Kommentar Selvkritikk på bestilling Oljefondssjef Nicolai Tangen får pepper – men for hva egentlig? ALVORSTYNGET: Oljefondssjef Nicolai Tangen var usedvanlig alvorstynget i Arendal tirsdag. Foto: Ole Berg-Rusten / NTB Cecilie Langum Becker – Økonomikommentator Økonomikommentator Publisert 12.08.2025, kl. 12.19 Oppdatert 12.08.2025, kl. 12.34 Publisert 12.08.2025, kl. 12.19 Oppdatert 12.08.2025, kl. 12.34 Det tok én uke med avisoppslag og partilederdebatt før oljefondet hadde solgt seg ut av elleve israelske selskaper. For mange var dette for lite og for sent. På en fremskyndet pressekonferanse i Arendal tirsdag tok oljefondssjef Nicolai Tangen selvkritikk – men gjorde det klart at de har «full kontroll». Les også Oljefondssjefen: – Det er ikkje gjort formalia-feil Han sa fondet ikke har gjort noe formelt galt, men innrømmet at Bet Shemesh allerede i mai burde vært vurdert som «høy risiko» i stedet for «middels». En slik vurdering ville enten ført til salg av aksjene eller en egen behandling i Etikkrådet. Tangen la også til at forvaltningen burde vært hentet hjem tidligere. Tirsdag var dette den eneste innrømmelsen av feil. Tangen har heller aldri vurdert sin stilling. Det er ikke helt lett å se hva han egentlig tar selvkritikk for, annet enn at han kanskje ikke har vært tilstrekkelig politisk sensitiv. Se hele pressekonferansen her Du trenger javascript for å se video. Og hva har han egentlig å beklage? Svaret på det finner man bak den siste ukens hendelser. Det er en historie om politikk, finans og omdømme – der mye av bråket handler om to ting: hvor fondet velger å investere, og hvordan det snakker om det. En betydelig utfordring er at de fleste av oss ikke kjenner til hvordan Oljefondet faktisk investerer. Les også Oljefondet har selt seg ut av 11 israelske selskap Politisk risiko regjerer I finansverdenen snakker man ofte om markedsrisiko – faren for at aksjekurser svinger. Men i denne saken er det en annen risiko som dominerer: politisk risiko. Det innebærer at en investering kan tape verdi eller bli problematisk, ikke fordi selskapet gjør det dårlig økonomisk – men fordi politikk, opinion eller mediepress gjør eierskapet vanskelig å forsvare. For Oljefondet er dette ekstra følsomt. Når fondet følger en bred indeks og eier «litt av alt», kan de si: «Vi speiler verdensmarkedet, vi velger ikke ut enkeltland eller selskaper.» Da er ansvaret mer spredt, og kritikken treffer sjeldnere. Mer personlig ansvar Men når fondet går utenfor denne listen og velger enkeltselskaper – slik det gjorde med Bet Shemesh Engines, som leverer deler til israelske kampfly – tar det på seg et mer personlig ansvar. Da er det ikke lenger bare en del av portefølje, men et konkret valg. Det gjør det lettere for politikere å peke på fondet og si: «Dette er uakseptabelt». Beit Shemesh Engines Ltd. sitt hovedkontor i Jerusalem, Israel. Foto: WIKIPEDIA COMMONS/© \"רווח הפקות\" / CC BY-SA 3.0 Ikke selskapet som får pengene En annen grunn til misforståelser er hvordan investeringene faktisk skjer. Når Oljefondet kjøper aksjer på børsen, skjer det i sekundærmarkedet – altså fra andre investorer. Pengene går til selgeren, ikke til selskapet selv. Det betyr at selskapet ikke får mer penger av at Oljefondet eier aksjene. I primærmarkedet er det noe annerledes. Der utsteder selskapet nye aksjer for å hente inn penger direkte. Men det er sjelden Oljefondet kjøper på denne måten. Eierskap i store, børsnoterte selskaper har ingen direkte betydning for aktiviteten i selskapet. Likevel oppfattes eierskap som støtte, spesielt når selskapet er knyttet til krig eller brudd på folkeretten. Her vinner symbolikken over mekanikken – det hjelper lite å forklare detaljene når opinionen ser bildet som helhet. Hvem bestemmer over oljefondets investeringer? Finans­departe­mentet Har det formelle ansvaret for hvor oljefondet kan investere og lager reglene for hvordan fondet skal arbeide. Setter rammene for hvilke selskaper fondet kan investere i eller ekskluderes fra. Disse beslutningene tas på basert på politiske vurderinger fra Stortinget, samt råd fra Etikkrådet. Finansdepartementet skal ikke ha bedt Norges Bank Investment Management (ledelsen i oljefondet) om å ikke investere i Bet Shemesh. Etikkrådet Uavhengig faglig organ som blir oppnevnt av Finansdepartementet. Vurderer selskaper på bakgrunn av etiske kriterier, som brudd på menneskerettigheter eller folkeretten. Anbefaler i slike tilfeller til Finansdepartementet at fondet enten selger seg ut av selskapet eller setter det under overvåkning. Bet Shemesh stod ikke på Etikkrådets ekskluderingsliste. Norges Bank Investment Management Ledes av Nicolai Tangen. Forkortet NBIM. Intern avdeling i Norges Bank med ansvar for den operative forvaltningen av oljefondet. Det vil si kjøp, salg og vedlikehold av investeringer. Jobber i henhold til mandat fra Finansdepartementet og beslutningen om utelukkelser fra hovedstyret basert på Etikkrådets anbefalinger. Forrige kort Neste kort Moralen trumfer For folk flest spiller det liten rolle om kjøpet skjer i sekundær- eller primærmarkedet. Det som teller, er at Norges sparepenger – vårt felles fond – står på eiersiden i selskaper som forbindes med krigføring og brudd på folkeretten. Da blir spørsmålet politisk, og det moralske ansvaret blir viktigere enn den tekniske forklaringen. Denne symbolikken kan ha høy kostnad. Når en investering skaper politisk storm, kan det skade fondets omdømme, trekke ned tilliten og i verste fall føre til politiske beslutninger som innskrenker fondets handlefrihet. Tar brodden av kritikken Salget av de elleve israelske selskapene er derfor først og fremst et grep for å redusere politisk risiko og omdømmetap. På den måten minner denne saken oss på at å forvalte verdens største statlige fond ikke bare handler om å tjene penger. I forvaltningen må man også ta politiske og etiske hensyn – samtidig som at man må forklare dette til et publikum som sjelden skiller mellom finansielle mekanismer og moralske vurderinger. En motvillig politisk aktør Oljefondet er ikke bare en gigantisk sparekonto. Det er også en politisk aktør, enten det vil eller ikke. Når fondet gjør aktive valg i konfliktområder, følger det alltid med en risiko som ikke kan måles i kroner og øre. Og når stormen først kommer, hjelper det lite å forklare at aksjene er kjøpt på børs og ikke gir selskapet penger. Folk flest ser bare at Norge eier en bit av noe de mener er galt – og da blir omdømmet skadelidende. Nicolai Tangen advarte tirsdag sterkt mot en politisering av fondet. Fondets investeringer skal ikke påvirkes av fargen på partiene som styrer. Derfor burde fondet vært flinkere i forkant med å forklare hvorfor de eier det de eier – og hva de velger bort. Salget av de elleve israelske selskapene sender et signal om at fondet tar situasjonen på alvor. Men det løser ikke det store spørsmålet: Hva skjer neste gang fondet eier noe som blir politisk giftig? Når man først starter med å fjerne selskaper som ikke faller i god jord politisk, er det vanskelig å stoppe. Listen over diktaturer og land som opererer i etiske gråsoner er mange. Da sitter man igjen med få markeder. Les også Oljefondet i hardt vær: Derfor ble det bråk Lettest å trekke seg ut Det enkleste hadde vært å trekke seg ut av Israel. Det har finansminister Jens Stoltenberg vært helt tydelig på at ikke er aktuelt. Det hadde ikke falt i god jord hos USA, som i disse dager trekker opp og ned tollsatser nesten fra uke til uke. Finansminister Jens Stoltenberg (Ap) på vei inn til Dagsnytt 18. Foto: Frida Wattne Lindland / NRK Selv om Oljefondet formelt er «helt uavhengig» av politikken, vil omverdenen alltid tolke beslutningene som uttrykk for norsk politikk. I en tid der markeder, etikk og diplomati veves tettere sammen enn før, kan små endringer i porteføljen få store politiske ringvirkninger. For Oljefondet betyr det at neste storm kan komme like brått som denne – og at det er best å være forberedt. NRK retter: I en tidligere versjon av denne saken sto det at det tok én uke med avisoppslag og partilederdebatt før oljefondet begynte å selge seg ut av elleve israelske selskaper. Det riktige er at det etter denne uka ble kjent at de hadde solgt seg ut av selskapene. Feilen ble rettet klokka 12.33. Publisert 12.08.2025, kl. 12.19 Oppdatert 12.08.2025, kl. 12.34 Bank og finans Noregs Bank om renteforvirring: – Vi har ei litt anna oppfatting av dette Mari ønsker at aksjer og pensjon var pensum: – Finansverdenen føles som en lukket dør + Vis flere Mer om: Bank og finans Norge Tidligere politiadvokat forsøkt svindlet av «Petter Stordalen» + Vis flere Mer om: Norge Økonomi Historisk priskutt i nabolandet: – Vi kommer til å handle enda mer i Sverige + Vis flere Mer om: Økonomi",
+    "time_to_correct_hours": 0.25
   },
   {
     "id": 1775079233105,
@@ -1392,7 +1393,19 @@
     "source": "search_backfill",
     "correction_text_raw": "Marius Borg Høiby fortsetter sin forklaring onsdag, etter at Nora Haukland har sittet to dager i vitneboksen. I VITNEBOKSEN: Onsdag fortsetter Marius Borg Høiby sin forklaring om tiltaleposten for mishandling i nære relasjoner mot Nora Haukland. Vi rapporterer fraOslo tingrett Vi rapporterer fraOslo tingrett Rettssaken mot Marius Borg Høiby handler nå om tiltaleposten for mishandling i nære relasjoner mot ekskjæresten Nora Haukland. Ikledd brun genser og grønne bukser inntok Høiby onsdag vitneboksen.",
     "headline": "Høiby avviser Haukland-påstander om «mamma og Haakon»",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "nrk_section": "norge",
+    "publication_date": "2026-02-25T08:55:15+01:00",
+    "modified_date": "2026-02-25T15:53:23+01:00",
+    "intro_text": "Marius Borg Høiby fortsetter sin forklaring onsdag, etter at Nora Haukland har sittet to dager i vitneboksen.",
+    "journalist": "Regine Engelina Hatvik, Mathias Revheim-Rafaelsen, Martin Fjørtoft, Brage Wesche Guttormsen, Tom Balgaard",
+    "responsible_editor": "",
+    "article_body": "Høiby avviser Haukland-påstander om «mamma og Haakon» Marius Borg Høiby fortsetter sin forklaring onsdag, etter at Nora Haukland har sittet to dager i vitneboksen. I VITNEBOKSEN: Onsdag fortsetter Marius Borg Høiby sin forklaring om tiltaleposten for mishandling i nære relasjoner mot Nora Haukland. Foto: Ane Hem / NTB Regine Engelina Hatvik – Journalist Journalist + 4 til Mathias Revheim-Rafaelsen – Journalist Journalist Martin Fjørtoft – Journalist Journalist Brage Wesche Guttormsen – Journalist Journalist Tom Balgaard – Visuell journalist Visuell journalist Vi rapporterer fra Oslo tingrett Publisert 25.02.2026, kl. 08.55 Oppdatert 25.02.2026, kl. 15.53 Publisert 25.02.2026, kl. 08.55 Oppdatert 25.02.2026, kl. 15.53 Vi rapporterer fra Oslo tingrett Rettssaken mot Marius Borg Høiby handler nå om tiltaleposten for mishandling i nære relasjoner mot ekskjæresten Nora Haukland. Ikledd brun genser og grønne bukser inntok Høiby onsdag vitneboksen. Han starter med å gå i rette med påstandene Haukland fremsatte om en samtale med kronprinsparet etter bruddet. Skulda for 40 lovbrot: Dette må du vita om Høiby-saka Høiby sa det var absurd å høre på Hauklands forklaring og at det var vanskelig å høre henne fortelle om hans familieforhold. Ifølge han er det hele et forsøk på «å kaste de under bussen for egen oppmerksomhet». – De har ikke gjort noe annet. Ever. Enn å være greie og hjelpe meg. Jeg var så sint. Og frustrert over å liksom bare – hele den fortellingen hun forteller. Om vårt samliv, sier han. Høiby tok til tårene da han snakket om kronprinsparet, og var tydelig preget. Les første del av Høibys forklaring om påstått mishandling her: Les også Høibys forsvarer: – Han mener at hun ikke forklarer seg sant Påstått mishandling og vold Haukland forklarte seg i retten fredag forrige uke og deler av gårsdagen. Hun beskriver et forhold preget av krangling, frykt og vold. Ifølge påtalemyndigheten har Høiby utsatt Haukland for vold, ødelagt gjenstander og brølt skjellsord mot henne. Høiby nekter straffskyld. Den påståtte mishandlingen skal ha pågått fra sommeren 2022 til høsten 2023, ifølge tiltalen. Ekskjærestene var samboere i store deler av denne perioden. ← Dette mener påtalemyndigheten har skjedd Dette er en tidslinje om hva påtalemyndigheten mener har skjedd basert på forklaringer fra Haukland og vitner. Høiby nekter straffskyld for mishandling i nære relasjoner. Begynnelsen av juli 2022 Haukland og Høiby var på festivalen Palmesus i Kristiansand. Her skal det ha oppstått en konflikt mellom Høiby og en annen kvinne, hvor tiltalte skal ha blitt veldig sint. Han skal ha kastet sin egen mobil, slik at den ble ødelagt. Han skal også ha skreket og dratt med seg Haukland. 24. juli 2022 Høiby og Haukland hadde vært på en hyttetur på Vågå. På vei ned skal fornærmede ha snakket i telefon med Sofie Steen Isachsen. Hun skal ha hørt tiltaltes skriking på fornærmede i bakgrunnen i bilen. 30. juli 2022 Haukland og Høiby var på en fest i Oslo. Fornærmede skal ha sett en melding på tiltaltes mobil, og hun skal ha tatt mobilen hans. Da skal tiltalte ha presset henne opp imot en garasjeport og skreket mot henne. Rundt 1. august 2022 Haukland var i Henningsvær, da tiltalte skal ha ringt henne og sendt henne meldinger ved en rekke anledninger. Kommunikasjonen skal ha handlet om hvem hun var sammen med eller kunne være sammen med, hva hun hadde på seg og hva hun gjorde der. Høiby skal ha forsøkt å kontrollere dette. Begynnelsen av august 2022 I en leilighet i Oslo oppstod det en konflikt mellom Høiby og Haukland. Fornærmede skal ha låst seg inne på soverommet. Høiby skal ha slått hull i døra og slått den opp sånn at døra traff henne i ansiktet, i det hun låste opp døren. Deretter skal tiltalte ha tatt grep om halsen hennes og slengt henne på senga, mens han skrek henne opp i ansiktet. 21. august 2022 Det tidligere kjæresteparet var på en musikkfestival i Alta. I løpet av musikkfestivalen og noen sammenkomster i tilknytning festivalen, skal tiltalte ha tatt tak om halsen hennes og spyttet mot eller på henne. 26. november 2022 På Subjekt sine kontorer i Oslo skal det ha vært en krangel om en mobiltelefon. Påtalemyndigheten mener de har bevis for at Høiby tok tak i Haukland, holdt henne fast og skrek til henne. November – desember 2022 Det skal ha vært en krangel mellom fornærmede og tiltalte på Skaugum. Tiltalte skal ha skreket og ropt mot henne, han skal også ha slått hull i en dør. I tillegg skal han ha tatt halsgrep på henne, lagt henne på sofaen og tatt kvelertak. Etter hvert skal han også ha klapset til henne og gått fra henne. Videre skal tiltalte ha ropt og kastet gjenstander rundt i huset. Desember 2022 Tiltalte skal ha reagert på hvordan fornærmede var kledd under et julebord. Han skal ikke ha vært på julebordet selv, men ha sett videoer eller bilder publisert på sosiale medier. Dette skal ha utløst krangling mellom dem over telefon og tekstmeldinger. Tiltalte skal deretter ha dratt til adressen og lyttet til samtalene utenfor døren for å så dra igjen. Dette skal han ha fortalt til fornærmede i ettertid. 15. desember 2022 Det skal ha oppstått en krangel mellom tiltalte og fornærmede på et konsertlokale i Oslo. Påtalemyndigheten mener at de kan bevise at Høiby skal ha slått henne mot en vegg, tatt kvelertak og skrek til henne. Krangelen skal ha fortsatt i en taxi på vei fra konsertlokalet. 13. februar 2023 Dagen etter at det ble publisert et bilde med en pose med hvitt innhold i på Sofie Steen Isachsen sin Instagram, skal Høiby ha oppsøkt Haukland i Isachsen sin leilighet. Han skal ha truet med å knuse døra eller ruta ved døren dersom hun ikke slapp han inn. Noen dager senere drar de på ferie til Barbados. Også her skal tiltalte ha skreket til Haukland. Han skal også ha kastet sin egen mobil og knust den i sinne. 18. mars 2023 Hjemme hos Hauklands foreldre i Alta skal det ha oppstått en krangel mellom dem. Tiltalte skal ha tatt tak i halsen hennes, hvor hun skal ha klapset til ham. Tiltalte skal da ha slått henne med knyttet neve slik at hun falt på bakken. Mens hun lå nede skal han ha sparket henne. Han skal også ha kastet mobilen sin, som har ført til skader på en av veggene på badet. 18. mars 2023 Krangelen mellom dem fortsatte, og tiltalte gjorde et opptak med mobiltelefonen sin av samtalen mellom dem. Samme natt sender Haukland et bilde av ansiktet sitt, med det som skal være en sprukket leppe, til Sofie Steen Isachsen. April 2023 I eksparet sin felles bolig i Oslo skal fornærmede ha blitt presset opp mot et kjøleskap med halsgrep av tiltalte under en sammenkomst. Mai/juni 2023 Det skal ha skjedd to hendelser der Høiby skal ha forårsaket materielle skader i leiligheten. 4. april til 26. august 2023 Under innspillingen av TV-serien Girls of Oslo på Ibizia skal tiltalte ha ringt fornærmede en rekke ganger. Tiltalte skal ha skjelt henne ut og sendt flere meldinger. Det skal ha ført til en følelsesmessig reaksjon fra fornærmede. Forholdet tok slutt i juli 2023. → – Vært ganske aggressiv Høiby forklarer seg videre om en påstått hendelse i deres felles leilighet på Frogner. Haukland har forklart at han dyttet en dør i ansiktet hennes, og tok halsgrep på henne. Han sier han ikke husker hva foranledningen var, men at han husker at de kranglet. – Jeg kan ikke huske at jeg har dyttet henne opp etter noe vegg. Eller tatt noe strupetak på henne i det hele tatt. Jeg har et vagt minne om at jeg kanskje har dyttet henne på sengen. Og ikke slengt henne liksom, men dyttet henne bort på sengen, sier Høiby. Høiby hevder at også Haukland har vært aggressiv «både i væremåte og stemme». Tingrettsdommer Jon Sverdrup Efjestad ber ham utdype. – Hun har slått meg mange ganger. Hun har skreket til meg mange ganger. Når vi kranglet så ble det høylytt, fra begge sider, sier Høiby. Les Hauklands forklaring fra retten her: Les også Høiby om påstått vold i lydopptak: «Tok deg jævla hardt» – En sånn slags Mor Teresa Høiby forklarer seg også om hvorfor de flyttet til Skaugum. Ifølge han stemmer det ikke at de flyttet til Skaugum «fordi det var lenger unna fristelser». Høiby sier de flyttet dit fordi Hauklands leiekontrakt gikk ut, og at de fikk et gratis sted å bo. – Og hun har jo – jeg synes at i hvert fall i hennes forklaring – et veldig stort ønske om å fremstille seg selv som en sånn slags Mor Teresa, og jeg kan aldri klare meg uten henne, sier Høiby. I dette huset på Skaugum flyttet Haukland og Høiby inn i sammen. Foto: Truls Alnes Antonsen / NRK Haukland har forklart at hun følte seg isolert mens de bodde på Skaugum. Det sier Høiby at han forstår godt, men at hun hadde tilgang på en bil. – Det er ikke bare å gå ut døra og treffe en venn liksom, sånn som det er når man bor på Frogner. Det har jeg full forståelse for når hun sier, sier Høiby. – Men ja, jeg synes dette her hvor hun sier at dette var en plan mamma og Håkon la for å komme seg bort fra – altså, alt det her er bare vrøvl rett og slett. NRKs nye podkast «Krimrommet» følger rettssaken mot Høiby: Du trenger javascript for å spille av lydklippet «Høiby: Motorsykkeldate og Nora-tatovering (11)». Avviser påstander om vold på Skaugum I retten forklarer Høiby at han aldri tok kvelertak på Haukland på Skaugum. – Det har skjedd mange, sikkert høylytte, krangler, men jeg har, sånn som hun forklarte det, aldri noen gang kastet hun ned på en sofa og kvelt hun til hun svimer av, sier Høiby. Han sier han ikke husker å ha klappet til henne. Dommeren spør om han bestrider det eller bare ikke husker. Høiby sier det har vært krangler hvor «det har kommet et klaps begge veier», og at det kan hende han «har klappet til henne på et eller annet tidspunkt». Les også Derfor dekker NRK rettssaken mot Marius Borg Høiby – Og at jeg har kastet masse ting etter henne, det har jeg heller aldri gjort, sier han. Han forstår heller ikke hvilken dør det er han skal ha slått gjennom. Påstått voldshendelse på baderommet En av hendelsene i tiltalen skal ha foregått på et baderom i Alta i 2023. Ifølge Haukland startet det hele med en krangel om at hun mislikte at Høiby hadde brukt penger på OnlyFans. Les hennes forklaring her . Nora Haukland forklarte seg to dager i retten om påstått mishandling i nære relasjoner. Foto: Ane Hem / NTB Høiby forklarer seg om hendelsen hjemme hos Haukland i Alta. Også han forteller om at krangelen startet etter at hun oppdaget at det var blitt trukket penger til OnlyFans. – Hun skriker mye. Er høylytt. Så mener jeg at jeg blir sint tilbake, jeg knekker telefonen min over kneet, mener jeg, sier han. – Og så skriker vi frem og tilbake, og så slår hun meg. I ansiktet. Da tar jeg tak i hun. Hardt. Og skriker vel inn i ansiktet hennes eller brøler eller hva du vil kalle det, at «sånn tar du ikke på meg», sier Høiby. Marius Borg Høiby forklarer seg om tiltaleposten for mishandling i nære relasjoner mot Nora Haukland. Foto: Ane Hem / NTB Høiby sier han ville vekk fra situasjonen. Ifølge han var han ikke klar over at Haukland tok et lydopptak av hendelsen. Haukland har forklart at han slo henne med knyttet neve så hun falt, og at han sparket henne. – Jeg tror faktisk aldri jeg har slått, eller, jeg vet at jeg aldri har slått noen med knyttet neve. I hele mitt liv, sier Høiby. – Jeg har aldri sparket hun mens hun ligger nede, legger han til. Musikkfestival i Alta Også i 2022 skal det ha vært en hendelse under et besøk til Alta. Ifølge Høiby var paret på musikkfestivalen Alta Live, og Høiby sier at han ble «ordentlig full». Han sier han også fikk servert 96 prosent alkohol på et nachspiel, som han aldri før hadde prøvd. Høiby sier Haukland sendte et bilde på Snapchat til en mann som ifølge Høiby på det tidspunktet datet en av hans ekskjærester. Han husker han ble litt irritert, men mener de ikke kranglet, og at det ikke var høylytt. Vitneboksen i sal 250 i Oslo tinghus. Foto: Ole Berg-Rusten / NTB Ifølge Høiby ville han ordne opp på nachspielet, ved å tilnærme seg Haukland. Hun skal da ha begynt å gråte. NRK vurderer detaljene i dette til å være underlagt rettens referatforbud. – Og jeg skjønte at, shit, her har jeg bommet. Jeg har feiltolket situasjonen, holdt jeg på å si. Og beklagde meg og sa sorry, sorry, sorry. Ja, dette her var ikke sånn det skulle være, liksom, sier Høiby. Videre sier Høiby at han ikke husker at de dro hjem fra nachspielet eller noe mer fra den kvelden. Krangel på Subjekts lokaler Høiby forklarte seg også om Subjekt-hendelsen, som skal ha startet med at Haukland tok mobilen til Høiby fordi hun mistenkte at han var utro. Høiby sier at de egentlig hadde en hyggelig kveld i Subjekt-lokalene, men at fornærmede plutselig snappet telefonen hans og løp av gårde. – Og høyst sannsynlig så hadde jeg noe på den telefonen jeg ønsket å skjule. En annen melding eller med en dame eller et eller annet sånt, sier Høiby. Høiby skal ha løpt etter Haukland og tok tilbake telefonen. Han sier også at han skrek til henne, men husker ikke hva. Høiby sier at han ikke kan huske å ha holdt henne fast, men at han kan ha «tatt tak i armene hennes». Høiby og Haukland skal ha kranglet inne på Subjekts lokaler. Foto: Truls Alnes Antonsen / NRK Middag med Høibys far Høiby forklarer seg om en middag med Haukland hjemme hos sin far Morten Borg. Mens Høiby forteller om dette sitter Borg selv skrått bak ham i rettssal 250. – Vi blir gode og fulle og drikker. Pappa lager verdens beste mat, så spiser vi verdens beste middag, og drikker god vin og koser oss, sier Høiby. Morten Borg var på plass i retten når Høiby forklarte seg tirsdag og onsdag. Foto: Ole Berg-Rusten / NTB Høiby begynner på et resonnement om at Haukland plutselig skal ha fortalt dem om ting fra tidligere i livet sitt. Det blir diskusjoner mellom partene om hvorvidt Høiby skal få lov til å fortelle dette. Etter en pause kommer dommeren til at han kan det. Høiby fremsetter en rekke påstander mot Haukland som han mener er helt sentrale for å forstå forholdet dem imellom. NRK vurderer disse til å være underlagt rettens referatforbud, og gjengir derfor ikke detaljene i det. Hendelse i konsertlokale Høiby forklarer seg om en hendelse på Oslo Scene. Han sier Haukland på et tidspunkt «gjør som hun pleier: napper telefonen ut av hånda mi, og løper». Høiby sier han løp etter, tok tak i henne, dyttet henne opp til veggen og tok tilbake telefonen sin. – Og det blir jo beskrevet et strupetak her av Nora. Jeg dyttet henne inntil ved å holde. Altså, jeg har ikke tatt noe kvelertak på noen måte. Jeg dyttet hun inntil veggen for å holde hun fast for å få tak i mobilen min, sier Høiby. Nora Haukland Relasjon: Ekskjærast Antal tiltalepunkt: 1 Høiby er tiltalt for mishandling i nære relasjonar. FOTO: LISE ÅSERUD / NTB Høiby bestrider at han var voldelig og at det ikke var noen voldshendelse. Han sier det deretter kom en vakt som skal ha misforstått situasjonen, og trodd Høiby forsøkte å ta Hauklands telefon. Denne vakten skal ha gitt telefonnummeret sitt til Haukland og sagt hun kunne ringe ham om det var problemer. Vakten er innkalt som vitne i rettssaken. Ifølge Høiby forlot de konsertlokalet i en taxi. Under taxituren skal han ha begynt å filme for å sikre seg lyd av det som skjedde. De skal ha ringt vakten, som ifølge Høiby anklaget ham for å ha vært voldelig, noe han avviste. – Hele greia var bare rett og slett helt merkelig, sier Høiby. Les hvordan Høiby stiller seg til alle punktene i tiltalen her: Tiltalepunkta: Seksuallovbrot Antal tilfelle: 10 Høiby er tiltalt for fire valdtekter. Alle dei fire tilfella gjeld seksuell omgang med ein person som på grunn av søvn og/eller rus ikkje har kunna motsetja seg handlinga. Ei av valdtektane omfatta samleie, altså innføring av penis i kvinnas kjønnsorgan. Han er også tiltalt for seks tilfelle av seksuelt krenkande filming/fotografering. Sjå tiltalepunkt og strafferamme Valdtekt med samleie 8. oktober 2023 hadde han seksuell omgang med ei kvinne han møtte i Lofoten, trass i at ho var ute av stand til å motsetja seg handlinga. Valdtekta omfattar samleie. Erkjenner straffskuld: nei Strafferamme: Fengsel inntil 10 år Valdtekt 20. desember 2018 hadde han seksuell omgang med ei kvinne i 40-åra, trass i at ho var ute av stand til å motsetja seg handlinga. Erkjenner straffskuld: nei Strafferamme: Fengsel inntil 10 år 24. mars 2024 hadde han seksuell omgang med ei kvinne han møtte på ein fest i Oslo, trass i at ho var ute av stand til å motsetja seg handlinga. Erkjenner straffskuld: nei Strafferamme: Fengsel inntil 10 år 2. november 2024 hadde han seksuell omgang med ei kvinne han var saman med på eit hotell i Oslo, trass i at ho var ute av stand til å motsetja seg handlinga. Erkjenner straffskuld: nei Strafferamme: Fengsel inntil 10 år Seksuelt krenkande filming/fotografering 8. oktober 2023 filma han underlivet til kvinna han møtte i Lofoten. Ho var ikkje klar over at ho blei filma, og hadde ikkje samtykka til dette. Erkjenner straffskuld: nei Strafferamme: Bot eller fengsel inntil 1 år I tidsrommet frå 21. - 22. november 2023 tok han bilde av underlivet til Frogner-kvinna og filma seksuell handling. Ho var ikkje klar over fotograferinga og filminga, og hadde ikkje samtykka til dette. Erkjenner straffskuld: nei Strafferamme: Bot eller fengsel inntil 1 år 26. november 2023 tok han bilde av underlivet til Frogner-kvinna. Ho var ikkje klar over at ho blei tatt bilde av, og hadde ikkje samtykka til dette. Erkjenner straffskuld: nei Strafferamme: Bot eller fengsel inntil 1 år 2. desember 2023 tok han bilde av underlivet til Frogner-kvinna medan han utførte ei seksuell handling. Ho var ikkje klar over at ho blei tatt bilde av, og hadde ikkje samtykka til dette. Erkjenner straffskuld: ja Strafferamme: Bot eller fengsel inntil 1 år 24. mars 2024 filma han kvinna i 20-åra, som han møtte på fest i Oslo, medan dei hadde seksuell omgang og medan han gjennomførte valdtekta som er omtalt tidlegare. Kvinna var ikkje klar over at ho blei filma, og hadde ikkje samtykka til dette. Erkjenner straffskuld: nei Strafferamme: Bot eller fengsel inntil 1 år 2. november 2024 tok han bilde og video av underlivet til kvinna i 20-åra, som han var saman med på eit hotell i Oslo, medan dei hadde seksuell omgang, og medan han gjennomførte valdtekta som er omtalt tidlegare. Ho var ikkje klar over at ho blei filma og fotografert, og hadde ikkje samtykka til dette. Erkjenner straffskuld: nei Strafferamme: Bot eller fengsel inntil 1 år Narkotikalovbrot Antal tilfelle: 1 Høiby er tiltalt for grov narkotikaforbryting ved å ha skaffa seg, oppbevart og overlevert narkotika. Lovbrotet er grovt på grunn av narkotikamengda og måten lovbrotet er gjort på. Sjå tiltalepunkt og strafferamme 23. juli 2020 i Lørenskog mottok han minst 3,5 kg marihuana som han transporterte til Tønsberg og overleverte til ein person. Erkjenner straffskuld: ja Strafferamme: Fengsel inntil 10 år Vald, truslar og krenkande åtferd Antal tilfelle: 10 Høiby er tiltalt for eitt tilfelle av mishandling i nære relasjonar, altså vald, truslar og kontroll og psykisk/fysisk skade mot ein tidlegare kjærast. Han er tiltalt for eitt tilfelle av grov kroppskrenking og eitt tilfelle av kroppskrenking. Begge tilfella gjeld vald, men grov kroppskrenking er når valden er alvorleg. I tillegg er han tiltalt for eitt tilfelle av truslar og fem tilfelle av omsynslaus åtferd, altså at han har oppført seg på ein på måte som har skremt eller plaga andre. Sjå tiltalepunkt og strafferamme Mishandling i nære relasjonar I perioden frå sommaren 2022 til hausten 2023 mishandla han sin dåverande sambuar Nora Haukland ved gjentatt vald, truande åtferd og andre krenkingar. Han slo, sparka, tok kvelartak, kasta ting mot ho og kom med skjellsord. Han kontrollerte også kor Haukland var, kven ho var med og pressa ho til å gi frå seg jobboppdrag. Erkjenner straffskuld: nei Strafferamme: Fengsel inntil 6 år Grov kroppskrenking 4. august 2024 tok han gjentatte gongar kvelartak på Frogner-kvinna slik at ho ikkje fekk pusta, slo ho i ansiktet med flat hand og heldt ho nede i ei seng. Erkjenner straffskuld: delvis Strafferamme: Fengsel inntil 6 år Kroppskr",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "crime",
+    "correction_type": "other",
+    "time_to_correct_hours": 6.97
   },
   {
     "id": 1775079314068,
@@ -1664,7 +1677,7 @@
     "correction_date": "2026-03-25",
     "news_category": "local",
     "correction_type": "factual_error",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 22.18
   },
   {
     "id": 1775079349256,
@@ -1689,7 +1702,7 @@
     "correction_date": "2026-03-06",
     "news_category": "world",
     "correction_type": "wrong_location",
-    "time_to_correct_hours": 2.36
+    "time_to_correct_hours": 0.51
   },
   {
     "id": 1775079352097,
@@ -1714,7 +1727,7 @@
     "correction_date": "2026-03-11",
     "news_category": "local",
     "correction_type": "missing_context",
-    "time_to_correct_hours": 16.23
+    "time_to_correct_hours": 18.54
   },
   {
     "id": 1775079353362,
@@ -1739,7 +1752,7 @@
     "correction_date": "2026-03-13",
     "news_category": "economy",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 7.19
+    "time_to_correct_hours": 5.14
   },
   {
     "id": 1775079354611,
@@ -1764,7 +1777,7 @@
     "correction_date": "2026-03-21",
     "news_category": "crime",
     "correction_type": "factual_error",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 18.09
   },
   {
     "id": 1775079355878,
@@ -1789,7 +1802,7 @@
     "correction_date": "2026-03-15",
     "news_category": "politics",
     "correction_type": "wrong_date",
-    "time_to_correct_hours": 1.66
+    "time_to_correct_hours": 5.76
   },
   {
     "id": 1775079359663,
@@ -1814,7 +1827,7 @@
     "correction_date": "2026-03-23",
     "news_category": "local",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 29.21
+    "time_to_correct_hours": 30.68
   },
   {
     "id": 1775079362344,
@@ -1929,7 +1942,7 @@
     "correction_date": "2026-03-24",
     "news_category": "politics",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 13.53
   },
   {
     "id": 1775079376591,
@@ -2176,14 +2189,19 @@
     "source": "search_backfill",
     "correction_text_raw": "Rettelse: Noen av detaljene i denne saken er redigert vekk av hensyn til de involverte. En ny versjon av artikkelen ble publisert 14:00.",
     "headline": "Tenåring dømt for voldtekt av mindreårige gutter",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "nrk_section": "stor-oslo",
     "publication_date": "2026-02-25T10:48:56+01:00",
     "modified_date": "2026-02-25T14:44:19+01:00",
     "intro_text": "En 18-åring er dømt til fengsel for voldtekt av tre mindreårige gutter i Oslo. Han er tidligere dømt for en rekke vipps-ran.",
     "journalist": "Jens Christian Sundby",
     "responsible_editor": "",
-    "article_body": "Tenåring dømt for voldtekt av mindreårige gutter En 18-åring er dømt til fengsel for voldtekt av tre mindreårige gutter i Oslo. Han er tidligere dømt for en rekke vipps-ran. Her på Østre Aker gravlund i Oslo ble en mindreårig gutt voldtatt 31. august 2024. Foto: Hallgeir Braastad / NRK Jens Christian Sundby – Journalist Journalist Publisert 25.02.2026, kl. 10.48 Oppdatert 25.02.2026, kl. 14.44 Publisert 25.02.2026, kl. 10.48 Oppdatert 25.02.2026, kl. 14.44 Rettelse: Noen av detaljene i denne saken er redigert vekk av hensyn til de involverte. En ny versjon av artikkelen ble publisert 14:00. Da saken var oppe for retten tidligere i år, erkjente 18-åringen straffskyld for voldtektene. Tiltalte var 16 og 17 år da overgrepene skjedde. Nå er han dømt til fengsel i flere år. – Uforholdsmessig streng 18-åringens forsvarer Cecilia Dinardi er svært overrasket over straffeutmålingen og resultatet. I retten la aktor ned påstand om fengsel i to år kombinert med to års ungdomsstraff. Nå er 18-åringen dømt til fengsel i seks år og seks måneder i Oslo tingrett. – Straffen fremstår for meg uforholdsmessig streng for en så ung person. Advokat Cecilia Dinardi er forsvarer for 18-åringen. Foto: Torbjørn Brovold / NRK Dinardi har orientert klienten sin om dommen. – Han er preget og kjenner et behov for å områ seg og gå gjennom den grundig med meg. Men hun forteller at dommen vil bli anket. – Et sentralt felt her er jo straffeutmålingen, sier Dinardi. Statsadvokat Anne Christine Stoltz Wennersten er aktor i saken. – Påtalemyndigheten registrerer at tingretten har lagt mindre vekt på domfeltes alder ved straffutmålingen og ikke idømt deler av straffen som ungdomsstraff slik vi ba om. Les også 17-åring tiltalt for voldtekt av tre gutter Utsatt for overgrep En lørdagskveld i august 2024 blir en mindreårig gutt utsatt for et overgrep på Østre Aker Gravlund i Oslo. Etter dette ble gutten forsøkt truet til taushet. Saken ble anmeldt. Gjerningspersonen ble gjenkjent på overvåkingsbilder fra bussen. Saken skulle opprinnelig opp for retten i juni i fjor. Men den ble trukket. Det hadde dukket opp to nye voldtektssaker mot 17-åringen. Lørdag 22. mars 2025 hadde han avtalt å møte en ung gutt på ettermiddagen på østkanten i Oslo. Gutten ble slått, sparket og truet før voldtekten skjedde innendørs. Natt til 1. mai 2025 ble en annen ung gutt overfalt og tatt med inn i en barnehage på østkanten i Oslo. Her kom 17-åringen med drapstrusler før voldtekten skjedde utendørs. Nå er 18-åringen dømt for de tre voldtektene. Klassiske overfallsvoldtekter To av voldtektene fremstår som klassiske overfallsvoldtekter, begått av en fremmed person ved bruk av vold og trusler, skriver Oslo tingrett. 18-åringen er også dømt for forsøk på å true guttene til taushet. I et av tilfellene tok han også video og bilder av én av guttene naken. Retten mener han brukte det til å true den fornærmede til å møte opp til et potensielt nytt overgrep. Oslo tingrett mener dette er et av mange straffeskjerpende forhold. Den første av voldtektene 17-åringen nå er dømt for, skjedde etter at han slapp ut fra varetekt for vipps-ran og før han møtte i retten for ranene. Foto: NTB 18-åringen er også dømt for en lang rekke andre forhold: Vold og trusler mot offentlig tjenesteperson og mot andre Tyveri Ulovlig oppbevaring av narkotika Skadeverk mens han satt i varetekt Stikke av fra to fengselsansatte 18-åringen er også dømt til å betale 350.000 kroner i erstatning til den fornærmede og 300.000 til de to andre. Dømt for en rekke vipps-ran Det er ikke første gang 18-åringen blir dømt for alvorlige forhold. I november 2024 ble han dømt til fengsel og ungdomsstraff for en rekke vipps-ran i Oslo på forsommeren 2024. Les også Vipps-ranene i Oslo: 16-åring dømt til fengsel Sammen med andre ranet han barn helt ned i 12-årsalderen. Den første av voldtekten han nå er dømt for, ble begått etter at han slapp ut fra varetekt etter ranene. De to neste voldtektene ble begått, mens han sonet ungdomsstraffen. Ungdomsstraffen som han ble idømt etter vipps-ranene er nå gjort om til fengselsstraff og utgjør en del av den nye dommen. Publisert 25.02.2026, kl. 10.48 Oppdatert 25.02.2026, kl. 14.44 NRK Stor-Oslo Har kjempet for hjelp til sønnen sin i fem år: – Et levende mareritt Krever rundt 100 millioner fra Nav + Vis flere Mer om: NRK Stor-Oslo Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Norge Vipps-ran Truet ransoffer til å kle seg naken i 20 minus – mann dømt + Vis flere Mer om: Vipps-ran"
+    "article_body": "Tenåring dømt for voldtekt av mindreårige gutter En 18-åring er dømt til fengsel for voldtekt av tre mindreårige gutter i Oslo. Han er tidligere dømt for en rekke vipps-ran. Her på Østre Aker gravlund i Oslo ble en mindreårig gutt voldtatt 31. august 2024. Foto: Hallgeir Braastad / NRK Jens Christian Sundby – Journalist Journalist Publisert 25.02.2026, kl. 10.48 Oppdatert 25.02.2026, kl. 14.44 Publisert 25.02.2026, kl. 10.48 Oppdatert 25.02.2026, kl. 14.44 Rettelse: Noen av detaljene i denne saken er redigert vekk av hensyn til de involverte. En ny versjon av artikkelen ble publisert 14:00. Da saken var oppe for retten tidligere i år, erkjente 18-åringen straffskyld for voldtektene. Tiltalte var 16 og 17 år da overgrepene skjedde. Nå er han dømt til fengsel i flere år. – Uforholdsmessig streng 18-åringens forsvarer Cecilia Dinardi er svært overrasket over straffeutmålingen og resultatet. I retten la aktor ned påstand om fengsel i to år kombinert med to års ungdomsstraff. Nå er 18-åringen dømt til fengsel i seks år og seks måneder i Oslo tingrett. – Straffen fremstår for meg uforholdsmessig streng for en så ung person. Advokat Cecilia Dinardi er forsvarer for 18-åringen. Foto: Torbjørn Brovold / NRK Dinardi har orientert klienten sin om dommen. – Han er preget og kjenner et behov for å områ seg og gå gjennom den grundig med meg. Men hun forteller at dommen vil bli anket. – Et sentralt felt her er jo straffeutmålingen, sier Dinardi. Statsadvokat Anne Christine Stoltz Wennersten er aktor i saken. – Påtalemyndigheten registrerer at tingretten har lagt mindre vekt på domfeltes alder ved straffutmålingen og ikke idømt deler av straffen som ungdomsstraff slik vi ba om. Les også 17-åring tiltalt for voldtekt av tre gutter Utsatt for overgrep En lørdagskveld i august 2024 blir en mindreårig gutt utsatt for et overgrep på Østre Aker Gravlund i Oslo. Etter dette ble gutten forsøkt truet til taushet. Saken ble anmeldt. Gjerningspersonen ble gjenkjent på overvåkingsbilder fra bussen. Saken skulle opprinnelig opp for retten i juni i fjor. Men den ble trukket. Det hadde dukket opp to nye voldtektssaker mot 17-åringen. Lørdag 22. mars 2025 hadde han avtalt å møte en ung gutt på ettermiddagen på østkanten i Oslo. Gutten ble slått, sparket og truet før voldtekten skjedde innendørs. Natt til 1. mai 2025 ble en annen ung gutt overfalt og tatt med inn i en barnehage på østkanten i Oslo. Her kom 17-åringen med drapstrusler før voldtekten skjedde utendørs. Nå er 18-åringen dømt for de tre voldtektene. Klassiske overfallsvoldtekter To av voldtektene fremstår som klassiske overfallsvoldtekter, begått av en fremmed person ved bruk av vold og trusler, skriver Oslo tingrett. 18-åringen er også dømt for forsøk på å true guttene til taushet. I et av tilfellene tok han også video og bilder av én av guttene naken. Retten mener han brukte det til å true den fornærmede til å møte opp til et potensielt nytt overgrep. Oslo tingrett mener dette er et av mange straffeskjerpende forhold. Den første av voldtektene 17-åringen nå er dømt for, skjedde etter at han slapp ut fra varetekt for vipps-ran og før han møtte i retten for ranene. Foto: NTB 18-åringen er også dømt for en lang rekke andre forhold: Vold og trusler mot offentlig tjenesteperson og mot andre Tyveri Ulovlig oppbevaring av narkotika Skadeverk mens han satt i varetekt Stikke av fra to fengselsansatte 18-åringen er også dømt til å betale 350.000 kroner i erstatning til den fornærmede og 300.000 til de to andre. Dømt for en rekke vipps-ran Det er ikke første gang 18-åringen blir dømt for alvorlige forhold. I november 2024 ble han dømt til fengsel og ungdomsstraff for en rekke vipps-ran i Oslo på forsommeren 2024. Les også Vipps-ranene i Oslo: 16-åring dømt til fengsel Sammen med andre ranet han barn helt ned i 12-årsalderen. Den første av voldtekten han nå er dømt for, ble begått etter at han slapp ut fra varetekt etter ranene. De to neste voldtektene ble begått, mens han sonet ungdomsstraffen. Ungdomsstraffen som han ble idømt etter vipps-ranene er nå gjort om til fengselsstraff og utgjør en del av den nye dommen. Publisert 25.02.2026, kl. 10.48 Oppdatert 25.02.2026, kl. 14.44 NRK Stor-Oslo Har kjempet for hjelp til sønnen sin i fem år: – Et levende mareritt Krever rundt 100 millioner fra Nav + Vis flere Mer om: NRK Stor-Oslo Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen + Vis flere Mer om: Norge Vipps-ran Truet ransoffer til å kle seg naken i 20 minus – mann dømt + Vis flere Mer om: Vipps-ran",
+    "correction_description": "Noen detaljer i saken er redigert vekk av hensyn til de involverte.",
+    "correction_date": "2026-02-25",
+    "news_category": "crime",
+    "correction_type": "other",
+    "time_to_correct_hours": 3.92
   },
   {
     "id": 1775079414946,
@@ -2299,7 +2317,7 @@
     "correction_date": "2026-02-26",
     "news_category": "crime",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 6.15
+    "time_to_correct_hours": 3.94
   },
   {
     "id": 1775079433957,
@@ -2416,7 +2434,19 @@
     "source": "search_backfill",
     "correction_text_raw": "Rettelse: I en tidligere versjon av saken sa Støre i et sitat at immuniteten til Jagland er opphevet. Den er ikke opphevet ennå, men Europarådet er bedt om å gjøre det. Saken ble oppdatert klokka 13.36.",
     "headline": "Støre: Ap vil ha stortingsoppnevnt granskingskommisjon",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "norge",
+    "publication_date": "2026-02-09T11:51:51+01:00",
+    "modified_date": "2026-02-09T14:03:46+01:00",
+    "intro_text": "Statsminister Jonas Gahr Støre (Ap) vil ha en stortingsoppnevnt granskingskommisjon i Epstein-saken.",
+    "journalist": "Hilde Nilsson Ridola, Fathia Mahmoud Farah, Line Tomter, Mats Rønning",
+    "responsible_editor": "",
+    "article_body": "Støre: Ap vil ha stortingsoppnevnt granskingskommisjon Statsminister Jonas Gahr Støre (Ap) vil ha en stortingsoppnevnt granskingskommisjon i Epstein-saken. Faksimile: William Jobling / NRK Hilde Nilsson Ridola – Journalist Journalist + 3 til Fathia Mahmoud Farah – Journalist Journalist Line Tomter – Journalist Journalist Mats Rønning – Journalist Journalist Publisert 09.02.2026, kl. 11.51 Oppdatert 09.02.2026, kl. 14.03 Publisert 09.02.2026, kl. 11.51 Oppdatert 09.02.2026, kl. 14.03 Statsminister Jonas Gahr Støre (Ap) sier han støtter en bred gjennomgang av norske forbindelser til Jeffrey Epstein. – For Arbeiderpartiet er det helt avgjørende å komme til bunns i saken. Han legger til: – Der sitter alle partier samlet. Der kan man be om redegjørelser, granske og snu alle steiner, sier han. Støre sier at regjeringen og Arbeiderpartiet vil sikre full åpenhet om alle spørsmål knyttet til Epstein-saken. Epsteins norske forbindelser Flere høytstående nordmenn har blitt koblet til Jeffrey Epstein gjennom Epstein-filene.\nDen avdøde seksualforbryteren og finansmannen har blant annet hatt kontakt med kronprinsesse Mette-Marit, Børge Brende og Thorbjørn Jagland. Støre avviser snuoperasjon Støre avviser at Arbeiderpartiet har snudd etter å ha sagt nei til Fremskrittspartiets forslag om at regjeringen selv skulle oppnevne et granskingsutvalg. Statsministeren har måttet tåle sterk kritikk fra opposisjonen. – Åpenhet har vært målet hele veien. Det vi sa nei til, var at regjeringen skulle granske seg selv. Nå får Stortinget muligheten til å beslutte en gjennomgang, og det er vi åpne for, sier Støre. Han avviser også at det er grunnlag for å fastslå at det har vært en ukultur i utenrikstjenesten. – De aller fleste som representerer Norge, følger lover og regler. Men når det reises alvorlige spørsmål, må de undersøkes grundig, sier Støre. FrPs leder, Sylvi Listhaug kaller det for en snuoperasjon. Foto: Aurora Ytreberg Meløe / NRK FrP sier Ap og Støre ikke hadde noe annet valg slik saken har utviklet seg. – Ap har strittet imot og hardnakket forsøkt å isolere dette til enkeltpersoner og enkeltsaker. Men alle ser at det holder ikke, sier FrP-leder Sylvi Listhaug. Også Venstres leder, Guri Melby mener det var på høy tid med en uavhengig gransking. Guri Melby, leder i Venstre. Foto: William Jobling / NRK – Alle andre partier krevde uavhengig gransking, mens statsministeren sa nei, det sendte et svært dårlig signal. Folk fortjener svar, sier Melby. Rødt støtter forslaget om en ekstern gransking, men mener det ikke er tilstrekkelig. – Kommisjoner som den Høyre foreslår, tar ofte flere år og har tidligere ikke klart å plassere det politiske ansvaret. Vi frykter at avgjørende spørsmål blir trenert, sier Martine Sneve Martinussen. Partiet vil derfor at Stortingets kontrollkomité starter arbeidet umiddelbart. Derfor omtaler NRK Epstein-saken Jeffrey Epstein var en domfelt seksualforbryter og finansmann som brukte nettverk med samfunnstopper og mektige personer som maktmiddel. Når fremtredende nordmenn har pleiet kontakt med ham, er det naturlig at NRK omtaler dette. Publikum har et informasjonsbehov for å vite hvordan mennesker i maktposisjoner forvalter sin makt, nettverk og dømmekraft. Ved å offentliggjøre e-postmeldinger dokumenterer vi kontaktens omfang og karakter. Korrespondansen viser hvordan Epstein jobbet og hvordan hans norske forbindelser ble del av nettverket hans. En del av pressens rolle er å avdekke skjulte maktstrukturer, og det er et stort alvor i sakene som Epstein var dømt og anklaget for. NRK har samtidig forståelse for at offentliggjøring av privat korrespondanse kan virke belastende for involverte parter. De første offentlige anklagene mot Epstein kom i 2005 og han inngikk et forlik i 2008 etter å ha vært tiltalt ha anskaffet en mindreårig til prostitusjon. Han ble dømt til 18 måneder i fengsel. Flere i Norge blir gransket Uttalelsen kommer etter blant annet etter at Økokrim har åpnet etterforskning mot tidligere generalsekretær i Europarådet Thorbjørn Jagland. Når det gjelder immuniteten til Jagland har regjeringen bedt om at Europarådet opphever den. Les også Derfor er Jagland under etterforskning Onsdag vil Europarådet også behandle spørsmålet om opphevelse. Utenriksdepartementet gransker samtidig ambassadør Mona Juul, som søndag opplyste at hun trekker seg fra stillingen. – Ambassadør Mona Juul har trukket seg etter samtaler med Utenriksdepartementet. Departementet går også gjennom tildelingene til International Peace Institute (IPI) på nytt, særlig for de senere årene, sier Støre. Les også Mona Juul går av som ambassadør Om støtten til IPI viser han til at Norge har bidratt til flere internasjonale organisasjoner innen fred, nedrustning og klima. Han peker på at Riksrevisjonen har gjennomgått deler av perioden , og at departementet nå vurderer ytterligere gjennomgang. Gransking bør skje raskt På pressekonferansen understreket Støre at han vil ha fortgang i å få satt i gang en gransking. Sverre Myrli (Ap) sier mandat og størrelse på en gransking må politikerne bli enige om. Foto: Terje Pedersen / NTB Og partikollega Sverre Myrli, som er første nestleder av kontroll- og konstitusjonskomiteen på Stortinget, sier det er viktig at dette ikke drøyer. Han sier at det i kommisjonen bør det sitte uavhengige personer, altså folk som ikke er fra politikken. – Hvem det skal være og hvor mange, og hva som skal være mandatet til kommisjonen må partiene på Stortinget bli enige om, sier Myrli. Listhaug er klar i sine forventninger til granskingen. – Frp tar for gitt at det blir enighet om et mandat som gir fullt flomlys på utenrikstjenesten, sier hun. Myrli er åpen for at en gransking går bredere ut enn utenrikstjenesten. – Det har vi jo ikke konkludert på, men det syns jeg jo høres fornuftig og rimelig ut. Vi bør jo ha minst mulig avgrensninger her, sier han. Les også Solberg om Epstein-kobling: – Ikke grunnlag for å kritisere Ine Støre: – Vil ha full åpenhet I 33 år har Terje Rød-Larsen hatt et privat arkiv med dokumenter fra Oslo-prosessen som offentligheten ikke har fått se. Noe flere partier har reagert på og krever gransking. Rød-Larsen og palestinernes president Yasser Arafat gir hverandre en klem på Statsministerens kontor i Oslo. Foto: Rune Petter Ness / NTB – Dette er jo nå over 30 år siden. Hvor de arkivene finnes eller ikke finnes, vet ikke jeg her jeg står, men full åpenhet er jeg helt for, sier Støre. Han er likevel opptatt av å være veldig forsiktig med å spre en mistanke mot alle som har vært toppdiplomater. – Det er folk som gjør jobben sin med stort ansvar, og dem vil jeg slå ring rundt, sa Støre mandag. Rettelse: I en tidligere versjon av saken sa Støre i et sitat at immuniteten til Jagland er opphevet. Den er ikke opphevet ennå, men Europarådet er bedt om å gjøre det. Saken ble oppdatert klokka 13.36. Du trenger javascript for å spille av lydklippet «Sexovergriperen, superdiplomaten og en tankesmie i New York». Publisert 09.02.2026, kl. 11.51 Oppdatert 09.02.2026, kl. 14.03 Jeffrey Epstein Profesjonell skapsprenger: – Aldri hørt om en safe som er sporløst borte Anklager norsk­finansiert tankesmie for å ha hjulpet Epstein med menneskehandel + Vis flere Mer om: Jeffrey Epstein Politikk Mímir Kristjánsson sendte truende meldinger til privatperson + Vis flere Mer om: Politikk Regjeringen Støre Regjeringen trosser stortingsflertallet: – Lever farlig som statsråd + Vis flere Mer om: Regjeringen Støre",
+    "correction_description": "Det ble rettet en feilaktig påstand om at Thorbjørn Jaglands immunitet var opphevet. Det korrekte er at Europarådet er bedt om å vurdere dette.",
+    "correction_date": "2026-02-09",
+    "news_category": "politics",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 2.2
   },
   {
     "id": 1775079457160,
@@ -2546,7 +2576,19 @@
     "source": "search_backfill",
     "correction_text_raw": "RETTELSE: Da denne saken ble publisert fredag 13. februar skrev NRK at det var snakk om over en halv million filer som var lekket på det mørke nettet. Det stemte ikke. Det korrekte er rundt 400.000 filer. Saken ble rettet mandag 16. februar klokken 15:18.",
     "headline": "Stjålne data fra Telia lagt ut på det mørke nettet",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "norge",
+    "publication_date": "2026-02-13T13:12:54+01:00",
+    "modified_date": "2026-02-16T15:20:42+01:00",
+    "intro_text": "En hackergruppe har publisert flere hundre tusen filer som de hevder kommer fra Telia Norge.",
+    "journalist": "Julie Helene Günther, Martin Gundersen, Sahara Muhaisen, Thor-Albert Frøsland, Ingeborg Grindheim Slinde",
+    "responsible_editor": "",
+    "article_body": "Stjålne data fra Telia lagt ut på det mørke nettet En hackergruppe har publisert flere hundre tusen filer som de hevder kommer fra Telia Norge. HACKERANGREP: Telia Norge er utsatt for et datainnbrudd. Informasjon hentet fra selskapet er lagt ut på det mørke nettet. Tobias Sakrisvold Martinsen / NRK Julie Helene Günther – Journalist Journalist + 4 til Martin Gundersen – Journalist Journalist Sahara Muhaisen – Journalist Journalist Thor-Albert Frøsland – Journalist Journalist Ingeborg Grindheim Slinde – Journalist Journalist Publisert 13.02.2026, kl. 13.12 Oppdatert 16.02.2026, kl. 15.20 Publisert 13.02.2026, kl. 13.12 Oppdatert 16.02.2026, kl. 15.20 En hackergruppe hevder å ha stjålet så mye som 2,5 terabyte med data fra Telia. NRK meldte mandag om datainnbruddet . Nå har hackergruppen lagt ut rundt 400.000 filer på det mørke nettet . Det viser NRKs foreløpige undersøkelser. Informasjonssjef i Telia Norge, Daniel Barhom, bekrefter at angriperne har fått tilgang til sensitiv informasjon til enkelte privatkunder. Foto: Telia – Vi kan bekrefte at vi i slutten av november 2025 oppdaget et datainnbrudd fra en kriminell aktør i en mindre del av Telia Norges IT‑miljø, sier Daniel Barhom, informasjonssjef i Telia Norge til NRK. NRK har hittil observert flere tusen bildefiler, over 10.000 regneark-filer, og over 20.000 PDF-filer. De lekkede filene ser ut til å være så nye som fra september 2025. Telia bekrefter at angriperne har fått tilgang til sensitivt ID‑informasjon til enkelte privatkunder og intern selskapsinformasjon. – Dette beklager vi på det sterkeste. Berørte kunder og ansatte er varslet, sier Barhom. Hackergruppen hevder at dataene skal inneholde informasjon om nordmenns kundeforhold, finansielle dokumenter, intern korrespondanse, kontrakter og fakturaer fra Telia. RETTELSE: Da denne saken ble publisert fredag 13. februar skrev NRK at det var snakk om over en halv million filer som var lekket på det mørke nettet. Det stemte ikke. Det korrekte er rundt 400.000 filer. Saken ble rettet mandag 16. februar klokken 15:18. Les også Hackergruppe hevdar dei har stole informasjon frå Telia Utpressingsforsøk mot Telia Det finnes en etablert industri med finansielt motiverte hackergrupper som bryter seg inn i selskaper for å presse dem for penger. I noen tilfeller krypterer de data som gjør det umulig å drifte selskapet, andre ganger stjeler de data og truer med å publisere det. Telia Norge sitt hovedkontor ligger på Økern i Oslo. Foto: Tobias Sakrisvold Martinsen / NRK Hackergruppen som påstår å ha brutt seg inn hos Telia, hevder de kun har stjålet data fra selskapet. De har i en uke truet med å lekke mer av dataene de sitter på. – Vi tar datainnbruddet på største alvor. Når hendelser oppstår, agerer vi på dem umiddelbart og jobber raskt for å etablere dialog med relevante myndigheter, samt politianmelde det når det er aktuelt. Denne saken er nå politianmeldt, sier Barhom i Telia. NRK har spurt administrerende direktør i Telia Norge, Bjørn Ivar Moen, om selskapet har vært i kontakt med hackergruppen. – Det er ikke naturlig å gå inn på. Det er en pågående etterforskning, vi skal håndtere det på best mulig måte sammen med politiet, sier Moen. – Hvorfor er det ikke naturlig å gå inn på? – Det er en pågående sak, vi skal jobbe sammen med politiet, håndtere saken på best mulig måte, da blir det feil å gå inn på det, sier han. NRK har også spurt Telia om hvordan hackerne har klart å få tak i dataene. – Dette er nå en alvorlig sak, men det er også en politisak og en politietterforskning, så akkurat de detaljene er det ikke naturlig å gå inn på, sier han. Moen vil heller ikke kommentere hvor mange som er rammet av hendelsen. Varslet Datatilsynet Barhom sa tidligere denne uken til NRK at dataen kom fra et eldre datasett fra tidligere Get. Get og Telia slo seg sammen høsten 2020, skriver Telia på sine sider . Der samlet de TV, internett og mobil under én felles merkevare. Ifølge Telia er de Nordens største leverandør av mobiltjenester. – Ulike typer informasjon fra hovedsakelig tidligere Get er nå publisert på det mørke nettet, sier Barhom. – Da vi oppdaget innbruddet håndterte vi det i tråd med våre etablerte sikkerhetsrutiner og satte umiddelbart inn nødvendige tiltak, blant annet å stenge ute angriperne og analysere hvilken data de kan ha fått tilgang til. Tobias Sakrisvold Martinsen Telia har rutinemessig varslet Datatilsynet om hendelsen. Selskaper er pålagt å varsle tilsynet når de blir kjent med hendelser som dette. NRK har fått innsyn i avviksmeldingen. Der skrev Telia at «det kan være snakk om 28 navn med bostedsadresser samt 2 passbilder som også kan stamme fra våre systemer.» Datatilsynet fikk avviksmeldingen fredag forrige uke. – Det er satt en saksbehandler på avvikssaken, sier seksjonssjef i Datatilsynet Kristine Stenbro. Avviksmeldingen ble skrevet da kun deler av materialet var lagt ut. Nkom bekrefter til NRK at Telia også har informert dem om hendelsen. – Nkom har foreløpig ikke åpnet tilsynssak, men vil vurdere dette basert på den videre dialogen med Telia, sier seksjonssjef i sikkerhetsavdelingen Sander Ask. Kan bli utsatt for ID-tyveri – Vi forventer at Telia holder kundene sine orientert hvis det skjer noen utvikling, og at man også orienterer de kundene som har fått dataen sin lekket, sier fagsjef i Forbrukerrådet Thomas Iversen. Fagsjef i Forbrukerrådet Thomas Iversen sier at det er viktig at de som er rammet følger nøye med i tiden fremover. Foto: Torbjørn Brovold / NRK Han forteller at det er viktig at de som er rammet, følger med om de mottar mistenkelige e-poster. – Det er en økt risiko for at disse opplysningene kan bli brukt til ulovlige formål som kan ende med ID -tyveri, sier Iversen. – De neste månedene bør du passe på hvis dataen er blitt lekket, slik at du er obs hvis det kommer e-poster eller brev som du ikke har bedt om. Publisert 13.02.2026, kl. 13.12 Oppdatert 16.02.2026, kl. 15.20 Fra NRKs teknologigruppe Derfor er det nesten umulig å forlate sosiale medier TV-en din kan se deg: – Potensiell masseovervåking + Vis flere Mer om: Fra NRKs teknologigruppe Dataangrep og hacking Tidligere politiadvokat forsøkt svindlet av «Petter Stordalen» + Vis flere Mer om: Dataangrep og hacking Svindel Tidligere politiadvokat forsøkt svindlet av «Petter Stordalen» + Vis flere Mer om: Svindel",
+    "correction_description": "NRK rettet antallet lekkede filer fra over en halv million til rundt 400.000.",
+    "correction_date": "2026-02-16",
+    "news_category": "technology",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": 74.13
   },
   {
     "id": 1775079472345,
@@ -2559,7 +2601,19 @@
     "source": "search_backfill",
     "correction_text_raw": "Rettelse 23.02: I en tidligere versjon av denne saken sto det at ukrainske forsvarsstyrker hevdet at om lag 30.618 russiske soldater var døde. Dette er ikke korrekt. Tallet på russiske tap omfatter både drepte, skadede og soldater som er savnet på slagmarken. Dette er nå korrigert.",
     "headline": "Ekspert: – Russland sliter med å rekruttere nye russiske soldater",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "urix",
+    "publication_date": "2026-02-16T18:34:10+01:00",
+    "modified_date": "2026-02-23T13:18:27+01:00",
+    "intro_text": "Ukrainske myndigheter hevder at Russland mister flere soldater enn de rekrutterer. Nå driver Russland en rekrutteringskamp i utlandet, ifølge flere kilder.",
+    "journalist": "Tora Alfsdotter Vassnes, Nora Ingeborg Geiran Dingstad",
+    "responsible_editor": "",
+    "article_body": "Ekspert: – Russland sliter med å rekruttere nye russiske soldater Ukrainske myndigheter hevder at Russland mister flere soldater enn de rekrutterer. Nå driver Russland en rekrutteringskamp i utlandet, ifølge flere kilder. NORD-KOREA: Kim Jong-un åpnet nye boliger i Pyongyang i går. Foto: NTB Tora Alfsdotter Vassnes – Journalist Journalist Nora Ingeborg Geiran Dingstad – Journalist Journalist Publisert 16.02.2026, kl. 18.34 Oppdatert 23.02.2026, kl. 13.18 Publisert 16.02.2026, kl. 18.34 Oppdatert 23.02.2026, kl. 13.18 Rettelse 23.02: I en tidligere versjon av denne saken sto det at ukrainske forsvarsstyrker hevdet at om lag 30.618 russiske soldater var døde. Dette er ikke korrekt. Tallet på russiske tap omfatter både drepte, skadede og soldater som er savnet på slagmarken. Dette er nå korrigert. Nord-Koreas øverste leder Kim Jong-un åpnet splitter nye boliger i hovedstaden Pyongyang i går. Her skal de etterlatte etter falne soldater i Ukraina-krigen flytte inn. Nord-Korea har sendt tropper til fronten i Ukraina siden 2024. Siden den gang viser tall fra sørkoreanske kilder at over 14.000 nordkoreanere har kjempet, og 6000 av dem er blitt drept, skriver The Guardian. Her skal de etterlatte etter Ukraina-krigen flytte inn. Boligene ligger i Nord-Koreas hovedstad Pyongyang. Foto: AP De nye boligene ble reist for å «hedre de unge martyrene» som kriger i utenlandske operasjoner, sa Kim i sin tale på åpningsseremonien. Mister flere soldater enn de rekrutterer I helgen hevdet Ukrainas militære at Russland mister flere soldater enn de rekrutterer, skriver The Kyiv Independent. I januar i år rekrutterte Russland rundt 22.000 soldater. Ukrainske forsvarsstyrke r hevder at om lag 30.618 russiske soldater er drept, skadet eller savnet samme måned. – Russland lider vanvittige tap, sa Natos generalsekretær Mark Rutte på sikkerhetskonferanse i München på lørdag. Natos generalsekretær Mark Rutte sammen med Ukrainas president Volodymyr Zelenskyj på sikkerhetskonferansen i München i helgen. Foto: HANDOUT / AFP / NTB Han hevdet at Russland har tapt 65.000 soldater de siste to månedene. Ifølge det ukrainske militæret er dette den andre måneden på rad at Russland mister flere soldater enn de klarer å verve, skriver Kyiv Independent. Tallene er ikke bekreftet av åpne kilder. Ukrainsk militæretterretning understreker at dette ikke betyr en langvarig krise for det russiske militæret og at de fremdeles kan nå målet om 400.000 nye soldater i året, skriver Kyiv Independent. Kim Jong-un møter etterlate familier. Her er han sammen med sin datter som antas å være hans arvtager. Foto: KCNA / Reuters / NTB – Koster mye å verve seg Jakub Godzimirski, forsker ved Norsk utenrikspolitisk institutt (Nupi), mener at det har blitt vanskeligere for Russland å rekruttere nye russiske soldater. – I begynnelsen av krigen kunne Russland friste russiske soldater med god lønn, og russiske kriminelle ble fristet med amnesti. Ifølge Det franske utenrikspolitiske instituttet tilsvarer lønnsutbetalingene til russiske soldater 2 prosent av Russlands BNP. Jakub Godzimirski er forsker ved Norsk Utenrikspolitisk Institutt Foto: Nupi – Mange fengselsinnsatte i Russland meldte seg frivillig i begynnelsen av krigen. Mange ble brukt i de såkalte « kjøttkverna » og mistet livet, forteller Godzimirski til NRK. Nå er krigen på vei inn i sitt femte år etter fullskalainvasjonen, og den amerikanske tenketanken Center for Strategic and International Studies estimerer at 1,2 millioner russiske soldater er drept, skadet eller savnet i krigen. – Russere har kanskje skjønt at det koster mye å verve seg. Man risikerer å miste livet, sier Godzimirski. – Det er mulig at russerne i mindre grad lar seg friste av pengene nå. «De trener dem hardt» Ifølge sørkoreansk etterretning er det 11.000 nordkoreanere i Kursk i Russland akkurat nå. Nord-Korea har sendt soldater til Russland siden høsten 2024. Mens de etterlate får nye hus, blir nordkoreanske myndigheter betalt med våpen, militærteknologi og penger av Russland. Ukrainske soldater trener i Kharkiv, Ukraina i Februar 2026. Foto: Andrii Marienko / AP / NTB Men nordkoreanere er ikke de eneste utlendingene som kriger på russisk side av frontlinjene i Ukraina. – Jeg snakket med gutten min i går. Han gråt hele tiden. Faren til en 20-år gammel mann som har dratt til Ukraina, fortalte Reuters om situasjonen på fronten i Ukraina i et intervju i desember. – Det er hverken vann eller mat Du trenger javascript for å se video. – De trener dem hardt. De har nesten ikke mat eller vann. 37 år gamle Ramchandra Khadka fra Nepal forteller i et intervju med CNN at han ble sendt til frontlinjen i Bakhmut etter to uker med trening. – Vi innså ikke at vi ville bli sendt til frontlinjen så raskt og hvor grusom situasjonen kom til å være, sier han. Han ankom Moskva i september 2025 og var tilbake i Nepal da de snakket med ham. Ifølge den amerikanske nyhetskanalen har 15.000 nepalske menn vervet seg til det russiske militæret. – Alle trærne, buskene og det grønne er borte. De fleste husene er ødelagt. Situasjonen der er så grusom at man vil gråte, sier Khadka om det han så i Bakhmut. Røyk over en forstad til Bakhmut etter et bombeangrep i 2022. Foto: AP Falske kontrakter Ifølge data fra den ukrainske generalen Dmitry Usov har Ukraina identifisert 18.000 utenlandske soldater fra 128 land siden krigen startet, skriver CNN . Tallet inkluderer ikke soldatene fra Nord-Korea. – Utenlandske menn verver seg på grunn av økonomiske insentiver eller ideologiske overbevisninger, sier Godzimirski til NRK. Ifølge en undersøkelse gjort av forsvarsteknologi-selskapet OpenMinds var en av tre reklamekampanjer for russisk militærtjeneste rettet mot utlendinger i 2025. – Flere utlendinger ble fortalt at de skal jobbe i støtteapparatet, men når de kommer til Russland blir de sendt rett til fronten, forteller Godzimirski. Ifølge Godzimirski er det billigere å rekruttere soldater fra utlandet. – Det er vanskeligere for utenlandske etterlatte å saksøke russiske myndigheter for å få utbetalt penger. Interessert i utenriks? Hør redaksjonens nyeste podkast: Du trenger javascript for å spille av lydklippet «Urix». Publisert 16.02.2026, kl. 18.34 Oppdatert 23.02.2026, kl. 13.18 Ukraina Denne gesten skaper sterke reaksjonar: Meiner 15-åring bryt reglane + Vis flere Mer om: Ukraina",
+    "correction_description": "Presisering av at tallet 30 618 ikke gjaldt kun drepte, men inkluderte både drepte, skadede og savnede russiske soldater.",
+    "correction_date": "2026-02-23",
+    "news_category": "world",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 162.74
   },
   {
     "id": 1775079475159,
@@ -2715,7 +2769,19 @@
     "source": "search_backfill",
     "correction_text_raw": "Rettelse 17.02.25.11.25: I en tidligere versjon skrev NRK at eieren av boligen i Fredrikstad var løslatt. Det stemmer ikke. Eieren er varetektsfengslet og 16. februar ble fengslingen forlenget med seks uker.",
     "headline": "Fant 1,5 meter høyt tårn av avføring: – Et stort samfunnsproblem",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "ostfold",
+    "publication_date": "2026-02-17T08:51:15+01:00",
+    "modified_date": "2026-02-17T11:27:18+01:00",
+    "intro_text": "Antall bekymringsmeldinger om dyrevelferd skyter i været. Frivillige vasser i avføring for å redde innavlede katter.",
+    "journalist": "Sindre Lie",
+    "responsible_editor": "",
+    "article_body": "Fant 1,5 meter høyt tårn av avføring: – Et stort samfunnsproblem Antall bekymringsmeldinger om dyrevelferd skyter i været. Frivillige vasser i avføring for å redde innavlede katter. Denne katten ble hentet ut fra boligene i Telemark. Dyrebeskyttelsen hentet ut over 50 katter, bare to av dem var levedyktige. Hva som skjedde med denne katten vet ikke NRK. Foto: Olivia Granaas Thon / Dyrebeskyttelsen Sindre Lie – Journalist Journalist Vi rapporterer fra Fredrikstad Publisert 17.02.2026, kl. 08.51 Oppdatert 17.02.2026, kl. 11.27 Publisert 17.02.2026, kl. 08.51 Oppdatert 17.02.2026, kl. 11.27 Vi rapporterer fra Fredrikstad Saken oppsummert: Antallet bekymringsmeldinger om dyrevelferd har økt med 70 prosent mellom 2015 og 2024. Frivillige og myndigheter har avdekket alvorlige tilfeller av dyremishandling, inkludert over 200 katter reddet fra kritiske forhold i Telemark og Fredrikstad. Dyrene lider av alvorlige helseproblemer som følge av innavl, manglende veterinærbehandling og uhygieniske leveforhold. Dyrebeskyttelsen mener at systemet svikter, og at det er behov for bedre samarbeid mellom Mattilsynet, kommuner, politi og brannvesen. Oppsummeringen er laget av en KI-tjeneste fra OpenAI. Innholdet er kvalitetssikret av NRKs journalister før publisering. – Det var kattebæsj overalt hvor man gikk på gulvet. Det var ikke ett sted hvor det gikk an å sette seg ned uten å sitte på kattebæsj. Slik beskriver Åshild Roaldset i Dyrebeskyttelsen Norge synet som møtte dem i en enebolig i Telemark. I høst aksjonerte de sammen med politiet og Mattilsynet mot et ektepar som bodde med over 50 katter. ← Hjem som dette er typiske for personer som samler på dyr, ifølge Dyrebeskyttelsen. Bildene av denne boligen er ikke boligen i Telemark. Foto: Mattilsynet I boligen bodde også en kattekolloni, ifølge Dyrebeskyttelsen. Foto: Mattilsynet Madrassen dryppet av kattetiss. Foto: Mattilsynet → Utenfor kjøkkenvinduet fant de et tårn av katteavføring på minst 1,5 meter. Inne i huset vasset de frivillige i et 10 centimeter tykt lag med avføring. – Det er ingen som ønsker å ha det så forferdelig hjemme, sier Roaldset. Hentet ut 200 katter I et nabolag i Fredrikstad har naboene fortalt om flytende kattebæsj i hagene og døde dyr etter at en nabo har samlet på katter. En død kattunge ble funnet på naboens tomt i nabolaget i Fredrikstad i 2021. Foto: Amalie Fagerhaug Evjen / NRK Naboene har sendt over 50 klager til kommunen, Mattilsynet og politiet angående katteproblemene. Dyrebeskyttelsen og Mattilsynet har ved flere anledninger aksjonert mot eiendommen. I begynnelsen av januar slo Mattilsynet og politiet til igjen. – Vi har nok hentet ut nærmere 200 katter fra adressen i løpet av årenes løp, sier krimsjef i Fredrikstad-politiet, Geir Willadsen. Videoen viser situasjonen i nabolaget i Fredrikstad for snart fem år siden. Ifølge naboene har problemet med katter vært like stor i nyere tid. Du trenger javascript for å se video. Videoen viser situasjonen i nabolaget i Fredrikstad for snart fem år siden. Ifølge naboene har problemet med katter vært like stor i nyere tid. Eieren er fradømt retten til å ha dyr, men nekter å vedta foreleggene. – Levemiljøet har vært uhygienisk og skadelig for kattene. De har blitt syke og har ikke blitt fulgt opp med veterinærbehandling. Dette har gått ut over kattenes livskvalitet og velferd, står det blant annet i en dom fra februar 2025. Etter aksjonen i januar har eieren vært varetektsfengslet og vil foreløpig bli i politiets varektekt frem til slutten av mars. Eierens forsvarer, Hans Thomas Revhaug, ønsker ikke å kommentere saken. Politiet sperret av boligen i Fredrikstad og Mattilsynet jobbet i dagevis med å hente ut katter under aksjonen i januar. Christian Nygaard-Monsen/NRK Betydelig økning Dette er kun to eksempler på en dyster statistikk. Tall NRK har hentet inn, viser en betydelig økning i antall bekymringsmeldinger om dyrevelferd til Mattilsynet. I 2015 mottok Mattilsynet 8235 bekymringsmeldinger, mens antallet i 2024 hadde økt til 13.939. På ni år har økningen vært på nesten 70 prosent Mattilsynet forklarer økningen i bekymringsmeldinger med at terskelen for å melde fra er lavere, og at folk er mer opptatt av dyrevelferd. Men ressursene strekker ikke alltid til. Kjerstin Helene Kolvik Iversen Seksjonssjef for selskapsdyr og sportsdyr i Mattilsynet – Vi har begrenset med ressurser og vi må til enhver tid prioritere saker etter alvorlighetsgrad, sier Kjerstin Helene Kolvik Iversen, seksjonssjef for selskapsdyr og sportsdyr i Mattilsynet. Hun erkjenner at saker som den i Telemark og Fredrikstad er krevende. – Uten kastrering kan et lite antall dyr på kort tid utvikle seg til en omfattende populasjon, forklarer Iversen. Flere ganger det siste året har NRK omtalt kattekolonier og problemer med kattehold . Les også Har funne nesten 30 kattar i koloni: – Veldig trist – E t stort samfunnsproblem Fra boligen i Telemark hentet Dyrebeskyttelsen ut over 50 katter. Helsesituasjonen var kritisk for de fleste av dyrene: Katter med traktbryst og manglende testikler som følge av innavl. Byller, store floker og knekte tenner. Ingen av kattene ble vurdert til å være over 6 år gamle, noe som tyder på at dyrene dør unge på gården. – Hadde du gjort det samme med sauer, så hadde du havnet i fengsel, sier Roaldset. Her kan du se bilder av noen av kattene som ble hentet ut. NRK advarer mot sterke inntrykk: ← Over 50 katter ble hentet ut fra boligen i Telemark. Bare to av dem ble sett på som levedyktige av Dyrebeskyttelsens veterinær, resten ble avlivet. Foto: Olivia Granaas Thon / Dyrebeskyttelsen Dyrebeskyttelsen beskriver en kritisk helsesituasjon for dyrene. Foto: Olivia Granaas Thon / Dyrebeskyttelsen Tannproblemer var en av de gjentagende sykdommene. Foto: Olivia Granaas Thon / Dyrebeskyttelsen Midd i ørene gikk også igjen hos flere av kattene. Foto: Olivia Granaas Thon / Dyrebeskyttelsen Byller, sår og store floker i pelsen var også vanlig. Foto: Olivia Granaas Thon / Dyrebeskyttelsen Ingen av kattene ble vurdert til å være over 6 år gamle, noe som tyder på at dyrene dør unge på gården. Foto: Olivia Granaas Thon / Dyrebeskyttelsen → NRK kjenner identiteten til eieren av boligen, men har valgt å anonymisere eieren av hensyn til personvern. Eieren av boligen i Telemark bekrefter at Mattilsynet aksjonerte i boligen, men hevder at mange av kattene som ble hentet ut var katter på besøk. – Jeg kan ikke forstå at kattene mine var syke. Noen hadde kanskje mistet en tann, men jeg har ikke sett tegn til noe annet. Jeg har hatt katter i mange år og vet når de er syke, men ingen av dem var det nå, sier eieren til NRK. Les også Nabolag terrorisert av 50 katter: – Vurderer å flytte Dyrebeskyttelsen vurderte avliving som eneste utvei for alle bortsett fra to katter. Grunnen var at dyrene var for syke og redde til å rehabiliteres. Regningen faller som regel på den frivillige organisasjonen i slike saker, ifølge Roaldset. Hun mener systemet svikter i møte med såkalt «dyresamling», som ofte knyttes til psykiatri. – Det er et stort samfunnsproblem. Dyrebeskyttelsen hentet ut over 50 katter med blant annet kattebur. Foto: Olivia Granaas Thon / Dyrebeskyttelsen Mener systemet svikter Roaldset beskriver en fastlåst situasjon der ansvaret faller mellom flere etater og ingen tar ordentlig tak i problematikken. Resultatet er at dyrene, naboene og eieren selv blir stående alene i situasjonen i årevis. Daglig leder i Dyrebeskyttelsen, Åshild Roaldset, etterlyser bedre samarbeid for å følge opp dyrevelferdsloven. Foto: Bjørne Østrem Djukastein / NRK – Disse sakene går ikke an å løse uten å ha flerpartssamarbeid. Mattilsynet må på banen, men kommunene må også se at de har en rolle her, sier Roaldset. – Det er ofte snakk om psykiatri og en del av disse boligene er brannfeller. Derfor bør også kommunehelsetjenesten og brannvesenet på banen, fortsetter hun. Krimsjefen i Fredrikstad bekrefter at ansvarsfordelingen kan være vanskelig. – Det kan oppleves som at det faller mellom to, eller tre stoler enkelte ganger. Det er ikke noen klare skiller, og det utfordrer oss, sier Willadsen. Dette bildet er fra hjemmet til en person med et titalls katter, men ingen av boligene vi omtaler i denne artikkelen. Foto: Dyrebeskyttelsen Mattilsynet forteller at de har retningslinjer for samarbeid med politiet i de mest alvorlige dyrevelferds‑ og dyrekrimsakene, og at de samarbeider med kommuner i enkeltsaker. – Samtidig er det verken hensiktsmessig eller praktisk mulig å etablere formelle samarbeidsavtaler med alle landets kommuner. Roaldset mener samfunnet må tørre å bruke straff eller tvang når en persons handlinger går så hardt utover uskyldige tredjeparter – enten det er naboer eller hundrevis av dyr. – Vi har en dyrevelferdslov som skal beskytte dyrene. Vi kan ikke godta at den alltid må vike for alt annet lovverk. Når man hjelper dyrene i slike saker, hjelper man også menneskene, sier hun. Rettelse 17.02.25.11.25: I en tidligere versjon skrev NRK at eieren av boligen i Fredrikstad var løslatt. Det stemmer ikke. Eieren er varetektsfengslet og 16. februar ble fengslingen forlenget med seks uker. Les også Advarer mot smugling av kjæledyr: – Valpene blir dopet for å holde seg rolige Les også Veterinæren åtvarar: Hugs dette når du luftar dei firbeinte Publisert 17.02.2026, kl. 08.51 Oppdatert 17.02.2026, kl. 11.27 Østfold Ekstremværet «Dave» endrer kurs mot Østfold: – Blir noen tøffe timer Brakk fleire kroppsdelar på to menn: Frikjent etter grov sex-sjikane + Vis flere Mer om: Østfold Dyrehistorier (Østfold) Nå våkner huggormen: Advarer hundeeiere + Vis flere Mer om: Dyrehistorier (Østfold) Krim i Østfold Brakk fleire kroppsdelar på to menn: Frikjent etter grov sex-sjikane + Vis flere Mer om: Krim i Østfold",
+    "correction_description": "NRK rettet en feilaktig påstand om at eieren av boligen i Fredrikstad var løslatt. Vedkommende er varetektsfengslet.",
+    "correction_date": "2026-02-17",
+    "news_category": "crime",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 2.6
   },
   {
     "id": 1775079509320,
@@ -2740,7 +2806,7 @@
     "correction_date": "2026-04-01",
     "news_category": "world",
     "correction_type": "wrong_location",
-    "time_to_correct_hours": 628.49
+    "time_to_correct_hours": 1.69
   },
   {
     "id": 1775079510738,
@@ -2974,7 +3040,19 @@
     "source": "search_backfill",
     "correction_text_raw": "RETTELSE 17.02.2026 KLOKKEN 23.06:I en tidligere versjon av denne artikkelen omtalte vi Nobels Fredssenter som et av stedene som kan knyttes til nordmennene som dukker opp i Epstein-filene. Det er ikke riktig da Thorbjørn Jagland var tilknyttet Nobelkomiteen og Nobelinstituttet, som er uavhengig av Nobels Fredssenter. NRK har rettet i artikkelen.",
     "headline": "Hun ble misbrukt av Epstein i flere år: Ber kronprinsesse Mette-Marit si unnskyld",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "norge",
+    "publication_date": "2026-02-17T20:06:10+01:00",
+    "modified_date": "2026-02-17T23:16:55+01:00",
+    "intro_text": "Hun er glad for at Norge rydder opp etter Epstein-avsløringene. Men de norske involverte må nå fortelle sannheten, mener Marina Lacerda.",
+    "journalist": "Julia Kirsebom Thommessen, Sofia Storhaug, Ragnhild Vartdal, Eskil Wie Furunes",
+    "responsible_editor": "",
+    "article_body": "Hun ble misbrukt av Epstein i flere år: Ber kronprinsesse Mette-Marit si unnskyld Hun er glad for at Norge rydder opp etter Epstein-avsløringene. Men de norske involverte må nå fortelle sannheten, mener Marina Lacerda. Foto: Frode Fjerdingstad / NRK Julia Kirsebom Thommessen – Journalist Journalist + 5 til Sofia Storhaug – Journalist Journalist Frode Fjerdingstad – Fotograf Fotograf Martin Fønnebø – Fotograf Fotograf Ragnhild Vartdal – Journalist Journalist Eskil Wie Furunes – Journalist Journalist Publisert 17.02.2026, kl. 20.06 Oppdatert 17.02.2026, kl. 23.16 Publisert 17.02.2026, kl. 20.06 Oppdatert 17.02.2026, kl. 23.16 Byvandringen til Marina Lacerda er litt annerledes enn for andre besøkende til Norges hovedstad. Ferden går blant annet til Slottet og Utenriksdepartementet (UD). Steder som kan knyttes til nordmennene som dukker opp i Epstein-filene. Lacerda ble misbrukt av Jeffrey Epstein i tre år . Hun definerer seg ikke som offer , men som overlevende . Marina Lacerda er med i Debatten i kveld. Du kan se hele sendingen her: Epstein-offer utfordrer kronprinsessen Du trenger javascript for å se video. NRK har invitert henne til å delta i Debatten. Nå har hun kommet til Norge for at hele verden skal høre stemmen til ofrene. Hun vil at de rike og mektige i Epstein-filene skal ta ansvar for sine handlinger. Også nordmennene. – Jeg vil ha sannheten. Det de driver med, det Ghislaine driver med, de holder tyst. De ignorerer det og håper det vil forsvinne. Men jeg tror ikke det vil forsvinne. Jeg tror det vil bli verre. Så før flere avsløringer kommer, er det bedre å bare fortelle det man vet, og fortelle sannheten, sier hun til NRK. Les også – De burde skamme seg for å se den andre veien mens barn ble misbrukt – Ekkelt Det er nok en iskald februardag i Oslo, og et ferskt dryss med snø gjemmer vekk grå isklumper på fortauene. Vi er langt fra Lacerdas hjem i Florida, hvor sola skinner og vannet etter sigende er langt renere enn Oslofjorden. Marina Lacerda i Debatten: Du trenger javascript for å se video. Lacerda går selvsikkert opp mot Slottet. For en amerikaner er det underlig at det bare er de unge gardistene utenfor som passer på den norske kongefamilien. Vaktholdet er heftigere i USA. Foto: Frode Fjerdingstad / NRK Et av medlemmene i kongefamilien har hun gjort seg særlig godt kjent med de siste ukene. Kronprinsesse Mette-Marit, som har hatt tett kontakt med Lacerda sin overgriper. Hun får en rar følelse av den store, gule bygningen, som ikke minner henne om noe slott. Foto: Frode Fjerdingstad / NRK Lacerda vil ha svar. Hvorfor snakket den norske kronprinsessen med en dømt overgrepsmann, selv etter å ha googlet ham ? – Det var ingenting annet i Epsteins verden som fikk han til å se dårlig ut, enn at han likte barn. Så jeg føler at der og da burde hun vite at hun ikke burde sende ham meldinger. Hun har egne barn. Jeg synes det er ganske ekkelt at hun en gang snakker med en slik person. Les også Epsteins kamerarull NRK har forelagt Lacerdas uttalelser for Slottet. De viser til en uttalelse først gitt av Mette-Marit i 2019: «Jeg ville aldri hatt noe med Epstein å gjøre dersom jeg hadde vært klar over alvorlighetsgraden av hans kriminelle handlinger. Jeg burde undersøkt Epsteins fortid nærmere, og beklager at jeg ikke gjorde det. Gjennom mitt langvarige arbeid med internasjonale helsespørsmål har jeg sett på nært hold de store skadene seksuelle overgrep påfører barn og kvinner. Vi har alle medansvar for å bekjempe seksuelle overgrep og støtte ofrene, og jeg ønsker å uttrykke min dype sympati og solidaritet med ofrene for de overgrep Jeffrey Epstein har begått.» I tillegg viser Slottet til at kronprinsessen for en uke siden, gjennom Slottet, sa at hun ønsket å forklare mer utfyllende om sitt forhold til Epstein når hun er i stand det . Foto: Frode Fjerdingstad / NRK – Det kunne ha vært hennes barn At kronprinsessen var mor i perioden hun hadde kontakt med Epstein, er sjokkerende for Lacerda. Tenåringsdatteren og hennes generasjon er en av hovedårsakene til at Lacerda selv valgte å fortelle offentlig om overgrepene hun ble utsatt for. Hun provoseres av at Mette-Marit fortsatt ikke har kommentert saken utfyllende. Les også Ble invitert minst to ganger til «Epstein-øyen» – Hva ønsker du å høre henne si? – En unnskyldning hadde vært fint. At hun innrømmer sannheten, og sier unnskyld. – Er det noe du kunne tenke deg å si til kronprinsessen? – Jeg synes kronprinsesse Mette-Marit må forstå at det er et større bilde her. Vi må ikke bare tenke på de som har overlevd dette, men barna som skal vokse opp. Hva om det var hennes datter? Hva om hennes sønn gikk gjennom dette? Hun ville ha kjempet for sannheten og for å stille folk til ansvar. Lacerda gestikulerer mens hun snakker. Foto: Frode Fjerdingstad / NRK Roser Norge for gransking og etterforsking Oslo er på mange måter en liten by. Maktens bygninger ligger i gangavstand fra hverandre. Det er ikke lange veien fra Slottet til Utenriksdepartementet. Departementet har vært arbeidsgiver for flere av de som nevnes i Epstein-filene . Lacerda i sminken hos NRK. Foto: Frode Fjerdingstad / NRK Lacerda har en bedre følelse utenfor Utenriksdepartementet, enn utenfor Slottet. Hun har fått med seg at Epstein-avsløringene har fått faktiske konsekvenser her. Stortinget vil granske saken . Mona Juul trakk seg fra jobben som ambassadør . Juul, ektemannen Terje Rød-Larsen, og tidligere statsminister Thorbjørn Jagland, etterforskes av Økokrim for grov korrupsjon eller medvirkning til dette . Alle tre nekter straffskyld. NRK fulgte Lacerda på en annerledes byvandring i Oslo. Foto: Frode Fjerdingstad / NRK – Vi må gi dere anerkjennelse. Dere har tatt grep. Dere tar grep nå. Dere burde være stolte av det. I USA skjer det ingenting. Litt er bedre enn ingenting. Både Rød-Larsen og Juul sier de angrer på sin kontakt med Epstein. I en uttalelse til NRK forrige uke , sa Rød-Larsen at han mener at en person som har sonet straffen sin, må kunne gå videre i livet. Juul har innrømmet kontakt med Epstein, men sier at det ikke har vært et personlig forhold . Også Jagland har uttalt at han ikke har hatt kontakt med Epstein «knyttet til hans privatliv og omgang med unge jenter» . Les også Terje Rød-Larsen åt middag med prins Andrew i 2012 – Alle burde brutt kontakten Lacerda mener alle som hadde kontakt med Epstein etter 2008, må ha visst om overgrepene hans. – Det er ingen unnskyldninger her. Alle prøver seg med unnskyldninger. Alle visste hva som skjedde med Epstein i 2008. Og etter det burde alle, ikke bare de rike og mektige, ha brutt kontakten med Epstein. Han burde dessuten vært i fengsel mye lenger enn han var. Marina Lacerda tar T-banen fra Marienlyst til Oslo sentrum. Den er renere enn i New York, påpeker hun. Foto: Frode Fjerdingstad / NRK Epsteins dom i 2008 ble senere svært kontroversiell. Han fikk en mildere straff mot at han innrømmet mindre alvorlige forhold enn det han var etterforsket for. Miami Herald avdekket dette ti år senere. Konsekvensene ble enorme, mener Lacerda. Epstein fikk fortsette som før. Les også Epstein formulerte Rød-Larsens mediesvar: «Har tatt ansvar og sittet i fengsel» – Det skader ikke bare barn der og da, men det skader fremtiden deres, de fremtidige voksne de skal bli. Det er et svært traume disse barna har vært utsatt for, som jeg har vært utsatt for, og som vi må betale prisen for i dag. RETTELSE 17.02.2026 KLOKKEN 23.06: I en tidligere versjon av denne artikkelen omtalte vi Nobels Fredssenter som et av stedene som kan knyttes til nordmennene som dukker opp i Epstein-filene. Det er ikke riktig da Thorbjørn Jagland var tilknyttet Nobelkomiteen og Nobelinstituttet, som er uavhengig av Nobels Fredssenter. NRK har rettet i artikkelen. Du trenger javascript for å spille av lydklippet «Urix». Publisert 17.02.2026, kl. 20.06 Oppdatert 17.02.2026, kl. 23.16 Norge «Kaptein Erik» må skru av mobilen etter TV-suksessen Fleire kommunar i møte før stormen «Dave» + Vis flere Mer om: Norge Jeffrey Epstein Profesjonell skapsprenger: – Aldri hørt om en safe som er sporløst borte + Vis flere Mer om: Jeffrey Epstein",
+    "correction_description": "Artikkelen rettet en feilaktig kobling mellom Nobels Fredssenter og Thorbjørn Jagland/Epstein-filene. Jagland var tilknyttet Nobelkomiteen/Nobelinstituttet, ikke Fredssenteret.",
+    "correction_date": "2026-02-17",
+    "news_category": "politics",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 3.18
   },
   {
     "id": 1775079557114,
@@ -3013,7 +3091,19 @@
     "source": "search_backfill",
     "correction_text_raw": "RETTELSE 04.03 kl. 15:00: I en tidligere versjon av denne saken opplyste NRK at direktøren hadde disponert leiebil i 124 dager, hvorav 89 dager var udokumenterte. Det riktige er at direktøren disponerte leiebil i totalt 121 dager i 2024 og 2025. Av disse er 86 dager udokumenterte, det vil si uten ferdig godkjent reiseregning.",
     "headline": "NRK avslører: Godkjente egne leiebilregninger flere ganger",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "sapmi",
+    "publication_date": "2026-02-13T19:36:50+01:00",
+    "modified_date": "2026-03-04T15:50:33+01:00",
+    "intro_text": "Sametingsdirektøren brukte leiebil i 86 dager uten godkjente reiseregninger. Direktøren forklarer praksisen med et ønske om å spare penger.",
+    "journalist": "Dávvet Bruun-Solbakk, Mona Solbakk",
+    "responsible_editor": "",
+    "article_body": "NRK avslører: Godkjente egne leiebilregninger flere ganger Sametingsdirektøren brukte leiebil i 86 dager uten godkjente reiseregninger. Direktøren forklarer praksisen med et ønske om å spare penger. FLERE LEIEBILER: Sametingsdirektør Eira-Åhrén har fått dekket over 150.000 kroner i leiebilutgifter der bruken ikke er dokumentert med reiseregning. Foto: Eirik Pessl-Kleiven / NRK Dávvet Bruun-Solbakk – Journalist Journalist Mona Solbakk – Journalist Journalist Vi rapporterer fra Sametinget Publisert 13.02.2026, kl. 19.36 Oppdatert 04.03.2026, kl. 15.50 Publisert 13.02.2026, kl. 19.36 Oppdatert 04.03.2026, kl. 15.50 Vi rapporterer fra Sametinget Hva skjedde egentlig våren 2024? Spørsmålet melder seg etter at NRK har gått gjennom alle leiebilfakturaer og reiseregninger knyttet til sametingsdirektør Inger Marit Eira-Åhrén fra hun tiltrådte og frem til 2026. Tallene viser et tydelig skifte i direktørens bruk av leiebil. Ingen feil før 2024 NRK har analysert alle tilgjengelige bilag for årene 2021, 2022 og 2023. Gjennomgangen viser at fakturaene for leiebil i disse årene samsvarer med reiseregninger. Foto: Heiko Junge / NTB Foto: Heiko Junge / NTB Men fra mars 2024 endres mønsteret. Direktøren leide bil i totalt 121 dager i løpet av 2024 og 2025. Selv når vi trekker fra dager med godkjent reiseregning for deler av leiebilperioden, står fortsatt 86 dager igjen uten dokumentasjon. Totalt har Sametinget betalt over 150.000 kroner for leiebiler som mangler begrunnelse. – Vil ikke belaste arbeidsgiver Sametingsdirektør Inger Marit Eira-Åhrén har nå svart på NRKs spørsmål om hvorfor det mangler reiseregninger for disse periodene. – Overordnet kan jeg si at når det gjelder mine reiseregninger så belaster jeg ikke min arbeidsgiver med reiseregninger for perioder der jeg befinner meg i Karasjok. Derfor vil ikke reiseregningene samsvare med leiebilperioder, skriver Eira-Åhrén i en e-post til NRK. Hun skriver videre: – Har jeg for eksempel dager i Karasjok mellom to reiser så leverer jeg ikke reiseregning. Foto: Ørjan Marakatt Bertelsen / Sametinget Foto: Ørjan Marakatt Bertelsen / Sametinget Sametingets administrasjon har tidligere bekreftet overfor NRK at leiebiler kun er til bruk på tjenestereise ved behov, og at reiser på hovedarbeidsstedet i utgangspunktet er en privat utgift. Om behovet for leiebil skriver direktøren: – Jobben min krever mye reising og representasjon. For å redusere reisebelastningen og samtidig jobbe mest mulig effektivt, er det i noen perioder mest hensiktsmessig med leiebil. Jeg bruker kollektivtransport når jeg kan, og jeg haiker også en god del. Ofte er det ikke mulig å bruke kollektivt. Dette vet vi om leiebilbruken Slik har NRK regnet 1. Fakturaer: Vi har undersøkt alle leiebilregninger Sametinget har betalt for direktøren. 2. Reiseregninger: Vi har sjekket om det finnes en godkjent reiseregning for de samme datoene. En reiseregning er nødvendig for å dokumentere at bilen er brukt på en tjenestereise. Slik fant vi manglene Dersom direktøren har leid en bil i 10 dager, men kun levert reiseregning for 2 av dagene, har vi trukket fra de 2 dagene som er dokumentert. De resterende 8 dagene blir da stående som «udokumenterte dager». Dager der det ikke finnes reiseregning for, regnes som udokumentert bruk . To helt ulike perioder Direktørens leiebilbruk var først beskjeden. Fra 2020 til 2023 leier hun bil i totalt fem dager og 6000 kr. Hun leverer reiseregninger som dokumenterer at bruken er knyttet til tjenestereise. Staten krever at all leiebilbruk begrunnes og begrenses til tjenestereiser. Bruken endrer seg Fra mars 2024 endres mønsteret. Sametinget har betalt for 121 dager med leiebil i 2024-25.  For de fleste dagene er det ingen reiseregning som begrunner bruken. Når dokumenterte reisedager er trukket fra, står 86 dager med leiebilbruk igjen uten forklaring. 150 000 er uforklart Direktøren leide bil for rundt 200 000 kr i årene 2024-25. Fakturaer for 152 000 kr mangler begrunnelse og godkjent reiseregning. Forrige kort Neste kort Godkjente egne regninger fem ganger NRK har tidligere omtalt at direktøren i høst godkjente to av sine egne leiebilfakturaer, enten ved å attestere eller anvise de. Dette er brudd på statens økonomireglement, som sier at ingen skal attestere eller anvise egne utgifter. Direktøren har forklart det ene tilfellet som en svikt i rutinene. – I tilfellet med den ene regningen sendte jeg fakturaen tilbake med beskjed om at den ikke skal attesteres av meg. Noen dager etter kommer den likevel tilbake til meg, og det er da det skjer en feiltagelse, skriver hun. Men NRK har dokumentasjon på at dette ikke var en engangshendelse. Disse regningene har direktøren godkjent Oversikten fra Sametinget viser at direktøren har godkjent sine egne leiebilutgifter ved minst fem anledninger i 2024 og 2025: Mars 2024: Direktøren anviser selv to fakturaer for leiebil i Alta og Karasjok på til sammen over 21 000 kroner. September 2025: Direktøren anviser selv fakturaen på 23 831 kroner. Oktober 2025: Direktøren attesterer selv fakturaen på 41 716 kroner. Desember 2025: Direktøren anviser selv en faktura for leiebil på 2 565 kroner. NRK har forelagt disse opplysningene for direktøren. Hun har ikke svart på våre spørsmål. Advarsler internt I november 2025 reagerte administrasjonen på en av direktørens store leiebilfakturaer. Da ble det oppdaget at direktøren hadde brukt over 40.000 kroner på leiebil i Karasjok – der hun har sitt faste kontor. I tillegg hadde hun godkjent fakturaen selv ved å attestere den, noe som er et brudd på reglene. Foto: Terje Bendiksby / NTB Foto: Terje Bendiksby / NTB Direktøren ble bedt om å begrunne bruken av leiebil i en e-post 18. november. Da ble hun gjort oppmerksom på at hun ikke har anledning til å få dekket leiebil på sitt faste arbeidssted i Karasjok, og at hun heller ikke skal attestere eller anvise egne utgifter. Men direktøren svarte ikke på denne e-posten. Parkerte leiebilregning Samme dag som e-posten ble sendt til Eira-Åhrén, hentet hun ut en ny leiebil for bruk på komitémøter på Sametinget i Karasjok. 10. desember tilspisser saken seg. Da kommer faktura for leiebilen Eira-Åhrén har leid i november til behandling i økonomisystemet, og den ansatte stopper utbetalingen av den. Fakturaen blir «parkert», og følgende blir loggført i systemet: – Parkert inntil videre. Har sendt e-post til Inger Marit 18.11.25 om at hun ikke har anledning til dekning av leiebil når hun er på jobb ved sitt hovedarbeidssted. Har ikke fått tilbakemelding om dette ennå. Fikk advarsel Like etter at den ansatte stopper direktørens faktura, mottar vedkommende en skriftlig advarsel fra direktøren med innkalling til møte. Advarselen var knyttet til en helt annen sak, den såkalte lånegaranti-saken. ← Lånegaranti-saken: Sametinget brøt Grunnloven Sametinget ga ulovlige lånegarantier til det samiske senteret Várdobáiki mellom 2017-2019, som førte til brudd på Grunnloven. Ville si opp leder Nesten ni år senere ville direktøren rydde opp i saken ved blant annet å gå til oppsigelse av en leder for sin rolle i lånegaranti-saken. Trakk tilbake advarsel Dette fikk hun ikke støtte til i tilsettingsutvalget rett før jul i fjor. Etter det trakk hun også tilbake advarselen mot den ansatte som også hadde stilt spørsmål ved leiebilbruken. → Direktøren ønsker ikke å svare på om det er en sammenheng mellom parkeringen av hennes faktura og den skriftlige advarselen hun sendte til den samme ansatte. NRK har gjentatte ganger forsøkt å få den omtalte ansatte i tale. – Ønsker ikke å kommentere saken, skriver vedkommende til NRK i en tekstmelding. Fortsetter å leie bil Direktøren fortsatte både å leie bil og godkjenne egne regninger, selv etter at hun fikk beskjed om at det var i strid med reglene. Mellom 1. og 3. desember leide hun bil på nytt i Karasjok – en faktura hun senere godkjente selv. Den 14. desember, fire dager etter at administrasjonen stoppet den forrige leiebilregningen, hentet Eira-Åhrén ut nok en bil på Sametingets regning for å delta på rådsmøte i Karasjok. Sametinget fortsatte å betale direktørens regninger, selv etter at det ble stilt spørsmål ved leiebilbruken. Fakturaen som ble stoppet i desember, ble likevel betalt i januar – én måned etter forfall. – Sametinget valgte å betale faktura for å unngå purringer, opplyser kommunikasjonsdirektør Inger Elin Utsi til NRK. Sametinget kommenterer ikke Sametingets administrasjon vil ikke opplyse om de har fått en redegjørelse fra direktøren om leiebilbruken og hennes økonomihåndtering. – Når det gjelder spørsmålet om direktøren har svart på e‑posten sendt 18.11, kan Sametinget ikke gi opplysninger om intern kommunikasjon mellom ansatte, skriver kommunikasjonsdirektør Utsi. Kommunikasjonsdirektør Inger Elin Utsi sier at de ikke vil kommentere enkeltsaker som gjelder ansatte. Foto: Árvu / Sametinget NRK har også stilt en rekke spørsmål til Sametingets administrasjon om direktørens leiebilbruk og håndtering av fakturaer knyttet til henne. Vi har blant annet bedt om svar på hvorfor de ikke stanset utbetalingene av leiebilfakturaene tidligere. Kommunikasjonsdirektøren svarer slik: – Sametingets administrasjon kommenterer ikke enkeltsaker som gjelder ansatte. På generelt grunnlag gjennomgår vi jevnlig våre rutiner og systemer for å sikre internkontroll og minimere risiko for avvik. Har nå levert reiseregninger Etter at NRK la frem funnene for Inger Marit Eira-Åhrén, hevder hun nå at oversikten over de uforklarte dagene ikke stemmer. Direktøren lister opp ti perioder i 2025 som hun opplyser at hun nå har levert reiseregning for. – Det er flere reiseregninger som har blitt sendt inn for kort tid siden, og som ligger til behandling i systemet, skriver hun til NRK. For 2024 opplyser hun at hun ikke rakk å levere reiseregningene. – I 2024 er det også registrert reiseregninger, men fikk ikke levert de før systemet ble lukket. Dette skjer dag for dag Dokumenter NRK har gjennomgått viser hvordan sametingsdirektøren har leid bil på hovedarbeidsstedet og godkjent flere utbetalinger selv. \nEtter at en underordnet ba direktøren begrunne leiebilbruken, fikk vedkommente selv en skriftlig advarsel fra direktøren. 15.–27. mars 2024 Her starter det. Direktøren leier bil i 12 dager i strekk fra to ulike selskap. Prisen blir totalt på 21 000 kr. To av leiebildagene dokumenteres med reiseregning for et møte i Enare. Direktøren sørger for at leiebilene betales av Sametinget ved å anvise begge regningene selv. 9.–18. september 2025 Godkjenner igjen egen regning Direktøren leier bil i ni dager fra et lokalt leiebilfirma. Pris: 23 831 kroner. Personlig kode blir oppgitt ved inngåelse av leiekontrakten. Koden gjør at fakturaen går direkte til direktøren og utenom forkontroll. Hun godkjenner (anviser) selv utbetalingen. 6.–23. oktober 2025 Attesterer for 41.000 kroner Direktøren leier bil i 17 dager mens hun er på jobb i Karasjok. Pris: 41 716 kroner. Også denne bestilles utenom reisebyrået. Direktørens personlige referansekode blir brukt, og loggen viser at hun selv attesterer fakturaen. 18. november 2025 Administrasjonen slår alarm En underordnet sender e-post til direktøren og ber om begrunnelse for leiebilregningen fra oktober. Det blir påpekt at hun ikke har rett til dekket leiebil i Karasjok, og at hun har brutt reglene ved å attestere sin egen faktura. 18.–20. november 2025 Ny leiebil Samme dag som direktøren får reaksjon på leiebilbruken, starter et nytt leieforhold på to dager i forbindelse med Sametingets komitéuke. Regningen er på ca. 2 325 kroner. Denne gangen brukes reisebyrået. 1. desember 2025 Fortsetter å leie bil Direktøren leier igjen bil, uten å ha svart på e-post hvor hun bes om å begrunne bruken. Denne gangen leier hun bil for å følge Sametingets plenum i Karasjok. Denne har hun i tre dager. 10. desember 2025 Faktura stoppes Faktura for leiebil i november stoppes i systemet med kommentaren: «Parkert inntil videre. Har sendt epost til Inger Marit 18.11 om at ho ikke har anledning til dekning av leiebil når ho er på jobb ved sitt hovedarbeidssted. Har ikke fått tilbakemelding om dette ennå.» 10. desember 2025 Ansatt får skriftlig advarsel Samme dag som den underordnede stopper direktørens leiebilfaktura, mottar hen en skriftlig advarsel fra direktøren med innkalling til møte. Advarselen gjelder lånegarantisaken. 11. desember 2025 Godkjenner egen leiebilfaktura Direktøren godkjenner sin egen leieibilfaktura for perioden 1.–3. desember 2025. 14. desember 2025 Leiebil til Karasjok Fire dager etter at hennes tidligere leiebilfaktura ble parkert, så er hun igjen på vei til Karasjok i leiebil. Denne gangen for å ha rådsmøte i tre dager. 20. desember 2025 Trekker oppsigelsesvarsel Etter at direktøren ikke får støtte til å si opp en leder i lånegarantisaken, trekker hun også tilbake advarselen mot den ansatte som stoppet fakturaen. Begynnelsen av januar 2026 Varsel mot direktøren Sametingspresidenten mottar varsler og bekymringer om direktøren, blant annet knyttet til økonomiske forhold. 13. januar 2026 Henter ekstern hjelp Sametingsrådet vedtar å etablere en ekstern, uavhengig ordning for å håndtere varsler og bekymringsmeldinger i Sametinget. 22. januar 2026 Sametinget betaler likevel Fakturaen som ble stoppet av den underordnede, blir utbetalt en måned etter forfall for å unngå purringer og inkassokrav. Vis mer RETTELSE 04.03 kl. 15:00: I en tidligere versjon av denne saken opplyste NRK at direktøren hadde disponert leiebil i 124 dager, hvorav 89 dager var udokumenterte. Det riktige er at direktøren disponerte leiebil i totalt 121 dager i 2024 og 2025. Av disse er 86 dager udokumenterte, det vil si uten ferdig godkjent reiseregning. Antallet dager med uforklart leiebilbruk kan bli redusert dersom Sametinget godkjenner reiseregningene som direktøren opplyser er sendt inn. Publisert 13.02.2026, kl. 19.36 Oppdatert 04.03.2026, kl. 15.50 Sametinget Nuoraidjođiheaddji: – Váttis go mis ii leat šat sámi deaivvadanbáiki Romssas Samisk lærer:– Sannheten er at vanlige lærere blir ikke prioritert + Vis flere Mer om: Sametinget Sametingets økonomistyring Nordkalottfolket: Hirpmáhuvvan ja massime luohttámuša presidentii + Vis flere Mer om: Sametingets økonomistyring Sápmi (alle artikler) 15-jahkásaš filbmii guovžža orohagas: – Ii dat ábut ballát + Vis flere Mer om: Sápmi (alle artikler)",
+    "correction_description": "NRK har korrigert antall dager direktøren disponerte leiebil fra 124 til 121, og antall udokumenterte dager fra 89 til 86.",
+    "correction_date": "2026-03-04",
+    "news_category": "politics",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": 452.23
   },
   {
     "id": 1775079560908,
@@ -3285,7 +3375,7 @@
     "correction_date": "2026-04-01",
     "news_category": "science",
     "correction_type": "wrong_image",
-    "time_to_correct_hours": 31486.67
+    "time_to_correct_hours": 18.8
   },
   {
     "id": 1775079602392,
@@ -3375,7 +3465,7 @@
     "correction_date": "2026-04-01",
     "news_category": "world",
     "correction_type": "wrong_image",
-    "time_to_correct_hours": 21714.63
+    "time_to_correct_hours": 26.47
   },
   {
     "id": 1775079615433,
@@ -3414,7 +3504,19 @@
     "source": "search_backfill",
     "correction_text_raw": "Rettelse: NRK skrev opprinnelig at«regjeringen vil øke fødselstallene»i tittelen på denne meldingen. Det er ikke en riktig formulering. I meldingen ble også et sitat fra utvalgsleder Rannveig Kaldager Hart tilegnet barne- og familieminister Lene Vågslid. Dette er nå endret.",
     "headline": "Utvalg foreslår tiltak for å øke fødselstallene – Siste nytt – NRK",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "nyheter",
+    "publication_date": "2026-02-09T10:57:23+01:00",
+    "modified_date": "2026-02-09T11:17:02+01:00",
+    "intro_text": "Fødselstallsutvalget har sett på hvorfor nordmenn ikke får flere barn. – Vi foreslår tre hovedgrep. For det første må vi legge til rette for at unge kan etablere seg raskere i voksenlivet. For det andre må vi bedre helsetjenestene til nye foreldre. For det tredje må vi bedre balansen mellom arbeid og familieliv i småbarnsfasen, sier utvalgsleder Rannveig Kaldager Hart i en pressemelding. Fruktbarheten i Norge har falt fra 1,98 barn per kvinne i 2009 til 1,4 i 2023. – Fleksibilitet og tid til fam",
+    "journalist": "Håvard Nyhus",
+    "responsible_editor": "",
+    "article_body": "9. februar 2026 kl. 10:57 Utvalg foreslår tiltak for å øke fødselstallene Fødselstallsutvalget har sett på hvorfor nordmenn ikke får flere barn. – Vi foreslår tre hovedgrep. For det første må vi legge til rette for at unge kan etablere seg raskere i voksenlivet. For det andre må vi bedre helsetjenestene til nye foreldre. For det tredje må vi bedre balansen mellom arbeid og familieliv i småbarnsfasen, sier utvalgsleder Rannveig Kaldager Hart i en pressemelding. Fruktbarheten i Norge har falt fra 1,98 barn per kvinne i 2009 til 1,4 i 2023. – Fleksibilitet og tid til familieliv er vel så viktig som økonomiske tilskudd og insentiver. Dette peker også utvalget på. Samtidig er det viktig at vi har universelle ordninger som reduserer økonomisk ulikhet og minimerer sosiale forskjeller. I dag har vi historisk lav makspris i barnehagen, gratis kjernetid i SFO og mer barnetrygd, sier barne- og familieminister Lene Vågslid. Rettelse: NRK skrev opprinnelig at «regjeringen vil øke fødselstallene» i tittelen på denne meldingen. Det er ikke en riktig formulering. I meldingen ble også et sitat fra utvalgsleder Rannveig Kaldager Hart tilegnet barne- og familieminister Lene Vågslid. Dette er nå endret. Tre grep skal få fart på barneproduksjonen Regjeringsoppnemnd fødselstalutval foreslår kortare arbeidsdag til småbarnsforeldre for å auke fødselstala. Av Håvard Nyhus",
+    "correction_description": "NRK har rettet en feilaktig tittel om regjeringens rolle og korrigert en feilaktig sitatattribusjon der utvalgslederens sitat ble tilskrevet statsråden.",
+    "correction_date": "2026-02-09",
+    "news_category": "politics",
+    "correction_type": "attribution_error",
+    "time_to_correct_hours": 0.33
   },
   {
     "id": 1775079625234,
@@ -6599,7 +6701,19 @@
     "source": "search_backfill",
     "correction_text_raw": "NRK beklager overfor personen som ble indirekte omtalt, og overfor leserne.",
     "headline": "NRK beklager manglende kontakt før publisering",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "nyttig",
+    "publication_date": "2026-02-25T09:59:38+01:00",
+    "modified_date": "2026-02-25T09:59:38+01:00",
+    "intro_text": "",
+    "journalist": "NRK beklager manglende kontakt før publiseringPublisert25.02.2026, kl. 09.59Publisert25.02.2026, kl.",
+    "responsible_editor": "",
+    "article_body": "NRK beklager manglende kontakt før publisering Publisert 25.02.2026, kl. 09.59 Publisert 25.02.2026, kl. 09.59 I en sak om å komme seg ut av gjeldsproblemer omtalte NRK oppveksten til hovedpersonen på en måte som rammet tredjeperson. Vedkommende ble ikke kontaktet av NRK før publisering, og fikk dermed heller ikke anledning til å imøtegå faktiske opplysninger eller få fram sitt syn. Dette avsnittet er tatt ut av artikkelen. NRK beklager overfor personen som ble indirekte omtalt, og overfor leserne. Les saken: Sletta gjelden fra en strand i Hellas Publisert 25.02.2026, kl. 09.59",
+    "correction_description": "NRK beklager manglende samtidig imøtegåelse av en tredjeperson i en sak om gjeldsproblemer. Det aktuelle avsnittet er fjernet fra den opprinnelige artikkelen.",
+    "correction_date": "2026-02-25",
+    "news_category": "other",
+    "correction_type": "missing_context",
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775080104343,
@@ -6650,7 +6764,7 @@
     "correction_date": "2026-03-25",
     "news_category": "crime",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 5.35
   },
   {
     "id": 1775080108290,
@@ -7260,7 +7374,7 @@
     "correction_date": "2026-04-01",
     "news_category": "culture",
     "correction_type": "other",
-    "time_to_correct_hours": 649.0
+    "time_to_correct_hours": 645.97
   },
   {
     "id": 1775080199920,
@@ -8390,7 +8504,7 @@
     "correction_date": "2026-03-11",
     "news_category": "crime",
     "correction_type": "wrong_location",
-    "time_to_correct_hours": 0.82
+    "time_to_correct_hours": 2.33
   },
   {
     "id": 1775080388050,
@@ -8428,7 +8542,7 @@
     "correction_date": "2026-03-10",
     "news_category": "crime",
     "correction_type": "missing_context",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 16.06
   },
   {
     "id": 1775080392071,
@@ -8453,7 +8567,7 @@
     "correction_date": "2026-03-05",
     "news_category": "sports",
     "correction_type": "attribution_error",
-    "time_to_correct_hours": 66.22
+    "time_to_correct_hours": 65.66
   },
   {
     "id": 1775080393469,
@@ -8790,7 +8904,7 @@
     "correction_date": "2026-03-17",
     "news_category": "local",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 291.43
+    "time_to_correct_hours": 654.62
   },
   {
     "id": 1775080441987,
@@ -8816,7 +8930,15 @@
     "source": "search_backfill",
     "correction_text_raw": "I en tidligere versjon av denne ytringen står det at kronprinsesse Mette-Marit har en konstitusjonell rolle. Det har hun ikke.",
     "headline": "Skjerp dere og svar",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "nrk_section": "ytring",
+    "publication_date": "2026-02-04T16:36:13+01:00",
+    "modified_date": "2026-02-05T10:22:13+01:00",
+    "intro_text": "Denne tausheten holder ikke lenger.",
+    "journalist": "Cecilie Langum Becker",
+    "responsible_editor": "",
+    "article_body": "Kommentar Skjerp dere og svar Denne tausheten holder ikke lenger. Nå er det på tide med noen skikkelig svar, ikke bare trenering. Foto: NTB / NTB Cecilie Langum Becker – Økonomikommentator Økonomikommentator Publisert 04.02.2026, kl. 16.36 Oppdatert 05.02.2026, kl. 10.22 Publisert 04.02.2026, kl. 16.36 Oppdatert 05.02.2026, kl. 10.22 I en tidligere versjon av denne ytringen står det at kronprinsesse Mette-Marit har en konstitusjonell rolle. Det har hun ikke. Det er ikke til å tro. Norske toppnavn er dokumentert i tett kontakt med Jeffrey Epstein – en dømt seksualforbryter – og svaret fra samfunnets øverste sjikt er: Stillhet. Ikke én klar forklaring eller tydelig svar. Isteden kommer det: «Vi undersøker» og «Vi kommer tilbake». Thorbjørn Jagland tier. Børge Brende svarer, men kun på e-post – som hindrer oppfølgingsspørsmål og oppklaringer. Kronprinsesse Mette-Marit tier. Mona Juul tier, og hennes arbeidsgiver utenriksminister Espen Barth Eide jobber med å få oversikt . Slottet svarer på vegne av Mette-Marit – men kun skriftlig og ikke konkret. Grunnleggende spørsmål Dette handler ikke om vanskelige vurderinger, men helt grunnleggende spørsmål: Visste dere hvem han var? Når tok kontakten slutt? Hvorfor? Les også Gratis er aldri gratis Det er ikke så himla vanskelig å svare på det, og det tar heller ikke dager å komme tilbake. Men det krever kanskje litt mot, og akkurat nå ser det ut til at makten ikke har så voldsomt mye av det. For hva er det som egentlig skal utredes? De det gjelder vet allerede hvor mange ganger de har hatt kontakt, når kontakten skjedde, i hvilken sammenheng – og om den fortsatte etter at Epstein var domfelt for seksuelle overgrep mot mindreårige i 2008. Dette er ikke komplekse regnskaper som må revideres. Dette handler om kalendere, meldinger og egne minner. Hvor ferierte jeg for 10 år siden? Selvfølgelig vet man det. Dette ligner på et verdensmesterskap i trenering og unnvikelse. Les også Kongehusekspert: – Det er små drypp hele veien Offentlige roller – offentlige forpliktelser Når pressen krever svar er det ikke alltid vi har krav på det. Dette havner ikke i den kategorien. Dette handler ikke om privatliv, men om makt og tillit. Mona Juul er ansatt i Utenriksdepartementet. Hun representerer Norge. Når UD nå selv undersøker hennes kontakt med Epstein, understreker det nettopp alvoret i saken. Da følger det også et særskilt ansvar for å bidra til åpenhet når spørsmål reises om dømmekraft og rolleforståelse. Mette Marit er kronprinsesse. Slottet er ikke en privat kommunikasjonsavdeling, men en institusjon bygget på tillit. Thorbjørn Jagland har gjennom store deler av sitt liv vært lønnet av fellesskapet – som statsminister, stortingspresident og generalsekretær i Europarådet. Med slike verv følger ikke bare privilegier, men også et særlig ansvar. Selv om han i dag ikke har noen formell rolle, skylder han samfunnet å bidra til åpenhet og tillit. Når det stilles spørsmål ved relasjoner, fordeler og forbindelser fra denne perioden, handler det ikke om privat moral, men om offentlig integritet. Tillit til maktpersoner forsvinner ikke idet man går av – den forvaltes også i ettertid. Og tidligere utenriksminister Børge Brende leder i dag World Economic Forum i Davos – en organisasjon som profilerer seg nettopp på etikk, ansvar og globale verdier. Å «bli værende i Sveits» og tie saken i hjel vil ikke fungere. Jo lenger tausheten varer, desto mer skader den tilliten. Les også Skal ha sendt kronprinsesse-bilde: – Epstein brukte bildene som trofeer Dette er ikke et rykte Norske medier har dokumentert møter, invitasjoner og forbindelser til Jeffrey Epstein også etter at han var dømt. Dette er ikke spekulasjoner på sosiale medier. Det er åpne kilder, bekreftede hendelser og journalistisk arbeid. Likevel behandles saken som om den er for komplisert å kommentere. Historien viser ofte at det sjelden er selve handlingen som feller tilliten – det er håndteringen etterpå. Når personer i maktposisjoner velger å tie, skaper de et inntrykk av at reglene er forskjellige for dem enn for andre. At de kan vente ut stormen og at offentligheten skal bli lei. Taushet er også et valg. Men denne saken forsvinner ikke fordi den berører noe grunnleggende: forholdet mellom makt, nettverk og ansvar. Og den berører også Norges selvbilde. Vi liker å tro at vi er et samfunn der åpenhet gjelder alle – også de med titler, kroner og toppjobber. Hvor lang tid skal dette ta? Spørsmålet er derfor ikke lenger hva kontakten var. Spørsmålet nå er: Hvorfor får vi ikke svar? Hvor mange dager trenger man for å si: Ja, jeg møtte ham. Nei, jeg hadde ikke videre kontakt. Nei, han fikk ingen gjenytelser. Alt annet er trenering. Dette holder rett og slett ikke. Når landets mektigste mennesker ikke svarer når de blir konfrontert med dokumentert kontakt med en dømt seksualforbryter og planlagt besøk og ferieturer, er det arroganse. De oppfører seg som om dette er en pinlig privat affære som kan ties i hjel, og som om offentligheten ikke har krav på svar. Som om tillit er noe de eier – ikke noe de forvalter. Men de tar feil. Dette er mennesker som har levd av makt, titler og posisjoner gitt av fellesskapet. Da følger det også en plikt: å forklare seg når tilliten settes på spill. Ikke med juristspråk. Ikke med trenering. Ikke med kommunikasjonsstrategi. Men med klare, enkle svar. Hvis man ikke tåler å bli stilt til ansvar, burde man aldri hatt makt. Handler ikke lenger om Epstein For dette handler ikke lenger om Epstein. Det handler om et maktsjikt som tror stillhet er en strategi. Og om et samfunn som nå må si høyt det som burde være åpenbart: Skjerp dere og svar. Du trenger javascript for å spille av lydklippet «Jagland og Epstein: Er dette korrupsjon?». Publisert 04.02.2026, kl. 16.36 Oppdatert 05.02.2026, kl. 10.22 Cecilie Langum Becker kommenterer Iskaldt, Ida! Si meg at du ikke får litt vondt i magen + Vis flere Mer om: Cecilie Langum Becker kommenterer Jeffrey Epstein Profesjonell skapsprenger: – Aldri hørt om en safe som er sporløst borte + Vis flere Mer om: Jeffrey Epstein Det kongelige slott Prinsesse Astrid har hatt lungebetennelse + Vis flere Mer om: Det kongelige slott",
+    "time_to_correct_hours": 17.77
   },
   {
     "id": 1775080446560,
@@ -9101,7 +9223,7 @@
     "correction_date": "2026-04-01",
     "news_category": "local",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 22062.35
+    "time_to_correct_hours": 4.41
   },
   {
     "id": 1775080484208,
@@ -9309,7 +9431,19 @@
     "source": "search_backfill",
     "correction_text_raw": "I en tidligere versjon av denne saken lå det et bilde av tomme seter i kongressen som ble lagt inn 03.29 og fjernet 10.05. Bildeteksten beskrev at dette var fra Trumps tale. Bildet er fra mars 2025, det er nå fjernet.",
     "headline": "Ekspert: – Rekordlang, full av selvtillit, og full av løgner",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "nrk_section": "urix",
+    "publication_date": "2026-02-25T02:26:47+01:00",
+    "modified_date": "2026-02-25T10:07:51+01:00",
+    "intro_text": "President Donald Trump holdt i natt den årlige talen om nasjonens tilstand og hevder han har satt i gang tidenes snuoperasjon i USA.",
+    "journalist": "Nora Ingeborg Geiran Dingstad",
+    "responsible_editor": "",
+    "article_body": "Ekspert: – Rekordlang, full av selvtillit, og full av løgner President Donald Trump holdt i natt den årlige talen om nasjonens tilstand og hevder han har satt i gang tidenes snuoperasjon i USA. USAs president Donald Trump holdt natt til onsdag den årlige talen om unionens tilstand i Kongressen. Foto: Kenny Holston / AP / NTB Nora Ingeborg Geiran Dingstad – Journalist Journalist + 5 til Ingeborg Christensen Breivik – Journalist Journalist Øyvind Nyborg – Journalist Journalist Peter Svaar – USA-korrespondent USA-korrespondent Andreas Krantz – Journalist Journalist Truls Skram Lerø – Visuell journalist Visuell journalist Publisert 25.02.2026, kl. 02.26 Oppdatert 25.02.2026, kl. 10.07 Publisert 25.02.2026, kl. 02.26 Oppdatert 25.02.2026, kl. 10.07 I en tidligere versjon av denne saken lå det et bilde av tomme seter i kongressen som ble lagt inn 03.29 og fjernet 10.05. Bildeteksten beskrev at dette var fra Trumps tale. Bildet er fra mars 2025, det er nå fjernet. – Landet vårt er tilbake, sa Trump da han gikk på podiet i Kongressen, like etter klokken tre natt til onsdag norsk tid. Talen varte ifølge CNN i over 107 minutter og er dermed den lengste talen om nasjonens tilstand som er registrert. ← NRK Skrøt av økonomien Trump brukte mye av talen på å skryte av økonomien. Han gjentok gamle talepunkter om at USA nå er verdens sterkeste økonomi, med børsindekser som slår rekorder. Tallene viser derimot at økonomien sakket farten på slutten av fjoråret. Og mange velgere er mer opptatt av prisen på kjøttdeig enn aksjekurser. KEREM YUCEL / AFP / NTB Innvandring og ICE Han brukte også mye av talen til å snakke om innvandring, og gjentok at den amerikanske grensen ifølge ham nå er den sterkeste og tryggeste noen gang. Han brukte nok en gang harde ord mot det somaliske miljøet i Minneapolis, som i flere år er etterforsket i en trygdesvindelsak. Trump kalte dem «somaliske pirater». ANDREW HARNIK / AFP / NTB Spent stemning i salen Omlag 40 demokrater boikottet talen. Flere som hadde møtt opp gikk med buttons om å offentliggjøre Epstein-filene. Mange demokrater nektet også å klappe for Trump. Flere ganger gjorde han et poeng av det, og spurte om de ikke skammet seg. De er gale folk, sa Trump og pekte mot demokrater som satt med armene i kors. → Trump hevder at han har satt i gang en historisk snuoperasjon i USA og trakk frem at inflasjonen har falt og at flere er i jobb. Han tok seg også tid til å hedre de amerikanske OL-vinnerne i ishockey, samt å dele ut flere æresmedaljer. State of the Union-talen til Kongressen er en tale om rikets tilstand, som skal legge føringer for presidentens politikk det kommende året. Demokrater i Kongressen ble sittende mens de republikanske kollegene applauderte Trump under talen. Foto: Alex Brandon / AP / NTB – Det er Donald Trump som taler, og da har vi blitt vant til at det kommer mye rart. Hadde dette vært noen andres tale, hadde nærmest alle deler av den blitt oppfattet som skandaløse. Det sier Eirik Løkke, rådgiver i tenketanken Civita. Han mener talen er «typisk» Trump: – Den var rekordlang, full av selvtillit, og full av løgner. Det var ventet at Trump skulle snakke mye om økonomien i talen sin. Ifølge Løkke, er mye av det han sier feil. – Trump har lavere økonomisk vekst i 2025 enn i 2024, og arbeidsledigheten er litt høyere. Påstanden om at det var rekordhøy inflasjon under Biden, er også bare tull. Demokrat kastet ut Demokraten Al Green fra Texas ble fjernet fra Representantenes hus rett før Trumps tale etter å ha holdt opp en plakat med teksten «Svarte mennesker er ikke aper». Plakaten er en henvisning til en video av tidligere president Barack Obama og kona Michelle som aper. Demokraten Al Green fra Texas ble kastet ut etter å ha vist frem en plakat med budskapet «Svarte mennesker er ikke aper». Foto: POOL / AFP / NTB Det hvite hus publiserte videoen på Truth Social, men den ble slettet etter kort tid. Al Green ble også i fjor kastet ut under Trumps tale til nasjonen etter å ha viftet med stokken sin. Kritiserte Høyesterett Trump kom med skarp kritikk av høyesterett i nattens tale. Han kaller Høyesteretts nylige dom , som slo fast at mange av hans tollsatser er ulovlige for «skuffende» og «beklagelig». Seks av ni høyesterettsdommere avgjorde at Trumps straffetoll var ulovlig. Høyesterettsdommerne John Roberts, Elena Kagan, Brett Kavanaugh og Amy Coney Barrett følger med på Trumps tale i Kongressen. Foto: KENNY HOLSTON / AFP / NTB Presidenten rettet blikket mot de fire dommerne fra Høyesterett som var til stede i salen. Av dem, var det kun Brett Kavanaugh som stemte for at tollen var lovlig. Les også USAs høyesterett: Trumps straffetoll er ulovlig Trump ga i nattens tale tollsatsene æren for en «formidabel økonomisk snuoperasjon». Han kalte tollen for «fredsbevarende», ifølge NTB. – Etter hvert som tiden går, tror jeg at toll, betalt av utenlandske land, kommer til, som det også var i fortiden, å medføre en betydelig erstatning for dagens moderne system med inntektsskatt, sa Trump. Han varslet at administrasjonen vil ta i bruk andre lovhjemler for å gjeninnføre tollsatsene. Trump slo fast at straffetollen vil fortsette Du trenger javascript for å se video. Ifølge Løkke, stemmer ikke det Trump sier om toll med det de fleste økonomer sier. – Tollsatsene hans har tvert imot bidratt til å gjøre det mye dyrere for amerikanere, og det oppfatter folk. Amerika først? Den omfattende militære opptrappingen rundt Iran kaster skygger over årets tale: Trump truer med å gå til angrep mot Iran dersom de to landene ikke blir enige om en avtale som sørger for at Iran ikke lager atomvåpen. USA har i det siste flyttet styrker mot Iran. Her jagerfly på en base i Jordan, tankfly på en base i Atlanterhavet og et hangarskip i Kreta på vei mot farvannet utenfor Iran. Foto: Planet Labs PBC / AP / NTB; Antonio Araujo / AFP / NTB; Stelios Misinas / RTV / NTB Tirsdag skrev Trump på Truth Social at han gjerne vil ha en avtale. – Men hvis vi ikke får til en avtale, så blir det en veldig dårlig og trist dag for det landet og dets folk. Løkke kaller det nesten oppsiktsvekkende at Trump snakket lite om Iran i talen, når situasjonen er så spent. – På den andre siden kommer det signaler og uttalelser fra Trump hele tiden. – Kom han med noen signaler om hva han vil gjøre? – Nei. Der er vi fremdeles i det blå. Det er masse styrkeoppbygging rundt Iran - men hva han velger å gjøre videre er foreløpig uvisst, sier Løkke. Trusselen om å gå til krig kan for mange virke som en selvmotsigelse. Trump kom til makten ved hjelp av en velgerskare som omfavner den såkalte Amerika-først-politikken. Mens flere demokrater boikottet talen slo Trumps støttespillere ring rundt presidenten. Foto: Evelyn Hockstein og Kylie Cooper / Reuters / NTB – Fremover vil fabrikker, jobber, investeringer og trillioner av dollar fortsette å renne inn i USA, fordi vi endelig har en president som setter USA først, sa Trump i talen. Han la likevel til at han ønsker å lage fred der han kan. – Men jeg vil aldri nøle med å konfrontere trusler mot Amerika når vi må, legger han til. Trump feiret USAs 250-årsdag med en stor militærparade på sin egen bursdag 14. juni i 2025. Foto: Julia Demaree Nikhinson og Jacquelyn Martin / AP / NTB Lavere priser? Samtidig har Trump også en annen utfordring. I høst er det mellomvalg i USA. Partiet hans, Republikanerne, har for øyeblikket kontroll i både Senatet og Representantenes hus . Meningsmålinger antyder at partiet kan komme til å miste makten i Representantenes hus. Mange venter fortsatt på at han skal innfri løftet om at prisene skal gå ned og at folk flest skal få en bedre økonomi. Dette er det viktigste å vite fra Trumps tale til Kongressen Du trenger javascript for å se video. Men Trump-administrasjonens fokus det siste året har i stor grad vært på utenrikspolitikk og toll, mens mange amerikanere er mer opptatt av høye levekostnader. – Man ser at en økende del av det republikanske partiet ønsker at han skal dreie fokuset tilbake igjen på økonomi og den type spørsmål som fikk ham valgt. Det sier jussforsker ved Universitetet i Oslo, Sofie Høgestøl. Trumps velgere har hatt stor tillit til hans evne til å styre økonomien, sier hun. – Men for første gang i hans presidentskap, viser målingene at han har mistet grepet om velgerne når det kommer til økonomien. Nå er det flere som ikke har tillit til ham, enn som har tillit til ham – før pleide det å være motsatt. Handelskrigen kan påverka deg: Difor murar Trump seg inne Politisk er økonomien det absolutt største problemet for Trump, mener Løkke. – Nattens tale var en misbrukt mulighet til å forklare og formidle til amerikanerne som opplever for høye priser, at han ser problemet og vil gjøre noe med det. – Istedenfor virker han helt virkelighetsfjern når han skryter over hvor bra det går med økonomien, legger han til. Gjør det vanskeligere å stemme Trump brukte også talen til å be senatet vedta den såkalte «Save America»-loven, som tidligere i februar ble vedtatt i Representantenes hus. Loven vil pålegge de som stemmer å vise frem bevis på statsborgerskap. Republikanere i Kongressen holdt en pressekonferanse om «Save America«-loven bak et podium med teksten «kun amerikanere burde stemme i amerikanske valg» 11. februar. Foto: MICHAEL M. SANTIAGO / AFP / NTB Samtidig vil den flytte en del av lovgivning rundt valglokaler og stemmegivning fra delstatene til føderalt nivå. – Formålet er at loven skal påvirke mellomvalget. I Trumps syn er dette et mål om å få ned det han mener er valgfusk. Hovedmåten de skal gjøre det på, er ved å stramme inn ID-kravene, sier Høgestøl. Per nå tror ikke Høgestøl at Trump vil få gjennomslag for loven. Flertall i Senatet krever 60 stemmer, og republikanerne har 53. – Dette er symbolpolitikk: Det handler om å forsterke fortellingen om at det er massiv valgfusk blant Demokratene. Trump har i flere år sådd tvil om valgfusk. Ved valget i 2020 arrangerte Trumps støttespillere store demonstrasjoner med slagordet «Stop the steal» («stopp ranet»). Her demonstranter i ulike byer etter valget i 2020. Foto: Hannah McKay / RTV / NTB ; Emily Elconin / RTV / NTB ; Spencer Platt / AFP / NTB Skepsisen til ID-krav ved amerikanske valg har røtter i borgerrettighetsstriden, påpeker Høgestøl. – Slike krav rammer ofte fattige minoritetsvelgere hardest, fordi mange av dem ikke har hatt råd til pass. Tradisjonelt har svarte velgere blitt rammet av den type ID-krav. Ifølge Løkke stemmer det ikke at det er omfattende valgfusk i USA: – Det er et mye større problem at folk har vanskeligheter med å få stemme. Løkke forklarer at Trump gjør det vanskeligere for mange å stemme ved valg dersom han får gjennomslag for loven. Les også USAs høyesterett: Trumps straffetoll er ulovlig Interessert i mer utenriksstoff? Hør redaksjonens nyeste podkast: Du trenger javascript for å spille av lydklippet «Urix». Publisert 25.02.2026, kl. 02.26 Oppdatert 25.02.2026, kl. 10.07 USA Amerikansk jagerfly skutt ned i Iran - besetningsmedlem skal være reddet + Vis flere Mer om: USA Donald Trump Donald Trump har sparket justisminister Pam Bondi + Vis flere Mer om: Donald Trump",
+    "correction_description": "Et bilde av tomme seter i Kongressen ble feilaktig presentert som å være fra Trumps tale. Bildet var fra mars 2025 og er nå fjernet.",
+    "correction_date": "2026-02-25",
+    "news_category": "politics",
+    "correction_type": "wrong_image",
+    "time_to_correct_hours": 7.68
   },
   {
     "id": 1775080516111,
@@ -14403,7 +14537,7 @@
     "correction_date": "2026-03-30",
     "news_category": "politics",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 5.99
+    "time_to_correct_hours": 7.77
   },
   {
     "id": 1775179671710,
@@ -14427,7 +14561,7 @@
     "correction_date": "2026-04-01",
     "news_category": "world",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 17.08
+    "time_to_correct_hours": 11.51
   },
   {
     "id": 1775179674330,
@@ -15687,7 +15821,7 @@
     "correction_date": "2026-03-02",
     "news_category": "world",
     "correction_type": "misleading_title",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 18.84
   },
   {
     "id": 1775180176786,
@@ -16827,7 +16961,7 @@
     "correction_date": null,
     "news_category": "crime",
     "correction_type": "other",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 0.06
   },
   {
     "id": 1775180738489,
@@ -16851,7 +16985,7 @@
     "correction_date": "2026-03-27",
     "news_category": "health",
     "correction_type": "missing_context",
-    "time_to_correct_hours": 41.93
+    "time_to_correct_hours": 40.34
   },
   {
     "id": 1775180739688,
@@ -16911,7 +17045,7 @@
     "correction_date": null,
     "news_category": "world",
     "correction_type": "other",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 1.22
   },
   {
     "id": 1775180744855,
@@ -16959,7 +17093,7 @@
     "correction_date": "2026-03-04",
     "news_category": "politics",
     "correction_type": "missing_context",
-    "time_to_correct_hours": 7.21
+    "time_to_correct_hours": 9.02
   },
   {
     "id": 1775180748903,
@@ -19899,7 +20033,7 @@
     "correction_date": null,
     "news_category": "health",
     "correction_type": "other",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 35816.96
   },
   {
     "id": 1775266659940,
@@ -19923,7 +20057,7 @@
     "correction_date": "2026-03-25",
     "news_category": "world",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 4.01
+    "time_to_correct_hours": 5.0
   },
   {
     "id": 1775266661645,
@@ -21952,7 +22086,7 @@
     "correction_date": null,
     "news_category": "other",
     "correction_type": "other",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 99.75
   },
   {
     "id": 1775289680983,
@@ -21977,7 +22111,7 @@
     "correction_date": "2026-03-06",
     "news_category": "politics",
     "correction_type": "wrong_date",
-    "time_to_correct_hours": 0.4
+    "time_to_correct_hours": 0.51
   },
   {
     "id": 1775289682578,
@@ -22002,7 +22136,7 @@
     "correction_date": "2026-03-24",
     "news_category": "technology",
     "correction_type": "factual_error",
-    "time_to_correct_hours": 31.76
+    "time_to_correct_hours": 34.52
   },
   {
     "id": 1775289685989,
@@ -22014,8 +22148,20 @@
     "url": "https://www.nrk.no/ostfold/idrettsleder-innrommer-a-ha-filmet-seksuelt-innhold-av-barn-i-over-ti-ar-1.17778073",
     "auto": true,
     "source": "search",
-    "qa_status": "pending",
-    "headline": "Idrettsleder innrømmer å ha filmet seksuelt innhold av barn i over ti år"
+    "qa_status": "genuine_correction",
+    "headline": "Idrettsleder innrømmer å ha filmet seksuelt innhold av barn i over ti år",
+    "nrk_section": "ostfold",
+    "publication_date": "2026-02-20T11:59:41+01:00",
+    "modified_date": "2026-02-23T10:23:44+01:00",
+    "intro_text": "En idrettsleder i Østfold er siktet for flere seksuelle overgrep mot barn. I avhør forteller mannen om flere alvorlige forhold tilbake i tid.",
+    "journalist": "Håkon Hov Martinsen",
+    "responsible_editor": "",
+    "article_body": "Idrettsleder innrømmer å ha filmet seksuelt innhold av barn i over ti år En idrettsleder i Østfold er siktet for flere seksuelle overgrep mot barn. I avhør forteller mannen om flere alvorlige forhold tilbake i tid. Torsdag den 22. januar ble en mann anmeldt for seksuell krenkende adferd. Mannen ble pågrepet dagen etter. Foto: Vilde Elgaaen / NRK Håkon Hov Martinsen – Journalist Journalist Anne Ognedal – Journalist Journalist Publisert 20.02.2026, kl. 11.59 Oppdatert 23.02.2026, kl. 10.23 Publisert 20.02.2026, kl. 11.59 Oppdatert 23.02.2026, kl. 10.23 Saken oppsummert: En mann i 30-årene fra Østfold er siktet for seksuelle overgrep mot flere barn Mannen hadde en sentral rolle i en idrettsforening og har erkjent straffskyld. Varetektsfengslingen er forlenget med fire uker for å hindre bevisforspillelse. Politiet jobber med avhør av fornærmede og kartlegging av digitalt innhold. Oppsummeringen er laget av en KI-tjeneste fra OpenAI. Innholdet er kvalitetssikret av NRKs journalister før publisering. En mann i 30-årene er siktet for flere tilfeller av seksuelle overgrep mot barn under 14 år. Mannen hadde en sentral rolle i en idrettsforening, og politiet hadde i utgangspunktet identifisert fem fornærmede barn som mannen var siktet for å ha forgrepet seg på. I nye avhør har mannen forklart at han også har videomateriale av flere barn. Antall fornærmede i saken er nå økt til 13 personer. Siktelsen inkluderer besittelse av bilder og filmer av seksuelle overgrep mot barn. – Jeg kan bekrefte at 13 personer er fornærmet etter den bestemmelsen, sier politiadvokat Anne Grete Ludvigsen. Ludvigsen sier til NRK at alle de fornærmedes pårørende er varslet. Les også Mann i idrettsforening siktet for seksuelle overgrep mot barn Har filmet siden 2014 I avhør skal mannen ha fortalt at han startet med produksjon av overgrepsmateriale i 2014. Så langt er ikke siktelsen mot mannen utvidet, og politiet har per nå ingen opplysninger som tilsier at mannen har videreformidlet videomateriale til andre. – Det som blir viktig for oss blir å få en avklaring på om dette har skjedd eller ikke, sier Ludvigsen. Politiet har ennå ikke avhørt de nye fornærmede i saken, men sier til NRK at de er orientert. Politiet jobber nå med å kartlegge det digitale innholdet. – Ut fra hans forklaring tenker vi at det ikke er ubetydelig hva vi kommer til å finne. Politiadvokat Anne Grete Ludvigsen. Foto: Benjamin Vorland Andersrød / NRK Utvidet varetektsfengsling Politiet fikk i dag innvilget forlenget varetektsfengsling av mannen i ytterligere fire uker, blant annet for å forhindre bevisforspillelse og sletting av data i skytjenester. – Vi jobber med gjennomgang av digitale enheter. Det er flere enheter og det er ganske stort materiale det er snakk om, sier Ludvigsen. Tingretten behandlet spørsmålet om varetektsfengsling fredag. Mannen fra Østfold har erkjent straffskyld etter siktelsen, opplyser hans forsvarer Kristin Morch. Mannens forsvarer, Kristin Morch Foto: Håkon Hov Martinsen/NRK – Han er veldig lei seg for alle som er berørt av saken, og som han har skuffet, sier Morch. Hun sier at han gjennom avhør har forklart at han ikke har videredelt materialet. Politiet har gjennomført en rekke avhør, men er fortsatt tidlig i etterforskningen. Bilder og filmer lagret på elektroniske enheter er et sentralt bevis i saken. – Vi har en større mengde datamateriale som må gjennomgås, og det vil ta tid. Avhengig av hva vi finner i det materialet, vil nye etterforskningsskritt være aktuelle, sier påtaleansvarlig Ludvigsen. Rettelse 13:35: Tittel endret til «Idrettsleder innrømmer å ha filmet seksuelt innhold av barn i over ti år» . Opprinnelig tittel var «Idrettsleder innrømmer å ha filmet overgrep av barn i over ti år». Les også Idrettsleder siktet for voldtekt av barn: Politiet ble varslet av klubben Publisert 20.02.2026, kl. 11.59 Oppdatert 23.02.2026, kl. 10.23 Østfold Ekstremværet «Dave» endrer kurs mot Østfold: – Blir noen tøffe timer Brakk fleire kroppsdelar på to menn: Frikjent etter grov sex-sjikane + Vis flere Mer om: Østfold Krim i Østfold Brakk fleire kroppsdelar på to menn: Frikjent etter grov sex-sjikane + Vis flere Mer om: Krim i Østfold Politi og kriminalitet Drapsforsøk på Vannøya: – Siktede blir løslatt + Vis flere Mer om: Politi og kriminalitet",
+    "correction_description": "Tittelen ble endret fra «Idrettsleder innrømmer å ha filmet overgrep av barn i over ti år» til «Idrettsleder innrømmer å ha filmet seksuelt innhold av barn i over ti år».",
+    "correction_date": "2026-02-20",
+    "news_category": "crime",
+    "correction_type": "misleading_title",
+    "time_to_correct_hours": 70.4
   },
   {
     "id": 1775289686775,
@@ -22040,7 +22186,7 @@
     "correction_date": "2026-03-04",
     "news_category": "health",
     "correction_type": "wrong_number",
-    "time_to_correct_hours": 22.71
+    "time_to_correct_hours": 25.01
   },
   {
     "id": 1775289700304,
@@ -22091,7 +22237,7 @@
     "correction_date": "2026-03-06",
     "news_category": "politics",
     "correction_type": "wrong_date",
-    "time_to_correct_hours": 0.4
+    "time_to_correct_hours": 0.51
   },
   {
     "id": 1775289864267,
@@ -22116,7 +22262,7 @@
     "correction_date": null,
     "news_category": "local",
     "correction_type": "other",
-    "time_to_correct_hours": null
+    "time_to_correct_hours": 31192.24
   },
   {
     "id": 1775312057654,
@@ -22128,7 +22274,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/rasmus-hansson-vil-stanse-bjornejakta-i-jarfjord_-_-uansvarlig-av-miljoministeren-1.17483734",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Vil stanse bjørnejakt: – Fullstendig uansvarlig av en miljøminister"
   },
   {
     "id": 1775312058664,
@@ -22140,7 +22287,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/eier-forlot-hunden-ved-skole-_-bet-barn-i-ansiktet-1.17620680",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Eier forlot hunden ved skole – barn ble bitt i ansiktet"
   },
   {
     "id": 1775312061455,
@@ -22152,7 +22300,8 @@
     "url": "https://www.nrk.no/klima/kraftig-okning-i-antall-skogbranner-i-ar-1.17500406",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Kraftig økning i antall skogbranner i år"
   },
   {
     "id": 1775312062377,
@@ -22164,7 +22313,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/havarikommisjonen-er-pa-plass-i-tromso-etter-dodsulykka-pa-e8-1.17609536",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Havarikommisjonen er på plass i Tromsø etter dødsulykka på E8"
   },
   {
     "id": 1775312063846,
@@ -22176,7 +22326,8 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/_snikfilmeren_-innrommer-straffskyld-1.17489954",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "«Snikfilmeren» innrømmer straffskyld"
   },
   {
     "id": 1775312065248,
@@ -22188,7 +22339,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/klager-pa-naturinngrep-gjort-for-a-bygge-nussir-brakkerigger-1.17584007",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Bygger brakkerigg: Blir beskyldt for ulovlig naturinngrep"
   },
   {
     "id": 1775312066254,
@@ -22200,7 +22352,8 @@
     "url": "https://www.nrk.no/sorlandet/ukrainer-tatt-i-norge_-skal-ha-vaert-livvakt-for-prorussisk-opprorsleder-1.17651239",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Ukrainer tatt i Norge: Skal ha vært livvakt for prorussisk opprørsleder"
   },
   {
     "id": 1775312067404,
@@ -22212,7 +22365,8 @@
     "url": "https://www.nrk.no/sorlandet/frykter-eksplosjonsfare-etter-brann-i-bedrift-1.17464267",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Har fått kontroll på brann i Grimstad: – Vi hørte to smell"
   },
   {
     "id": 1775312068344,
@@ -22224,7 +22378,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/fredag-ble-bjornesaken-fra-jarfjord-behandlet-i-oslo-tingrett-1.17489153",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Tingretten har behandlet bjørnebinnas skjebne"
   },
   {
     "id": 1775312069224,
@@ -22236,7 +22391,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/fiskebatreder-fra-troms-domt-for-brudd-pa-havressursloven-1.17653640",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Fiskebåtreder dømt for brudd på havressursloven"
   },
   {
     "id": 1775312070250,
@@ -22248,7 +22404,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/buss-har-sklidd-av-veien-ved-vardo-lufthavn-1.17703716",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Livsfarlig julevær: Flere biler har sklidd av veien"
   },
   {
     "id": 1775312071983,
@@ -22260,7 +22417,8 @@
     "url": "https://www.nrk.no/sorlandet/anonym-retting-i-skolen_-skal-gi-mer-rettferdig-vurdering-1.17575098",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Skal teste anonym retting: – Trynefaktor finnes"
   },
   {
     "id": 1775312072804,
@@ -22272,7 +22430,20 @@
     "url": "https://www.nrk.no/tromsogfinnmark/kvaenangen-uten-mobildekning-og-internett-1.17792534",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Mobildekning og internett tilbake i Kvænangen",
+    "nrk_section": "tromsogfinnmark",
+    "publication_date": "2026-03-03T11:41:40+01:00",
+    "modified_date": "2026-03-03T14:13:24+01:00",
+    "intro_text": "Store deler av Kvænangen kommune i Nord-Troms var uten mobilnettverk.",
+    "journalist": "Simen Wingstad, Sigrid Agnethe Hansen",
+    "responsible_editor": "",
+    "article_body": "Mobildekning og internett tilbake i Kvænangen Store deler av Kvænangen kommune i Nord-Troms var uten mobilnettverk. Foto: N632997 Simen Wingstad – Journalist Journalist Sigrid Agnethe Hansen – Journalist Journalist Publisert 03.03.2026, kl. 11.41 Oppdatert 03.03.2026, kl. 14.13 Publisert 03.03.2026, kl. 11.41 Oppdatert 03.03.2026, kl. 14.13 Nyhetstips 03030 Har du bilder, video eller er på stedet? Tips oss! Natt til tirsdag ble en fiberlinje brutt ett sted, som gjorde at mobilnettverket er ute av drift i store deler av Kvænangen . Kommunen opplyser like etter kl 14.00 tirsdag at dekningen kom tilbake. Kriseledelsen var samlet. Feilen ble identifisert, og leverandør arbeidet med retting, opplyste kommunen i en pressemelding. – Ved akutt behov for hjelp: Oppsøk legevakt eller nærmeste bemannede institusjon fysisk dersom du ikke får kontakt på telefon, skrev kommunedirektøren. Kommunen opplyste at de prioriterer liv og helse. Nødnummer kunne blitt ustabile eller utilgjengelig. I tillegg var sentralbordet i kommunen midlertidig ute av drift. Kommunen meddelte at skoler, barnehager og helse- og omsorgstjenester kan være berørt. De oppfordret folk til å unngå unødvendig bruk av mobilnettet for de som har dekning. – Slik kan kapasiteten holdes tilgjengelig for kritiske samtaler. Publisert 03.03.2026, kl. 11.41 Oppdatert 03.03.2026, kl. 14.13",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "local",
+    "correction_type": "other",
+    "time_to_correct_hours": 2.53
   },
   {
     "id": 1775312073667,
@@ -22284,7 +22455,20 @@
     "url": "https://www.nrk.no/tromsogfinnmark/vil-unnga-spokelsesfiske-og-forsopling-_-men-metoden-er-ulovlig-1.17793535",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Vil unngå spøkelsesfiske og forsøpling – men metoden er ulovlig",
+    "nrk_section": "tromsogfinnmark",
+    "publication_date": "2026-03-16T07:11:02+01:00",
+    "modified_date": "2026-03-16T07:11:02+01:00",
+    "intro_text": "Radiomerking av fiskeredskaper forhindrer kollisjoner til sjøs og forsøpling, sier fiskerne. Men myndighetene slår fast at praksisen er ulovlig.",
+    "journalist": "Knut-Sverre Horn",
+    "responsible_editor": "",
+    "article_body": "Vil unngå spøkelsesfiske og forsøpling – men metoden er ulovlig Radiomerking av fiskeredskaper forhindrer kollisjoner til sjøs og forsøpling, sier fiskerne. Men myndighetene slår fast at praksisen er ulovlig. Åsgeir Henriksen i Nkom var nylig ute med måleutstyr. Her har han funnet en ulovlig merket bøye. Foto: Nasjonal kommunikasjonsmyndighet Knut-Sverre Horn – Journalist Journalist Publisert 16.03.2026, kl. 07.11 Publisert 16.03.2026, kl. 07.11 Hvert år blir hundrevis av fiskegarn og liner merket med radiosendere som egentlig er beregnet for skip. Systemet heter AIS, automatic identification system . Løsningen er genial, mener fiskerne. Ikke bare kan de finne igjen utstyret på en enkel måte. Alle skip i området får opp posisjonen til fiskeredskapen på sine skjermer. Dermed kan de styre utenom og unngå potensielt farlige kollisjoner. Fiskeutstyr som blir rent i senk og driver av gårde, er også et omfattende miljøproblem. Men noen er svært lite fornøyd med praksisen. Nasjonal kommunikasjons­myndighet (Nkom) har ansvaret for bruken av radiofrekvenser, og slår fast at fiskerne bryter loven. Overbelastet – Det blir altfor mange brukere på AIS-systemet; det blir overbelastet. Det går litt på sikkerheten løs, sier Åsgeir Henriksen, sjefingeniør i Nkom. Nylig var Nkom og Kystvakten på tokt utenfor Honningsvåg for å kartlegge situasjonen. De fikk bekreftet at bruken av AIS-sendere fortsetter. – Det har jo vært et problem i mange år. Det har egentlig aldri vært tillatt å merke fiskeutstyr med AIS. AIS skal brukes til navigasjon. All bruk av radiofrekvenser krever tillatelse fra offentlige myndigheter. Nkom har to ganger hatt kampanjer for å informere om den ulovlige AIS-bruken. – Men har dere noen konkrete eksempler på at det faktisk har gått galt fordi fiskerne har brukt AIS til å merke stående redskap? – Det har vi ikke. Men det er forebygging. Når du kommer med en vanlig sivil båt forbi, så ser du at det er AIS-merker, og kan det se ut som et skip som ligger der, sier Henriksen. – For fiskerne er det selvfølgelig veldig praktisk at de lett kan finne igjen enden på bruket, sier Henriksen. Tom Vegar Kiil mener Norge kan velge mellom miljø og sikkerhet eller et «idiotisk regelverk». Foto: Privat Unngår uhell Men det å finne igjen garnet eller lina er ikke den viktigste grunnen til at fiskerne merker dem med radiosender, sier Tom Vegar Kiil, leder i Kystfiskarlaget. Fiskeredskapen kan han finne igjen med andre og lukkede systemer. – Men gjennom å bruke det åpne systemet som AIS, som alle fartøy får inn på sine AIS-mottakere, så vil det være synlig hvor det står bruk . Og man unngår dermed påkjørsler, med påfølgende tap av redskap. – I tillegg kan det være båter som får bruket i propellen og havner i fjæra eller får knust båten. Det kan gå liv som følge av at bruket ikke er synlig tilstrekkelig, sier Kiil. – Det har vært brukt argumenter med at dette er farlig fordi man må gjøre unnamanøvrer. Ja, jeg vil gjerne at du navigerer unna bruket mitt, sånn at jeg ikke mister det. Ifølge kolleger av Kiil var det tidligere store problemer på yttersiden av Senja med at skipstrafikken senket fiskeredskap. – Så begynte de å bruke AIS-bøye for å vise hvor endene var. Da endret trafikkmønsteret seg. De båtene som ikke hadde noen fiskeriaktivitet der, de gikk på utsida av hele området. Fiskeutstyr merket med radiosender ender ikke som søppel på en strand, sier lederen i Kystfiskarlaget. Bildet er fra en ryddeaksjon i Laksefjorden i Finnmark. Foto: Rune Muladal Spøkelsesfiske Kiil mener det er enorme og åpenbare miljøgevinster ved en skikkelig merking som alle kan se. – Vi fiskere får mye kritikk for at vi hiver ifra oss tauverk, garnblåse og bøyestenger som folk finner i fjæra, sier han. – Men vi er ikke staure dumme. Vi hiver ikke fra oss utstyr som er i orden. Dette er utstyr som blir kjørt ned av andre båter som ikke ser redskapene våre. Det har ikke skjedd meg bekjent at man har funnet ei bøyestang med AIS på. Det er enda verre med redskap som ikke driver i land, men blir stående i sjøen og fangste på egen hånd. Slikt spøkelsesfiske kan pågå i tiår, sier Kiil. Han har selv trukket opp gamle garn som har satt seg fast i hans egen redskap. – Det er et fryktelig bilde. Død fisk, råtten fisk, levende fisk, sjøpattedyr. Du har hele spekteret som du får gjennom at redskapen din blir tapt. Blåkveite fanget av et herreløst garn. Fiskeridirektoratet tok det opp på et tokt rettet mot spøkelsesfiske. Foto: Gjermund Langedal / Fiskeridirektoratet Denne hvalen satt seg fast i et garn som ble fjernet på det samme toktet. Foto: Gjermund Langedal / Fiskeridirektoratet Ifølge Kiil er det ikke bra nok å merke bruket med blinkende lys. I mørket er det uansett ikke mulig for andre skip å vurdere avstanden til lysene godt, og i alle fall ikke hvis det er mange av dem på samme fiskefelt. Internasjonale regler Reglene om bruk av radiofrekvenser er internasjonale. Kiil viser til at de kommer fra Den internasjonale sjøfartsorganisasjonen (IMO). – Men det er et rådgivende organ. Norge velger selv om vi ønsker sikkerhet og slutt på spøkelsesfisket, eller om vi skal følge idiotiske regelverk fra IMO, som ikke tar innover seg verken det grønne skiftet eller miljøet. Kiil mener man kan unngå overbelastning på systemet ved å begrense rekkevidden på senderne og navngi dem tydelig som bøyer, ikke som skip. Nkom viser til at bruken av AIS-frekvensene etter hvert skled ut, særlig etter 2010. Det var et stort internasjonalt arbeid over flere år for å få orden i sakene. – For Norge er det et grunnleggende prinsipp å være lojal mot de felles beslutningene som vi som medlemsland har kommet frem til i IMO og ITU, sier avdelingsdirektør Espen Slette i Nkom. Espen Slette sier det er viktig for Norge å slutte opp om internasjonal regler for radiofrekvenser. Foto: Leif Dalen / NRK – Spørsmålet handler derfor ikke om nasjonal fleksibilitet, men om å opprettholde et globalt, harmonisert sikkerhetssystem. AIS-merkingen av fiskeredskap er forbudt etter ekom-loven . Myndighetene kan gripe inn mot brudd på loven på flere måter. – Mulige sanksjoner som Nkom kan benytte, er blant annet pålegg om retting, overtredelsesgebyr, tvangsmulkt og straff, det vil si bot eller fengsel inntil ett år, sier Slette. Publisert 16.03.2026, kl. 07.11 Norsk fiskerinæring Norsk fiskefartøy påkjørt av miljøaktivister i Antarktis Lofotfisket til bunns: – I år har det vært helt katastrofalt + Vis flere Mer om: Norsk fiskerinæring Klima og miljø Tusenvis av båtvrak dumpes årlig: – Det enkleste er å la dem seile sin egen sjø + Vis flere Mer om: Klima og miljø",
+    "correction_description": "",
+    "correction_date": null,
+    "news_category": "local",
+    "correction_type": "other",
+    "time_to_correct_hours": 0.0
   },
   {
     "id": 1775312075537,
@@ -22296,7 +22480,8 @@
     "url": "https://www.nrk.no/sorlandet/vil-ha-vekk-trynefaktoren-1.12308145",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Vil ha vekk trynefaktoren i skolen"
   },
   {
     "id": 1775312076845,
@@ -22308,7 +22493,8 @@
     "url": "https://www.nrk.no/sorlandet/varsler-millionbot-til-telia-etter-feilrapportering-1.17399770",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Varsler millionbot til Telia etter feilrapportering: – Alvorlig tillitsbrudd"
   },
   {
     "id": 1775312079728,
@@ -22320,7 +22506,8 @@
     "url": "https://www.nrk.no/sorlandet/skal-rette-elevenes-prover-anonymt-1.12334512",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Skal rette elevenes prøver anonymt"
   },
   {
     "id": 1775312080549,
@@ -22332,7 +22519,20 @@
     "url": "https://www.nrk.no/tromsogfinnmark/lokallag-i-tjeldsund-i-troms-med-einstemmig-mistillitsforslag-mot-sv-leiar-kirsti-bergsto-1.17779804",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "SV-lokallag med mistillit mot leiinga",
+    "nrk_section": "tromsogfinnmark",
+    "publication_date": "2026-02-21T12:51:54+01:00",
+    "modified_date": "2026-02-21T19:58:51+01:00",
+    "intro_text": "Hemmeleghald av misnøye skapar berre meir misnøye, meiner lokallagsleiar og varaordførar i Tjeldsund kommune, Odd-Are Hansen.",
+    "journalist": "Hans Ivar Moss Kolseth",
+    "responsible_editor": "",
+    "article_body": "SV-lokallag med mistillit mot leiinga Hemmeleghald av misnøye skapar berre meir misnøye, meiner lokallagsleiar og varaordførar i Tjeldsund kommune, Odd-Are Hansen. SV-leiar Kirsti Bergstø. Foto: Lars Martin Hunstad / NRK Hans Ivar Moss Kolseth – Journalist Journalist Publisert 21.02.2026, kl. 12.51 Oppdatert 21.02.2026, kl. 19.58 Publisert 21.02.2026, kl. 12.51 Oppdatert 21.02.2026, kl. 19.58 Etter valresultatet i fjor har SVs leiar Kirsti Bergstø fått kritikk frå fleire hald. Denne helga held Troms SV fylkesårsmøte. Blant punkta i programmet finn ein «Mistillit til partileiinga etter evaluering av valkampen». Forslaget er levert av lokallagsleiar og varaordførar i Tjeldsund kommune, Odd-Are Hansen. – Det stemmer. Vi har over lang tid vore frustrerte over leiinga – og då tenker vi spesielt på partileiar Kirsti Bergstø, seier han til VG som omtalte saka først. NRK har vore i kontakt med pressekontakta til partiet sentralt, men ikkje lukkast med å få noko kommentar frå øvste hald om mistillita i lokallaget i Troms. Til VG seier SVs kommunikasjonssjef Espen Løkeland-Stai at leiinga ikkje vil uttale seg om mistillitsforslaget før behandlinga av forslaget på fylkesårsmøtet. Fylkeslaget skal stemme over forslaget frå lokallaget på søndag. Varaordførar i Tjeldsund kommune, Odd-Are Hansen. Foto: Erik Waagbø Nestleiar i Troms SV, Astrid Løkholm Båtnes seier til NRK at ho ikkje ønskjer å forskottere debatten på årsmøtet. – Men personleg har eg tillit til Kirsti som leiar. Ho er ein stødig leiar, og landsmøtet attvalde ho einstemmig som leiar for eit år sidan. Eg meiner det derfor ikkje er rett veg å fremme mistillit til leiinga nå, seier Løkholm Båtnes. Nestleiar i Troms SV Astrid Løkholm Båtnes. Foto: Anne Birgit Nilsen. / SV Lokallagsleiaren i Tjeldsund SV, fortel til VG at mange medlemmar i lokallaget har mista gneisten og engasjementet eller til og med meldt seg ut av partiet. – Då har vi spurt oss, kva er den rette måten å uttrykke frustrasjonen vår på? Eg har ikkje noko til overs for hemmeleghald eller at vi skal prøve å halde den openberre misnøya i partiet internt. Det skaper berre meir misnøye, seier Hansen til VG. Om forslaget får fleirtal på fylkesårsmøtet vil neste steg vere å fremme eit forslag på SVs landsmøte. Til NRK utdjupar Hansen at mistillita har grobotn i SVs valkampresultat. – Det var veldig tillit-svekkjande. Ein dårleg jobb av leiinga, både organisatorisk med tanke på kva saker som vart løfta fram og med tanke på partileiaren si evne til å formidle politikken i pressa, seier han. – Er det riktig av dykk å uttrykke frustrasjonen dykkar på denne måten? – Eg har blitt fortalt at det er ein ganske dramatisk ting å gjere. Det er eg ueinig i. Å stille spørsmål ved leiinga i eit ope demokrati er ikkje dramatisk når det er grunnlag for det. Vi er redde for at enkeltspelarar skal bli viktigare enn laget. SV har enorme utfordringar som alle openbert kan sjå både i og utanfor partiet, seier Hansen. Hansen er ikkje sjølv til stades på fylkesårsmøtet i år då han er på jobb i Lofoten i helga. Han fortel at dei har fått støtte frå lokallag nært Tjeldsund, og meiner også at det er brei mistillit i grasrota elles i partiet. I tillegg til misnøye med valkampen viser varaordføraren mellom anna til det at SV nyleg trakk støtta si til eit forslag frå Raudt, om å frigje straum som var meint til gasskraftverket på Melkøya i Finnmark, som eit eksempel på kvifor han ikkje lenger har tillit til partileiinga. – Vi som grasrotorganisasjon kjenner oss ikkje att, seier han. Les også SV snur: Går ut av Melkøya-flertall Hansen seier det har runne inn meldingar og støtteerklæringar til han sidan han fronta mistillita til Tjeldsund SV i VG i dag. – Eg trur vi har veldig støtte frå grasrota i SV på dette. Men så spørst det jo om folk har mot nok til å gjere noko med det, seier han. Retting: I ein tidlegare versjon av denne saka sto det at Kirsti Bergstø blei valt som leiar for SV for eitt år sidan. Det riktige er at ho har vore leiar i tre år, men blei einstemmig attvalt i fjor ved akklamasjon. Les også SV-nestor ut mot eget parti: – Kom som et sjokk Publisert 21.02.2026, kl. 12.51 Oppdatert 21.02.2026, kl. 19.58 Politikk Mímir Kristjánsson sendte truende meldinger til privatperson Regjeringen trosser stortingsflertallet: – Lever farlig som statsråd + Vis flere Mer om: Politikk Sosialistisk Venstreparti Drivstoffkutt er ikke nok: Krever flere tiltak fra Stoltenberg + Vis flere Mer om: Sosialistisk Venstreparti Troms Drapsforsøk på Vannøya: – Siktede blir løslatt + Vis flere Mer om: Troms",
+    "correction_description": "Det ble rettet informasjon om hvor lenge Kirsti Bergstø har vært SV-leder. Hun har vært leder i tre år, ikke ett, men ble gjenvalgt ved akklamasjon i fjor.",
+    "correction_date": "2026-02-21",
+    "news_category": "politics",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 7.12
   },
   {
     "id": 1775312081668,
@@ -22344,7 +22544,8 @@
     "url": "https://www.nrk.no/sorlandet/go-ahead-set-opp-buss-for-tog-i-juletrafikken-1.17696248",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Go-Ahead set opp buss for tog i juletrafikken"
   },
   {
     "id": 1775312093679,
@@ -22356,7 +22557,8 @@
     "url": "https://www.nrk.no/sorlandet/uvanlig-lite-vann-i-vannmagasiner---kan-gi-dyr-strom-1.17504389",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Uvanlig lite vann i vannmagasiner - kan gi dyr strøm"
   },
   {
     "id": 1775312104077,
@@ -22368,7 +22570,8 @@
     "url": "https://www.nrk.no/sorlandet/tilsynsrapport_-ulovlig-bruk-av-tvang-ved-gynekologisk-avdeling-1.17581978",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Pasienter i narkose for tannbehandling sendt til gynekologisk inngrep – uten å vurdere samtykke"
   },
   {
     "id": 1775312119391,
@@ -22380,7 +22583,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/saksmappe-i-barnevernssak-var-offentleg-tilgjengeleg-_-ordfore-1.17640606",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Barnevernssak låg open i postliste etter rutinesvikt"
   },
   {
     "id": 1775312120217,
@@ -22392,7 +22596,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/politiet_-hoy-hastighet-kan-ha-vaert-en-faktor-i-dodsulykken-pa-e8-i-tromso-1.17611878",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Politiet etterforsker om det var kappkjøring før ulykken på E8"
   },
   {
     "id": 1775312121057,
@@ -22404,7 +22609,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/ordforer-frykter-strenge-krav-til-rensing-vil-stoppe-milliardprosjekt-i-nesseby-1.17656710",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Frykter nye regler vil stoppe milliardprosjekt: – Ber ikke om unntak, men fornuft"
   },
   {
     "id": 1775312121849,
@@ -22416,7 +22622,8 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/ruskjoring-og-konsekvenser_-evens-advarsel-til-unge-sjaforer-1.17564715",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Even (26) mistet lappen etter ruskjøring: – Det var idiotisk"
   },
   {
     "id": 1775312123632,
@@ -22428,7 +22635,8 @@
     "url": "https://www.nrk.no/sorlandet/statsforvalteren_-kirurg-som-granskes-hevdet-uriktig-at-han-var-spesialist-1.17435258",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Statsforvalteren: Kirurg som granskes hevdet uriktig at han var spesialist"
   },
   {
     "id": 1775312125461,
@@ -22440,7 +22648,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/laerlingklausulen-endres-1.-august_-_-jeg-slet-med-a-finne-laerlingplass-1.17511901",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Tar grep for lærlinger som Marcus: – Jeg slet med å finne plass"
   },
   {
     "id": 1775312126503,
@@ -22452,7 +22661,8 @@
     "url": "https://www.nrk.no/sorlandet/arendalsuka_-fra-0-til-95.000-for-leie-av-lokaler-1.17392416",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Her koster det 75.000 om du vil ha en debatt"
   },
   {
     "id": 1775312127950,
@@ -22464,7 +22674,8 @@
     "url": "https://www.nrk.no/tromsogfinnmark/datatilsynet-om-personvernbrotet-i-tromso-kommune_-_-alvorleg-1.17489056",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Datatilsynet om personvernbrotet i Tromsø kommune: – Alvorleg"
   },
   {
     "id": 1775312132769,
@@ -22476,7 +22687,20 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/kraftutbygging-kan-gi-usikker-is-_-pavirker-turfolk-og-villrein-1.17781584",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Kraftutbygging kan gi usikker is – påvirker turfolk og villrein",
+    "nrk_section": "vestfoldogtelemark",
+    "publication_date": "2026-03-04T17:06:37+01:00",
+    "modified_date": "2026-03-04T19:09:27+01:00",
+    "intro_text": "Flere pumpekraftverk ved Hardangervidda kan sette en stopper for mennesker og dyr på vinterstid. DNT forutsetter at utbygging sikrer islagte vann.",
+    "journalist": "André Rajan Kolve",
+    "responsible_editor": "",
+    "article_body": "Kraftutbygging kan gi usikker is – påvirker turfolk og villrein Flere pumpekraftverk ved Hardangervidda kan sette en stopper for mennesker og dyr på vinterstid. DNT forutsetter at utbygging sikrer islagte vann. VIL HA IS: Den Norske Turistforening vil at Holmavatn skal forbli islagt om vinteren hvis det bygges nye pumpekraftverk. Foto: John Petter Nordbø / DNT VIL HA IS: Den Norske Turistforening vil at Holmavatn skal forbli islagt om vinteren hvis det bygges nye pumpekraftverk. Foto: John Petter Nordbø / DNT André Rajan Kolve – Journalist Journalist Fredrik Pedersen – Fotograf Fotograf Publisert 04.03.2026, kl. 17.06 Oppdatert 04.03.2026, kl. 19.09 Publisert 04.03.2026, kl. 17.06 Oppdatert 04.03.2026, kl. 19.09 Lyse Kraft DA planlegger utbygging i Røldal-Suldal og vil oppgradere eksisterende anlegg, samt bygge tre nye pumpekraftverk . Én av utfordringene er at pumping av vann om vinteren gjør isen på Holmavatn usikker. Her ferdes både villrein og turfolk. Her er det fem anleggene Lyse Kraft vil oppgradere og utvide. Generalsekretær Inger Lise Blyverket i Den Norske Turistforening (DNT) sier de i utgangspunktet er positive til prosjektet. – Det er bedre å oppgradere og utvikle eksisterende kraftverk fremfor å bygge i urørt natur. Likevel er hun bekymret for at deres interesser glemmes hvis NVE gir tillatelse til flere pumpekraftverk i områder hvor folk går på tur. – I de aller fleste tilfeller er det som er bra for villreinen, også bra for friluftslivet. Men det er ingen tvil om at kraftutbygging står sterkt i Norge og at det i altfor liten grad tas hensyn til friluftslivet, sier Blyverket. Les også Må stenge flere hytter og turstier i vinter: – Det blir for mye folk Negative statsforvaltere NVE behandler Lyse Krafts søknader samtidig som Klima- og miljødepartementet fullfører planer for villrein. Behovet for islagte vann har vært diskutert i høringsrunder. Statsforvalterne i Vestland, Rogaland, Agder, Vestfold og Telemark er mot utbyggingen. Holmavatn brukes både av skifolk og villrein på vinterstid. Foto: DNT / DNT Blyverket fra DNT mener utbyggingen fra 60‑tallet i Røldal og Suldal er et skrekkeksempel. – Det er derfor viktig for DNT at dersom disse kraftverkene skal utvikles og oppgraderes, så må man ta hensyn til friluftslivet og villreinen. Inger Lyse Blyverket er generalsekretær i Den Norske Turistforening (DNT). Foto: Marius Dalseg / DNT Inger Lyse Blyverket er generalsekretær i Den Norske Turistforening (DNT). Foto: Marius Dalseg / DNT Hun foreslår å stoppe vannpumping i Holmavatn om vinteren for å sikre islagt vann til villrein og folk. – Da blir vannet islagt, og vil sikre gode arealer både for villreinen og friluftslivsfolket. Vurderer tiltak Lyse Kraft vil se på løsninger som ivaretar både villreinen og friluftslivet hvis utbyggingen går gjennom. – Vi ser på pumperestriksjoner som ikke påvirker isleggingsperioden tidlig på vinteren, og på begrensninger i hvor lenge vi kan pumpe etter at isen har lagt seg, sier direktør Bjørn Honningsvåg. Lyse Kraft-direktør Bjørn Honningsvåg ved selskapets anlegg på Nesflaten i Røldal Suldal. Foto: Fredrik Pedersen / NRK Lyse Kraft-direktør Bjørn Honningsvåg ved selskapets anlegg på Nesflaten i Røldal Suldal. Foto: Fredrik Pedersen / NRK Han legger ikke skjul på at det vil koste mer. – Det er derfor viktig at eventuelle begrensninger ikke blir så tyngende at lønnsomheten forsvinner. Vi mener vi kan få til løsninger som forener kraftproduksjon med å ta vare på villreinen. Tyst fra statsråden Energiminister Terje Aasland (Ap) vil ikke kommentere om friluftslivet taper etter NVE behandling og regjeringens villreinplaner. En klage på NVEs beslutning kan havne på statsrådens bord for endelig avgjørelse. På spørsmål fra NRK om friluftslivet blir offeret, svarer Aasland: – Jeg vil ikke gå inn på detaljene i denne saken. Jeg er opptatt av at vi skal gjøre dette på en ordentlig måte. Vi skal ivareta villreinen, men vi trenger også mer kraft. Terje Aasland Energiminister (Ap) – Det har dette prosjektet til hensikt å gjøre, sier energiministeren og viser til den planlagte utbyggingen i Rødal-Suldal. NRK erfarer at NVE vil avgjøre søknadene i løpet av året, og at villreinplanene kan komme samtidig. – Helhetlig tilnærming Energiministeren avviser at regjeringen tilpasser villreinplanene til kraftutbyggingen. – Regjeringen har en helhetlig tilnærming til alle typer saker. Dette er ikke to saker vi setter opp mot hverandre, sier Aasland. Villrein i Setesdal Vesthei, Ryfylkeheiene. Bildet er tatt mellom Ståvatnet og Holmavatnet. Foto: Håkon Aarthun Villrein i Setesdal Vesthei, Ryfylkeheiene. Bildet er tatt mellom Ståvatnet og Holmavatnet. Foto: Håkon Aarthun – Vil det være klokt av NVE å avvente konsesjonsbehandlingen til tiltaksplanene for villreinen foreligger? – Nå ligger denne saken til behandling i NVE. De har også hatt en tilleggsutredning om villrein ute på høring, og denne ble avsluttet 3. februar. NVE må vurdere om de nå har nok kunnskap til å fatte vedtak i disse sakene som gjelder flere kraftverk, sier Aasland. RETTET: I en tidligere versjon av denne saken sto det at vannen kunne bli isfrie. Det riktige er at isen kan bli usikker. Endret onsdag klokken 19.09. Publisert 04.03.2026, kl. 17.06 Oppdatert 04.03.2026, kl. 19.09 Vestfold og Telemark Flere snøskred i Telemark: Fraråder skikjøring på det sterkeste Nesten-ulykker tvinger sommerbyene til å ta grep + Vis flere Mer om: Vestfold og Telemark Villrein (Telemark) Krever at regjeringen rydder opp i villrein-konflikt + Vis flere Mer om: Villrein (Telemark) Hardangervidda Død i åtte timar og 48 minutt + Vis flere Mer om: Hardangervidda",
+    "correction_description": "Det ble presisert at isen på vannene kan bli usikker, ikke at vannene blir isfrie som tidligere skrevet.",
+    "correction_date": "2026-03-04",
+    "news_category": "local",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 2.05
   },
   {
     "id": 1775312135759,
@@ -22488,7 +22712,20 @@
     "url": "https://www.nrk.no/tromsogfinnmark/auka-sjukefravaer-og-fleire-fristbrot-ved-finnmarkssykehuset-1.17775901",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "– Meir effektivt, seier direktøren – medan legeforeininga fryktar svekka helsetilbod",
+    "nrk_section": "tromsogfinnmark",
+    "publication_date": "2026-02-19T07:43:18+01:00",
+    "modified_date": "2026-02-20T09:12:19+01:00",
+    "intro_text": "Sjukefråværet auka i Finnmarkssykehuset i fjor. Samtidig hadde sjukehuset sitt første positive årsresultat på mange år.",
+    "journalist": "Gunnar Sætra, Hilde Olaussen",
+    "responsible_editor": "",
+    "article_body": "– Meir effektivt, seier direktøren – medan legeforeininga fryktar svekka helsetilbod Sjukefråværet auka i Finnmarkssykehuset i fjor. Samtidig hadde sjukehuset sitt første positive årsresultat på mange år. For første gong på ni år er det overskot ved Finnmarkssykehuset. Foto: Allan Klo / NRK Gunnar Sætra – Journalist Journalist Hilde Olaussen – Journalist Journalist Publisert 19.02.2026, kl. 07.43 Oppdatert 20.02.2026, kl. 09.12 Publisert 19.02.2026, kl. 07.43 Oppdatert 20.02.2026, kl. 09.12 Rettelse: I en tidligere versjon av saken sto det i ingress at «helseføretaket hadde fleire fristbrot i fjor», men det var ikke riktig. NRK beklager feilen. Leiar Paul Olav Røsbø i Finnmark legeforening trur fokuset på økonomisk sparing går ut over helsetilbodet. Meir effektivt og fleire pasientkonsultasjonar – Vi har drive føretaket 220 millionar kroner meir effektivt enn tidlegare. I tillegg har vi produsert fleire pasientkonsultasjonar og fått ned køane, seier administrerande direktør Ole Hope ved Finnmarkssykehuset. Han slår fast at helseføretaket samla sett har klart seg godt i året som gjekk. – Alt i alt er vi ikkje nøgde med sjukefråværstala slik dei har vore. Det er vi nøydde til å jobbe med, seier administrerande direktør Ole Hope ved Finnmarkssykehuset. Foto: Gunnar Sætra / NRK Ni år sidan førre overskot I dag skal styret i Finnmarkssykehuset gå gjennom rapporten for verksemda i 2025. Der kan ein mellom anna lese at sjukehuset for første gong på ni år har gått med overskot. Det står også at sjukefråværet blant dei tilsette har auka med 1,1 prosentpoeng frå 2024 til 10,2 prosent i 2025. – Alt i alt er vi ikkje nøgde med sjukefråværstala slik dei har vore. Det er vi nøydde til å jobbe med, seier Hope. Les også Fødestriden i Alta: Kan søke om penger fra en pott på 200 millioner – Røft å stå i disse tinga Sjukehusdirektøren seier det finst veldig gode ordningar og nemner at inkluderande arbeidslivsavtalar gjer det mogleg å få ned sjukefråværet. – Vi har hatt store utfordringar og ser at det verkar. Finnmarkssykehuset er i ein omstillingsprosess og har hatt mål om å kutte 300 millionar kroner. Innsparingsjobben held fram i år. – Det kan hende at nokre synest at det er smått røft å stå i desse tinga og bere på det – og opplever at dei må ha ein pause. Dette er naturlege prosessar og naturlege reaksjonar, seier Hope. Han legg til at helseføretaket har 40 millionar kroner mindre å bruke enn det hadde i fjor. – Det betyr at vi må ta kostnadane våre ytterlegare ned. Det er krevjande når vi har tatt dei store grepa vi tok i 2025, seier sjefen for Finnmarkssykehuset. Leiar Paul Olav Røsbø i Finnmark legeforening fryktar at nye budsjettkutt ved Finnmarkssykehuset kan komme til å koste Finnmarks befolkning dyrt. Foto: Johan Isak Niska / NRK – Tillitskrise, seier legeforeininga Kutta har allereie fått tilsette ved Hammerfest sykehus til å slå alarm om auka arbeidspress og bekymring for pasienttryggleiken. Nyleg har det komme meir kritikk av Finnmarkssykehuset, blant anna for eit forslag om å stenge fødetilbodet i Alta til sommaren. – Dei tilsette sin tillit til arbeidsgjevaren er tynnsliten, seier leiar Paul Olav Røsbø i Finnmark legeforening. Han legg til at Finnmarkssykehuset står i ein kontinuerleg tillitskrise, der helsepersonellet ikkje føler at det blir tatt godt grunngitte avgjerder. – Tilliten ute i befolkninga er òg under stadig press. Og tillit til arbeidsgjevaren din påverkar jo i høgste grad sjukefråværet. Kan koste Finnmark dyrt Røsbø fryktar at fortsette budsjettkutt kan komme til å koste Finnmarks befolkning dyrt, – Dersom vi nå er desperate etter å vere flinkaste gut og jente i klassen for å få ting til å gå i hop økonomisk, så vil det komme med ein pris. Den prisen er eg er redd for at rammar tenestetilbodet i fylket, avsluttar han. Les også Guri reduserte ventelistene på Finnmarkssykehuset: – Så potensialet Publisert 19.02.2026, kl. 07.43 Oppdatert 20.02.2026, kl. 09.12 Finnmarkssykehuset Ingen beklagelse til lege som fikk grunnløs advarsel Rystet etter varslersakene: – Vi har sviktet på alle nivåer + Vis flere Mer om: Finnmarkssykehuset Helse Nord Sterke reaksjoner etter at hjertepasient i Nordland døde + Vis flere Mer om: Helse Nord Helseforetakene Helse­føretaket vil kutte i ambulanse­tenesta: – Det er klart vi er bekymra + Vis flere Mer om: Helseforetakene",
+    "correction_description": "Det ble feilaktig opplyst i ingressen at helseforetaket hadde hatt flere fristbrudd i fjor. Dette er fjernet og beklaget.",
+    "correction_date": "2026-02-19",
+    "news_category": "health",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 25.48
   },
   {
     "id": 1775312137157,
@@ -22500,7 +22737,8 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/taper-millioner-pa-at-folk-kjoper-feil-bussbillett-1.17391842",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "Taper millioner på at folk kjøper feil bussbillett"
   },
   {
     "id": 1775312140243,
@@ -22512,7 +22750,8 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/nrk-beklager-1.15883391",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "NRK beklager"
   },
   {
     "id": 1775312145015,
@@ -22524,6 +22763,7 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/nrk-beklager-omtale-av-jordbaerbonde-1.15503221",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "pending",
+    "headline": "NRK beklager omtale av jordbærbonde"
   }
 ]
