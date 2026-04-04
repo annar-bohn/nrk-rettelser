@@ -36,7 +36,7 @@ scraper.py  ──→  data/corrections_raw.json  ──→  enrich_qa.py  ─�
 | Workflow | Schedule | What it does |
 |----------|----------|-------------|
 | **Scrape + Enrich** (`update.yml`) | Every 6 hours | Search scan → sitemap scan → enrich-qa |
-| **Deep sitemap crawl** (`backfill_sitemap.yml`) | Weekly (Sundays 03:17) + manual | Full sitemap crawl, 90-day lookback (manual: configurable) |
+| **Deep sitemap crawl** (`backfill_sitemap.yml`) | Daily at 03:17 + manual | Full sitemap crawl, 90-day lookback, 240-min time budget, resumes via sitemap_progress.json |
 | **Backfill 2** (`backfill2.yml`) | Manual only | Search-based backfill for specific terms, then enrich |
 
 All workflows share `concurrency: group: nrk-rettelser` to prevent simultaneous runs.
@@ -92,7 +92,7 @@ All workflows share `concurrency: group: nrk-rettelser` to prevent simultaneous 
 ### Model
 **Gemini 3.1 Flash Lite** (`gemini-3.1-flash-lite-preview`) via Google AI Studio free tier
 
-- **500 RPD** (requests per day), 15 RPM, 250K TPM
+- **500 RPD** (requests per day), **15 RPM**, 250K TPM — RPM is the practical bottleneck
 - API endpoint: `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent`
 - API key stored as GitHub Secret: `GEMINI_API_KEY`
 
@@ -148,11 +148,22 @@ This is the key test article for verifying scraper coverage. It was repeatedly d
 - Deep sitemap crawl (`backfill_sitemap.py`) checks all articles, not just search results
 - The article's triggers DO match the updated scraper when the HTML is fetched directly
 
-### Current status:
-The deep sitemap crawl should find it. If it hasn't appeared in `corrections_raw.json` yet, check:
+### Current status (as of 2026-04-04):
+Not yet found. The daily sitemap crawl should find it organically over the coming days as it works through sitemaps. Check:
 ```bash
-grep -l "usaid" data/corrections_raw.json
-grep -l "hiv-smitta" data/corrections_raw.json
+grep -i "usaid\|hiv-smitta" data/corrections_raw.json
+```
+
+---
+
+## Forsvarssatsing Article (Second Test Case)
+
+**URL:** `https://www.nrk.no/tromsogfinnmark/flere-partier-forventer-solid-satsing-pa-forsvaret-i-revidert-nasjonalbudsjett-1.17416812`
+
+Another article to verify that the scraper picks up corrections from the newly added `/tromsogfinnmark/` section. This section was missing from `ARTICLE_SECTIONS` until 2026-04-04.
+
+```bash
+grep -i "forsvaret.*nasjonalbudsjett\|17416812" data/corrections_raw.json
 ```
 
 ---
@@ -161,7 +172,8 @@ grep -l "hiv-smitta" data/corrections_raw.json
 
 - **Font:** "NRK Sans Variable" with system-ui fallback
 - **Accent color:** `#1550c3` (R:21, G:80, B:195) — used for logo, card borders, links
-- **Logo:** Watchdog SVG, inline in HTML, `viewBox="340 120 410 445"`, height 9.6rem, fill `#1550c3`
+- **Logo:** Watchdog SVG (with sunglasses), inline in HTML, `viewBox="340 120 410 445"`, height 9.6rem, fill `#1550c3`
+- **Favicons:** watchdog logo PNGs (16x16, 32x32, apple-touch-icon 180x180, android-chrome 192/512), favicon.ico, site.webmanifest — all pages
 - **Tagline:** "Som vg.no/rettelser, bare for NRK"
 - **Layout:** White cards on off-white (#f0f0ee) background, red-to-blue left border accent
 - **Footer:** Correction count left, "Eksporter JSON" discrete text link right
@@ -176,7 +188,7 @@ grep -l "hiv-smitta" data/corrections_raw.json
 - **RSS feeds:** toppsaker.rss, nyheter/siste.rss, sport/siste.rss, kultur/siste.rss, livsstil/siste.rss (urix 404s)
 - **Sitemap index:** `https://www.nrk.no/sitemap.xml` — 500+ sub-sitemaps, `<lastmod>` timestamps
 - **NRK search:** `https://www.nrk.no/sok/?q="term"&scope=nrkno&from=N` — offset pagination (20/page), server-rendered HTML, no JSON API. "Neste side" link for has_next.
-- **Article sections:** `/nyheter/`, `/sport/`, `/kultur/`, `/urix/`, `/norge/`, `/livsstil/`, `/sapmi/`, `/mr/`, `/innlandet/`, `/vestland/`, `/rogaland/`, `/trondelag/`, `/nordland/`, `/sorlandet/`, `/tromsogfinnmark/`
+- **Article sections (ARTICLE_SECTIONS):** `/nyheter/`, `/sport/`, `/kultur/`, `/urix/`, `/norge/`, `/livsstil/`, `/sapmi/`, `/mr/`, `/innlandet/`, `/vestland/`, `/rogaland/`, `/trondelag/`, `/nordland/`, `/sorlandet/`, `/tromsogfinnmark/`, `/vestfoldogtelemark/`, `/vestfold/`, `/osloogviken/`, `/ostlandssendingen/`, `/viten/`, `/dokumentar/`, `/klima/` + legacy regions. Defined in 4 files: `scraper.py`, `backfill_sitemap.py`, `backfill.py`, `backfill2.py` — keep them in sync!
 - RSS feeds show **new articles only**, not recently corrected ones → RSS alone catches very few corrections
 
 ---
@@ -231,12 +243,14 @@ Excludes: `not_a_correction`, `false_positive`
 1. **NRK 403 blocks:** NRK sometimes blocks automated requests. Scripts use browser-like User-Agent headers to mitigate.
 2. **RSS doesn't surface edited articles:** Corrections are added to old articles that have dropped off the feed. The search-based approach is far more effective.
 3. **NRK search doesn't index `<aside>` fact-box content:** Articles with corrections only inside fact boxes won't appear in search results. Only sitemap crawls can find these.
-4. **GitHub Actions 6-hour timeout:** Deep sitemap crawls can exceed this. `backfill_sitemap.py` saves progress to `data/sitemap_progress.json` and resumes on re-run.
-5. **Gemini rate limits:** Free tier is 500 RPD for Flash Lite. At 4 runs/day, that's ~125 enrichments per run. Large backlogs clear over days.
-6. **Old entries with placeholder text:** Some early entries have `"Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer)."` — these are from the original scraper before extraction was improved.
-7. **Node.js 20 deprecation warning:** `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` is set but GitHub still shows warnings until action authors update their manifests.
-8. **`feedparser` needed for scraper but NOT for backfill scripts** — backfills only use `requests` + `beautifulsoup4`.
-9. **Concurrency group `nrk-rettelser`** prevents workflows from running simultaneously and corrupting data files.
+4. **GitHub Actions 6-hour timeout:** Deep sitemap crawls used to exceed this. Now mitigated by `--max-minutes 240` time budget — script exits cleanly and resumes via `sitemap_progress.json` on next daily run.
+5. **Gemini rate limits:** 15 RPM is the practical bottleneck, not 500 RPD. `enrich_qa.py` uses 4-second sleep between requests and retries up to 3× on 429 with 60/120/180s backoff. Typical throughput: ~100-200 per run.
+6. **Enrichment processes newest-first:** Pending entries sorted by date descending, capped at `--max-entries 450`. This ensures top-of-page articles get enriched before old backlog.
+7. **Time-to-correct uses `modified_date`:** Gemini's `correction_date` guess was often wrong (defaulting to scrape date). Now `time_to_correct_hours` is calculated from `publication_date` → `modified_date` (NRK metadata), with `correction_date` as fallback. Recalculated for all entries on every enrich run.
+8. **Old entries with placeholder text:** Some early entries have `"Rettelsestekst ikke tilgjengelig (opprettet av gammel versjon av scraperen – klikk lenken for detaljer)."` — these are from the original scraper before extraction was improved.
+9. **Node.js 20 deprecation warning:** `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` is set but GitHub still shows warnings until action authors update their manifests.
+10. **`feedparser` needed for scraper but NOT for backfill scripts** — backfills only use `requests` + `beautifulsoup4`.
+11. **Concurrency group `nrk-rettelser`** prevents workflows from running simultaneously and corrupting data files.
 
 ---
 
@@ -257,9 +271,26 @@ Excludes: `not_a_correction`, `false_positive`
 12. Deep sitemap crawl (`backfill_sitemap.py`) for comprehensive historical coverage
 13. Model migration: Gemini 2.0 Flash → 3.1 Flash Lite (500 RPD, clean JSON)
 14. Git/GitHub CLI setup for local development
+15. **[2026-04-04]** Daily sitemap backfill with 240-min time budget (was weekly, timed out at 6h)
+16. **[2026-04-04]** Enrichment: newest-first sorting + `--max-entries 450` cap
+17. **[2026-04-04]** Fixed time-to-correct: use `modified_date` instead of Gemini's `correction_date` guess
+18. **[2026-04-04]** Added 9 missing NRK sections: `/vestfoldogtelemark/`, `/tromsogfinnmark/`, `/viten/`, `/klima/`, etc.
+19. **[2026-04-04]** Gemini 429 retry with backoff (60/120/180s) + 4s inter-request sleep
+20. **[2026-04-04]** Favicons added (watchdog with sunglasses) across all pages + web manifest
+21. **[2026-04-04]** Comprehensive CLAUDE.md rewrite with full project context and test cases
 
 ### Recurring pain points to avoid:
 - **Always remember the USAID article** — it's the canonical test case for scraper coverage
+- **Also check the Forsvarssatsing article** — second test case for `/tromsogfinnmark/` coverage
 - **Check `qa_status` distribution** before assuming enrichment is working: `grep -c '"qa_status"' data/corrections_raw.json`
 - **Don't assume RSS catches corrections** — it doesn't, use search-based approach
 - **Test Gemini model changes locally first** with `test_enrich.py` pattern (3 articles: 2 genuine, 1 not-a-correction)
+- **ARTICLE_SECTIONS is defined in 4 files** — keep `scraper.py`, `backfill_sitemap.py`, `backfill.py`, `backfill2.py` in sync when adding sections
+- **gh CLI needs PATH** — use `export PATH="/opt/homebrew/bin:$PATH"` in bash commands
+
+### Open questions / things to monitor:
+1. **USAID article not yet found** — daily backfill should pick it up as it works through sitemaps. Monitor over coming days.
+2. **Forsvarssatsing article not yet found** — same, depends on backfill reaching `/tromsogfinnmark/` sitemaps.
+3. **Enrichment throughput** — with retry logic and 4s sleep, expect ~100-200/run. As of 2026-04-04: 1644 pending, 69 genuine. Should clear backlog in ~3-4 days.
+4. **Raw extraction quality** — correction_text_raw grabs entire `<p>` elements including article body text. Not a problem since Gemini's `correction_description` provides clean summaries, but could be improved with smarter text segmentation in the future.
+5. **`modified_date` as correction date** — more accurate than Gemini's guess for time-to-correct, but `modified_date` could reflect non-correction edits. Acceptable trade-off for now.
