@@ -266,9 +266,8 @@ def process_entry(entry):
         resp = requests.get(url, headers=HEADERS, timeout=15)
         html = resp.text
     except Exception as e:
-        print(f"  [Fetch] Error: {e}")
-        entry["qa_status"] = "uncertain"
-        return True
+        print(f"  [Fetch] Error: {e} — will retry next run")
+        return True  # leave as pending for retry
 
     meta = extract_metadata(html, url)
 
@@ -318,8 +317,8 @@ def process_entry(entry):
         return False
 
     if result is None or not isinstance(result, dict):
-        entry["qa_status"] = "uncertain"
-        return True
+        print(f"  [Gemini] No valid response — will retry next run")
+        return True  # leave as pending for retry
 
     entry["qa_status"] = result.get("qa_status", "uncertain")
     entry["correction_description"] = result.get("correction_description", "")
