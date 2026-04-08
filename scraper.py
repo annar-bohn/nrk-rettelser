@@ -12,6 +12,7 @@ Strategy:
 For deep historical backfills, use backfill_sitemap.py instead.
 """
 
+import re
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -99,9 +100,19 @@ new_count = 0
 # Helpers
 # ---------------------------------------------------------------------------
 
+# Word-boundary regex for bare single-word triggers to avoid matching
+# compound words like "henrettelse", "opprettelse", "feilretting"
+BARE_TRIGGERS_RE = re.compile(r'\b(rettelse|retting)\b', re.IGNORECASE)
+
+
 def has_trigger(text):
     t = text.lower()
-    return any(phrase in t for phrase in TRIGGERS)
+    for phrase in TRIGGERS:
+        if phrase in ("rettelse", "retting"):
+            continue  # handled by BARE_TRIGGERS_RE below
+        if phrase in t:
+            return True
+    return bool(BARE_TRIGGERS_RE.search(t))
 
 
 def is_nav_noise(text):

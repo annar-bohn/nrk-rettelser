@@ -12,6 +12,7 @@ Usage:
 """
 
 import json
+import re
 import time
 import os
 import sys
@@ -23,6 +24,7 @@ from datetime import datetime, timezone, timedelta
 
 DATA_FILE = "data/corrections_raw.json"
 PROGRESS_FILE = "data/sitemap_progress.json"
+FAILED_URLS_FILE = "data/failed_urls.json"
 os.makedirs("data", exist_ok=True)
 
 HEADERS = {"User-Agent": "NRK-Rettelser-Backfill/2.0 (+https://github.com/annar-bohn/nrk-rettelser)"}
@@ -68,9 +70,19 @@ ARTICLE_SECTIONS = (
 )
 
 
+# Word-boundary regex for bare single-word triggers to avoid matching
+# compound words like "henrettelse", "opprettelse", "feilretting"
+BARE_TRIGGERS_RE = re.compile(r'\b(rettelse|retting)\b', re.IGNORECASE)
+
+
 def has_trigger(text):
     t = text.lower()
-    return any(phrase in t for phrase in TRIGGERS)
+    for phrase in TRIGGERS:
+        if phrase in ("rettelse", "retting"):
+            continue  # handled by BARE_TRIGGERS_RE below
+        if phrase in t:
+            return True
+    return bool(BARE_TRIGGERS_RE.search(t))
 
 
 def is_nav_noise(text):
@@ -139,6 +151,76 @@ def save_progress(progress):
         json.dump(progress, f)
 
 
+def load_failed_urls():
+    if os.path.exists(FAILED_URLS_FILE):
+        with open(FAILED_URLS_FILE) as f:
+            return json.load(f)
+    return []
+
+
+def save_failed_urls(failed_urls):
+    with open(FAILED_URLS_FILE, "w", encoding="utf-8") as f:
+        json.dump(failed_urls, f, ensure_ascii=False, indent=2)
+
+
+def fetch_with_retry(url, max_retries=2):
+    """Fetch URL with retry on transient errors (403, 429, 5xx, timeout)."""
+    for attempt in range(max_retries + 1):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+            if r.status_code in (403, 429) and attempt < max_retries:
+                wait = 3 * (2 ** attempt)  # 3s, 6s
+                print(f"    [{r.status_code}] Retry {attempt + 1}/{max_retries} in {wait}s: {url[:70]}")
+                time.sleep(wait)
+                continue
+            if r.status_code >= 500 and attempt < max_retries:
+                time.sleep(3)
+                continue
+            return r
+        except (requests.ConnectionError, requests.Timeout) as e:
+            if attempt < max_retries:
+                time.sleep(3)
+                continue
+            raise
+    return r  # return last response even if bad status
+
+
+def process_article(url, corrections, existing_urls):
+    """Fetch and process a single article URL. Returns True if a correction was found."""
+    r = fetch_with_retry(url)
+    if r.status_code != 200:
+        print(f"    SKIP [{r.status_code}]: {url[:80]}")
+        return False
+
+    soup = BeautifulSoup(r.text, "html.parser")
+
+    if not has_trigger(soup.get_text()):
+        return False
+
+    correction_block = extract_correction_blocks(soup)
+    if correction_block is None:
+        return False
+
+    title = extract_page_title(soup) or url
+    pub_date = extract_pub_date(soup) or ""
+
+    corrections.append({
+        "id": int(time.time() * 1000),
+        "date": pub_date,
+        "title": title,
+        "what": "Feil i tidligere versjon (automatisk oppdaget)",
+        "correction_text_raw": correction_block,
+        "correction": correction_block,
+        "url": url,
+        "auto": True,
+        "source": "sitemap_backfill",
+        "qa_status": "pending",
+    })
+    existing_urls.add(url)
+    print(f"  -> Rettelse: {title[:70]}")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, default=730, help="Look back N days (default 730)")
@@ -160,17 +242,58 @@ def main():
     existing_urls = {c["url"] for c in corrections}
     progress = load_progress()
     completed_sitemaps = set(progress.get("completed_sitemaps", []))
+    failed_urls = load_failed_urls()
 
     print(f"Loaded {len(corrections)} existing entries.")
     print(f"Already completed {len(completed_sitemaps)} sitemaps.")
     print(f"Cutoff: {cutoff.isoformat()[:10]} ({args.days} days back)")
 
-    # Fetch sitemap index
+    total_checked = 0
+    total_new = 0
+    total_errors = 0
+
+    # --- Phase 1: Retry previously failed URLs ---
+    now = datetime.now(timezone.utc)
+    retry_candidates = [
+        f for f in failed_urls
+        if f.get("retry_count", 0) < 5
+        and f["url"] not in existing_urls
+    ]
+    still_failed = [f for f in failed_urls if f not in retry_candidates]
+
+    if retry_candidates:
+        print(f"\nRetrying {len(retry_candidates)} previously failed URLs...")
+        for entry in retry_candidates:
+            try:
+                found = process_article(entry["url"], corrections, existing_urls)
+                if found:
+                    total_new += 1
+                total_checked += 1
+                # Success — don't add back to failed list
+            except Exception as e:
+                entry["retry_count"] = entry.get("retry_count", 0) + 1
+                entry["last_error"] = str(e)
+                entry["last_retry"] = now.isoformat()
+                still_failed.append(entry)
+                print(f"  FAIL [{type(e).__name__}]: {entry['url'][:70]} — {e}")
+                total_errors += 1
+                total_checked += 1
+            time.sleep(0.5)
+
+        failed_urls = still_failed
+        save_failed_urls(failed_urls)
+        # Save corrections after retry phase
+        with open(DATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(corrections, f, ensure_ascii=False, indent=2)
+        print(f"Retry phase done: {len(retry_candidates) - len(still_failed) + len([f for f in failed_urls if f in still_failed])} resolved")
+
+    # --- Phase 2: Process new sitemaps ---
     try:
         r = requests.get("https://www.nrk.no/sitemap.xml", headers=HEADERS, timeout=15)
         root = ET.fromstring(r.text)
     except Exception as e:
         print(f"Could not fetch sitemap index: {e}")
+        save_failed_urls(failed_urls)
         return
 
     all_sitemaps = []
@@ -179,10 +302,7 @@ def main():
         if loc and loc not in completed_sitemaps:
             all_sitemaps.append(loc)
 
-    print(f"Sitemaps to process: {len(all_sitemaps)} (skipping {len(completed_sitemaps)} done)")
-
-    total_checked = 0
-    total_new = 0
+    print(f"\nSitemaps to process: {len(all_sitemaps)} (skipping {len(completed_sitemaps)} done)")
 
     for sm_idx, sm_url in enumerate(all_sitemaps[: args.max_sitemaps]):
         print(f"\n[{sm_idx + 1}/{min(len(all_sitemaps), args.max_sitemaps)}] {sm_url}")
@@ -216,47 +336,26 @@ def main():
 
         print(f"  {len(urls_to_check)} URLs to check (after filters)")
         sm_new = 0
+        sm_errors = 0
 
         for url in urls_to_check:
             try:
-                r = requests.get(url, headers=HEADERS, timeout=10)
-                if r.status_code != 200:
-                    continue
-                soup = BeautifulSoup(r.text, "html.parser")
-
-                if not has_trigger(soup.get_text()):
-                    total_checked += 1
-                    continue
-
-                correction_block = extract_correction_blocks(soup)
-                if correction_block is None:
-                    total_checked += 1
-                    continue
-
-                title = extract_page_title(soup) or url
-                pub_date = extract_pub_date(soup) or ""
-
-                corrections.append({
-                    "id": int(time.time() * 1000),
-                    "date": pub_date,
-                    "title": title,
-                    "what": "Feil i tidligere versjon (automatisk oppdaget)",
-                    "correction_text_raw": correction_block,
-                    "correction": correction_block,
-                    "url": url,
-                    "auto": True,
-                    "source": "sitemap_backfill",
-                    "qa_status": "pending",
-                })
-                existing_urls.add(url)
-                sm_new += 1
-                total_new += 1
+                found = process_article(url, corrections, existing_urls)
+                if found:
+                    sm_new += 1
+                    total_new += 1
                 total_checked += 1
-                print(f"  -> Rettelse: {title[:70]}")
-
             except Exception as e:
+                failed_urls.append({
+                    "url": url,
+                    "error": str(e),
+                    "timestamp": now.isoformat(),
+                    "retry_count": 0,
+                })
+                print(f"  FAIL [{type(e).__name__}]: {url[:70]} — {e}")
+                sm_errors += 1
+                total_errors += 1
                 total_checked += 1
-                continue
 
             time.sleep(0.5)  # Be polite to NRK
 
@@ -264,11 +363,13 @@ def main():
         completed_sitemaps.add(sm_url)
         progress["completed_sitemaps"] = list(completed_sitemaps)
         save_progress(progress)
+        save_failed_urls(failed_urls)
 
         with open(DATA_FILE, "w", encoding="utf-8") as f:
             json.dump(corrections, f, ensure_ascii=False, indent=2)
 
-        print(f"  Done: {sm_new} new corrections, {total_checked} total checked so far")
+        error_note = f", {sm_errors} errors" if sm_errors else ""
+        print(f"  Done: {sm_new} new corrections{error_note}, {total_checked} total checked so far")
 
         elapsed_min = (time.time() - start_time) / 60
         if elapsed_min > args.max_minutes:
@@ -279,6 +380,8 @@ def main():
     print(f"Sitemap backfill complete!")
     print(f"Checked: {total_checked} articles")
     print(f"New corrections: {total_new}")
+    print(f"Errors: {total_errors}")
+    print(f"Failed URLs pending retry: {len(failed_urls)}")
     print(f"Total entries: {len(corrections)}")
 
 
