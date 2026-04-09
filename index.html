@@ -269,6 +269,11 @@
     <select id="filterType" onchange="filterList()">
       <option value="">Alle feiltyper</option>
     </select>
+    <select id="sortBy" onchange="filterList()">
+      <option value="date">Nyeste først</option>
+      <option value="date_asc">Eldste først</option>
+      <option value="correction_length">Lengste rettelse</option>
+    </select>
   </div>
   <div id="list"></div>
 </main>
@@ -423,7 +428,14 @@
       });
     }
 
-    filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
+    const sortBy = document.getElementById('sortBy').value;
+    if (sortBy === 'date_asc') {
+      filtered.sort((a,b) => new Date(a.date) - new Date(b.date));
+    } else if (sortBy === 'correction_length') {
+      filtered.sort((a,b) => (b.correction_text_raw || b.correction || '').length - (a.correction_text_raw || a.correction || '').length);
+    } else {
+      filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
+    }
     renderList(filtered);
   }
 

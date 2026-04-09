@@ -108,35 +108,36 @@ def is_nav_noise(text):
 
 
 def extract_correction_blocks(soup):
+    """Three-pass extraction — runs all passes and deduplicates."""
     blocks = []
     for el in soup.find_all("p"):
         text = el.get_text(strip=True)
-        if not text or len(text) > 800:
-            continue
-        if is_nav_noise(text):
+        if not text or len(text) > 2000 or is_nav_noise(text):
             continue
         if has_trigger(text):
-            blocks.append(text[:700])
-    if not blocks:
-        for el in soup.find_all(["aside", "blockquote"]):
-            text = el.get_text(strip=True)
-            if not text or len(text) > 500:
-                continue
-            if is_nav_noise(text):
-                continue
-            if has_trigger(text):
-                blocks.append(text[:700])
+            blocks.append(text[:2000])
+    for el in soup.find_all(["aside", "blockquote"]):
+        text = el.get_text(strip=True)
+        if not text or len(text) > 2000 or is_nav_noise(text):
+            continue
+        if has_trigger(text):
+            blocks.append(text[:2000])
     if not blocks:
         for el in soup.find_all("div"):
             if el.find(["p", "div"]):
                 continue
             text = el.get_text(strip=True)
-            if not text or len(text) > 400:
-                continue
-            if is_nav_noise(text):
+            if not text or len(text) > 2000 or is_nav_noise(text):
                 continue
             if has_trigger(text):
-                blocks.append(text[:700])
+                blocks.append(text[:2000])
+    if len(blocks) > 1:
+        blocks.sort(key=len, reverse=True)
+        deduped = []
+        for b in blocks:
+            if not any(b in existing for existing in deduped):
+                deduped.append(b)
+        blocks = deduped
     return " | ".join(blocks) if blocks else None
 
 

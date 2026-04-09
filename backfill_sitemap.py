@@ -91,30 +91,45 @@ def is_nav_noise(text):
 
 
 def extract_correction_blocks(soup):
-    """Three-pass extraction matching scraper.py logic."""
+    """Three-pass extraction — runs all passes and deduplicates.
+
+    Pass 1: <p> tags (most common, clean text)
+    Pass 2: <aside>/<blockquote> (fact-box corrections, often longer/richer)
+    Pass 3: Leaf <div> elements (last resort)
+
+    All passes always run so we capture both short trigger paragraphs
+    AND longer fact-box corrections from the same article.
+    """
     blocks = []
     for el in soup.find_all("p"):
         text = el.get_text(strip=True)
-        if not text or len(text) > 800 or is_nav_noise(text):
+        if not text or len(text) > 2000 or is_nav_noise(text):
             continue
         if has_trigger(text):
             blocks.append(text[:2000])
-    if not blocks:
-        for el in soup.find_all(["aside", "blockquote"]):
-            text = el.get_text(strip=True)
-            if not text or len(text) > 2000 or is_nav_noise(text):
-                continue
-            if has_trigger(text):
-                blocks.append(text[:2000])
+    for el in soup.find_all(["aside", "blockquote"]):
+        text = el.get_text(strip=True)
+        if not text or len(text) > 2000 or is_nav_noise(text):
+            continue
+        if has_trigger(text):
+            blocks.append(text[:2000])
     if not blocks:
         for el in soup.find_all("div"):
             if el.find(["p", "div"]):
                 continue
             text = el.get_text(strip=True)
-            if not text or len(text) > 800 or is_nav_noise(text):
+            if not text or len(text) > 2000 or is_nav_noise(text):
                 continue
             if has_trigger(text):
                 blocks.append(text[:2000])
+    # Deduplicate: remove blocks that are substrings of longer blocks
+    if len(blocks) > 1:
+        blocks.sort(key=len, reverse=True)
+        deduped = []
+        for b in blocks:
+            if not any(b in existing for existing in deduped):
+                deduped.append(b)
+        blocks = deduped
     return " | ".join(blocks) if blocks else None
 
 
