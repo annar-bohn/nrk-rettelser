@@ -166,12 +166,36 @@
     }
 
     .correction-description {
-      font-size: 0.85rem;
-      color: #666;
-      font-style: italic;
-      line-height: 1.5;
+      font-size: 0.88rem;
+      color: #333;
+      line-height: 1.55;
       margin-bottom: 0.3rem;
     }
+
+    .raw-toggle {
+      background: none;
+      border: none;
+      color: #1550c3;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0.2rem 0;
+      letter-spacing: 0.02em;
+    }
+    .raw-toggle:hover { text-decoration: underline; }
+
+    .correction-raw {
+      display: none;
+      font-size: 0.8rem;
+      color: #666;
+      line-height: 1.5;
+      margin-top: 0.3rem;
+      padding: 0.6rem 0.8rem;
+      background: #f8f8f6;
+      border-left: 2px solid #ddd;
+      border-radius: 2px;
+    }
+    .correction-raw.open { display: block; }
 
     .correction-byline {
       display: flex;
@@ -375,8 +399,11 @@
       const catLabel = CATEGORY_LABELS[c.news_category];
       const typeLabel = TYPE_LABELS[c.correction_type];
       const ttc = formatTimeToCorrect(c.time_to_correct_hours);
-      const corrText = c.correction || c.what || '';
-      const hasDesc = c.correction_description && c.correction_description !== corrText;
+      const rawText = c.correction || c.what || '';
+      const cleanText = c.correction_text_extract || '';
+      const corrText = cleanText || rawText;
+      const hasDesc = c.correction_description && c.correction_description.length > 5;
+      const itemId = 'raw-' + (c.id || Math.random().toString(36).slice(2));
 
       let meta = '';
       if (catLabel || typeLabel || c.nrk_section) {
@@ -387,8 +414,18 @@
         meta += '</div>';
       }
 
-      let desc = '';
-      if (hasDesc) desc = `<p class="correction-description">${esc(c.correction_description)}</p>`;
+      // Show enriched description prominently, correction text (clean or raw) as collapsible
+      let mainText = '';
+      let rawBlock = '';
+      if (hasDesc) {
+        mainText = `<p class="correction-description">${esc(c.correction_description)}</p>`;
+        if (corrText && corrText.length > 20) {
+          rawBlock = `<button class="raw-toggle" onclick="document.getElementById('${itemId}').classList.toggle('open');this.textContent=this.textContent==='Vis originaltekst ▸'?'Skjul originaltekst ▾':'Vis originaltekst ▸'">Vis originaltekst ▸</button><div class="correction-raw" id="${itemId}">${esc(corrText)}</div>`;
+        }
+      } else {
+        // No enriched description yet — show raw text directly
+        mainText = `<p class="correction-text">${esc(corrText)}</p>`;
+      }
 
       let byline = '';
       const parts = [];
@@ -401,8 +438,8 @@
         <div class="correction-date">${esc(formatDate(c.date))}</div>
         ${meta}
         <div class="correction-title">${esc(c.title || '')}</div>
-        ${desc}
-        <p class="correction-text">${esc(corrText)}</p>
+        ${mainText}
+        ${rawBlock}
         ${byline}
         <a class="correction-link" href="${esc(c.url)}" target="_blank" rel="noopener">Les artikkelen →</a>
       </div>`;
@@ -423,7 +460,7 @@
       filtered = filtered.filter(c => {
         const catLabel = CATEGORY_LABELS[c.news_category] || '';
         const typeLabel = TYPE_LABELS[c.correction_type] || '';
-        return [c.title, c.correction, c.what, catLabel, typeLabel, c.journalist, c.correction_description]
+        return [c.title, c.correction, c.what, catLabel, typeLabel, c.journalist, c.correction_description, c.correction_text_extract]
           .some(t => t && t.toLowerCase().includes(term));
       });
     }

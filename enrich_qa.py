@@ -50,9 +50,9 @@ Rettelsesdato (fra scraper): {correction_date_raw}
 
 Oppgave:
 1. Klassifiser om dette er en ekte rettelse. Svar med ett av:
-   - genuine_correction — artikkelen inneholder en tydelig rettelse, presisering eller beklagelse
+   - genuine_correction — artikkelen inneholder en tydelig rettelse, presisering eller beklagelse der NRK innrømmer en feil
    - uncertain — det er uklart om dette er en reell rettelse
-   - not_a_correction — dette er IKKE en rettelse (f.eks. vanlig oppdatering, falsk positiv fra scraper)
+   - not_a_correction — dette er IKKE en rettelse. Eksempler: vanlig oppdatering med ny informasjon (f.eks. «etter publisering har X skjedd»), løpende nyhetssaker som oppdateres med nye fakta, artikler som er oppdatert uten at NRK har gjort noe feil, falsk positiv fra scraper
 
 2. Trekk ut en kort beskrivelse av hva som ble rettet (maks 200 tegn), på norsk. Hvis usikkert eller ikke en rettelse, sett tom streng.
 
@@ -67,12 +67,15 @@ Oppgave:
 6. Journalist (bekreft eller korriger): bruk informasjon fra artikkelen. Tom streng hvis ukjent.
 
 7. Ansvarlig redaktør: bruk informasjon fra artikkelen. Tom streng hvis ukjent.
+
+8. Trekk ut den eksakte rettelsesteksten (correction_text_extract) — kopier ordrett den delen av artikkelen som omhandler rettelsen/presiseringen/beklagelsen. Start fra der rettelsesnotisen begynner (f.eks. «NRK retter:», «Rettelse:», «Presisering:» osv.) og inkluder hele rettelsesavsnittet. Ikke ta med artikkelens vanlige innhold, AI-oppsummeringer eller navigasjon. Maks 2000 tegn. Tom streng hvis ikke en rettelse.
 {custom_fields_instructions}
 
 Svar KUN med gyldig JSON i dette formatet (ingen markdown, ingen forklaringer utenfor JSON):
 {{
   "qa_status": "genuine_correction" | "uncertain" | "not_a_correction",
   "correction_description": "...",
+  "correction_text_extract": "...",
   "correction_date": "YYYY-MM-DD" | null,
   "news_category": "...",
   "correction_type": "...",
@@ -322,6 +325,7 @@ def process_entry(entry):
 
     entry["qa_status"] = result.get("qa_status", "uncertain")
     entry["correction_description"] = result.get("correction_description", "")
+    entry["correction_text_extract"] = result.get("correction_text_extract", "")
     entry["correction_date"] = result.get("correction_date")
     entry["news_category"] = result.get("news_category", "other")
     entry["correction_type"] = result.get("correction_type", "other")
@@ -428,6 +432,7 @@ def run(raw_path, output_path, max_entries=450):
             "correction": entry.get("correction_text_raw") or entry.get("correction", ""),
             "correction_text_raw": entry.get("correction_text_raw") or entry.get("correction", ""),
             "correction_description": entry.get("correction_description", ""),
+            "correction_text_extract": entry.get("correction_text_extract", ""),
             "correction_date": entry.get("correction_date"),
             "qa_status": status,
             "nrk_section": entry.get("nrk_section", ""),
