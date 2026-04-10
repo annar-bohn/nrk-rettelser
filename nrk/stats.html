@@ -228,7 +228,7 @@
 
 <footer>
   <span id="count"></span>
-  <a href="./data/corrections.json" download class="export-link">Eksporter JSON</a>
+  <a href="../data/corrections.json" download class="export-link">Eksporter JSON</a>
 </footer>
 
 <script>
@@ -582,7 +582,7 @@
   // ── Main data load ─────────────────────────────────────────────────────────
   async function loadData() {
     try {
-      const resp = await fetch('./data/corrections.json?t=' + Date.now());
+      const resp = await fetch('../data/corrections.json?t=' + Date.now());
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       allEntries = await resp.json();
     } catch (e) {
