@@ -309,7 +309,11 @@
 
 <script>
   let corrections = [];
-  const DATA_URL = "https://raw.githubusercontent.com/annar-bohn/nrk-rettelser/main/data/corrections.json";
+  let currentFiltered = [];
+  const BATCH_SIZE = 50;
+  let renderedCount = 0;
+  let isLoadingMore = false;
+  const DATA_URL = "../data/corrections.json";
 
   const CATEGORY_LABELS = {
     sports: 'Sport', culture: 'Kultur', politics: 'Politikk',
@@ -334,7 +338,6 @@
     try {
       const res = await fetch(DATA_URL + "?t=" + Date.now());
       corrections = await res.json();
-      localStorage.setItem('nrkCorrections', JSON.stringify(corrections));
       populateFilters();
       filterList();
     } catch(e) { /* fail silently, show cached */ }
@@ -384,66 +387,81 @@
     catSelect.value = prevCat; typeSelect.value = prevType;
   }
 
+  function renderItem(c) {
+    const catLabel = CATEGORY_LABELS[c.news_category];
+    const typeLabel = TYPE_LABELS[c.correction_type];
+    const ttc = formatTimeToCorrect(c.time_to_correct_hours);
+    const rawText = c.correction || c.what || '';
+    const cleanText = c.correction_text_extract || '';
+    const corrText = cleanText || rawText;
+    const hasDesc = c.correction_description && c.correction_description.length > 5;
+    const itemId = 'raw-' + (c.id || Math.random().toString(36).slice(2));
+
+    let meta = '';
+    if (catLabel || typeLabel || c.nrk_section) {
+      meta = '<div class="correction-meta">';
+      if (catLabel) meta += `<span class="badge">${esc(catLabel)}</span>`;
+      if (typeLabel) meta += `<span class="badge badge--type">${esc(typeLabel)}</span>`;
+      if (c.nrk_section) meta += `<span class="correction-section">${esc(c.nrk_section)}</span>`;
+      meta += '</div>';
+    }
+
+    let mainText = '';
+    let rawBlock = '';
+    if (hasDesc) {
+      mainText = `<p class="correction-description">${esc(c.correction_description)}</p>`;
+      if (corrText && corrText.length > 20) {
+        rawBlock = `<button class="raw-toggle" onclick="document.getElementById('${itemId}').classList.toggle('open');this.textContent=this.textContent==='Vis originaltekst ▸'?'Skjul originaltekst ▾':'Vis originaltekst ▸'">Vis originaltekst ▸</button><div class="correction-raw" id="${itemId}">${esc(corrText)}</div>`;
+      }
+    } else {
+      mainText = `<p class="correction-text">${esc(corrText)}</p>`;
+    }
+
+    let byline = '';
+    const parts = [];
+    if (c.journalist) parts.push(esc(c.journalist));
+    if (ttc) parts.push('Rettetid: ' + esc(ttc));
+    if (parts.length) byline = `<div class="correction-byline">${parts.join('<span class="sep">&middot;</span>')}</div>`;
+
+    return `
+    <div class="correction-item">
+      <div class="correction-date">${esc(formatDate(c.date))}</div>
+      ${meta}
+      <div class="correction-title">${esc(c.title || '')}</div>
+      ${mainText}
+      ${rawBlock}
+      ${byline}
+      <a class="correction-link" href="${esc(c.url)}" target="_blank" rel="noopener">Les artikkelen →</a>
+    </div>`;
+  }
+
   function renderList(list) {
-    const src = list !== undefined ? list : [...corrections].sort((a,b) => new Date(b.date) - new Date(a.date));
+    currentFiltered = list !== undefined ? list : [...corrections].sort((a,b) => new Date(b.date) - new Date(a.date));
+    renderedCount = 0;
     const container = document.getElementById('list');
 
-    if (!src.length) {
+    if (!currentFiltered.length) {
       container.innerHTML = '<p class="empty">Ingen treff</p>';
       document.getElementById('count').textContent = '';
       return;
     }
 
-    document.getElementById('count').textContent = src.length.toLocaleString('no-NO') + ' rettelser';
-    container.innerHTML = src.map(c => {
-      const catLabel = CATEGORY_LABELS[c.news_category];
-      const typeLabel = TYPE_LABELS[c.correction_type];
-      const ttc = formatTimeToCorrect(c.time_to_correct_hours);
-      const rawText = c.correction || c.what || '';
-      const cleanText = c.correction_text_extract || '';
-      const corrText = cleanText || rawText;
-      const hasDesc = c.correction_description && c.correction_description.length > 5;
-      const itemId = 'raw-' + (c.id || Math.random().toString(36).slice(2));
+    document.getElementById('count').textContent = currentFiltered.length.toLocaleString('no-NO') + ' rettelser';
+    container.innerHTML = '';
+    renderMore();
+  }
 
-      let meta = '';
-      if (catLabel || typeLabel || c.nrk_section) {
-        meta = '<div class="correction-meta">';
-        if (catLabel) meta += `<span class="badge">${esc(catLabel)}</span>`;
-        if (typeLabel) meta += `<span class="badge badge--type">${esc(typeLabel)}</span>`;
-        if (c.nrk_section) meta += `<span class="correction-section">${esc(c.nrk_section)}</span>`;
-        meta += '</div>';
-      }
-
-      // Show enriched description prominently, correction text (clean or raw) as collapsible
-      let mainText = '';
-      let rawBlock = '';
-      if (hasDesc) {
-        mainText = `<p class="correction-description">${esc(c.correction_description)}</p>`;
-        if (corrText && corrText.length > 20) {
-          rawBlock = `<button class="raw-toggle" onclick="document.getElementById('${itemId}').classList.toggle('open');this.textContent=this.textContent==='Vis originaltekst ▸'?'Skjul originaltekst ▾':'Vis originaltekst ▸'">Vis originaltekst ▸</button><div class="correction-raw" id="${itemId}">${esc(corrText)}</div>`;
-        }
-      } else {
-        // No enriched description yet — show raw text directly
-        mainText = `<p class="correction-text">${esc(corrText)}</p>`;
-      }
-
-      let byline = '';
-      const parts = [];
-      if (c.journalist) parts.push(esc(c.journalist));
-      if (ttc) parts.push('Rettetid: ' + esc(ttc));
-      if (parts.length) byline = `<div class="correction-byline">${parts.join('<span class="sep">&middot;</span>')}</div>`;
-
-      return `
-      <div class="correction-item">
-        <div class="correction-date">${esc(formatDate(c.date))}</div>
-        ${meta}
-        <div class="correction-title">${esc(c.title || '')}</div>
-        ${mainText}
-        ${rawBlock}
-        ${byline}
-        <a class="correction-link" href="${esc(c.url)}" target="_blank" rel="noopener">Les artikkelen →</a>
-      </div>`;
-    }).join('');
+  function renderMore() {
+    if (isLoadingMore || renderedCount >= currentFiltered.length) return;
+    isLoadingMore = true;
+    const container = document.getElementById('list');
+    const end = Math.min(renderedCount + BATCH_SIZE, currentFiltered.length);
+    const fragment = document.createRange().createContextualFragment(
+      currentFiltered.slice(renderedCount, end).map(renderItem).join('')
+    );
+    container.appendChild(fragment);
+    renderedCount = end;
+    isLoadingMore = false;
   }
 
   function filterList() {
@@ -487,12 +505,15 @@
 
   window.addEventListener('load', () => {
     document.getElementById('list').innerHTML = '<p class="empty">Laster…</p>';
-    try {
-      const saved = localStorage.getItem('nrkCorrections');
-      if (saved) { corrections = JSON.parse(saved); populateFilters(); filterList(); }
-    } catch(e) {}
     loadRemoteData();
     setInterval(loadRemoteData, 30 * 60 * 1000);
+  });
+
+  window.addEventListener('scroll', () => {
+    if (renderedCount >= currentFiltered.length) return;
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 600) {
+      renderMore();
+    }
   });
 </script>
 
