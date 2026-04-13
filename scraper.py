@@ -83,7 +83,7 @@ ARTICLE_SECTIONS = (
 )
 
 # Nav/boilerplate text that signals we've matched the wrong element
-NAV_NOISE = ("hopp til innhold", "nrk tv", "nrk radio", "nrk super", "nrk p3")
+NAV_NOISE = ("hopp til innhold", "nrk tv", "nrk radio", "nrk super", "nrk p3", "siste meldinger")
 
 # Load existing corrections
 if os.path.exists(DATA_FILE):
