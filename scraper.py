@@ -135,6 +135,11 @@ def trim_to_correction(text):
     """
     t_lower = text.lower()
 
+    # Check if text already starts with a trigger-like word (possibly
+    # joined without space, e.g. "RETTINGDet", "Rettelser:", "RETTELSEN:")
+    if re.match(r'(?i)(rettels\w*|retting\w*|presisering\w*|korrigering\w*)', t_lower):
+        return text  # already starts at correction, no trimming needed
+
     # First pass: look for strong triggers only (multi-word phrases)
     earliest_pos = len(text)
     for phrase in TRIGGERS:

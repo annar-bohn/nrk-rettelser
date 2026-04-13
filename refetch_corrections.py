@@ -59,6 +59,10 @@ def is_nav_noise(text):
 def trim_to_correction(text):
     t_lower = text.lower()
 
+    # Check if text already starts with a trigger-like word
+    if re.match(r'(?i)(rettels\w*|retting\w*|presisering\w*|korrigering\w*)', t_lower):
+        return text
+
     earliest_pos = len(text)
     for phrase in TRIGGERS:
         if phrase in ("rettelse", "retting"):
