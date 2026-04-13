@@ -120,6 +120,71 @@ def is_nav_noise(text):
     return any(t.startswith(prefix) for prefix in NAV_NOISE)
 
 
+def trim_to_correction(text):
+    """Trim text to start from the sentence containing the first trigger phrase.
+
+    Large container elements (aside, blockquote, div) often include article
+    intro, image captions, or AI-summary boilerplate before the actual
+    correction notice.  This function finds the first trigger phrase and
+    walks back to the start of that sentence so we keep only the
+    correction-relevant text.
+
+    Prefers strong multi-word triggers (e.g. "NRK retter:", "Rettelse:",
+    "I en tidligere versjon") over bare "rettelse"/"retting" which often
+    appear in non-correction contexts ("retting av prøver", etc.).
+    """
+    t_lower = text.lower()
+
+    # First pass: look for strong triggers only (multi-word phrases)
+    earliest_pos = len(text)
+    for phrase in TRIGGERS:
+        if phrase in ("rettelse", "retting"):
+            continue  # skip bare words in first pass
+        pos = t_lower.find(phrase)
+        if pos != -1 and pos < earliest_pos:
+            earliest_pos = pos
+
+    # Second pass: fall back to bare "rettelse"/"retting" only if no
+    # strong trigger was found
+    if earliest_pos == len(text):
+        m = BARE_TRIGGERS_RE.search(t_lower)
+        if m:
+            earliest_pos = m.start()
+
+    if earliest_pos == len(text):
+        return text  # no trigger found, return as-is
+
+    # Walk back to sentence boundary
+    chunk = text[:earliest_pos]
+
+    # Try ". " first (normal sentence boundary)
+    boundary = chunk.rfind(". ")
+    if boundary != -1:
+        trimmed = text[boundary + 2:].strip()
+        return trimmed if trimmed else text
+
+    # Try "." right before the trigger (HTML joins elements without
+    # spaces, e.g. "kroner.Rettelse:" or "gjennomføre.RETTELSE:")
+    if chunk.endswith("."):
+        trimmed = text[earliest_pos:].strip()
+        return trimmed if trimmed else text
+
+    # Try "." followed by uppercase earlier in the chunk
+    m = re.search(r'\.[A-ZÆØÅ][^.]*$', chunk)
+    if m:
+        trimmed = text[m.start() + 1:].strip()
+        return trimmed if trimmed else text
+
+    # Try newline
+    last_nl = chunk.rfind("\n")
+    if last_nl != -1:
+        trimmed = text[last_nl + 1:].strip()
+        return trimmed if trimmed else text
+
+    # No boundary found — trim from start of string
+    return text.strip()
+
+
 def extract_correction_blocks(soup):
     """
     Return the correction text(s) found in the article, or None if nothing
@@ -134,21 +199,22 @@ def extract_correction_blocks(soup):
     """
     blocks = []
 
-    # Pass 1: <p> elements
+    # Pass 1: <p> elements — usually clean, but trim if needed
     for el in soup.find_all("p"):
         text = el.get_text(strip=True)
         if not text or len(text) > 2000 or is_nav_noise(text):
             continue
         if has_trigger(text):
-            blocks.append(text[:2000])
+            blocks.append(trim_to_correction(text)[:2000])
 
     # Pass 2: semantic elements like <aside> fact-boxes and <blockquote>
+    # These often include surrounding article content, so always trim
     for el in soup.find_all(["aside", "blockquote"]):
         text = el.get_text(strip=True)
         if not text or len(text) > 2000 or is_nav_noise(text):
             continue
         if has_trigger(text):
-            blocks.append(text[:2000])
+            blocks.append(trim_to_correction(text)[:2000])
 
     # Pass 3: small <div>s as a last resort
     if not blocks:
@@ -159,7 +225,7 @@ def extract_correction_blocks(soup):
             if not text or len(text) > 2000 or is_nav_noise(text):
                 continue
             if has_trigger(text):
-                blocks.append(text[:2000])
+                blocks.append(trim_to_correction(text)[:2000])
 
     # Deduplicate: remove blocks that are substrings of longer blocks
     if len(blocks) > 1:
