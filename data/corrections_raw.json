@@ -45181,5 +45181,17 @@
     "news_category": "crime",
     "correction_type": "other",
     "time_to_correct_hours": 12219.65
+  },
+  {
+    "id": 1776650591659,
+    "date": "2026-04-19T15:13:16+02:00",
+    "title": "Tidligste vår på 30 år: Tok et bad på årets første snøfrie dag",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "KORRIGERING: I en tidligere versjon av denne saken meldte NRK at det var rekordtidlig snøfritt i Tromsø. En kontrollmåling søndag morgen bekreftet at man må 30 år tilbake i tid for å finne en like tidlig snøfri dag ved Vervarslinga i Nord-Norge.",
+    "correction": "KORRIGERING: I en tidligere versjon av denne saken meldte NRK at det var rekordtidlig snøfritt i Tromsø. En kontrollmåling søndag morgen bekreftet at man må 30 år tilbake i tid for å finne en like tidlig snøfri dag ved Vervarslinga i Nord-Norge.",
+    "url": "https://www.nrk.no/tromsogfinnmark/historisk-rekord-i-tromso_-tok-ta-et-bad-pa-arets-forste-snofrie-dag-1.17852634",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
