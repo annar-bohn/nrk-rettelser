@@ -45207,5 +45207,29 @@
     "news_category": "weather",
     "correction_type": "factual_error",
     "time_to_correct_hours": 6.24
+  },
+  {
+    "id": 1776884651415,
+    "date": "2026-04-20T20:21:02+02:00",
+    "title": "Lastebilsjåfør kjørte av veien med 1,64 i promille: – Det er i det øvre sjiktet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: NRK har i ettertid endret anonymiseringen av traileren ytterligere. Dette skjedde 22.04.2026 kl. 16.00.",
+    "correction": "RETTELSE: NRK har i ettertid endret anonymiseringen av traileren ytterligere. Dette skjedde 22.04.2026 kl. 16.00.",
+    "url": "https://www.nrk.no/ostfold/lastebilsjafor-kjorte-av-veien-med-1_64-i-promille-1.17853733",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1776884652159,
+    "date": "2026-04-22T15:04:19+02:00",
+    "title": "Delt syn på Ulefoss etter statlig overtakelse: – Redd kommunen går glipp av inntekter",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon av denne saken skrev NRK at ordfører Linda Thorstensen hadde opplevd press fra eget parti for å overlate den videre behandlingen av utviklingsarbeidet på Fensfeltet til staten. Det var ikke det ordføreren sa i intervjuet. NRK beklager at det ble fremstilt slik.",
+    "correction": "RETTELSE: I en tidligere versjon av denne saken skrev NRK at ordfører Linda Thorstensen hadde opplevd press fra eget parti for å overlate den videre behandlingen av utviklingsarbeidet på Fensfeltet til staten. Det var ikke det ordføreren sa i intervjuet. NRK beklager at det ble fremstilt slik.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/fensfeltet-i-nome_-frykter-tapte-inntekter-etter-statlig-overtakelse-1.17856323",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
