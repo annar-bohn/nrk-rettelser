@@ -45285,5 +45285,17 @@
     "news_category": "world",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 6.35
+  },
+  {
+    "id": 1776970816715,
+    "date": "2026-04-23T07:46:57+02:00",
+    "title": "Tog frontkolliderte: Fem er kritisk skadd",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av saken siterte NRK borgermesteren på at det var tolv kritisk skadde. Hun har senere fjernet dette fra meldingen sin.",
+    "correction": "I en tidligere versjon av saken siterte NRK borgermesteren på at det var tolv kritisk skadde. Hun har senere fjernet dette fra meldingen sin.",
+    "url": "https://www.nrk.no/urix/tog-frontkollidert_-fem-er-kritiske-skadd-1.17857783",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
