@@ -45311,5 +45311,17 @@
     "news_category": "world",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 12.11
+  },
+  {
+    "id": 1777277431697,
+    "date": "2018-12-06T15:42:53+01:00",
+    "title": "Trafikkuhellet på Nærbø – NRK Rogaland – Lokale nyheter, TV og radio",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse av sted: Ulykken er på fylkesvei 44, ved Vigreskogen. En person skal være fastklemt.",
+    "correction": "Rettelse av sted: Ulykken er på fylkesvei 44, ved Vigreskogen. En person skal være fastklemt.",
+    "url": "https://www.nrk.no/rogaland/trafikkuhellet-pa-naerbo-1.14328576",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
