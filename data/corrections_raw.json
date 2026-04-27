@@ -45332,5 +45332,29 @@
     "responsible_editor": "",
     "article_body": "6. desember 2018 kl. 15:42 Trafikk: Rogaland Trafikkuhellet på Nærbø Rettelse av sted: Ulykken er på fylkesvei 44, ved Vigreskogen. En person skal være fastklemt. Trafikk: Rogaland Hold deg oppdatert på de siste meldingene om trafikksituasjonen i Rogaland. Tips oss gjerne med bilder og informasjon på rogaland@nrk.no.",
     "time_to_correct_hours": 1.88
+  },
+  {
+    "id": 1777296245509,
+    "date": "2026-04-27T02:53:56+02:00",
+    "title": "Pågrepet 31-åring om «mål»: – Prioritert fra høyeste til laveste rang",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere utgave av denne artikkelen sto det at familien varslet politiet før skytingen. Men det er uklart akkurat når det ble gjort.",
+    "correction": "Rettelse: I en tidligere utgave av denne artikkelen sto det at familien varslet politiet før skytingen. Men det er uklart akkurat når det ble gjort.",
+    "url": "https://www.nrk.no/urix/pagrepet-31-aring-om-_mal__-_-prioritert-fra-hoyeste-til-laveste-rang-1.17862056",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1777296445548,
+    "date": "2024-03-17T16:45:23+01:00",
+    "title": "Markerer sin motstand: – Vi har bare Putin og ikke Putin",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK har etter publisering tatt ut bilde og etternavn etter ønske fra et av intervjuobjektene i saken.",
+    "correction": "NRK har etter publisering tatt ut bilde og etternavn etter ønske fra et av intervjuobjektene i saken.",
+    "url": "https://www.nrk.no/tromsogfinnmark/russiske-innvandrere-i-norge-uttrykker-motstand-mot-putin-pa-valgdagen-1.16808746",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
