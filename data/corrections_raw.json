@@ -45415,5 +45415,17 @@
     "news_category": "entertainment",
     "correction_type": "other",
     "time_to_correct_hours": 2.84
+  },
+  {
+    "id": 1777490104479,
+    "date": "2026-04-29T13:29:16+02:00",
+    "title": "Holmenkollåsen: Siktet for drap på bestefar",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne saken skrev vi at drapet skjedde i Holmenkollen delbydel. Det riktige er Holmenkollåsen. Artikkelen ble endret 29. april 2026 kl. 15.50.",
+    "correction": "I en tidligere versjon av denne saken skrev vi at drapet skjedde i Holmenkollen delbydel. Det riktige er Holmenkollåsen. Artikkelen ble endret 29. april 2026 kl. 15.50.",
+    "url": "https://www.nrk.no/stor-oslo/holmenkollasen_-siktet-for-drap-pa-bestefar-1.17865656",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
