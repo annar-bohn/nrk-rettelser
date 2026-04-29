@@ -45389,5 +45389,17 @@
     "correction_date": "2024-03-17",
     "news_category": "politics",
     "correction_type": "other"
+  },
+  {
+    "id": 1777428904559,
+    "date": "2026-04-28T20:31:22+02:00",
+    "title": "Karpe legger opp: – Takk for at vi fikk lov til dette",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Posten har så langt, rundt to timer etter publisering, nesten 60 000 likes og 2000 kommentarer. En rekke kjente personer har kommentert.",
+    "correction": "Posten har så langt, rundt to timer etter publisering, nesten 60 000 likes og 2000 kommentarer. En rekke kjente personer har kommentert.",
+    "url": "https://www.nrk.no/norge/karpe-legger-opp_-_-takk-for-at-vi-fikk-lov-til-dette-1.17864745",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
