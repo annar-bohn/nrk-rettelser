@@ -45478,7 +45478,7 @@
     "url": "https://www.nrk.no/sorlandet/palegg-om-retting-av-regelbrudd-1.15739599",
     "auto": true,
     "source": "search",
-    "qa_status": "pending",
+    "qa_status": "not_a_correction",
     "headline": "Pålegg om retting av regelbrudd – NRK Sørlandet – Lokale nyheter, TV og radio",
     "nrk_section": "sorlandet",
     "publication_date": "2021-11-21T21:53:59+01:00",
@@ -45487,6 +45487,11 @@
     "journalist": "",
     "responsible_editor": "",
     "article_body": "21. november 2021 kl. 21:53 Pålegg om retting av regelbrudd Statsforvalteren har gitt Vennesla kommune pålegg om retting av regelbrudd, skriver Vennesla Tidende . Bakgrunnen er et tilsyn der Statsforvalteren skulle finne ut om kommunen overholder plikten til å varsle avvik og undersøke saker det er mistanke eller kjennskap til at en elev ikke har et trygt og godt skolemiljø. Statsforvalteren krever at det rettes opp i manglende rutiner innen mars neste år.",
-    "time_to_correct_hours": 0.0
+    "time_to_correct_hours": 0.0,
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": null,
+    "news_category": "local",
+    "correction_type": "other"
   }
 ]
