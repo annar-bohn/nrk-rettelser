@@ -45493,5 +45493,17 @@
     "correction_date": null,
     "news_category": "local",
     "correction_type": "other"
+  },
+  {
+    "id": 1777901311923,
+    "date": "2026-05-04T11:13:34+02:00",
+    "title": "UiT-ansatte kritiserte ChatGPT-studie – nå er den trukket tilbake",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Kort tid etter publisering reagerte Ingebrigtsen på funnene. Han forsker selv på læring og effektiv kunnskapstilegnelse, og stusset over hva som faktisk var målt.",
+    "correction": "Kort tid etter publisering reagerte Ingebrigtsen på funnene. Han forsker selv på læring og effektiv kunnskapstilegnelse, og stusset over hva som faktisk var målt.",
+    "url": "https://www.nrk.no/tromsogfinnmark/uit-ansatte-papekte-feil-i-studie-om-chatgpt-_-na-er-den-trukket-tilbake-1.17862657",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
