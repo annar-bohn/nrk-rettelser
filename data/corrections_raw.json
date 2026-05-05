@@ -45519,5 +45519,29 @@
     "news_category": "science",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1778008120187,
+    "date": "2025-06-28T21:59:36+02:00",
+    "title": "Europa steker: – Ekstremt høye temperaturer",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: Klokken 21.28 ble saken oppdatert med at søndagens høye temperatur i Spania foreløpig ikke er formelt registrert som en rekord av landets meteorologiske institutt.",
+    "correction": "Rettelse: Klokken 21.28 ble saken oppdatert med at søndagens høye temperatur i Spania foreløpig ikke er formelt registrert som en rekord av landets meteorologiske institutt.",
+    "url": "https://www.nrk.no/klima/hetebolge-rammer-europa-_-varsler-45-grader-1.17473702",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1778008160491,
+    "date": "2026-05-05T13:01:59+02:00",
+    "title": "Mener de har avdekket profesjonelt narkonettverk i Bergen – ti menn siktet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne saken sto det at politiet har etterforsket saken i 11 år. De uttalte at de hadde etterforsket siden 2015. Det riktige er at politiet har etterforsket saken siden 2025. Rettelsen ble gjort klokken 13.09.",
+    "correction": "I en tidligere versjon av denne saken sto det at politiet har etterforsket saken i 11 år. De uttalte at de hadde etterforsket siden 2015. Det riktige er at politiet har etterforsket saken siden 2025. Rettelsen ble gjort klokken 13.09.",
+    "url": "https://www.nrk.no/vestland/politiet-i-bergen-om-refengsling-i-saerlig-grov-narkotikasak-1.17871619",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
