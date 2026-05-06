@@ -45623,5 +45623,17 @@
     "news_category": "local",
     "correction_type": "misleading_title",
     "time_to_correct_hours": 214.23
+  },
+  {
+    "id": 1778095668775,
+    "date": "2026-05-06T14:59:38+02:00",
+    "title": "Ble dømt for netthets og anket – nå er hun pågrepet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne saken sto det i tittelen at kvinnen i 50-årene er «pågrepet igjen». Kvinnen har ikke vært pågrepet tidligere, og ordet «igjen» er derfor fjernet fra tittelen nå. NRK beklager feilen. Artikkelen ble oppdatert kl. 19.24.",
+    "correction": "I en tidligere versjon av denne saken sto det i tittelen at kvinnen i 50-årene er «pågrepet igjen». Kvinnen har ikke vært pågrepet tidligere, og ordet «igjen» er derfor fjernet fra tittelen nå. NRK beklager feilen. Artikkelen ble oppdatert kl. 19.24.",
+    "url": "https://www.nrk.no/nordland/ble-domt-for-netthets-og-anket-_-na-er-hun-pagrepet-1.17873824",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
