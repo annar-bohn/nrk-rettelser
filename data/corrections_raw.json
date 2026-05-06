@@ -45571,5 +45571,29 @@
     "news_category": "crime",
     "correction_type": "wrong_date",
     "time_to_correct_hours": 5.44
+  },
+  {
+    "id": 1778075499001,
+    "date": "2026-05-03T19:08:01+02:00",
+    "title": "Internasjonal hjertetopp ut mot Norge: – Dere bør være ærligere med folket",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "mai 2026: Etter publisering er artikkelen oppdatert med at NRK før publisering forsøkte å få intervju med kardiologer som støtter dagens sentraliserte PCI-modell, men at ingen av dem ønsket å kommentere saken. Opplysningen om at heller ikke Helse Nord ønsket å kommentere saken før publisering er også lagt til.",
+    "correction": "mai 2026: Etter publisering er artikkelen oppdatert med at NRK før publisering forsøkte å få intervju med kardiologer som støtter dagens sentraliserte PCI-modell, men at ingen av dem ønsket å kommentere saken. Opplysningen om at heller ikke Helse Nord ønsket å kommentere saken før publisering er også lagt til.",
+    "url": "https://www.nrk.no/nordland/europeisk-lege-topp-stefan-james-ut-mot-norsk-hjertebehandling-1.17853361",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1778075499854,
+    "date": "2026-04-27T12:32:08+02:00",
+    "title": "«Mikroferie» passer perfekt for Brage (23): – Slipper å gå og vente på ferien",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Tittelen på denne saken er endret. Opprinnelig beskrev vi konseptet mikroferier som «årets reisetrend». Etter publisering har vi blitt gjort oppmerksomme på at tall fra SSB tvert imot viser en nedgang i antallet korte utenlandsferier. Det er derfor ikke grunnlag for å kalle dette en voksende trend i Norge. Artikkelen er oppdatert for å reflektere at saken omhandler et fenomen og et personlig valg, ikke en nasjonal statistisk utvikling. Artikkelen er oppdatert 6. mai 2026.",
+    "correction": "NRK retter: Tittelen på denne saken er endret. Opprinnelig beskrev vi konseptet mikroferier som «årets reisetrend». Etter publisering har vi blitt gjort oppmerksomme på at tall fra SSB tvert imot viser en nedgang i antallet korte utenlandsferier. Det er derfor ikke grunnlag for å kalle dette en voksende trend i Norge. Artikkelen er oppdatert for å reflektere at saken omhandler et fenomen og et personlig valg, ikke en nasjonal statistisk utvikling. Artikkelen er oppdatert 6. mai 2026.",
+    "url": "https://www.nrk.no/nordland/_mikroferie_-passer-perfekt-for-brage-_23_-1.17845122",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
