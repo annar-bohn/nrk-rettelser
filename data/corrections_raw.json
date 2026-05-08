@@ -45649,5 +45649,17 @@
     "news_category": "crime",
     "correction_type": "misleading_title",
     "time_to_correct_hours": 5.7
+  },
+  {
+    "id": 1778267232069,
+    "date": "2026-05-08T17:26:05+02:00",
+    "title": "Flere får brystkreft: – Enkelte tror hormonbehandling er helt risikofritt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av denne saken sto det at Kreftregisteret har sagt at antallet brystkrefttilfeller i Norge har økt, blant annet på grunn av hormonbehandling i overgangsalderen. Det riktige er at Kreftregisteret har antydet en mulig sammenheng mellom brystkrefttilfeller og en økning i hormonbehandling i overgangsalderen. Saken ble rettet 8. mai klokken 20.30.",
+    "correction": "Rettelse: I en tidligere versjon av denne saken sto det at Kreftregisteret har sagt at antallet brystkrefttilfeller i Norge har økt, blant annet på grunn av hormonbehandling i overgangsalderen. Det riktige er at Kreftregisteret har antydet en mulig sammenheng mellom brystkrefttilfeller og en økning i hormonbehandling i overgangsalderen. Saken ble rettet 8. mai klokken 20.30.",
+    "url": "https://www.nrk.no/norge/flere-far-brystkreft_-_-enkelte-tror-hormonbehandling-er-helt-risikofritt-1.17874664",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
