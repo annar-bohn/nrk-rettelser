@@ -45675,5 +45675,29 @@
     "news_category": "health",
     "correction_type": "factual_error",
     "time_to_correct_hours": 3.08
+  },
+  {
+    "id": 1778510041735,
+    "date": "2026-05-11T13:39:35+02:00",
+    "title": "Ordføreropprør mot UiT: – Vi godtar ikke nedleggelse på Storslett",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "september.Rettelse: I en tidligere versjon av denne saken sto det at et av universitetets forslag var å rute studenter fra Nord-Troms til utdanningen i Hammerfest. Det er ikke riktig, og er nå rettet opp til Alta.",
+    "correction": "september.Rettelse: I en tidligere versjon av denne saken sto det at et av universitetets forslag var å rute studenter fra Nord-Troms til utdanningen i Hammerfest. Det er ikke riktig, og er nå rettet opp til Alta.",
+    "url": "https://www.nrk.no/tromsogfinnmark/oppror-i-nord-troms-mot-uit-etter-at-desentraliserte-sykepleierutdanning-pa-storslett-legges-ned-1.17879484",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1778510042561,
+    "date": "2026-05-08T09:18:36+02:00",
+    "title": "Tre gjengkriminelle svensker utvist: – Historisk",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse, mandag 11. mai klokken 15:03: NRK skrev at 58 personer ble utvist fra Norge i fjor og at alle disse var domfelt i Norge. Politiet opplyser til NRK at utenlandske borgere har blitt utvist fra Norge uten norsk straffedom tidligere, og at den nye instruksen er en presisering. Det er likevel ikke gitt at disse svenskene ville blitt utvist uten den nye presiseringen.",
+    "correction": "Rettelse, mandag 11. mai klokken 15:03: NRK skrev at 58 personer ble utvist fra Norge i fjor og at alle disse var domfelt i Norge. Politiet opplyser til NRK at utenlandske borgere har blitt utvist fra Norge uten norsk straffedom tidligere, og at den nye instruksen er en presisering. Det er likevel ikke gitt at disse svenskene ville blitt utvist uten den nye presiseringen.",
+    "url": "https://www.nrk.no/sorlandet/svenske-gjengkriminelle-utvist-fra-norge-1.17876194",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
