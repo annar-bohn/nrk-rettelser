@@ -45727,5 +45727,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 77.76
+  },
+  {
+    "id": 1778614801455,
+    "date": "2026-05-12T12:40:11+02:00",
+    "title": "Ingen strømstøtte til studentene i revidert budsjett: – Nedslående",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I saken stod det at studentene ikke er nevnt i det reviderte statsbudsjettet i det hele tatt. Dette er ikke riktig, og saken er nå oppdatert med rette opplysninger klokka 17.50.",
+    "correction": "Rettelse: I saken stod det at studentene ikke er nevnt i det reviderte statsbudsjettet i det hele tatt. Dette er ikke riktig, og saken er nå oppdatert med rette opplysninger klokka 17.50.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/stromstotte-til-studentene-fortsatt-pa-vent-1.17880678",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
