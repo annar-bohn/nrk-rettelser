@@ -45753,5 +45753,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 5.23
+  },
+  {
+    "id": 1778661593375,
+    "date": "2014-06-27T07:40:32+02:00",
+    "title": "– Vil stoppe telefonselgere med lovendring",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Endring: Saken er endret etter publisering ved at et bilde er tatt ut. Endringen er gjort 13. mai 2026.",
+    "correction": "Endring: Saken er endret etter publisering ved at et bilde er tatt ut. Endringen er gjort 13. mai 2026.",
+    "url": "https://www.nrk.no/norge/_-vil-ha-ny-lov-mot-telefonselgere-1.11801008",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
