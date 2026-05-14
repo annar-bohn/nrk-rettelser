@@ -45816,6 +45816,20 @@
     "url": "https://www.nrk.no/nordland/nyhetssenter-nordland-1.15898380",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Nyhetssenter Nordland",
+    "nrk_section": "nordland",
+    "publication_date": "2022-03-18T10:28:00+01:00",
+    "modified_date": "2026-05-13T22:41:47+02:00",
+    "intro_text": "",
+    "journalist": "Håvard Nyhus, Adrian Frederic Bertsch Sollund, Marianne Ytre-Eide, Jane Rasmussen og Astrid Solhe",
+    "responsible_editor": "",
+    "article_body": "13. mai 2026 kl. 22:41 Nyhetssenter Nordland Rykket ut til branntilløp i Mosjøen Politiet rykket onsdag kveld ut etter melding om branntilløp ved torget i Mosjøen. Meldingen kom klokken 22.07 og gjaldt et bygg i nærheten av en scene. Ifølge politiet var en dør til et toalett på torget brutt opp. Det fremsto også som om noen hadde forsøkt å tenne på en søppelkasse. Det var ingen brann på stedet da politiet kom fram. Politiet gjorde undersøkelser på stedet, men avsluttet etter kort tid.",
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": null,
+    "news_category": "local",
+    "correction_type": "other",
+    "time_to_correct_hours": 36419.23
   }
 ]
