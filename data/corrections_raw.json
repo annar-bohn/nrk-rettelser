@@ -45831,5 +45831,17 @@
     "news_category": "local",
     "correction_type": "other",
     "time_to_correct_hours": 36419.23
+  },
+  {
+    "id": 1778787517065,
+    "date": "2026-05-14T12:05:57+02:00",
+    "title": "Muotka om gransking: – Utvalget står fritt til å be om gransking",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Etter publisering er det i billedteksten til bildet av utvalget presisert at Jørn Are Gaski ikke deltok i behandlingen eller voteringen i denne saken.",
+    "correction": "Etter publisering er det i billedteksten til bildet av utvalget presisert at Jørn Are Gaski ikke deltok i behandlingen eller voteringen i denne saken.",
+    "url": "https://www.nrk.no/sapmi/sametingspresidenten-om-gransking_-_-kontrollutvalget-star-fritt-til-a-be-om-gransking-1.17883438",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
