@@ -45857,5 +45857,17 @@
     "news_category": "politics",
     "correction_type": "missing_context",
     "time_to_correct_hours": 7.02
+  },
+  {
+    "id": 1779072047170,
+    "date": "2026-05-17T16:22:05+02:00",
+    "title": "Knokejern, fyrverkeri og masseslagsmål: Fullt 17. mai-kaos i fleire byar",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon vart ein del av ei setning utelaten, slik at det kunne sjå ut som om politiet slutta å loggføra meldingar. Det er no presisert at det var kapasiteten i politiloggen til media det var snakk om. Rettinga er gjort kl 21.30.",
+    "correction": "Retting: I ein tidlegare versjon vart ein del av ei setning utelaten, slik at det kunne sjå ut som om politiet slutta å loggføra meldingar. Det er no presisert at det var kapasiteten i politiloggen til media det var snakk om. Rettinga er gjort kl 21.30.",
+    "url": "https://www.nrk.no/vestland/brak_-fyrverkeri-og-slagsmal-i-bergen-sentrum-_-ber-foreldre-henta-barna-sine-1.17886892",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
