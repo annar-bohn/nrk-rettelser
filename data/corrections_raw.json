@@ -45894,6 +45894,20 @@
     "url": "https://www.nrk.no/innlandet/kultur-i-innlandet-1.14683215",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Kultur i Innlandet",
+    "nrk_section": "innlandet",
+    "publication_date": "2019-09-01T11:43:47+02:00",
+    "modified_date": "2026-05-19T19:28:19+02:00",
+    "intro_text": "",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "19. mai 2026 kl. 19:28 Kultur i Innlandet Nyhetssenter Innlandet Synne Vo er tildelt prisen Årets nynorskbrukar Synne Vorkinn, eller Synne Vo, frå Lesja er tildelt prisen Årets nynorskbrukar 2026 av Nynorsk kultursentrum. Det skriv dei i ei pressemelding . Artisten og låtskrivaren har markert seg tydeleg i sentrum av norsk popmusikk dei seinare åra, står det. – Veldig kjekt at nynorskbruken min blir verdsett av andre som har den same kjærleiken for språket, seier Vorkinn i pressemeldinga. Prisen blir delt ut under opninga av Festspela 2026 i Hovdebygda 11. juni. Foto: NRK",
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": null,
+    "news_category": "culture",
+    "correction_type": "other",
+    "time_to_correct_hours": null
   }
 ]
