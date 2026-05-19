@@ -45883,5 +45883,17 @@
     "news_category": "crime",
     "correction_type": "missing_context",
     "time_to_correct_hours": 5.14
+  },
+  {
+    "id": 1779219875605,
+    "date": "2026-05-19T19:28:19+02:00",
+    "title": "Kultur i Innlandet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse klokka 13.28: Vi skrev opprinnelig at beskyttelsene var nye. Det er de ikke",
+    "correction": "Rettelse klokka 13.28: Vi skrev opprinnelig at beskyttelsene var nye. Det er de ikke",
+    "url": "https://www.nrk.no/innlandet/kultur-i-innlandet-1.14683215",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
