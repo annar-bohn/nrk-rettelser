@@ -45909,5 +45909,17 @@
     "news_category": "culture",
     "correction_type": "other",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1779267396503,
+    "date": "2026-05-19T14:05:10+02:00",
+    "title": "Oliver blei kreftfri på ti dagar – forskar som vidareutviklar behandlinga får gjæv pris",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I denne saka stod det først at kreftforskar Johanna Olweus stod bak forskinga som gjorde Oliver Njåstad kreftfri, som er behandlingsmetoden CAR-T. Dette er ikkje riktig. Det riktige er at kreftforskar Olweus forskar på korleis liknande behandlingsmetode kan nyttast på andre krefttypar.",
+    "correction": "Retting: I denne saka stod det først at kreftforskar Johanna Olweus stod bak forskinga som gjorde Oliver Njåstad kreftfri, som er behandlingsmetoden CAR-T. Dette er ikkje riktig. Det riktige er at kreftforskar Olweus forskar på korleis liknande behandlingsmetode kan nyttast på andre krefttypar.",
+    "url": "https://www.nrk.no/vestland/oliver-blei-kreftfri-pa-ti-dagar-_-no-far-forskaren-gjev-pris-1.17880611",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
