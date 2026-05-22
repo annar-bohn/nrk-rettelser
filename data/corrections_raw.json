@@ -45935,5 +45935,29 @@
     "news_category": "health",
     "correction_type": "factual_error",
     "time_to_correct_hours": 17.81
+  },
+  {
+    "id": 1779459850189,
+    "date": "2026-05-22T13:03:48+02:00",
+    "title": "Gruveselskap truer med Kina om ikke Støre blar opp penger",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse:Etter at saken ble publisert har NRK korrigert tittelen hvor det sto at Grangex ber om milliarder av kroner. Selskapet har gjort NRK oppmerksom på at de per nå ber om 400 millioner kroner i statlig bidrag, og at 2 milliarder kroner var et tidligere forslag om lån fra staten.",
+    "correction": "Rettelse:Etter at saken ble publisert har NRK korrigert tittelen hvor det sto at Grangex ber om milliarder av kroner. Selskapet har gjort NRK oppmerksom på at de per nå ber om 400 millioner kroner i statlig bidrag, og at 2 milliarder kroner var et tidligere forslag om lån fra staten.",
+    "url": "https://www.nrk.no/tromsogfinnmark/gruveselskapet-grangex-truer-med-kina-om-ikke-store-blar-opp-til-gruve-i-kirkenes-1.17889841",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1779459899907,
+    "date": "2017-08-18T14:22:07+02:00",
+    "title": "NRK beklager feil om Harstadpakken – NRK Troms og Finnmark",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK beklager.",
+    "correction": "NRK beklager.",
+    "url": "https://www.nrk.no/tromsogfinnmark/nrk-beklager-feil-om-harstadpakken-1.13648364",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
