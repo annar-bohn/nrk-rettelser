@@ -46013,5 +46013,17 @@
     "correction_date": null,
     "news_category": "politics",
     "correction_type": "other"
+  },
+  {
+    "id": 1779982492688,
+    "date": "2026-05-27T11:32:21+02:00",
+    "title": "Meiner forlag brukar KI til å vurdere manus",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering: NRK har tydelegjort at KI-bruken her gjeld den fyste tilbakemeldinga frå Calidris. Det kostar ikkje forfattarane noko å få manusa sine vurdert.",
+    "correction": "Presisering: NRK har tydelegjort at KI-bruken her gjeld den fyste tilbakemeldinga frå Calidris. Det kostar ikkje forfattarane noko å få manusa sine vurdert.",
+    "url": "https://www.nrk.no/kultur/meiner-forlag-brukar-ki-til-a-vurdere-manus-1.17837751",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
