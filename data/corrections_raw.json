@@ -46039,5 +46039,29 @@
     "news_category": "culture",
     "correction_type": "missing_context",
     "time_to_correct_hours": 26.35
+  },
+  {
+    "id": 1780085456399,
+    "date": "2026-05-29T16:16:17+02:00",
+    "title": "Europas avfall – den nye gruven",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE:",
+    "correction": "RETTELSE:",
+    "url": "https://www.nrk.no/urix/europa-kan-gjenvinne-viktige-mineraler-fra-avfallet_-men-norge-blir-kritisert-for-a-mangle-en-plan-1.17891009",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1780085457121,
+    "date": "2026-05-29T18:17:54+02:00",
+    "title": "Hundrevis permittert før krisemøte: – En forsmak, advarer ekspert",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 29.05.26 kl. 21.09: I en tidligere versjon av denne artikkelen stod det at havvindprosjektet Utsira Nord kan gi Rosenberg 1000 nye arbeidsplasser. Det er feil. I stedet gjelder dette prosjektet Sørlige Nordsjø II.",
+    "correction": "Rettelse 29.05.26 kl. 21.09: I en tidligere versjon av denne artikkelen stod det at havvindprosjektet Utsira Nord kan gi Rosenberg 1000 nye arbeidsplasser. Det er feil. I stedet gjelder dette prosjektet Sørlige Nordsjø II.",
+    "url": "https://www.nrk.no/rogaland/krisemote-i-worley-rosenberg_-_-en-forsmak_-advarer-stale-kyllingstad-i-norsk-industri-1.17900900",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
