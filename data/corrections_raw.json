@@ -46117,5 +46117,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4.88
+  },
+  {
+    "id": 1780416519053,
+    "date": "2026-06-02T09:35:12+02:00",
+    "title": "Etterforsker organisert nettverk i Troms: 15 personer pågrepet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "KORRIGERING: I en tidligere versjon av denne saken skrev NRK at personen politiet ser på som sentral i nettverket var en svensk statsborger. Politiet opplyser senere at vedkommende er norsk statsborger folkeregistrert i Sverige.",
+    "correction": "KORRIGERING: I en tidligere versjon av denne saken skrev NRK at personen politiet ser på som sentral i nettverket var en svensk statsborger. Politiet opplyser senere at vedkommende er norsk statsborger folkeregistrert i Sverige.",
+    "url": "https://www.nrk.no/tromsogfinnmark/politiet-i-troms-om-organisert-kriminalitet-1.17905144",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
