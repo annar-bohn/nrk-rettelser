@@ -46091,5 +46091,17 @@
     "news_category": "economy",
     "correction_type": "factual_error",
     "time_to_correct_hours": 3.28
+  },
+  {
+    "id": 1780394999688,
+    "date": "2026-06-02T05:28:06+02:00",
+    "title": "En pågrepet etter knivstikking på russetreff",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse klokka 09.00: Politiet meldte først at de involverte er russ. I en oppdatering opplyser de at gjerningspersonenikkeer russ.",
+    "correction": "Rettelse klokka 09.00: Politiet meldte først at de involverte er russ. I en oppdatering opplyser de at gjerningspersonenikkeer russ.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/russ-knivstukket-i-porsgrunn-1.17905014",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
