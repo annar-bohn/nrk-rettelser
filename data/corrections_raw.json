@@ -46143,5 +46143,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4.97
+  },
+  {
+    "id": 1780457306438,
+    "date": "2026-06-02T20:30:16+02:00",
+    "title": "Naivitet, skandaler eller bare barnesykdommer",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 02.06.26 klokken 21.31: Gjengivelsen av teksten i nasjonalsangen «Elsker, elsker det å tenke» rettet til «Elsker, elsker det og tenker».",
+    "correction": "Rettelse 02.06.26 klokken 21.31: Gjengivelsen av teksten i nasjonalsangen «Elsker, elsker det å tenke» rettet til «Elsker, elsker det og tenker».",
+    "url": "https://www.nrk.no/ytring/naivitet_-skandaler-eller-bare-barnesykdommer-1.17905709",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
