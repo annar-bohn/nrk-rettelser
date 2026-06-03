@@ -46169,5 +46169,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 1.36
+  },
+  {
+    "id": 1780483611696,
+    "date": "2026-06-02T12:19:09+02:00",
+    "title": "Prisen på ditt ulønnede arbeid",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken omtalte vi husholdsarbeid som husarbeid. Det var ikke presist, og er derfor endret i saken.",
+    "correction": "Rettelse: I en tidligere versjon av saken omtalte vi husholdsarbeid som husarbeid. Det var ikke presist, og er derfor endret i saken.",
+    "url": "https://www.nrk.no/nyttig/xl/dette-er-prisen-pa-ditt-ulonnede-arbeid-1.17874880",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
