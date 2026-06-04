@@ -46195,5 +46195,17 @@
     "news_category": "economy",
     "correction_type": "other",
     "time_to_correct_hours": 23.93
+  },
+  {
+    "id": 1780566378934,
+    "date": "2026-06-04T05:31:25+02:00",
+    "title": "Betaler ekstra for seter som ikke finnes – nå reagerer Forbrukerrådet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse:NRK skrev først i saken at et månedskort mellom Tønsberg og Sandvika hadde økt med 1600 kroner fra 2020. Det medfører ikke riktighet. Månedskortet har økt med669 kroner, ifølge Vy.",
+    "correction": "Rettelse:NRK skrev først i saken at et månedskort mellom Tønsberg og Sandvika hadde økt med 1600 kroner fra 2020. Det medfører ikke riktighet. Månedskortet har økt med669 kroner, ifølge Vy.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/vy-kritiseres-for-overfylte-tog-og-manglende-setereservasjoner-1.17905287",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
