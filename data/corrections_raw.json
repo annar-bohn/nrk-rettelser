@@ -46221,5 +46221,17 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 0.83
+  },
+  {
+    "id": 1780652102007,
+    "date": "2026-06-04T22:20:53+02:00",
+    "title": "Rykket inn for å hindre ungdom i å kvele seg selv på cella",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken ble Kirkens bymisjon forvekslet med Kirkens SOS. Feilen ble rettet 5. juni 2026, klokken 9.43.",
+    "correction": "Rettelse: I en tidligere versjon av saken ble Kirkens bymisjon forvekslet med Kirkens SOS. Feilen ble rettet 5. juni 2026, klokken 9.43.",
+    "url": "https://www.nrk.no/ostfold/rykket-inn-pa-sikkerhetscelle-for-a-hindre-tenaring-i-ungdomsfengsel-fra-a-kvele-seg-selv-1.17904357",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
