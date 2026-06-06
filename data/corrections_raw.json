@@ -46247,5 +46247,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 11.39
+  },
+  {
+    "id": 1780772979281,
+    "date": "2026-06-06T20:01:33+02:00",
+    "title": "Bjørnegåta i Ulneskyrkja",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Ei av dei siste store endringane vart gjort på 1950-talet.",
+    "correction": "Ei av dei siste store endringane vart gjort på 1950-talet.",
+    "url": "https://www.nrk.no/innlandet/xl/ein-over-tusen-ar-gammal-isbjornlabb-heng-i-ei-kyrkje-i-valdres-1.17898319",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
