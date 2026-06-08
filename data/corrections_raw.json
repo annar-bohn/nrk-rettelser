@@ -46273,5 +46273,17 @@
     "news_category": "culture",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1780949128926,
+    "date": "2026-06-08T16:12:13+02:00",
+    "title": "Knivstakk kvinne på fortauet: Dømt til 19 års fengsel",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK skrev i en tidligere versjon at mannen ble dømt til 19 års forvaring. Det riktige er 19 års fengsel.",
+    "correction": "NRK skrev i en tidligere versjon at mannen ble dømt til 19 års forvaring. Det riktige er 19 års fengsel.",
+    "url": "https://www.nrk.no/buskerud/knivstakk-kvinne-pa-fortauet_-domt-til-19-ars-fengsel-1.17912151",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
