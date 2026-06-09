@@ -46299,5 +46299,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4.48
+  },
+  {
+    "id": 1781015575825,
+    "date": "2026-06-09T06:40:42+02:00",
+    "title": "Havvind-striden: Ja til full gjennomgang av pengestøtte",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: Endrer ordlyd i faktaboks om Høyres forslag, som ble endret i komitébehandlingen. Endret kl. 13.53 tirsdag 9. juni.",
+    "correction": "Rettelse: Endrer ordlyd i faktaboks om Høyres forslag, som ble endret i komitébehandlingen. Endret kl. 13.53 tirsdag 9. juni.",
+    "url": "https://www.nrk.no/norge/havvind_-fleirtal-for-full-gjennomgang-1.17912902",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
