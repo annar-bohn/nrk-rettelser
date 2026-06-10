@@ -46325,5 +46325,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 8.78
+  },
+  {
+    "id": 1781084636941,
+    "date": "2026-06-09T11:54:43+02:00",
+    "title": "Slik har du aldri sett landslaget før",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Etter publisering ble NRK gjort oppmerksom på at Ståle Solbakken og Thelo Aasgaard ikke hadde på seg klubbtrøyene da bildet ble tatt, og at deres drakter ble manipulert inn av NFF i etterkant.",
+    "correction": "Etter publisering ble NRK gjort oppmerksom på at Ståle Solbakken og Thelo Aasgaard ikke hadde på seg klubbtrøyene da bildet ble tatt, og at deres drakter ble manipulert inn av NFF i etterkant.",
+    "url": "https://www.nrk.no/buskerud/slik-har-du-aldri-sett-landslaget-for-1.17913552",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
