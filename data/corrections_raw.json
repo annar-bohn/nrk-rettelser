@@ -46351,5 +46351,17 @@
     "news_category": "sports",
     "correction_type": "wrong_image",
     "time_to_correct_hours": 22.08
+  },
+  {
+    "id": 1781103605670,
+    "date": "2026-06-10T13:49:34+02:00",
+    "title": "Jussprofessor: Ikke sikkert barn blir kastet ut av sosiale medier",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: Etter publisering er ingressen endret. Den opprinnelige ingressen sa at Regjeringen hadde lovet forbudet i løpet av året. Det riktige er at de lovet å fremme forslaget for Stortinget i løpet av året.",
+    "correction": "RETTELSE: Etter publisering er ingressen endret. Den opprinnelige ingressen sa at Regjeringen hadde lovet forbudet i løpet av året. Det riktige er at de lovet å fremme forslaget for Stortinget i løpet av året.",
+    "url": "https://www.nrk.no/urix/jussprofessor_-ikke-sikkert-barn-blir-kastet-ut-av-sosiale-medier-1.17905173",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
