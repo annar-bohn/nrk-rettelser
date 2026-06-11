@@ -46377,5 +46377,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 1.3
+  },
+  {
+    "id": 1781172733013,
+    "date": "2026-06-11T07:18:18+02:00",
+    "title": "Ulsteins «Team sunn fornuft»: Utelater Venstre",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon sto det at Sp ikke har regjert sammen med Høyre siden 1960-tallet. Dette er ikke riktig. Partiet satt også i Syse-regjeringen. Rettet kl. 9.14 torsdag 11. juni.",
+    "correction": "Rettelse: I en tidligere versjon sto det at Sp ikke har regjert sammen med Høyre siden 1960-tallet. Dette er ikke riktig. Partiet satt også i Syse-regjeringen. Rettet kl. 9.14 torsdag 11. juni.",
+    "url": "https://www.nrk.no/norge/ulsteins-_team-sunn-fornuft__-utelater-venstre-1.17915758",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
