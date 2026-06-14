@@ -46403,5 +46403,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4.77
+  },
+  {
+    "id": 1781444786555,
+    "date": "2026-06-13T21:26:09+02:00",
+    "title": "Trumps «cage fight» splitter fansen: – Latterlig politisk teater",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: En tidligere versjon av saken inkluderte et bilde av Dana White der White var identifisert som Joe Rogan. Saken ble rettet 14. juni kl. 10.45.",
+    "correction": "Rettelse: En tidligere versjon av saken inkluderte et bilde av Dana White der White var identifisert som Joe Rogan. Saken ble rettet 14. juni kl. 10.45.",
+    "url": "https://www.nrk.no/urix/mma-stevne-ved-det-hvite-hus_-_-trump-behandles-som-en-konge-1.17915599",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
