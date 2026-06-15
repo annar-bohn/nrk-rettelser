@@ -46429,5 +46429,17 @@
     "news_category": "politics",
     "correction_type": "wrong_name",
     "time_to_correct_hours": 13.33
+  },
+  {
+    "id": 1781524255623,
+    "date": "2026-06-15T07:02:42+02:00",
+    "title": "Slik markeres pride i samiske kommuner",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon skrev NRK at Kautokeino ikke hadde en avklart plan for om det ble flagging eller markering fra kommunens side i år, dette stemte ikke og feilen er rettet opp.",
+    "correction": "I en tidligere versjon skrev NRK at Kautokeino ikke hadde en avklart plan for om det ble flagging eller markering fra kommunens side i år, dette stemte ikke og feilen er rettet opp.",
+    "url": "https://www.nrk.no/sapmi/slik-markeres-pride-i-de-samiske-forvaltningskommunene-1.17917047",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
