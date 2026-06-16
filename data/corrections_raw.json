@@ -46507,5 +46507,17 @@
     "news_category": "politics",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 0.46
+  },
+  {
+    "id": 1781642545159,
+    "date": "2026-06-16T18:21:18+02:00",
+    "title": "Nyhetssenter Innlandet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne nyhetsmeldingen stod det at syklisten ble påkjørt av en bil. Politiet har i ettertid av publisering rettet opp sin informasjon og opplyser at det ikke har vært noe sammenstøt mellom syklisten og en bil.",
+    "correction": "I en tidligere versjon av denne nyhetsmeldingen stod det at syklisten ble påkjørt av en bil. Politiet har i ettertid av publisering rettet opp sin informasjon og opplyser at det ikke har vært noe sammenstøt mellom syklisten og en bil.",
+    "url": "https://www.nrk.no/innlandet/nyhetssenter-innlandet-1.16453282",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
