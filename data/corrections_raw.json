@@ -46455,5 +46455,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 3.32
+  },
+  {
+    "id": 1781607519023,
+    "date": "2026-06-16T09:49:33+02:00",
+    "title": "KI-gründer frykter for pasientsikkerheten",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken skrev NRK at «Helse Sør-Øst har nylig brukt180 millioner på KI-verktøy.(...)». Det riktige er at de har inngått avtaler som er verdt 180 millioner kroner.",
+    "correction": "Rettelse: I en tidligere versjon av saken skrev NRK at «Helse Sør-Øst har nylig brukt180 millioner på KI-verktøy.(...)». Det riktige er at de har inngått avtaler som er verdt 180 millioner kroner.",
+    "url": "https://www.nrk.no/norge/ki-i-helsevesenet_-kritiker-advarer-om-risiko-for-pasientsikkerheten-1.17873072",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
