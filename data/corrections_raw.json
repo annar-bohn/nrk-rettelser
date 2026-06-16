@@ -46481,5 +46481,17 @@
     "news_category": "health",
     "correction_type": "factual_error",
     "time_to_correct_hours": 1.97
+  },
+  {
+    "id": 1781627349312,
+    "date": "2026-06-16T17:59:53+02:00",
+    "title": "Dårligste måling for Høyre på 17 år",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 16. juni 2026, kl. 18.09: I den første versjonen av artikkelen lå feilaktig grafikken for målingen for mai istedenfor målingen for juni 2026.",
+    "correction": "Rettelse 16. juni 2026, kl. 18.09: I den første versjonen av artikkelen lå feilaktig grafikken for målingen for mai istedenfor målingen for juni 2026.",
+    "url": "https://www.nrk.no/nordland/hoyre-med-verste-maling-pa-17-ar-_-soreide-ville-ikke-svare-om-krisetallene-1.17922858",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
