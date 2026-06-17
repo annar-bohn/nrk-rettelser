@@ -46533,5 +46533,17 @@
     "news_category": "local",
     "correction_type": "other",
     "time_to_correct_hours": 26218.82
+  },
+  {
+    "id": 1781726952801,
+    "date": "2026-06-17T16:35:16+02:00",
+    "title": "Historisk dom i Høgsterett: Staten tapte i Førdefjord-saka",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Omsynet til investeringar og innretting:Gruveselskapet viste til at dei allereie har investert fleire milliardar kroner i prosjektet i tillit til vedtaka. Sjølv om Høgsterett anerkjende at selskapet vil lide betydelege tap dersom drifta må stansast, fastslo dei at feila ved tillatinga (innhaldsmanglar etter EØS-retten) var så alvorlege at hovudregelen om at ugyldige vedtak skal opphevast, måtte følgjast.",
+    "correction": "Omsynet til investeringar og innretting:Gruveselskapet viste til at dei allereie har investert fleire milliardar kroner i prosjektet i tillit til vedtaka. Sjølv om Høgsterett anerkjende at selskapet vil lide betydelege tap dersom drifta må stansast, fastslo dei at feila ved tillatinga (innhaldsmanglar etter EØS-retten) var så alvorlege at hovudregelen om at ugyldige vedtak skal opphevast, måtte følgjast.",
+    "url": "https://www.nrk.no/vestland/historisk-dom-i-hogsterett_-staten-tapte-i-fordefjorden-saka-1.17925435",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
