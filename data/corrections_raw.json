@@ -46559,5 +46559,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 0.31
+  },
+  {
+    "id": 1781813638532,
+    "date": "2026-06-18T15:22:13+02:00",
+    "title": "Stortinget",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon kom det ikke frem at også MDG stemte mot forslaget. Meldingen ble rettet klokken 18.20.",
+    "correction": "Rettelse: I en tidligere versjon kom det ikke frem at også MDG stemte mot forslaget. Meldingen ble rettet klokken 18.20.",
+    "url": "https://www.nrk.no/nyheter/stortinget-1.12896924",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
