@@ -46570,6 +46570,20 @@
     "url": "https://www.nrk.no/nyheter/stortinget-1.12896924",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Stortinget",
+    "nrk_section": "nyheter",
+    "publication_date": "2016-04-12T12:14:03+02:00",
+    "modified_date": "2026-06-18T15:22:13+02:00",
+    "intro_text": "Riksrevisjonen har undersøkt 500 stortingsrepresentanters bruk av blant annet pendlerboliger, reiseutgifter og etterlønn. Over 60 har fått for mye utbetalt og kontrollen har vært for dårlig, konkluderer riksrevisoren.",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "18. juni 2026 kl. 15:22 Stortinget Stortinget øker egen lønn Stortinget har stemt gjennom en økning i egen lønn. MDG, Rødt og SV stemte mot lønnsøkningen, sammen med én representant fra Arbeiderpartiet. Den nye lønna til stortingsrepresentanter er nå på 1.272.209 kroner. Lønnsøkningen har virkning fra 1. mai i år. Den nye statsministerlønna er på 2.234.978 kroner, mens øvrige regjeringsmedlemmer får 1.815.703 kroner. Økningene er på 4,71 prosent. Rettelse: I en tidligere versjon kom det ikke frem at også MDG stemte mot forslaget. Meldingen ble rettet klokken 18.20.",
+    "correction_description": "Det ble lagt til at MDG også stemte mot forslaget om lønnsøkning for stortingsrepresentanter.",
+    "correction_text_extract": "Rettelse: I en tidligere versjon kom det ikke frem at også MDG stemte mot forslaget. Meldingen ble rettet klokken 18.20.",
+    "correction_date": "2026-06-18",
+    "news_category": "politics",
+    "correction_type": "missing_context",
+    "time_to_correct_hours": null
   }
 ]
