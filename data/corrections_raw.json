@@ -46585,5 +46585,17 @@
     "news_category": "politics",
     "correction_type": "missing_context",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1782034771532,
+    "date": "2026-06-18T17:56:30+02:00",
+    "title": "Bodø er «blitt samisk»: – Betyr veldig mye for mange",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon av artikkelen sto det at Bodø var den første bykommunen som skal søke om å bli et samisk forvaltningsområde. Dette stemmer ikke, da Hammerfest kommune vedtok å søke om dette i vår. Endringene ble gjort 21.06.26 kl. 10:12. NRK beklager feilen.",
+    "correction": "RETTELSE: I en tidligere versjon av artikkelen sto det at Bodø var den første bykommunen som skal søke om å bli et samisk forvaltningsområde. Dette stemmer ikke, da Hammerfest kommune vedtok å søke om dette i vår. Endringene ble gjort 21.06.26 kl. 10:12. NRK beklager feilen.",
+    "url": "https://www.nrk.no/sapmi/bodo-er-blitt-et-samisk-forvaltningsomrade-1.17921799",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
