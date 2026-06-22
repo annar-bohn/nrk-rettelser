@@ -46611,5 +46611,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 64.45
+  },
+  {
+    "id": 1782128381643,
+    "date": "2026-06-19T21:51:39+02:00",
+    "title": "Frykter massakre – 500.000 mennesker kan havne i kryssilden",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 22. juni 2026 klokken 9.05: I Saken oppsummert-boksen sto det at RSF styrer øst i Sudan og SAF i vest. Det riktige er at RSF styrer i vest og SAF i øst.",
+    "correction": "Rettelse 22. juni 2026 klokken 9.05: I Saken oppsummert-boksen sto det at RSF styrer øst i Sudan og SAF i vest. Det riktige er at RSF styrer i vest og SAF i øst.",
+    "url": "https://www.nrk.no/urix/frykter-ny-massakre-i-sudan-_-500.000-mennesker-kan-havne-i-kryssilden-1.17928584",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
