@@ -46637,5 +46637,17 @@
     "news_category": "world",
     "correction_type": "factual_error",
     "time_to_correct_hours": 59.28
+  },
+  {
+    "id": 1782225252962,
+    "date": "2026-06-22T05:34:43+02:00",
+    "title": "Livet til Marte (27) ble snudd på hodet: – Jeg la merke til at han hadde blitt gul i øynene",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Endringslogg: Etter publisering har faktaboksen om Blå Kors kompasset blitt redigert. Oppdatert 23. juni kl. 12.11.",
+    "correction": "Endringslogg: Etter publisering har faktaboksen om Blå Kors kompasset blitt redigert. Oppdatert 23. juni kl. 12.11.",
+    "url": "https://www.nrk.no/vestland/ny-rapport_-nesten-hver-fjerde-ungdom-er-parorende-1.17899492",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
