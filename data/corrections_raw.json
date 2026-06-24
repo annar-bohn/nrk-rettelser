@@ -46663,5 +46663,17 @@
     "news_category": "health",
     "correction_type": "other",
     "time_to_correct_hours": 30.62
+  },
+  {
+    "id": 1782268683117,
+    "date": "2026-06-23T13:31:42+02:00",
+    "title": "Har streiket siden april – nå ansetter skolen nye lærere",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "ENDRINGSLOGG: I en tidligere versjon skrev NRK at 14 lærere er i streik. Det er feil. Det riktige tallet er 12. Endringen ble gjort 23.06 klokken 23.03.",
+    "correction": "ENDRINGSLOGG: I en tidligere versjon skrev NRK at 14 lærere er i streik. Det er feil. Det riktige tallet er 12. Endringen ble gjort 23.06 klokken 23.03.",
+    "url": "https://www.nrk.no/vestland/har-streiket-siden-april.-na-ansetter-bergen-kristne-grunnskole-nye-laerere-1.17931869",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
