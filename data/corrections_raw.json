@@ -46689,5 +46689,17 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 9.54
+  },
+  {
+    "id": 1782329325979,
+    "date": "2026-06-24T17:22:10+02:00",
+    "title": "Hetebølge og varmerekorder",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: I en tidligere versjon av denne meldinga sto det at 40,9 grader var ny varmerekord for Paris. Det riktige er at det gjelder for juni måned. Det ble endret klokka 18.47.",
+    "correction": "NRK retter: I en tidligere versjon av denne meldinga sto det at 40,9 grader var ny varmerekord for Paris. Det riktige er at det gjelder for juni måned. Det ble endret klokka 18.47.",
+    "url": "https://www.nrk.no/nyheter/hetebolge-og-varmerekorder-1.14638111",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
