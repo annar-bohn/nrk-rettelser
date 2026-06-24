@@ -46700,6 +46700,20 @@
     "url": "https://www.nrk.no/nyheter/hetebolge-og-varmerekorder-1.14638111",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Hetebølge og varmerekorder",
+    "nrk_section": "nyheter",
+    "publication_date": "2019-07-25T16:54:05+02:00",
+    "modified_date": "2026-06-24T17:22:10+02:00",
+    "intro_text": "Vi følger hetebølge og varmerekorder direkte. Er du et sted med hetebølge? Ta kontakt med NRK her.",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "24. juni 2026 kl. 17:22 Hetebølge og varmerekorder Paris: Ny varmerekord for juni Onsdag er det satt ny varmerekord for juni i Paris med 40,9 grader, melder det meteorologiske instituttet ifølge Reuters. Det meterologiske instituttet melder at det også på landsbasis er satt ny varmerekord for gjennomsnittstemperatur på et døgn, med 29,9 grader. Landet er et av flere som er rammet av hetebølgen i Europa nå. Også i Storbritannia ble det onsdag registrert en ny foreløpig varmerekord, med 35,7 grader. NRK retter: I en tidligere versjon av denne meldinga sto det at 40,9 grader var ny varmerekord for Paris. Det riktige er at det gjelder for juni måned. Det ble endret klokka 18.47.",
+    "correction_description": "Presisering av at varmerekorden på 40,9 grader i Paris gjaldt for juni måned, ikke en generell varmerekord for byen.",
+    "correction_text_extract": "NRK retter: I en tidligere versjon av denne meldinga sto det at 40,9 grader var ny varmerekord for Paris. Det riktige er at det gjelder for juni måned. Det ble endret klokka 18.47.",
+    "correction_date": "2026-06-24",
+    "news_category": "weather",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": null
   }
 ]
