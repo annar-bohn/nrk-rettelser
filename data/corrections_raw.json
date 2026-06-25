@@ -46715,5 +46715,17 @@
     "news_category": "weather",
     "correction_type": "factual_error",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1782377488078,
+    "date": "2026-06-24T21:28:57+02:00",
+    "title": "Rekordmye vann i magasinene i nord – strømprisen kan bli enda billigere",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne saken sto det atNVE har sett en økning i fyllingsgraden i alle de norske prisområdene de siste «årene». Det riktige er «ukene». Saken er oppdatert 25. juni 2026.",
+    "correction": "I en tidligere versjon av denne saken sto det atNVE har sett en økning i fyllingsgraden i alle de norske prisområdene de siste «årene». Det riktige er «ukene». Saken er oppdatert 25. juni 2026.",
+    "url": "https://www.nrk.no/nordland/rekordmye-vann-i-magasinene-i-nord-norge-1.17934572",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
