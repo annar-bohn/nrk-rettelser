@@ -46741,5 +46741,17 @@
     "news_category": "economy",
     "correction_type": "factual_error",
     "time_to_correct_hours": 11.53
+  },
+  {
+    "id": 1782587623525,
+    "date": "2026-06-27T16:30:42+02:00",
+    "title": "Raser mot streikebryteri: Vil fjerne statsstøtte fra privatskoler",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av denne saken stod det at Rødt hadde stilt forslag om at Stortinget skulle be regjeringen utrede endringer i privatskoleloven sammen med Arbeiderpartiet, SV og MDG, og at det fikk støtte av Senterpartiet. Det riktige er at Rødt stilte forslaget sammen med Ap og SV, og at MDG støttet forslaget. Sp var med å stemme det ned. Saken ble rettet 27.06.2025 klokken 21:00.",
+    "correction": "Rettelse: I en tidligere versjon av denne saken stod det at Rødt hadde stilt forslag om at Stortinget skulle be regjeringen utrede endringer i privatskoleloven sammen med Arbeiderpartiet, SV og MDG, og at det fikk støtte av Senterpartiet. Det riktige er at Rødt stilte forslaget sammen med Ap og SV, og at MDG støttet forslaget. Sp var med å stemme det ned. Saken ble rettet 27.06.2025 klokken 21:00.",
+    "url": "https://www.nrk.no/vestland/raser-mot-streikebryteri_-vil-fjerne-statsstotte-fra-privatskoler_-1.17933009",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
