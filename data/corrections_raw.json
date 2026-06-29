@@ -46767,5 +46767,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4.5
+  },
+  {
+    "id": 1782747306149,
+    "date": "2026-06-29T13:34:08+02:00",
+    "title": "NRK beklager innslag i Frokost-TV i 1988",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK beklager den langvarige belastningen dette har påført de berørte.",
+    "correction": "NRK beklager den langvarige belastningen dette har påført de berørte.",
+    "url": "https://www.nrk.no/norge/nrk-beklager-innslag-i-frokost-tv-i-1988-1.17940472",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
