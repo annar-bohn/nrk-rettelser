@@ -46793,5 +46793,17 @@
     "news_category": "other",
     "correction_type": "retracted_claim",
     "time_to_correct_hours": 0.1
+  },
+  {
+    "id": 1783086500553,
+    "date": "2026-07-03T11:59:36+02:00",
+    "title": "Norge møter Brasil: Det blir folkefest på Stortorget i Tromsø",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av denne artikkelen skrev vi at Sparebank1 Nord-Norge ville stille opp med 500.000 kroner til en arrangør som ville sette opp visning. Det stemmer ikke. Banken opplyser at de bidrar, men ville diskutere konkrete beløp med den eventuelle arrangøren. Dette var før visningen ble bekreftet.",
+    "correction": "Rettelse: I en tidligere versjon av denne artikkelen skrev vi at Sparebank1 Nord-Norge ville stille opp med 500.000 kroner til en arrangør som ville sette opp visning. Det stemmer ikke. Banken opplyser at de bidrar, men ville diskutere konkrete beløp med den eventuelle arrangøren. Dette var før visningen ble bekreftet.",
+    "url": "https://www.nrk.no/tromsogfinnmark/vm-kampen-mellom-norge-og-brasil-pa-storskjerm-i-tromso-1.17946039",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
