@@ -46871,5 +46871,17 @@
     "news_category": "crime",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 5.33
+  },
+  {
+    "id": 1783625214815,
+    "date": "2026-07-09T09:59:47+02:00",
+    "title": "Brukte over 160 millioner på togstasjon «ingen» bruker",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 09.07.26, kl.19:03:",
+    "correction": "Rettelse 09.07.26, kl.19:03:",
+    "url": "https://www.nrk.no/nordland/nesten-ingen-passasjerer-bruker-togstoppet-oteraga-i-bodo-_-kostet-160-millioner-kroner-1.17928001",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
