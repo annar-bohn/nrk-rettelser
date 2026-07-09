@@ -46819,5 +46819,29 @@
     "news_category": "sports",
     "correction_type": "factual_error",
     "time_to_correct_hours": 3.83
+  },
+  {
+    "id": 1783563222141,
+    "date": "2026-07-08T22:57:30+02:00",
+    "title": "Nyhetssenter Trøndelag",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: Miljødirektoratet varslet først at det var snakk om ni vassdrag, men presiserte senere at det er i 6 vassdrag at fisketiden blir redusert.",
+    "correction": "Rettelse: Miljødirektoratet varslet først at det var snakk om ni vassdrag, men presiserte senere at det er i 6 vassdrag at fisketiden blir redusert.",
+    "url": "https://www.nrk.no/trondelag/nyhetssenter-trondelag-1.16408120",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1783563259360,
+    "date": "2026-07-08T17:06:54+02:00",
+    "title": "Grov narkosak: Skal ha oppbevart over 3,7 kg kokain og 37,3 kg hasj",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "KORRIGERING KL. 22.22:I en tidligere versjon av denne saken stod et at mannen var tiltalt for ha oppbevart over 7,4 kg kokain og 57 kg hasj. Det riktige var altså over 3,7 kg kokain og 37,3 kg hasj.",
+    "correction": "KORRIGERING KL. 22.22:I en tidligere versjon av denne saken stod et at mannen var tiltalt for ha oppbevart over 7,4 kg kokain og 57 kg hasj. Det riktige var altså over 3,7 kg kokain og 37,3 kg hasj.",
+    "url": "https://www.nrk.no/tromsogfinnmark/statsadvokatene-i-nord-har-tiltalt-en-mann-for-grov-narkotikavirksomhet-1.17952068",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
