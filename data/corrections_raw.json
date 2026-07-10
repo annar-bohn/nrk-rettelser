@@ -46897,5 +46897,29 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 9.22
+  },
+  {
+    "id": 1783675342663,
+    "date": "2026-07-10T10:10:03+02:00",
+    "title": "Nettverk svindlet eldre for millioner – nå er 11 personer dømt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken stod det at de tiltalte ifølge tiltalen svindlet eldre for 28 millioner kroner. Tiltalen er endret til 27 millioner kroner. Millionbeløpet retten finner dem skyldig i å ha svindlet folk for, er også betydelig lavere enn hva de var tiltalt for. Saken ble rettet klokken 13:33.",
+    "correction": "Rettelse: I en tidligere versjon av saken stod det at de tiltalte ifølge tiltalen svindlet eldre for 28 millioner kroner. Tiltalen er endret til 27 millioner kroner. Millionbeløpet retten finner dem skyldig i å ha svindlet folk for, er også betydelig lavere enn hva de var tiltalt for. Saken ble rettet klokken 13:33.",
+    "url": "https://www.nrk.no/stor-oslo/svindelnettverk-domt_-svindlet-eldre-for-millioner-av-kroner-1.17921746",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1783675383733,
+    "date": "2026-07-10T10:25:16+02:00",
+    "title": "NRK beklager TikTok-artikkel",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK beklager at premissene for bruk av intervjuet med Guttormsen ikke ble gjort tydelige, samt belastningen saken har påført henne.",
+    "correction": "NRK beklager at premissene for bruk av intervjuet med Guttormsen ikke ble gjort tydelige, samt belastningen saken har påført henne.",
+    "url": "https://www.nrk.no/norge/nrk-beklager-tiktok-artikkel-1.17954096",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
