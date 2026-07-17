@@ -46960,6 +46960,20 @@
     "url": "https://www.nrk.no/nyheter/krigen-i-midtosten-1.17453480",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Krigen i Midtøsten",
+    "nrk_section": "nyheter",
+    "publication_date": "2025-06-13T05:49:22+02:00",
+    "modified_date": "2026-07-17T12:17:39+02:00",
+    "intro_text": "28. februar utførte Israel og USA et koordinert angrep mot Iran. I tillegg har de to landene angrepet mål i Libanon. Natt til onsdag 8. april ble det inngått en foreløpig våpenhvile mellom USA, Israel og Iran.",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "17. juli 2026 kl. 12:17 Krigen i Midtøsten Iran advarer land med amerikanske baser Irans revolusjonsgarde advarer land i regionen med amerikanske militærbaser, og sier at de vil rammes av «en knusende hevn» dersom angrepene mot landet fortsetter. Det melder nyhetsbyrået Reuters. USA har gjennomført flere angrep mot Iran den siste uken. Iran har blant annet bedt innbyggere begrense strømforbruket etter at amerikanske angrep har skadet energiinfrastrukturen sør i landet. Iran har svart med å angripe flere land i Midtøsten.",
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": "2026-07-17",
+    "news_category": "world",
+    "correction_type": "other",
+    "time_to_correct_hours": 9582.47
   }
 ]
