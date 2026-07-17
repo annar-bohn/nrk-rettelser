@@ -46949,5 +46949,17 @@
     "news_category": "other",
     "correction_type": "missing_context",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1784293924421,
+    "date": "2026-07-17T12:17:39+02:00",
+    "title": "Krigen i Midtøsten",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon stod det at dette er det minste antallet skip siden krigen startet.",
+    "correction": "Rettelse: I en tidligere versjon stod det at dette er det minste antallet skip siden krigen startet.",
+    "url": "https://www.nrk.no/nyheter/krigen-i-midtosten-1.17453480",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
