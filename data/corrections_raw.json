@@ -46975,5 +46975,17 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 9582.47
+  },
+  {
+    "id": 1784555537329,
+    "date": "2025-09-30T16:37:13+02:00",
+    "title": "– Jeg trodde hvert sekund kunne bli mitt siste",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 1: I første versjon av artikkelen sto det at 80 prosent av ansatte ibarnevernsinstitusjoneropplever vold eller trusler i løpet av et år, med henvisning til undersøkelsen fra STAMI. Undersøkelsen gjelder kun for Oslo kommune og omfatter 81 prosent av de ansatte. Dette er endret 30. september kl.18.24.Rettelse 2: I tidligere versjoner omtalte ikke artikkelen at slaget fra Oskar kom først etter at han og gutten var atskilt. Denne informasjonen er lagt til 2. oktober kl. 16.26.",
+    "correction": "Rettelse 1: I første versjon av artikkelen sto det at 80 prosent av ansatte ibarnevernsinstitusjoneropplever vold eller trusler i løpet av et år, med henvisning til undersøkelsen fra STAMI. Undersøkelsen gjelder kun for Oslo kommune og omfatter 81 prosent av de ansatte. Dette er endret 30. september kl.18.24.Rettelse 2: I tidligere versjoner omtalte ikke artikkelen at slaget fra Oskar kom først etter at han og gutten var atskilt. Denne informasjonen er lagt til 2. oktober kl. 16.26.",
+    "url": "https://www.nrk.no/norge/xl/_oscar_-kjente-tamima-_-forteller-om-frykten-hos-ansatte-i-institusjoner-1.17545793",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
