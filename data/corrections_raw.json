@@ -47012,6 +47012,20 @@
     "url": "https://www.nrk.no/urix/kraftig-meteor-smell-over-flere-steder-i-usa-1.17902883",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Kraftig meteor-smell over flere steder i USA",
+    "nrk_section": "urix",
+    "publication_date": "2026-05-31T05:54:25+02:00",
+    "modified_date": "2026-07-21T10:13:17+02:00",
+    "intro_text": "En meteor forårsaket kraftig dobbeltsmell over det nordøstlige USA natt til søndag norsk tid,",
+    "journalist": "Aud Darrud",
+    "responsible_editor": "",
+    "article_body": "Kraftig meteor-smell over flere steder i USA En meteor forårsaket kraftig dobbeltsmell over det nordøstlige USA natt til søndag norsk tid, Dette utleverte satellittbildet fra Cooperative Institute for Research in the Atmosphere ved Colorado State University og National Oceanic and Atmospheric Administration (CSU/CIRA og NOAA), tatt 30. mai 2026 kl. 18:06 UTC, viser en meteor som eksploderer i atmosfæren over det nordøstlige Massachusetts og det sørøstlige New Hampshire Foto: HANDOUT / Cooperative Institute for Resear,NTB Aud Darrud – Journalist Journalist Publisert 31.05.2026, kl. 05.54 Oppdatert 21.07.2026, kl. 10.13 Publisert 31.05.2026, kl. 05.54 Oppdatert 21.07.2026, kl. 10.13 Ifølge den amerikanske meteororganisasjonen AMS var det en rundt én meter bred meteor som kom inn i atmosfæren i 14-tiden lokal tid. Det skjedde i grenseområdet mellom delstatene New Hampshire og Massachusetts, like nord for Boston. AMS har mottatt mange meldinger fra Delaware i sør til Montreal i Canada i nord. Det har kommet inn flere meldinger fra folk som forteller at de enten hørte det kraftige dobbeltsmellet, kjent rystelser i både bygninger og bakken, eller så en lysende ildkule på himmelen. Nasa bekrefter at det dreier seg om et «naturlig objekt» og ikke menneskeskapt romsøppel eller en gammel satellitt. – Denne ildkulen var ikke knyttet til noe nåværende aktivt meteorregn, men var et naturlig objekt og ikke noe romskrot eller noen satellitt som hadde kommet inn igjen i atmosfæren, sier Jennifer Dooren i Nasa. I regionen New England ble det hørt to kraftige smell som skyldes en meteor. Du trenger javascript for å se video. I regionen New England ble det hørt to kraftige smell som skyldes en meteor. Tilsvarer 230 tonn TNT – Meteoren holdt en hastighet på rundt 67 600 kilometer i timen, og den gikk sannsynligvis i oppløsning omtrent 60 kilometer over bakken, forteller NASAs talsperson Allard Beutel til nyhetsbyrået AP. Romsenteret anslår at energien som ble utløst da den eksploderte, tilsvarer rundt 300 tonn TNT, noe som forklarer de kraftige smellene. Ifølge AMS er det lite som tyder på at restene av meteoren har truffet bakken De fleste meteorer brenner opp i atmosfæren uten å gjøre skade, men større objekter kan av og til overleve lenge nok til å skape ildkuler. Lørdagens hendelse er den siste i en rekke meteorhendelser som er rapportert over hele Nord-Amerika i år. I en tidligere versjon ble det oppgitt at meteoren hadde en hastighet på rundt 120 700 kilometer i timen og at energien som ble utløst da en eksploderte tilsvarte rundt 300 tonn TNT. Ifølge AP news er tallene: 230 tonn og 67 600 km/t. Du trenger javascript for å spille av lydklippet «Urix». Publisert 31.05.2026, kl. 05.54 Oppdatert 21.07.2026, kl. 10.13 Astronomi og romfart Er det gull på Mars? + Vis flere Mer om: Astronomi og romfart",
+    "correction_description": "Artikkelen korrigerer feilaktige tall for meteorens hastighet og energiutladning etter informasjon fra AP.",
+    "correction_text_extract": "I en tidligere versjon ble det oppgitt at meteoren hadde en hastighet på rundt 120 700 kilometer i timen og at energien som ble utløst da en eksploderte tilsvarte rundt 300 tonn TNT. Ifølge AP news er tallene: 230 tonn og 67 600 km/t.",
+    "correction_date": "2026-07-21",
+    "news_category": "science",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": 1228.31
   }
 ]
