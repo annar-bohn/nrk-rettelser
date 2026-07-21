@@ -47001,5 +47001,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 47.85
+  },
+  {
+    "id": 1784640146813,
+    "date": "2026-05-31T05:54:25+02:00",
+    "title": "Kraftig meteor-smell over flere steder i USA",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon ble det oppgitt at meteoren hadde en hastighet på rundt 120 700 kilometer i timen og at energien som ble utløst da en eksploderte tilsvarte rundt 300 tonn TNT. IfølgeAP newser tallene: 230 tonn og 67 600 km/t.",
+    "correction": "I en tidligere versjon ble det oppgitt at meteoren hadde en hastighet på rundt 120 700 kilometer i timen og at energien som ble utløst da en eksploderte tilsvarte rundt 300 tonn TNT. IfølgeAP newser tallene: 230 tonn og 67 600 km/t.",
+    "url": "https://www.nrk.no/urix/kraftig-meteor-smell-over-flere-steder-i-usa-1.17902883",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
