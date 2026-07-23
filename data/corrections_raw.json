@@ -47027,5 +47027,17 @@
     "news_category": "science",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 1228.31
+  },
+  {
+    "id": 1784794646385,
+    "date": "2026-07-23T06:23:09+02:00",
+    "title": "Tilhenger-tabbe med elbil: Kan koste deg flere tusen kroner",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "juli 2026: I en tidligere versjon av saken sto det at nye EU-regler vil løse utfordringen med å kjøre tung elbil med tilhenger på B-førerkort. Dette medfører ikke riktighet. Økningen til 4.250 kilo gjelder kun for elbilens tillatte totalvekt. Dersom samlet vekt for bil og henger overstiger 3500 kilo, må man uansett ha tilhengerlapp.",
+    "correction": "juli 2026: I en tidligere versjon av saken sto det at nye EU-regler vil løse utfordringen med å kjøre tung elbil med tilhenger på B-førerkort. Dette medfører ikke riktighet. Økningen til 4.250 kilo gjelder kun for elbilens tillatte totalvekt. Dersom samlet vekt for bil og henger overstiger 3500 kilo, må man uansett ha tilhengerlapp.",
+    "url": "https://www.nrk.no/ostfold/tunge-elbiler-skaper-tilhenger-trobbel-1.17957435",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
