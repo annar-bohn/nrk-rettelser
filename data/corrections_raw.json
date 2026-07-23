@@ -47105,5 +47105,17 @@
     "news_category": "technology",
     "correction_type": "other",
     "time_to_correct_hours": 17.28
+  },
+  {
+    "id": 1784833400309,
+    "date": "2026-07-23T16:37:06+02:00",
+    "title": "Medlemsfest i ungdomspolitikken: FpU meir enn dobla på fem år",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTING:",
+    "correction": "RETTING:",
+    "url": "https://www.nrk.no/norge/medlemsfest-i-ungdomspolitikken_-fpu-meir-enn-dobla-pa-fem-ar-1.17953076",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
