@@ -47053,5 +47053,29 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 2.8
+  },
+  {
+    "id": 1784813955588,
+    "date": "2026-07-09T05:36:22+02:00",
+    "title": "Giftig plante sprer seg ved barneskole: – Synes ikke kommunen gjør nok",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av denne saken sto det at bare noen få milligram av planten kan ta livet av et menneske på 3-12 timer. Det riktige er noen få gram.",
+    "correction": "Rettelse: I en tidligere versjon av denne saken sto det at bare noen få milligram av planten kan ta livet av et menneske på 3-12 timer. Det riktige er noen få gram.",
+    "url": "https://www.nrk.no/tromsogfinnmark/den-dodelige-finnmarksnyseroten-fortsetter-a-spre-seg-i-finnmark-1.17945199",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1784813988081,
+    "date": "2026-07-22T21:50:29+02:00",
+    "title": "OpenAI sin KI hacket seg inn i selskap på egen hånd",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Etter publisering har NRK lagt til noen presiseringer i teksten, for å tydeliggjøre hva som skjedde. Artikkelen ble oppdatert 23.juli, klokken 12:30.",
+    "correction": "Etter publisering har NRK lagt til noen presiseringer i teksten, for å tydeliggjøre hva som skjedde. Artikkelen ble oppdatert 23.juli, klokken 12:30.",
+    "url": "https://www.nrk.no/norge/openai-sin-ki-hacket-seg-inn-i-selskap-pa-egen-hand-1.17965655",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
