@@ -47131,5 +47131,17 @@
     "news_category": "politics",
     "correction_type": "spelling_grammar",
     "time_to_correct_hours": 0.86
+  },
+  {
+    "id": 1784899363734,
+    "date": "2026-07-24T07:02:05+02:00",
+    "title": "Bjørnefelling på Snåsa skaper storm i kommentarfeltet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "juli klokken 11:15:I en tidligere versjon av denne saken sto det at jaktlaget kun hadde fellingstillatelse på en hannbjørn. Det riktige er at Statsforvalterens tillatelse gjaldt skadefelling av en bjørn uavhengig kjønn, men at de på det tidspunktet kun var kjent med at det befant seg en hannbjørn i området. Binne med unger var unntatt fellingstillatelsen. Den felte binna hadde ikke unger.",
+    "correction": "juli klokken 11:15:I en tidligere versjon av denne saken sto det at jaktlaget kun hadde fellingstillatelse på en hannbjørn. Det riktige er at Statsforvalterens tillatelse gjaldt skadefelling av en bjørn uavhengig kjønn, men at de på det tidspunktet kun var kjent med at det befant seg en hannbjørn i området. Binne med unger var unntatt fellingstillatelsen. Den felte binna hadde ikke unger.",
+    "url": "https://www.nrk.no/sapmi/bjornefelling-pa-snasa-skaper-storm-i-kommentarfeltet-1.17967116",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
