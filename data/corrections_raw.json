@@ -47183,5 +47183,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 62.11
+  },
+  {
+    "id": 1785179936974,
+    "date": "2026-07-27T18:51:52+02:00",
+    "title": "Bestilte pakke – fikk beskjed om å hente på Ica i Småland",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK har rettet spørsmål mot PostNord.",
+    "correction": "NRK har rettet spørsmål mot PostNord.",
+    "url": "https://www.nrk.no/vestland/bestilte-pakke-_-fikk-beskjed-om-a-hente-pa-ica-i-smaland-1.17967191",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
