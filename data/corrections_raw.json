@@ -47157,5 +47157,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4.6
+  },
+  {
+    "id": 1785144987031,
+    "date": "2026-07-24T18:58:40+02:00",
+    "title": "Kunsttyveri på UNN: – Forferdelig",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken skrev NRK at det var Kåfjord kommune som hadde søkt vevetradisjonen inn på UNESCOs verdensarvliste. Dette er ikke riktig, da det er Senter for nordlige folk AS i samarbeid med Manndalen husflidslag som står bak søknaden.",
+    "correction": "Rettelse: I en tidligere versjon av saken skrev NRK at det var Kåfjord kommune som hadde søkt vevetradisjonen inn på UNESCOs verdensarvliste. Dette er ikke riktig, da det er Senter for nordlige folk AS i samarbeid med Manndalen husflidslag som står bak søknaden.",
+    "url": "https://www.nrk.no/tromsogfinnmark/maskert-tyv-stjal-kunst-fra-unn-1.17968485",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
