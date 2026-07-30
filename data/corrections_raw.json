@@ -47209,5 +47209,29 @@
     "news_category": "local",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1785399090761,
+    "date": "2026-07-24T12:56:07+02:00",
+    "title": "Hvalross på skogstur: – Rimelig spesielt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering: I en tidligere versjon sto det at hvalrossen var et hanndyr, men etter at en ekspert har sett på flere bilder av hvalrossen mener han nå dette er et hunndyr. Artikkelen ble oppdatert 30.07.26 klokken 09:03.",
+    "correction": "Presisering: I en tidligere versjon sto det at hvalrossen var et hanndyr, men etter at en ekspert har sett på flere bilder av hvalrossen mener han nå dette er et hunndyr. Artikkelen ble oppdatert 30.07.26 klokken 09:03.",
+    "url": "https://www.nrk.no/sapmi/hvalross-pa-skogstur-i-tana_-_-rimelig-spesielt-1.17967962",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1785399091569,
+    "date": "2026-07-22T19:22:04+02:00",
+    "title": "Hvalross i grøfta: – Så ut til å kose seg",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering: I en tidligere versjon sto det at hvalrossen var et hanndyr, men etter at en ekspert har sett på flere bilder av hvalrossen mener han nå dette er et hunndyr. Artikkelen ble oppdatert 30.07.26 klokken 09:05.",
+    "correction": "Presisering: I en tidligere versjon sto det at hvalrossen var et hanndyr, men etter at en ekspert har sett på flere bilder av hvalrossen mener han nå dette er et hunndyr. Artikkelen ble oppdatert 30.07.26 klokken 09:05.",
+    "url": "https://www.nrk.no/sapmi/hvalross-i-grofta_-_-sa-ut-til-a-kose-seg-1.17966371",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
