@@ -47261,5 +47261,29 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 181.71
+  },
+  {
+    "id": 1785418947831,
+    "date": "2026-07-28T20:02:53+02:00",
+    "title": "Oppdaget KI-kopi av seg selv: – Føltes litt ekkelt og håpløst",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering: Etter publisering er det gjort noen presiseringer i avsnittet der prosjektet «EIRUNNS VERDEN» er omtalt. I den oppdaterte artikkelen står det nå at prosjektet fortsatt er i en utviklingsfase, og ikke startet opp for fullt enda.",
+    "correction": "Presisering: Etter publisering er det gjort noen presiseringer i avsnittet der prosjektet «EIRUNNS VERDEN» er omtalt. I den oppdaterte artikkelen står det nå at prosjektet fortsatt er i en utviklingsfase, og ikke startet opp for fullt enda.",
+    "url": "https://www.nrk.no/tromsogfinnmark/eirunn-fra-tromso-fant-ki-versjon-av-seg-selv-pa-spotify-1.17964154",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1785418988135,
+    "date": "2026-07-29T19:30:08+02:00",
+    "title": "Ble nektet å bruke elektrisk scooter i egen boligblokk: – Nedrig",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av saken, skrev vi at Øyen ble nektet å bruke sin «elektriske rullestol» i heisen. Dette er nå endret til «elektriske scooter». I Nav sin hjelpemiddeldatabase er el-scooterne klassifisert som «elektrisk rullestol med manuell styring for utendørs bruk».",
+    "correction": "I en tidligere versjon av saken, skrev vi at Øyen ble nektet å bruke sin «elektriske rullestol» i heisen. Dette er nå endret til «elektriske scooter». I Nav sin hjelpemiddeldatabase er el-scooterne klassifisert som «elektrisk rullestol med manuell styring for utendørs bruk».",
+    "url": "https://www.nrk.no/stor-oslo/ble-nektet-a-bruke-elektrisk-scooter-i-egen-boligblokk_-_-nedrig-1.17972681",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
