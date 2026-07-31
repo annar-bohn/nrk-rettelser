@@ -47350,7 +47350,21 @@
     "url": "https://www.nrk.no/innlandet/utforkjoring-i-ringebu-1.17975539",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Utforkjøring i Ringebu – NRK Innlandet – Lokale nyheter, TV og radio",
+    "nrk_section": "innlandet",
+    "publication_date": "2026-07-31T18:31:53+02:00",
+    "modified_date": "2026-07-31T19:51:28+02:00",
+    "intro_text": "En bil med to personer i har kjørt av veien i Ringebu. Ifølge politiet er det meldt om store materielle skader. De to i bilen skal være oppegående. Klokken 19.50 melder politiet at ingen er skadet, og at bilen hadde kjørt i grøfta og truffet stein og trær. Berging er bestilt. NRK korrigerer: I en tidligere versjon skrev vi Ringsaker. Det var feil kommune. Vi beklager.",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "31. juli 2026 kl. 18:31 Nyhetssenter Innlandet Politi- og brannloggen i Innlandet Utforkjøring i Ringebu En bil med to personer i har kjørt av veien i Ringebu. Ifølge politiet er det meldt om store materielle skader. De to i bilen skal være oppegående. Klokken 19.50 melder politiet at ingen er skadet, og at bilen hadde kjørt i grøfta og truffet stein og trær. Berging er bestilt. NRK korrigerer: I en tidligere versjon skrev vi Ringsaker. Det var feil kommune. Vi beklager. Nyhetssenter Innlandet Politi- og brannloggen i Innlandet",
+    "correction_description": "Artikkelen oppga feil kommune (Ringsaker i stedet for Ringebu) i en tidligere versjon.",
+    "correction_text_extract": "NRK korrigerer: I en tidligere versjon skrev vi Ringsaker. Det var feil kommune. Vi beklager.",
+    "correction_date": "2026-07-31",
+    "news_category": "local",
+    "correction_type": "wrong_location",
+    "time_to_correct_hours": 1.33
   },
   {
     "id": 1785525228563,
@@ -47362,6 +47376,20 @@
     "url": "https://www.nrk.no/innlandet/motorsykkelulykke-pa-e6-i-gjovik-1.17975563",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Motorsykkelulykke på E6 i Gjøvik – NRK Innlandet – Lokale nyheter, TV og radio",
+    "nrk_section": "innlandet",
+    "publication_date": "2026-07-31T18:35:37+02:00",
+    "modified_date": "2026-07-31T19:26:19+02:00",
+    "intro_text": "Trafikken står i sørgående retning på E6 ved Biri i Gjøvik. Årsaken er en påkjørsel bakfra hvor to motorsyklister med hver sin fører har vært involvert. Føreren av den ene motorsykkelen får behandling av helsevesen på stedet, melder politiet klokken 19.10. Ifølge Vegtrafikksentralen øst er det skiltet omkjøring i retning Hamar. Trafikkoperatør Gry Solli sier at det en god del trafikk på veiene, og grunn til å tro at det går sakte også på omkjøringsveien. NRK presiserer: I en tidligere versjon me",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "31. juli 2026 kl. 18:35 Motorsykkelulykke på E6 i Gjøvik Trafikken står i sørgående retning på E6 ved Biri i Gjøvik. Årsaken er en påkjørsel bakfra hvor to motorsyklister med hver sin fører har vært involvert. Føreren av den ene motorsykkelen får behandling av helsevesen på stedet, melder politiet klokken 19.10. Ifølge Vegtrafikksentralen øst er det skiltet omkjøring i retning Hamar. Trafikkoperatør Gry Solli sier at det en god del trafikk på veiene, og grunn til å tro at det går sakte også på omkjøringsveien. NRK presiserer: I en tidligere versjon meldte politiet at det skulle ha vært to personer på én motorsykkel. Det er snakk om to motorsyklister på hver sin motorsykkel.",
+    "correction_description": "NRK presiserer at ulykken involverte to motorsykler med hver sin fører, ikke to personer på én motorsykkel som først meldt.",
+    "correction_text_extract": "NRK presiserer: I en tidligere versjon meldte politiet at det skulle ha vært to personer på én motorsykkel. Det er snakk om to motorsyklister på hver sin motorsykkel.",
+    "correction_date": "2026-07-31",
+    "news_category": "local",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 0.84
   }
 ]
