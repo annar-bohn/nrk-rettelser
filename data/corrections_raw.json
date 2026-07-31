@@ -47339,5 +47339,29 @@
     "news_category": "economy",
     "correction_type": "missing_context",
     "time_to_correct_hours": 55.37
+  },
+  {
+    "id": 1785525227782,
+    "date": "2026-07-31T18:31:53+02:00",
+    "title": "Utforkjøring i Ringebu – NRK Innlandet – Lokale nyheter, TV og radio",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK korrigerer: I en tidligere versjon skrev vi Ringsaker. Det var feil kommune. Vi beklager.",
+    "correction": "NRK korrigerer: I en tidligere versjon skrev vi Ringsaker. Det var feil kommune. Vi beklager.",
+    "url": "https://www.nrk.no/innlandet/utforkjoring-i-ringebu-1.17975539",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1785525228563,
+    "date": "2026-07-31T18:35:37+02:00",
+    "title": "Motorsykkelulykke på E6 i Gjøvik – NRK Innlandet – Lokale nyheter, TV og radio",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK presiserer: I en tidligere versjon meldte politiet at det skulle ha vært to personer på én motorsykkel. Det er snakk om to motorsyklister på hver sin motorsykkel.",
+    "correction": "NRK presiserer: I en tidligere versjon meldte politiet at det skulle ha vært to personer på én motorsykkel. Det er snakk om to motorsyklister på hver sin motorsykkel.",
+    "url": "https://www.nrk.no/innlandet/motorsykkelulykke-pa-e6-i-gjovik-1.17975563",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
