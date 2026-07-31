@@ -47313,5 +47313,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 17.1
+  },
+  {
+    "id": 1785505668469,
+    "date": "2026-07-29T05:14:02+02:00",
+    "title": "Datasentre kan gi dyrere strømregning for folk flest",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "31.07.2026: I en tidligere versjon av denne artikkelen stod det at tørke er årsaken til at det er så lav fyllingsgrad i magasinene. Det viser ikke hele bildet. Derfor har vi lagt inn at også eksport har noe å si.",
+    "correction": "31.07.2026: I en tidligere versjon av denne artikkelen stod det at tørke er årsaken til at det er så lav fyllingsgrad i magasinene. Det viser ikke hele bildet. Derfor har vi lagt inn at også eksport har noe å si.",
+    "url": "https://www.nrk.no/rogaland/datasentre-og-rekordtorke-truer-den-billige-strommen-_-kan-gi-hoyere-norgespris-1.17967904",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
