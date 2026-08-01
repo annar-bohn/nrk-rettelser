@@ -47391,5 +47391,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 0.84
+  },
+  {
+    "id": 1785550106574,
+    "date": "2026-07-31T20:18:43+02:00",
+    "title": "Politi- og brannloggen i Innlandet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK korrigerer: I en tidligere versjon skrev vi Ringsaker. Det var feil kommune. Vi beklager.",
+    "correction": "NRK korrigerer: I en tidligere versjon skrev vi Ringsaker. Det var feil kommune. Vi beklager.",
+    "url": "https://www.nrk.no/innlandet/politi--og-brannloggen-i-innlandet-1.14111300",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
