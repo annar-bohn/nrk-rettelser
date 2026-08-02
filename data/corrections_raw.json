@@ -47417,5 +47417,17 @@
     "news_category": "local",
     "correction_type": "wrong_location",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1785675888096,
+    "date": "2026-08-01T23:41:30+02:00",
+    "title": "Dommerdrama på Norway Cup",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon av artikkelen stod det at hele arrangmentskomiteen for dommere gikk av. Ifølge Norway Cups kommunikasjonssjef dreier det som om deler av komiteen, ikke alle. Dette er korrigert 02.08.26 kl. 08.27.",
+    "correction": "RETTELSE: I en tidligere versjon av artikkelen stod det at hele arrangmentskomiteen for dommere gikk av. Ifølge Norway Cups kommunikasjonssjef dreier det som om deler av komiteen, ikke alle. Dette er korrigert 02.08.26 kl. 08.27.",
+    "url": "https://www.nrk.no/norge/flere-dommere-gar-hardt-ut-mot-norway-cup-1.17976186",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
