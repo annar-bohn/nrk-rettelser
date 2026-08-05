@@ -47495,5 +47495,17 @@
     "news_category": "science",
     "correction_type": "wrong_date",
     "time_to_correct_hours": 2.39
+  },
+  {
+    "id": 1785957537236,
+    "date": "2026-08-05T13:53:59+02:00",
+    "title": "Mer enn et venstreopprør",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon stod det at tidligere president Barack Obama har gitt sin støtte til Haley Stevens. Dette er feil, og ble korrigert i artikkelen kl. 17.10, 05.08.26.",
+    "correction": "RETTELSE: I en tidligere versjon stod det at tidligere president Barack Obama har gitt sin støtte til Haley Stevens. Dette er feil, og ble korrigert i artikkelen kl. 17.10, 05.08.26.",
+    "url": "https://www.nrk.no/urix/demokrater-vil-ha-noe-nytt-1.17979509",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
