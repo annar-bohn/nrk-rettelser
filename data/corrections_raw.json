@@ -47521,5 +47521,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 3.25
+  },
+  {
+    "id": 1786024028232,
+    "date": "2026-08-05T19:45:48+02:00",
+    "title": "«Nunna» (110) er Norges eldste - gikk på danseskole for hundre år siden",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse, 06.08.26, 08:57: I den første utgaven av denne saken ble hovedpersonen omtalt med sitt fødenavn. Edna Ellynore \"Nunna\" var født Gundersen, men har siden hun giftet seg i 1942, hett Moum.",
+    "correction": "Rettelse, 06.08.26, 08:57: I den første utgaven av denne saken ble hovedpersonen omtalt med sitt fødenavn. Edna Ellynore \"Nunna\" var født Gundersen, men har siden hun giftet seg i 1942, hett Moum.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/edna-ellynore-_nunna_-moum-er-norges-eldste-person-1.17978597",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
