@@ -47547,5 +47547,17 @@
     "news_category": "local",
     "correction_type": "wrong_name",
     "time_to_correct_hours": 13.2
+  },
+  {
+    "id": 1786060328302,
+    "date": "2026-08-04T18:13:51+02:00",
+    "title": "Politiet vil ta grep mot ultrasmiljøene: Innfører nasjonale retningslinjer",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon av denne saken skrev NRK at politiet hadde fått nye virkemidler i kampen mot supportervold. Det var upresist. Det riktige er at politiet har innført nasjonale retningslinjer for bruk av virkemidler som allerede eksisterer, men som har vært håndtert ulikt i politidistriktene. Teksten ble rettet 6. august 2026 klokken 16.26.",
+    "correction": "RETTELSE: I en tidligere versjon av denne saken skrev NRK at politiet hadde fått nye virkemidler i kampen mot supportervold. Det var upresist. Det riktige er at politiet har innført nasjonale retningslinjer for bruk av virkemidler som allerede eksisterer, men som har vært håndtert ulikt i politidistriktene. Teksten ble rettet 6. august 2026 klokken 16.26.",
+    "url": "https://www.nrk.no/ostfold/na-strammer-politiet-inn-mot-supportere_-kan-stenge-hele-tribuner-1.17950880",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
