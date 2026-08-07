@@ -47573,5 +47573,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 46.67
+  },
+  {
+    "id": 1786106733974,
+    "date": "2026-08-07T05:40:44+02:00",
+    "title": "Flere streiker kan ramme luftfarten i august",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Endring: Saken er endret etter publisering for å tydeliggjøre kilden for påstanden om svekkelse av tariffavtalen. Endringen er gjort 7. august kl. 8.52.",
+    "correction": "Endring: Saken er endret etter publisering for å tydeliggjøre kilden for påstanden om svekkelse av tariffavtalen. Endringen er gjort 7. august kl. 8.52.",
+    "url": "https://www.nrk.no/norge/stor-streikefare-i-luftfarten-utover-i-august-1.17978255",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
