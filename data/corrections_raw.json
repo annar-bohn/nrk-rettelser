@@ -47610,6 +47610,20 @@
     "url": "https://www.nrk.no/vestland/nyhetssenter-vestland-1.17402852",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Nyhetssenter Vestland",
+    "nrk_section": "vestland",
+    "publication_date": "2025-05-02T17:53:53+02:00",
+    "modified_date": "2026-08-14T14:30:26+02:00",
+    "intro_text": "",
+    "journalist": "Nils Jakob Bakke Nydal, Astrid Solheim Korsvoll og Linnea Fagerbakke Heggland",
+    "responsible_editor": "",
+    "article_body": "14. august 2026 kl. 14:30 Nyhetssenter Vestland Film og serier Kultur i Vestland Milliontilskot til bergensk produksjonsselskap Spelefilmen «Uten tittel» får 10 millionar kroner i produksjonsstøtte frå NFI. Filmen skal bli produsert av bergenske Mer Film og produsent Maria Ekerhovd, og regi og manus er av Eskil Vogt. Ekerhovd og Vogt vann i vår Oscar saman med Joachim Trier for filmen «Affeksjonsverdi» Filmen tok heim tittelen for beste internasjonale film og blei historisk for å vere første norske spelefilm til å vinne Oscar. Det nye prosjektet fekk opphavleg avslag på sin søknad om støtte, men skaparane bad om ei ny og uavhengig vurdering. Etter ny vurdering fekk dei tilskotet likevel. «Uten tittel» er ein thriller, og skal etter planen ha premiere mot slutten av 2028. Det var BT som meldte om saka først.",
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": null,
+    "news_category": "culture",
+    "correction_type": "other",
+    "time_to_correct_hours": 11252.61
   }
 ]
