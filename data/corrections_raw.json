@@ -47599,5 +47599,17 @@
     "news_category": "economy",
     "correction_type": "attribution_error",
     "time_to_correct_hours": 9.04
+  },
+  {
+    "id": 1786711669210,
+    "date": "2026-08-14T14:30:26+02:00",
+    "title": "Nyhetssenter Vestland",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I første melding stod det at mannen i saka er tiltalt. Det riktige er at mannen er sikta, og retting blei gjort kl.13:15.",
+    "correction": "Retting: I første melding stod det at mannen i saka er tiltalt. Det riktige er at mannen er sikta, og retting blei gjort kl.13:15.",
+    "url": "https://www.nrk.no/vestland/nyhetssenter-vestland-1.17402852",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
