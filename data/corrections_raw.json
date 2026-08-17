@@ -47782,5 +47782,53 @@
     "news_category": "economy",
     "correction_type": "other",
     "time_to_correct_hours": 7.07
+  },
+  {
+    "id": 1787006127535,
+    "date": "2026-07-08T11:35:32+02:00",
+    "title": "Kvensk utvalg har fått nye medlemmer",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Saken er oppdatert etter publisering med kommentar fra Hallstein Guthu.",
+    "correction": "Saken er oppdatert etter publisering med kommentar fra Hallstein Guthu.",
+    "url": "https://www.nrk.no/kvensk/utvalg-for-kvenske-kulturminner-og-historie-har-fatt-nye-medlemmer-1.17951359",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787006142008,
+    "date": "2025-10-31T08:41:59+01:00",
+    "title": "Best på sitt mest kompromissløse",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "11.30: I en tidligere versjon av saken sto det at Ella Marie var deltaker i «Hver gang vi møtes». Rettelse: Hun var egentlig gjest til en av deltakerne. | 14.10: I en tidligere versjon av anmeldelsen sto det «folkemordet på Gaza». Dette er endret til «angrepene på Gaza».",
+    "correction": "11.30: I en tidligere versjon av saken sto det at Ella Marie var deltaker i «Hver gang vi møtes». Rettelse: Hun var egentlig gjest til en av deltakerne. | 14.10: I en tidligere versjon av anmeldelsen sto det «folkemordet på Gaza». Dette er endret til «angrepene på Gaza».",
+    "url": "https://www.nrk.no/p3/musikkanmeldelser/anmeldelse_-_varra_-av-ella-marie-1.17628052",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787006142713,
+    "date": "2026-05-03T18:06:04+02:00",
+    "title": "Nå stiller hun ut kunsten i Børselv: Stiller ut «Sanat muorilta – Ord fra mor» med nye verk",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne saken kom det fram at utstillingen var helt ny, utstillingen har bare noen nye elementer. «Sanat muorilta – Ord fra mor» ar tidligere blitt vist fram i Vadsø, på Kvænangen språksenter og på Halti kvenkultursenter og i Korpilombolo. Kunstneren driver heller ikke med tradisjonshåndverk, men utstillingen inneholder «broderi med plantefarget garn i maleriene og i objektene er det brukt mattefiller, broderi, cyanotypi og økotrykk, opplyser kunstneren».",
+    "correction": "I en tidligere versjon av denne saken kom det fram at utstillingen var helt ny, utstillingen har bare noen nye elementer. «Sanat muorilta – Ord fra mor» ar tidligere blitt vist fram i Vadsø, på Kvænangen språksenter og på Halti kvenkultursenter og i Korpilombolo. Kunstneren driver heller ikke med tradisjonshåndverk, men utstillingen inneholder «broderi med plantefarget garn i maleriene og i objektene er det brukt mattefiller, broderi, cyanotypi og økotrykk, opplyser kunstneren».",
+    "url": "https://www.nrk.no/kvensk/krugers-utstilling-skal-til-borselv-1.17867305",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787006149084,
+    "date": "2015-04-16T20:19:53+02:00",
+    "title": "Rettelse i sak om ”Venn i døden”",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK beklager faktafeil i sak om TV-serien ”Venn i døden”. | NRK beklager disse faktafeilene.",
+    "correction": "NRK beklager faktafeil i sak om TV-serien ”Venn i døden”. | NRK beklager disse faktafeilene.",
+    "url": "https://www.nrk.no/presse/rettelse-i-sak-om-_venn-i-doden_-1.12314172",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
