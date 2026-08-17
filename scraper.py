@@ -80,6 +80,8 @@ ARTICLE_SECTIONS = (
     "/vestfoldogtelemark/", "/tromsogfinnmark/", "/vestfold/",
     "/sorlandet/", "/osloogviken/", "/ostlandssendingen/",
     "/viten/", "/dokumentar/", "/klima/",
+    # Section-less format NRK started serving from search results
+    "/artikkel/",
 )
 
 # Nav/boilerplate text that signals we've matched the wrong element
@@ -210,7 +212,16 @@ def extract_correction_blocks(soup):
         if not text or len(text) > 2000 or is_nav_noise(text):
             continue
         if has_trigger(text):
-            blocks.append(trim_to_correction(text)[:2000])
+            trimmed = trim_to_correction(text)
+            # If the trigger element is just a label (e.g. "RETTELSE:"),
+            # merge with the next sibling <p> which likely has the actual text
+            if len(trimmed.rstrip(":")) <= 20:
+                sibling = el.find_next_sibling("p")
+                if sibling:
+                    sib_text = sibling.get_text(strip=True)
+                    if sib_text and len(sib_text) < 2000:
+                        trimmed = trimmed + " " + sib_text
+            blocks.append(trimmed[:2000])
 
     # Pass 2: semantic elements like <aside> fact-boxes and <blockquote>
     # These often include surrounding article content, so always trim
@@ -279,7 +290,9 @@ def check_article(url, title="", pub_date="", source="search"):
         r = requests.get(url, headers=HEADERS, timeout=10)
         if r.status_code != 200:
             return
-        soup = BeautifulSoup(r.text, "html.parser")
+        # Parse bytes, not r.text: /artikkel/ pages send "text/html" with no
+        # charset, so requests falls back to ISO-8859-1 and mangles æøå.
+        soup = BeautifulSoup(r.content, "html.parser")
 
         # Quick full-page check before doing detailed parsing
         if not has_trigger(soup.get_text()):
@@ -323,7 +336,7 @@ def get_search_page(query, offset=0):
     url = f"https://www.nrk.no/sok/?q={encoded}&scope=nrkno&from={offset}"
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(r.text, "html.parser")
+        soup = BeautifulSoup(r.content, "html.parser")
         article_urls = []
         seen = set()
         for a in soup.find_all("a", href=True):

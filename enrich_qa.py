@@ -183,6 +183,24 @@ def extract_metadata(html, url):
     return meta
 
 
+def extract_text(data):
+    """
+    Pull the answer text out of a generateContent response.
+
+    Thinking models return several parts per candidate, and the reasoning ones
+    (marked "thought") carry no usable text — reading parts[0] blindly picks up
+    a thought part and yields "". Walk every part and keep the real text.
+    """
+    out = []
+    for cand in data.get("candidates") or []:
+        for part in (cand.get("content") or {}).get("parts") or []:
+            if part.get("thought"):
+                continue
+            if part.get("text"):
+                out.append(part["text"])
+    return "".join(out)
+
+
 def call_gemini(prompt):
     """
     Call the Gemini API with the given prompt.
@@ -213,12 +231,21 @@ def call_gemini(prompt):
                 return None
 
             data = resp.json()
-            text = (
-                data.get("candidates", [{}])[0]
-                .get("content", {})
-                .get("parts", [{}])[0]
-                .get("text", "")
-            )
+            text = extract_text(data)
+
+            if not text:
+                # A 200 with no usable text means the model answered but we got
+                # nothing to parse — log enough to tell why instead of failing
+                # with a bare JSONDecodeError further down.
+                cand = (data.get("candidates") or [{}])[0]
+                print(
+                    f"  [Gemini] Empty response. finishReason="
+                    f"{cand.get('finishReason')} "
+                    f"promptFeedback={data.get('promptFeedback')} "
+                    f"usage={data.get('usageMetadata')}"
+                )
+                print(f"  [Gemini] Raw: {json.dumps(data)[:600]}")
+                return None
 
             text = text.strip()
             if text.startswith("```"):
@@ -232,6 +259,7 @@ def call_gemini(prompt):
             return json.loads(text)
         except json.JSONDecodeError as e:
             print(f"  [Gemini] JSON parse error: {e}")
+            print(f"  [Gemini] Unparsable text: {text[:400]!r}")
             return None
         except Exception as e:
             print(f"  [Gemini] Exception: {e}")
@@ -267,7 +295,9 @@ def process_entry(entry):
 
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
-        html = resp.text
+        # Bytes, not resp.text — /artikkel/ pages omit the charset and would
+        # otherwise be decoded as ISO-8859-1.
+        html = resp.content
     except Exception as e:
         print(f"  [Fetch] Error: {e} — will retry next run")
         return True  # leave as pending for retry
