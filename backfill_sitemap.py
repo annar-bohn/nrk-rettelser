@@ -61,22 +61,26 @@ TRIGGERS = [
 
 NAV_NOISE = ("hopp til innhold", "nrk tv", "nrk radio", "nrk super", "nrk p3")
 
-ARTICLE_SECTIONS = (
-    "/nyheter/", "/sport/", "/kultur/", "/urix/", "/norge/",
-    "/nordland/", "/vestland/", "/rogaland/", "/innlandet/",
-    "/trondelag/", "/troms/", "/finnmark/", "/ostfold/",
-    "/buskerud/", "/telemark/", "/agder/", "/mr/", "/sognogfjordane/",
-    "/hordaland/", "/stfold/", "/akershus/", "/stor-oslo/",
-    "/ytring/", "/nyttig/", "/livsstil/", "/sapmi/",
-    # Merged regions + content sections
-    "/vestfoldogtelemark/", "/tromsogfinnmark/", "/vestfold/",
-    "/sorlandet/", "/osloogviken/", "/ostlandssendingen/",
-    "/viten/", "/dokumentar/", "/klima/",
-    # Section-less format NRK started serving from search results
-    "/artikkel/",
-    # Sections found holding real corrections we had never collected
-    "/kvensk/", "/p3/", "/presse/",
+# Identify articles by URL shape, not section. The old ARTICLE_SECTIONS
+# allowlist repeatedly dropped real corrections (/artikkel/, /kvensk/, /p3/,
+# /presse/); has_trigger() does the real filtering downstream.
+ARTICLE_ID_RE = re.compile(r"-(?:1\.\d{5,}|\d{5,})/?$")
+
+NON_ARTICLE_PREFIXES = (
+    "/emne/", "/sok/", "/informasjon/", "/hjelp/", "/lisens/", "/publikum/",
+    "/presse/kontakt", "/deltaker/", "/eksternproduksjon/", "/retningslinjer/",
+    "/salg/", "/skole/", "/etikk/", "/03030/",
 )
+
+
+def is_article_url(url):
+    """True if the URL looks like an NRK article rather than an index page."""
+    if not url.startswith("https://www.nrk.no/"):
+        return False
+    path = url[len("https://www.nrk.no"):] or "/"
+    if any(path.startswith(p) for p in NON_ARTICLE_PREFIXES):
+        return False
+    return bool(ARTICLE_ID_RE.search(url))
 
 
 # Word-boundary regex for bare single-word triggers to avoid matching
@@ -348,7 +352,7 @@ def main():
 
             if not loc or loc in existing_urls:
                 continue
-            if not any(sec in loc for sec in ARTICLE_SECTIONS):
+            if not is_article_url(loc):
                 continue
             if lastmod:
                 try:

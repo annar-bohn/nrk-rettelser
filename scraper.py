@@ -69,22 +69,28 @@ SEARCH_TERMS = [
 # How many search result pages to check per term (20 results per page)
 MAX_SEARCH_PAGES = 2
 
-ARTICLE_SECTIONS = (
-    "/nyheter/", "/sport/", "/kultur/", "/urix/", "/norge/",
-    "/nordland/", "/vestland/", "/rogaland/", "/innlandet/",
-    "/trondelag/", "/troms/", "/finnmark/", "/ostfold/",
-    "/buskerud/", "/telemark/", "/agder/", "/mr/", "/sognogfjordane/",
-    "/hordaland/", "/stfold/", "/akershus/", "/stor-oslo/",
-    "/ytring/", "/nyttig/", "/livsstil/", "/sapmi/",
-    # Merged regions + content sections
-    "/vestfoldogtelemark/", "/tromsogfinnmark/", "/vestfold/",
-    "/sorlandet/", "/osloogviken/", "/ostlandssendingen/",
-    "/viten/", "/dokumentar/", "/klima/",
-    # Section-less format NRK started serving from search results
-    "/artikkel/",
-    # Sections found holding real corrections we had never collected
-    "/kvensk/", "/p3/", "/presse/",
+# Identifying articles by section was an allowlist, and it kept losing: it
+# silently dropped /artikkel/ URLs, then /kvensk/, /p3/ and /presse/. Match on
+# URL shape instead — every NRK article ends in "-1.<digits>" or "-<digits>" —
+# and deny the handful of known non-article paths. has_trigger() does the real
+# filtering downstream, so a few extra fetches cost nothing but coverage.
+ARTICLE_ID_RE = re.compile(r"-(?:1\.\d{5,}|\d{5,})/?$")
+
+NON_ARTICLE_PREFIXES = (
+    "/emne/", "/sok/", "/informasjon/", "/hjelp/", "/lisens/", "/publikum/",
+    "/presse/kontakt", "/deltaker/", "/eksternproduksjon/", "/retningslinjer/",
+    "/salg/", "/skole/", "/etikk/", "/03030/",
 )
+
+
+def is_article_url(url):
+    """True if the URL looks like an NRK article rather than an index page."""
+    if not url.startswith("https://www.nrk.no/"):
+        return False
+    path = url[len("https://www.nrk.no"):] or "/"
+    if any(path.startswith(p) for p in NON_ARTICLE_PREFIXES):
+        return False
+    return bool(ARTICLE_ID_RE.search(url))
 
 # Nav/boilerplate text that signals we've matched the wrong element
 NAV_NOISE = ("hopp til innhold", "nrk tv", "nrk radio", "nrk super", "nrk p3", "siste meldinger")
@@ -349,7 +355,7 @@ def get_search_page(query, offset=0):
                 and href != "https://www.nrk.no/"
                 and href not in existing_urls
                 and href not in seen
-                and any(s in href for s in ARTICLE_SECTIONS)
+                and is_article_url(href)
             ):
                 article_urls.append(href)
                 seen.add(href)
@@ -417,7 +423,7 @@ def get_sitemap_urls(days_back=30, max_urls=1000):
                 lastmod_text = url_el.findtext("sm:lastmod", namespaces=ns)
                 loc = url_el.findtext("sm:loc", namespaces=ns)
                 if loc and lastmod_text and loc not in existing_urls:
-                    if not any(s in loc for s in ARTICLE_SECTIONS):
+                    if not is_article_url(loc):
                         continue
                     try:
                         lm = datetime.fromisoformat(lastmod_text.replace("Z", "+00:00"))
