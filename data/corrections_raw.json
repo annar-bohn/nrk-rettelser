@@ -47886,5 +47886,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1787007308020,
+    "date": "2026-02-14T12:07:17+01:00",
+    "title": "Finland ville diske Klæbo: Protesten kan ikke behandles av FIS",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "FIS ofisielle uttalelseI henhold til artikkel 361.3.3 i det internasjonale konkurransereglementet (ICR) for langrenn, kan en protest mot en annen utøver eller utøvers utstyr leveres senest 15 minutter etter publisering av de uoffisielle resultatene. Siden rennet fant sted tirsdag 10. februar, anser FIS det slik at 'protesten' som ble levert i dag av det finske laget, ikke lenger kan tas til følge.I tillegg har tidsfristen for å fremme en anke mot en juryavgjørelse — som er senest 48 timer etter publisering av de offisielle resultatene — også utløpt.Det er verdt å merke seg at artikkel 361.1.6 i ICR forutser en frist på opptil én måned etter konkurransen for protester som utelukkende gjelder 'administrative feil eller brudd på FIS-reglene etter konkurransen', det vil si feil eller brudd som fant sted etter at konkurransen var avsluttet, ikke under selve konkurransen.» | «I henhold til artikkel 361.3.3 i det internasjonale konkurransereglementet (ICR) for langrenn, kan en protest mot en annen utøver eller utøvers utstyr leveres senest 15 minutter etter publisering av de uoffisielle resultatene. Siden rennet fant sted tirsdag 10. februar, anser FIS det slik at 'protesten' som ble levert i dag av det finske laget, ikke lenger kan tas til følge», skriver Fis i en offisiell uttalelse.",
+    "correction": "FIS ofisielle uttalelseI henhold til artikkel 361.3.3 i det internasjonale konkurransereglementet (ICR) for langrenn, kan en protest mot en annen utøver eller utøvers utstyr leveres senest 15 minutter etter publisering av de uoffisielle resultatene. Siden rennet fant sted tirsdag 10. februar, anser FIS det slik at 'protesten' som ble levert i dag av det finske laget, ikke lenger kan tas til følge.I tillegg har tidsfristen for å fremme en anke mot en juryavgjørelse — som er senest 48 timer etter publisering av de offisielle resultatene — også utløpt.Det er verdt å merke seg at artikkel 361.1.6 i ICR forutser en frist på opptil én måned etter konkurransen for protester som utelukkende gjelder 'administrative feil eller brudd på FIS-reglene etter konkurransen', det vil si feil eller brudd som fant sted etter at konkurransen var avsluttet, ikke under selve konkurransen.» | «I henhold til artikkel 361.3.3 i det internasjonale konkurransereglementet (ICR) for langrenn, kan en protest mot en annen utøver eller utøvers utstyr leveres senest 15 minutter etter publisering av de uoffisielle resultatene. Siden rennet fant sted tirsdag 10. februar, anser FIS det slik at 'protesten' som ble levert i dag av det finske laget, ikke lenger kan tas til følge», skriver Fis i en offisiell uttalelse.",
+    "url": "https://www.nrk.no/ol/finland-la-inn-protest-mot-norge-og-usa-etter-ol-sprint---avvises-blankt-av-fis-1.17769392",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
