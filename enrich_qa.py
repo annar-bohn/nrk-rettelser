@@ -238,13 +238,18 @@ def call_gemini(prompt):
                 # nothing to parse — log enough to tell why instead of failing
                 # with a bare JSONDecodeError further down.
                 cand = (data.get("candidates") or [{}])[0]
+                block_reason = (data.get("promptFeedback") or {}).get("blockReason")
+                finish_reason = cand.get("finishReason")
                 print(
-                    f"  [Gemini] Empty response. finishReason="
-                    f"{cand.get('finishReason')} "
+                    f"  [Gemini] Empty response. finishReason={finish_reason} "
                     f"promptFeedback={data.get('promptFeedback')} "
                     f"usage={data.get('usageMetadata')}"
                 )
                 print(f"  [Gemini] Raw: {json.dumps(data)[:600]}")
+                # A safety block is permanent for this article — retrying it
+                # every run forever burns quota and never succeeds.
+                if block_reason or finish_reason in ("SAFETY", "PROHIBITED_CONTENT"):
+                    return "BLOCKED"
                 return None
 
             text = text.strip()
@@ -349,6 +354,14 @@ def process_entry(entry):
     if result == "RATE_LIMITED":
         return False
 
+    if result == "BLOCKED":
+        # Gemini's safety filter refuses this article (typically crime reporting
+        # on abuse cases). It will never enrich, so stop retrying it. The entry
+        # still reaches the frontend with its raw correction text.
+        entry["qa_blocked"] = True
+        print("  [Gemini] Blocked by safety filter — flagged, will not retry")
+        return True
+
     if result is None or not isinstance(result, dict):
         print(f"  [Gemini] No valid response — will retry next run")
         return True  # leave as pending for retry
@@ -401,11 +414,17 @@ def run(raw_path, output_path, max_entries=450):
         if not entry.get("headline") and entry.get("title"):
             entry["headline"] = entry["title"]
 
-    pending = [e for e in entries if e.get("qa_status") == "pending"]
+    pending = [
+        e for e in entries
+        if e.get("qa_status") == "pending" and not e.get("qa_blocked")
+    ]
     # Sort newest first so top-of-page articles get enriched first
     pending.sort(key=lambda x: x.get("date") or "", reverse=True)
     pending = pending[:max_entries]
+    blocked = sum(1 for e in entries if e.get("qa_blocked"))
     print(f"Found {len(pending)} pending entries to process (max {max_entries})")
+    if blocked:
+        print(f"Skipping {blocked} entries permanently blocked by the safety filter")
 
     rate_limited = False
     processed = 0
