@@ -111,7 +111,16 @@ def extract_correction_blocks(soup):
         if not text or len(text) > 2000 or is_nav_noise(text):
             continue
         if has_trigger(text):
-            blocks.append(trim_to_correction(text)[:2000])
+            trimmed = trim_to_correction(text)
+            # If the trigger element is just a label (e.g. "RETTELSE:"),
+            # merge with the next sibling <p> which likely has the actual text
+            if len(trimmed.rstrip(":")) <= 20:
+                sibling = el.find_next_sibling("p")
+                if sibling:
+                    sib_text = sibling.get_text(strip=True)
+                    if sib_text and len(sib_text) < 2000:
+                        trimmed = trimmed + " " + sib_text
+            blocks.append(trimmed[:2000])
 
     for el in soup.find_all(["aside", "blockquote"]):
         text = el.get_text(strip=True)
@@ -244,7 +253,7 @@ if __name__ == "__main__":
                 time.sleep(0.5)
                 continue
 
-            soup = BeautifulSoup(r.text, "html.parser")
+            soup = BeautifulSoup(r.content, "html.parser")
             new_text = extract_correction_blocks(soup)
 
             if new_text and is_better(new_text, old_text):
