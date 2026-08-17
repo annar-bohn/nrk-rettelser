@@ -1,8 +1,13 @@
 """
 Backfill via full sitemap crawl — finds corrections in articles modified
-in the last N days (default 730 = 2 years). Unlike backfill2.py which relies
-on NRK's search engine, this checks every article directly, catching
-corrections hidden in fact-boxes and non-standard markup.
+in the last N days (default 730 = 2 years). Unlike the search-driven scan in
+scraper.py, this checks every article directly, catching corrections hidden
+in fact-boxes and non-standard markup.
+
+NOTE: extraction here has drifted from scraper.py — it appends raw block text
+without trim_to_correction, and has no bare-label sibling merge. Entries it
+adds may carry preamble noise. Reconcile via a shared extraction module
+rather than copying those functions in again.
 
 Designed to run as a GitHub Action (takes hours). Saves progress after
 each sitemap so it can be resumed if interrupted.
@@ -67,6 +72,8 @@ ARTICLE_SECTIONS = (
     "/vestfoldogtelemark/", "/tromsogfinnmark/", "/vestfold/",
     "/sorlandet/", "/osloogviken/", "/ostlandssendingen/",
     "/viten/", "/dokumentar/", "/klima/",
+    # Section-less format NRK started serving from search results
+    "/artikkel/",
 )
 
 
@@ -207,7 +214,9 @@ def process_article(url, corrections, existing_urls):
         print(f"    SKIP [{r.status_code}]: {url[:80]}")
         return False
 
-    soup = BeautifulSoup(r.text, "html.parser")
+    # Parse bytes, not r.text: /artikkel/ pages send "text/html" with no
+    # charset, so requests falls back to ISO-8859-1 and mangles æøå.
+    soup = BeautifulSoup(r.content, "html.parser")
 
     if not has_trigger(soup.get_text()):
         return False
