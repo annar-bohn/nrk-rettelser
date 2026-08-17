@@ -74,6 +74,8 @@ ARTICLE_SECTIONS = (
     "/viten/", "/dokumentar/", "/klima/",
     # Section-less format NRK started serving from search results
     "/artikkel/",
+    # Sections found holding real corrections we had never collected
+    "/kvensk/", "/p3/", "/presse/",
 )
 
 
