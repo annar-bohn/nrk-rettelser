@@ -47625,5 +47625,77 @@
     "news_category": "culture",
     "correction_type": "other",
     "time_to_correct_hours": 11252.61
+  },
+  {
+    "id": 1787001722982,
+    "date": "2026-08-01T11:09:27.709Z",
+    "title": "– Jeg kom hit på leting etter en bedre framtid",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon av artikkelen lå det et bilde som var fra en tidligere hendelse i Ceuta. Dette ble fjernet fra saken 04.08.26.",
+    "correction": "RETTELSE: I en tidligere versjon av artikkelen lå det et bilde som var fra en tidligere hendelse i Ceuta. Dette ble fjernet fra saken 04.08.26.",
+    "url": "https://www.nrk.no/artikkel/jeg-kom-hit-pa-leting-etter-en-bedre-framtid-1523924",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787001723705,
+    "date": "2026-07-27T18:55:31.981Z",
+    "title": "Hardt ut mot terror-omtale: – Ikke ett ord om ideologien",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon av denne saken skrev vi at Ola Svenneby kritiserte fire politikere i Støre-regjeringen. Det stemmer ikke. Feilen ble rettet klokken 23.42 mandag.",
+    "correction": "RETTELSE: I en tidligere versjon av denne saken skrev vi at Ola Svenneby kritiserte fire politikere i Støre-regjeringen. Det stemmer ikke. Feilen ble rettet klokken 23.42 mandag.",
+    "url": "https://www.nrk.no/artikkel/hardt-ut-mot-terror-omtale-ikke-ett-ord-om-ideologien-1523639",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787001726390,
+    "date": "2026-07-01T10:56:48.408Z",
+    "title": "Jakten på drakten",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av denne artikkelen oppga NRK feil fornavn på Homair og Andreas. Saken ble rettet klokken 17:02.",
+    "correction": "Rettelse: I en tidligere versjon av denne artikkelen oppga NRK feil fornavn på Homair og Andreas. Saken ble rettet klokken 17:02.",
+    "url": "https://www.nrk.no/artikkel/jakten-pa-drakten-1431465",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787001729513,
+    "date": "2026-07-27T03:29:11.455Z",
+    "title": "Zelenskyj tror krigen vil vare lenge: Slik vil han stanse Putin",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting 27.07.26: I en tidligere versjon av denne saken ble et sitat fra Ukrainas president Volodymyr Zelenskyj gjengitt og oversatt feil. Dette er rettet opp.",
+    "correction": "Retting 27.07.26: I en tidligere versjon av denne saken ble et sitat fra Ukrainas president Volodymyr Zelenskyj gjengitt og oversatt feil. Dette er rettet opp.",
+    "url": "https://www.nrk.no/artikkel/zelenskyj-tror-krigen-vil-vare-lenge-slik-vil-han-stanse-putin-1523602",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787001762986,
+    "date": "2026-07-07T07:49:53.745Z",
+    "title": "Norsk 17-åring omkommet i påkjørsel i Spania",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av saken skrev NRK at hun ble funnet på motorveien ikke langt unna det aktuelle utestedet. Hun ble funnet rundt 30 kilometer unna. Feilen er nå rettet.",
+    "correction": "I en tidligere versjon av saken skrev NRK at hun ble funnet på motorveien ikke langt unna det aktuelle utestedet. Hun ble funnet rundt 30 kilometer unna. Feilen er nå rettet.",
+    "url": "https://www.nrk.no/artikkel/norsk-17-aring-omkommet-i-pakjorsel-i-spania-1522412",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787001828432,
+    "date": "2026-07-24T06:10:14.205Z",
+    "title": "Norge rammes hardere enn EU: – Vi trenger makt, og da må vi samle oss",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/norge-rammes-hardere-enn-eu-vi-trenger-makt-og-da-ma-vi-samle-oss-1523473",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
