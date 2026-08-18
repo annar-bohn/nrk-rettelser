@@ -47912,5 +47912,17 @@
     "news_category": "sports",
     "correction_type": "other",
     "time_to_correct_hours": 20.71
+  },
+  {
+    "id": 1787056182323,
+    "date": "2026-08-17T22:59:44+02:00",
+    "title": "Svenneby: – Helgheim framstår som en konservativ muslimsk predikant",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon stod det at en undersøkelse fra Politihøgskolen viser at rundt 40 prosent av rikspolitikere har vært utsatt for hets eller trusler. Det riktige skal være at rundt 80 prosent sier de har vært utsatt for hets eller trusler, og ble korrigert 18.08.26 kl. 09.13",
+    "correction": "RETTELSE: I en tidligere versjon stod det at en undersøkelse fra Politihøgskolen viser at rundt 40 prosent av rikspolitikere har vært utsatt for hets eller trusler. Det riktige skal være at rundt 80 prosent sier de har vært utsatt for hets eller trusler, og ble korrigert 18.08.26 kl. 09.13",
+    "url": "https://www.nrk.no/norge/ola-svenneby-om-gaute-skjervo_-_-hetsen-er-uakseptabel-1.17992554",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
