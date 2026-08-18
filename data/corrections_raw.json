@@ -47938,5 +47938,17 @@
     "news_category": "politics",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 12.64
+  },
+  {
+    "id": 1787077618973,
+    "date": "2026-08-17T05:34:08+02:00",
+    "title": "Kampen for leken",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne saken sto det at tidligere utdannings- og forskningsminister Kristin Clemet sa at Norge er en skoletaper. Dette var basert på sitater i media fra 2001.Dette ble fjernet fra artikkelen 17.august klokka 10:44, etter at Clemet tok kontakt og mente hun ikke hadde sagt dette.",
+    "correction": "I en tidligere versjon av denne saken sto det at tidligere utdannings- og forskningsminister Kristin Clemet sa at Norge er en skoletaper. Dette var basert på sitater i media fra 2001.Dette ble fjernet fra artikkelen 17.august klokka 10:44, etter at Clemet tok kontakt og mente hun ikke hadde sagt dette.",
+    "url": "https://www.nrk.no/norge/xl/jorunn-flaatten-har-vaert-laerer-i-40-ar_-_-noe-har-skjedd-1.17983643",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
