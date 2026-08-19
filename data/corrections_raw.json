@@ -47990,5 +47990,17 @@
     "news_category": "world",
     "correction_type": "factual_error",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1787142809146,
+    "date": "2016-10-20T20:24:57+02:00",
+    "title": "Diskuterer det amerikanske valet i klasserommet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er anonymisert etter publisering av omsyn til dei omtalte.",
+    "correction": "Artikkelen er anonymisert etter publisering av omsyn til dei omtalte.",
+    "url": "https://www.nrk.no/mr/han-er-trump-sin-mann-i-molde-1.13188695",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
