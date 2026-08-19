@@ -47964,5 +47964,17 @@
     "news_category": "politics",
     "correction_type": "retracted_claim",
     "time_to_correct_hours": 5.86
+  },
+  {
+    "id": 1787100607915,
+    "date": "2026-08-18T09:36:49+02:00",
+    "title": "Pakistan",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av meldingen stod til fengsel fra sykehus, dette ble senere rettet.",
+    "correction": "I en tidligere versjon av meldingen stod til fengsel fra sykehus, dette ble senere rettet.",
+    "url": "https://www.nrk.no/nyheter/pakistan-1.11268763",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
