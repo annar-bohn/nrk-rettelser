@@ -47975,6 +47975,20 @@
     "url": "https://www.nrk.no/nyheter/pakistan-1.11268763",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Pakistan",
+    "nrk_section": "nyheter",
+    "publication_date": "2013-09-29T08:54:46+02:00",
+    "modified_date": "2026-08-18T09:36:49+02:00",
+    "intro_text": "",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "18. august 2026 kl. 09:36 Pakistan Imran Khan må overføres til sykehus Pakistansk høyesterett slår fast at tidligere statsminister Imran Khan må overføres til sykehus fra fengsel, melder Reuters. Khan ble i 2025 dømt til 17 års fengsel i en korrupsjonssak. I en tidligere versjon av meldingen stod til fengsel fra sykehus, dette ble senere rettet.",
+    "correction_description": "Det ble rettet en feilaktig formulering om retningen på overføringen mellom sykehus og fengsel for Imran Khan.",
+    "correction_text_extract": "I en tidligere versjon av meldingen stod til fengsel fra sykehus, dette ble senere rettet.",
+    "correction_date": "2026-08-18",
+    "news_category": "world",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": null
   }
 ]
