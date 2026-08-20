@@ -48016,5 +48016,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1787207600367,
+    "date": "2021-03-08T12:40:04+01:00",
+    "title": "Tromsø ber alle som kan være utsatt for smitte om å teste seg",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Korsmo har etter publisering av denne saken opplyst at dette ikke gjelder alle innbyggerne, men alle som kan ha vært på de aktuelle stedene der smitte er kjent.",
+    "correction": "Korsmo har etter publisering av denne saken opplyst at dette ikke gjelder alle innbyggerne, men alle som kan ha vært på de aktuelle stedene der smitte er kjent.",
+    "url": "https://www.nrk.no/tromsogfinnmark/det-er-lange-koer-ved-koronasenteret-i-tromso-kommune-da-de-oppfordrer-alle-til-a-teste-seg-1.15407390",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
