@@ -48042,5 +48042,41 @@
     "news_category": "health",
     "correction_type": "factual_error",
     "time_to_correct_hours": 7.35
+  },
+  {
+    "id": 1787229155217,
+    "date": "2026-08-19T20:10:37+02:00",
+    "title": "127 statlige milliarder til nord: – Uten de pengene kunne vi vært bare 50.000 her",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 20.08.26:I en tidligere versjon sto det atTidligere ordfører i Porsanger mener 36 år med tiltak i Troms og Finnmark har vært bortkastet.Dette er nå endret til atTidligere ordfører i Porsanger føler at hennes arbeid med å jobbe mot fraflytting i Finnmark har vært bortkastet.",
+    "correction": "Rettelse 20.08.26:I en tidligere versjon sto det atTidligere ordfører i Porsanger mener 36 år med tiltak i Troms og Finnmark har vært bortkastet.Dette er nå endret til atTidligere ordfører i Porsanger føler at hennes arbeid med å jobbe mot fraflytting i Finnmark har vært bortkastet.",
+    "url": "https://www.nrk.no/sapmi/127-milliarder-brukt-pa-a-lokke-folk-til-finnmark_-_-uten-de-pengene-kunne-vi-vaert-bare-50.000-1.17993046",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787229159951,
+    "date": "2026-08-11T21:55:12+02:00",
+    "title": "Noah Holm blei Brann-helten i ellevilt Europa-drama",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: Tidlegare stod det at Brann spelar kvalifisering til Europaligaen. Det korrekte er at dei spelar kvalifisering til Serieligaen. Rettinga blei gjort 20. august klokka 10.45.",
+    "correction": "Retting: Tidlegare stod det at Brann spelar kvalifisering til Europaligaen. Det korrekte er at dei spelar kvalifisering til Serieligaen. Rettinga blei gjort 20. august klokka 10.45.",
+    "url": "https://www.nrk.no/vestland/brann-vidare-i-europa-etter-ellevilt-drama-mot-apollon-limassol-i-europaligaen-1.17986711",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787229160737,
+    "date": "2026-08-15T15:02:25+02:00",
+    "title": "Akademikere «gruer seg til å undervise» – professoren tar gen Z i forsvar",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: Ved en feil var det oppgitt i denne artikkelen atén av fire studenter tilbringer ti eller færre timer på lærestedet sitt i uken. Det riktige tallet er fire av ti. Rettingen ble gjort 18. august klokken 10.48.",
+    "correction": "Retting: Ved en feil var det oppgitt i denne artikkelen atén av fire studenter tilbringer ti eller færre timer på lærestedet sitt i uken. Det riktige tallet er fire av ti. Rettingen ble gjort 18. august klokken 10.48.",
+    "url": "https://www.nrk.no/vestland/akademikere-varsler-om-tomme-campus-_-na-tar-jussprofessor-johan-giertsen-gen-z-i-forsvar-1.17987104",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
