@@ -48131,6 +48131,20 @@
     "url": "https://www.nrk.no/nyheter/bauhaus-legger-ned-i-norge_-_-223-personer-pavirkes-av-nedleggelsen-1.17996380",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Bauhaus legger ned i Norge: – 223 personer påvirkes av nedleggelsen – Siste nytt – NRK",
+    "nrk_section": "nyheter",
+    "publication_date": "2026-08-20T17:33:37+02:00",
+    "modified_date": "2026-08-20T19:57:32+02:00",
+    "intro_text": "Den tyske byggevarekjeden Bauhaus legger ned alle butikker i Norge, bekrefter daglig leder Kenneth Litland overfor NRK. På spørsmål om hvor mange som mister jobben, svarer han at alle tre varehus i Norge legges ned. – 223 personer påvirkes av nedleggelsen, skriver han videre. Ifølge Brønnøysundregistrene er det registrert 294 ansatte i Bauhaus Norge. Fagforbundet Handel og Kontor bekrefter at 86 av deres medlemmer har mistet jobben hos Bauhaus. – Dette er en trist dag for Bauhaus og de ansatte, ",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "20. august 2026 kl. 17:33 Bauhaus legger ned i Norge: – 223 personer påvirkes av nedleggelsen Den tyske byggevarekjeden Bauhaus legger ned alle butikker i Norge, bekrefter daglig leder Kenneth Litland overfor NRK. På spørsmål om hvor mange som mister jobben, svarer han at alle tre varehus i Norge legges ned. – 223 personer påvirkes av nedleggelsen, skriver han videre. Ifølge Brønnøysundregistrene er det registrert 294 ansatte i Bauhaus Norge. Fagforbundet Handel og Kontor bekrefter at 86 av deres medlemmer har mistet jobben hos Bauhaus. – Dette er en trist dag for Bauhaus og de ansatte, sier fagforeningsleder Christopher Beckham i en uttalelse til NRK. RETTELSE: I en tidligere versjon stod det at kjeden var svensk. Dette ble rettet 18.13.",
+    "correction_description": "Det ble rettet en feilaktig påstand om at Bauhaus var en svensk kjede.",
+    "correction_text_extract": "RETTELSE: I en tidligere versjon stod det at kjeden var svensk. Dette ble rettet 18.13.",
+    "correction_date": "2026-08-20",
+    "news_category": "economy",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 2.4
   }
 ]
