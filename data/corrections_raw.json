@@ -48120,5 +48120,17 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 115.31
+  },
+  {
+    "id": 1787273608695,
+    "date": "2026-08-20T17:33:37+02:00",
+    "title": "Bauhaus legger ned i Norge: – 223 personer påvirkes av nedleggelsen – Siste nytt – NRK",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon stod det at kjeden var svensk. Dette ble rettet 18.13.",
+    "correction": "RETTELSE: I en tidligere versjon stod det at kjeden var svensk. Dette ble rettet 18.13.",
+    "url": "https://www.nrk.no/nyheter/bauhaus-legger-ned-i-norge_-_-223-personer-pavirkes-av-nedleggelsen-1.17996380",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
