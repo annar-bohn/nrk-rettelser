@@ -48146,5 +48146,17 @@
     "news_category": "economy",
     "correction_type": "factual_error",
     "time_to_correct_hours": 2.4
+  },
+  {
+    "id": 1787315531081,
+    "date": "2026-08-20T21:27:08+02:00",
+    "title": "Hjertepasient døde etter fem timers ventetid: Direktører innrømmer svikt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Merknad: Det er lagt til en opplysning i artikkelen etter publisering at det innledningvis var uklart om pasienten led av tette blodårer. Det er også endret fra pasienten døde dagen etter operasjon, til døde senere.",
+    "correction": "Merknad: Det er lagt til en opplysning i artikkelen etter publisering at det innledningvis var uklart om pasienten led av tette blodårer. Det er også endret fra pasienten døde dagen etter operasjon, til døde senere.",
+    "url": "https://www.nrk.no/nordland/unn-innrommer-feil-da-pasient-i-nordland-dode-etter-a-ha-ventet-fem-timer-pa-akutt-hjerteoperasjon-1.17994348",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
