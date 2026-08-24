@@ -48198,5 +48198,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 1535.03
+  },
+  {
+    "id": 1787596140259,
+    "date": "2026-08-24T14:52:30+02:00",
+    "title": "Brannmann oppdaget terrengbrannen på Tromøy",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: NRK opplyste først at brannen var på 60 mål. Dette ble rettet til 10 mål kl. 14.15.",
+    "correction": "Rettelse: NRK opplyste først at brannen var på 60 mål. Dette ble rettet til 10 mål kl. 14.15.",
+    "url": "https://www.nrk.no/sorlandet/det-brenner-pa-tromoya-_-har-bedt-om-helikopterhjelp-1.17999801",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
