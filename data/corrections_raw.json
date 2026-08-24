@@ -48172,5 +48172,17 @@
     "news_category": "health",
     "correction_type": "factual_error",
     "time_to_correct_hours": 14.96
+  },
+  {
+    "id": 1787574811877,
+    "date": "2026-06-21T11:03:04+02:00",
+    "title": "Seier nei til cruiseavgift på 100 kroner",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTING: Opphavleg sto det at cruisetrafikken vart redusert med 37 prosent på Island etter innføringa av cruiseavgifta. Det stemmer ikkje og var cruisenæringas eigen prognose. Det riktige er ein nedgang frå 1209 anløp i 2024 til 1053 planlagde anløp i 2026, altså 12,9 prosent nedgang. Feilen vart retta 24. august 2026.",
+    "correction": "RETTING: Opphavleg sto det at cruisetrafikken vart redusert med 37 prosent på Island etter innføringa av cruiseavgifta. Det stemmer ikkje og var cruisenæringas eigen prognose. Det riktige er ein nedgang frå 1209 anløp i 2024 til 1053 planlagde anløp i 2026, altså 12,9 prosent nedgang. Feilen vart retta 24. august 2026.",
+    "url": "https://www.nrk.no/vestland/nesten-ingen-kommunar-vil-ha-100-kroner-i-cruiseavgift-1.17924708",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
