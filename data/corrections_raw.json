@@ -48224,5 +48224,17 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 4.47
+  },
+  {
+    "id": 1787747798119,
+    "date": "2026-08-25T19:19:34.584Z",
+    "title": "Document-redaktør om netthets: – Dette er jo kloakk",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering: I en tidligere versjon av saken var det ikke kommet med at det var AUF som hadde samlet inn kommentarene fra Faceboo-siden til Document.no. Det sto også at NRK hadde funnet flere kommentarer, men det korrekte var at det var Filter Nyheter som hadde samlet kommentarene. Dette ble rettet opp 26.08.2026.",
+    "correction": "Presisering: I en tidligere versjon av saken var det ikke kommet med at det var AUF som hadde samlet inn kommentarene fra Faceboo-siden til Document.no. Det sto også at NRK hadde funnet flere kommentarer, men det korrekte var at det var Filter Nyheter som hadde samlet kommentarene. Dette ble rettet opp 26.08.2026.",
+    "url": "https://www.nrk.no/artikkel/document-redaktor-om-netthets-dette-er-jo-kloakk-1526546",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
