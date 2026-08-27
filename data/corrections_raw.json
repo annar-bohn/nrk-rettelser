@@ -48276,5 +48276,29 @@
     "news_category": "world",
     "correction_type": "wrong_date",
     "time_to_correct_hours": 18.56
+  },
+  {
+    "id": 1787866353452,
+    "date": "2026-08-27T05:44:10+02:00",
+    "title": "Krever omkamp om Huset på Eg: – Bygget er skreddersydd",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: NRK skrev at bygget er tenkt brukt som akuttinstitusjon for barnevernet, men dette stemmer ikke. Feilen ble retta klokka 09.56.",
+    "correction": "Rettelse: NRK skrev at bygget er tenkt brukt som akuttinstitusjon for barnevernet, men dette stemmer ikke. Feilen ble retta klokka 09.56.",
+    "url": "https://www.nrk.no/sorlandet/krever-omkamp-om-huset-pa-eg_-_-bygget-er-skreddersydd-1.18001386",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1787866354250,
+    "date": "2026-08-26T10:59:38.243Z",
+    "title": "Minst 359 døde etter flom og jordskred i Nepal",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon stod feil dag (søndag) i artikkel. Dette ble rettet 27.08.26 kl. 07.14.",
+    "correction": "RETTELSE: I en tidligere versjon stod feil dag (søndag) i artikkel. Dette ble rettet 27.08.26 kl. 07.14.",
+    "url": "https://www.nrk.no/artikkel/minst-359-dode-etter-flom-og-jordskred-i-nepal-1526594",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
