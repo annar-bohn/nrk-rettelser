@@ -48250,5 +48250,17 @@
     "news_category": "politics",
     "correction_type": "attribution_error",
     "time_to_correct_hours": 12.59
+  },
+  {
+    "id": 1787812366157,
+    "date": "2026-08-26T10:59:38.243Z",
+    "title": "162 døde etter flom og jordskred i Nepal",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon stod feil dag (søndag) i artikkel. Dette ble rettet 27.08.26 kl. 07.14.",
+    "correction": "RETTELSE: I en tidligere versjon stod feil dag (søndag) i artikkel. Dette ble rettet 27.08.26 kl. 07.14.",
+    "url": "https://www.nrk.no/artikkel/162-dode-etter-flom-og-jordskred-i-nepal-1526594",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
