@@ -48328,5 +48328,17 @@
     "news_category": "world",
     "correction_type": "wrong_date",
     "time_to_correct_hours": 25.04
+  },
+  {
+    "id": 1787953073890,
+    "date": "2026-08-28T14:49:41+02:00",
+    "title": "NRK brøt god presseskikk i Brennpunkt-dokumentar om oppdrettslaks",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Klager anførte at påstanden var uriktig, og at dette ble påpekt overfor NRK både før og etter publisering. Tilsynet fant fisk med sår i produksjonsanlegget i Møre og Romsdal, men klager oppgir at denne ikke var pakket for eksport, og at det logisk sett ikke gir mening at selskapet kan være tatt for ulovlig eksport basert på observasjon i fabrikk.",
+    "correction": "Klager anførte at påstanden var uriktig, og at dette ble påpekt overfor NRK både før og etter publisering. Tilsynet fant fisk med sår i produksjonsanlegget i Møre og Romsdal, men klager oppgir at denne ikke var pakket for eksport, og at det logisk sett ikke gir mening at selskapet kan være tatt for ulovlig eksport basert på observasjon i fabrikk.",
+    "url": "https://www.nrk.no/norge/nrk-brot-god-presseskikk-i-brennpunkt-dokumentar-om-oppdrettslaks-1.18006111",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
