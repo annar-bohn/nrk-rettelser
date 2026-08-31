@@ -1,0 +1,69 @@
+name: SVT historical audit
+
+# Sweeps historical SVT articles that the 48h sitemap window can never reach,
+# discovering URLs from the Wayback CDX index and fetching them live. Long and
+# resumable, like backfill_sitemap.yml: progress is saved as it goes, so a run
+# that hits its time budget simply continues next time it is dispatched.
+#
+# Manual dispatch only. Yield is low by nature (corrections are rare), so this
+# is run deliberately rather than on a schedule.
+
+on:
+  workflow_dispatch:
+    inputs:
+      year_from:
+        description: 'Earliest archive year'
+        required: false
+        default: '2020'
+      year_to:
+        description: 'Latest archive year'
+        required: false
+        default: '2026'
+      max_urls:
+        description: 'Max live article fetches this run'
+        required: false
+        default: '500'
+
+concurrency:
+  group: nrk-rettelser
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run historical audit
+        run: |
+          FROM="${{ github.event.inputs.year_from }}"
+          TO="${{ github.event.inputs.year_to }}"
+          MAX="${{ github.event.inputs.max_urls }}"
+          python svt_audit.py --from "${FROM:-2020}" --to "${TO:-2026}" \
+            --max-urls "${MAX:-500}" --max-minutes 240
+
+      - name: Validate data contract
+        run: python validate_data.py --outlet svt
+
+      - name: Commit audit results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "SVT historical audit"
+          file_pattern: data/svt/corrections_raw.json data/svt/audit_progress.json

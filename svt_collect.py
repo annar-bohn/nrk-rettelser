@@ -115,11 +115,20 @@ def has_trigger(text):
 
 
 def has_paragraph_trigger(text):
-    """True if this specific paragraph text contains a correction trigger.
+    """True if this specific paragraph text contains an active correction trigger.
 
-    Uses label regex anchored to start of paragraph, phrase trigger,
-    bare-word regex (word boundaries prevent compound matches), and
-    candidate triggers.
+    Active triggers only — CANDIDATE_TRIGGERS are deliberately excluded here.
+    They stay in the page-level pre-check (has_trigger) so their hit rate keeps
+    being measured, but they no longer pull a paragraph into the dataset on
+    their own.
+
+    Measured 2026-09-01: the first candidate-only extraction in production was
+    a false positive — "det stämmer inte" inside a quoted denial from an
+    interviewee ("– Nej det stämmer inte, säger …"), in an article about
+    someone else's incorrect claim rather than an SVT correction. Both
+    candidate phrases do occur inside real corrections, but always alongside a
+    label or the "i en tidigare version" phrase, so excluding them here costs
+    no recall on anything observed.
     """
     stripped = text.strip()
     if LABEL_RE.match(stripped):
@@ -129,9 +138,6 @@ def has_paragraph_trigger(text):
         return True
     if BARE_TRIGGERS_RE.search(text):
         return True
-    for phrase in CANDIDATE_TRIGGERS:
-        if phrase in t:
-            return True
     return False
 
 
