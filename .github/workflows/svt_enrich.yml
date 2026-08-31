@@ -1,0 +1,59 @@
+name: SVT enrichment (manual)
+
+# Manual-dispatch enrichment for the SVT outlet. SVT is not yet on a
+# schedule — Phase 5 of the SVT expansion folds it into update.yml. Until
+# then this is how SVT entries get enriched, using the same GEMINI_API_KEY
+# secret as the NRK workflows.
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_entries:
+        description: 'Max entries to enrich this run'
+        required: false
+        default: '450'
+
+# Same group as the NRK workflows: all of them auto-commit to main, so they
+# must never run concurrently.
+concurrency:
+  group: nrk-rettelser
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  enrich-svt:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run SVT enrichment + QA
+        run: |
+          MAX="${{ github.event.inputs.max_entries }}"
+          python enrich_qa.py --outlet svt --max-entries "${MAX:-450}"
+
+      # Runs before the commit so out-of-contract data fails the run rather
+      # than landing on main.
+      - name: Validate data contract
+        run: python validate_data.py --outlet all
+
+      - name: Commit SVT data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "SVT enrichment + QA update"
+          file_pattern: data/svt/corrections_raw.json data/svt/corrections.json
