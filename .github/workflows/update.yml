@@ -40,6 +40,18 @@ jobs:
           commit_message: "Scraper update: corrections_raw.json"
           file_pattern: data/corrections_raw.json
 
+      # SVT runs after NRK has already committed, and is allowed to fail on its
+      # own: a broken SVT collector must never stop NRK data from landing.
+      - name: Run SVT collector
+        continue-on-error: true
+        run: python svt_collect.py
+
+      - name: Commit SVT corrections_raw.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "SVT scraper update: corrections_raw.json"
+          file_pattern: data/svt/corrections_raw.json
+
   enrich-qa:
     needs: scrape
     runs-on: ubuntu-latest
@@ -68,3 +80,22 @@ jobs:
         with:
           commit_message: "Enrichment + QA update"
           file_pattern: data/corrections_raw.json data/corrections.json
+
+      # As in the scrape job: SVT runs after NRK has committed and cannot
+      # break it. Both outlets share the Gemini quota, so NRK — the larger,
+      # established dataset — gets first call on it.
+      - name: Run SVT enrichment + QA
+        continue-on-error: true
+        run: python enrich_qa.py --outlet svt
+
+      - name: Commit SVT enriched data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "SVT enrichment + QA update"
+          file_pattern: data/svt/corrections_raw.json data/svt/corrections.json
+
+      # Last, and blocking: data has already landed, so a red run here flags a
+      # contract violation for review rather than silently stalling the
+      # pipeline. Grandfathered NRK warts are warnings and pass.
+      - name: Validate data contract
+        run: python validate_data.py --outlet all
