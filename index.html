@@ -1,11 +1,206 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0;url=/nrk/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ctrlz.news</title>
+  <meta name="description" content="Published corrections from Nordic public broadcasters, collected and searchable.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%231a1a1a'/%3E%3Ctext x='16' y='22' font-family='ui-monospace,monospace' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3E%E2%8C%83Z%3C/text%3E%3C/svg%3E">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: #f0f0ee;
+      color: #1a1a1a;
+      line-height: 1.55;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      max-width: 640px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 2rem;
+    }
+
+    .wordmark {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      margin-bottom: 0.4rem;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 2.5rem;
+      max-width: 46ch;
+    }
+
+    .outlets {
+      display: grid;
+      gap: 0.7rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .outlet {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-left: 4px solid var(--accent);
+      border-radius: 2px;
+      padding: 1.1rem 1.3rem;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .outlet:hover, .outlet:focus-visible {
+      border-color: var(--accent);
+      border-left-color: var(--accent);
+      transform: translateX(2px);
+    }
+    .outlet:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+    .outlet-mark {
+      flex-shrink: 0;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 5px;
+      background: var(--accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .outlet-body { flex: 1; min-width: 0; }
+
+    .outlet-name {
+      display: block;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .outlet-desc {
+      display: block;
+      font-size: 0.82rem;
+      color: #888;
+      margin-top: 0.1rem;
+    }
+
+    .outlet-count {
+      flex-shrink: 0;
+      font-size: 0.78rem;
+      color: #aaa;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .outlet-arrow {
+      flex-shrink: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .about {
+      font-size: 0.85rem;
+      color: #777;
+      max-width: 58ch;
+    }
+    .about p { margin-bottom: 0.7rem; }
+    .about a { color: #555; }
+
+    footer {
+      max-width: 640px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 1.5rem 2.5rem;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
+
+    /* On narrow screens the count competes with the outlet name for width and
+       forces it to wrap mid-phrase. Drop the count onto its own line instead,
+       aligned under the text rather than under the mark. */
+    @media (max-width: 560px) {
+      .outlet { flex-wrap: wrap; }
+      .outlet-mark { order: 1; }
+      .outlet-body { order: 2; }
+      .outlet-arrow { order: 3; }
+      .outlet-count {
+        order: 4;
+        flex-basis: 100%;
+        margin-left: 4rem;
+        margin-top: 0.35rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <p>Omdirigerer til <a href="/nrk/">NRK Rettelser</a>...</p>
+
+<main>
+  <div class="wordmark">ctrlz.news</div>
+  <p class="tagline">Published corrections from Nordic public broadcasters — collected, classified and searchable.</p>
+
+  <div class="outlets">
+    <a class="outlet" href="/nrk/" style="--accent: #1550c3;">
+      <span class="outlet-mark">NRK</span>
+      <span class="outlet-body">
+        <span class="outlet-name">NRK Rettelser</span>
+        <span class="outlet-desc">Rettelser fra NRKs nettjournalistikk</span>
+      </span>
+      <span class="outlet-count" id="count-nrk"></span>
+      <span class="outlet-arrow">→</span>
+    </a>
+
+    <a class="outlet" href="/svt/" style="--accent: #0e7d3d;">
+      <span class="outlet-mark">SVT</span>
+      <span class="outlet-body">
+        <span class="outlet-name">SVT Rättelser</span>
+        <span class="outlet-desc">Rättelser från SVT:s nyhetsjournalistik</span>
+      </span>
+      <span class="outlet-count" id="count-svt"></span>
+      <span class="outlet-arrow">→</span>
+    </a>
+  </div>
+
+  <div class="about">
+    <p>Public broadcasters correct their own mistakes, but those corrections are published inside the article that carried the error — easy to miss unless you happen to return to it. This site collects them in one place so they can be searched and compared over time.</p>
+    <p>Each outlet's page documents how its corrections are found and what the method misses. These are independent projects, not affiliated with the broadcasters they cover.</p>
+  </div>
+</main>
+
+<footer>
+  Open source · <a href="https://github.com/annar-bohn/nrk-rettelser" style="color: #bbb;">github.com/annar-bohn/nrk-rettelser</a>
+</footer>
+
+<script>
+  // Entry counts are a nice-to-have: if a fetch fails the label just stays empty.
+  async function showCount(elId, url, noun) {
+    try {
+      const res = await fetch(url + "?t=" + Date.now());
+      if (!res.ok) return;
+      const data = await res.json();
+      if (!Array.isArray(data)) return;
+      document.getElementById(elId).textContent =
+        data.length.toLocaleString('sv-SE') + ' ' + noun;
+    } catch (e) { /* leave blank */ }
+  }
+
+  showCount('count-nrk', 'data/corrections.json', 'rettelser');
+  showCount('count-svt', 'data/svt/corrections.json', 'rättelser');
+</script>
+
 </body>
 </html>

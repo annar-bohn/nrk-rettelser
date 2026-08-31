@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metod – SVT Rättelser</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230e7d3d'/%3E%3Ctext x='16' y='23' font-family='system-ui,sans-serif' font-size='19' font-weight='700' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: #f0f0ee;
+      color: #1a1a1a;
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 3px solid #0e7d3d;
+    }
+
+    .header-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+    }
+
+    .logo {
+      flex-shrink: 0;
+      width: 4.6rem;
+      height: 4.6rem;
+      border-radius: 6px;
+      background: #0e7d3d;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+    }
+
+    .site-name h1 {
+      font-size: 1.45rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+    }
+    .site-name h1 a { color: inherit; text-decoration: none; }
+    .site-name h1 a:hover { text-decoration: underline; }
+
+    .site-name .tagline {
+      font-size: 0.78rem;
+      color: #999;
+      margin-top: 0.15rem;
+    }
+
+    .site-name .nav-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.45rem;
+    }
+
+    .site-name .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #0e7d3d;
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+    .site-name .nav-links a:hover { text-decoration: underline; }
+    .site-name .nav-links a.active { color: #999; }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 0.5rem;
+    }
+
+    .page-title {
+      font-size: 1.7rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.3rem;
+    }
+
+    .page-intro {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+
+    .metod-section {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-left: 4px solid #0e7d3d;
+      border-radius: 2px;
+      padding: 1.1rem 1.3rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .metod-section h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    .metod-section p {
+      font-size: 0.9rem;
+      color: #444;
+      margin-bottom: 0.7rem;
+    }
+    .metod-section p:last-child { margin-bottom: 0; }
+
+    .metod-section ul {
+      margin: 0 0 0.7rem 1.1rem;
+      font-size: 0.9rem;
+      color: #444;
+    }
+    .metod-section li { margin-bottom: 0.35rem; }
+
+    .metod-section a { color: #0e7d3d; }
+
+    code {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.85em;
+      background: #f0f0ee;
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+
+    .trigger-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .trigger-tag {
+      background: #e6f2ea;
+      color: #0e7d3d;
+      font-size: 0.78rem;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      padding: 0.18rem 0.45rem;
+      border-radius: 2px;
+    }
+
+    .caveat-section {
+      border-left-color: #d0a03a;
+    }
+
+    footer {
+      max-width: 760px;
+      margin: 0.75rem auto 2rem;
+      padding: 0 1.5rem;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">SVT</div>
+    <div class="site-name">
+      <h1><a href="index.html">SVT Rättelser</a></h1>
+      <p class="tagline">En samlad översikt över SVT:s publicerade rättelser</p>
+      <div class="nav-links">
+        <a href="index.html">Rättelser</a>
+        <a href="metod.html" class="active">Metod</a>
+        <a href="/nrk/">NRK Rettelser</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <h1 class="page-title">Metod</h1>
+  <p class="page-intro">Så samlas, bearbetas och publiceras uppgifterna om SVT:s rättelser.</p>
+
+  <div class="metod-section">
+    <h2>Vad är det här?</h2>
+    <p>SVT Rättelser är en inofficiell översikt över publicerade rättelser och förtydliganden i SVT:s nyhetsjournalistik. Sidan drivs inte av SVT och har ingen koppling till SVT.</p>
+    <p>SVT publicerar sina rättelser i den berörda artikeln, men har ingen samlad lista över dem. Det här projektet försöker fylla den luckan genom att automatiskt leta efter rättelseformuleringar i SVT:s artiklar.</p>
+  </div>
+
+  <div class="metod-section">
+    <h2>Varför?</h2>
+    <p>Öppenhet om fel är en förutsättning för förtroende för journalistiken. När medier rättar sig själva är det i grunden bra — men värdet av rättelsen beror på om den går att hitta.</p>
+    <p>En rättelse som ligger sist i en artikel, utan någon samlad plats där den går att hitta, är svår att upptäcka för läsare som inte råkar klicka sig tillbaka. Att samla dem gör dem sökbara och gör det lättare att se mönster över tid: vad rättas, hur snabbt, och inom vilka ämnen?</p>
+    <p>SVT finansieras av allmänheten. Det ger extra skäl att följa hur redaktionen hanterar sina egna fel.</p>
+  </div>
+
+  <div class="metod-section">
+    <h2>Datakälla</h2>
+    <p>SVT har ingen sökfunktion på webbplatsen, så insamlingen bygger på SVT:s nyhetssitemap, <code>latest-articles-sitemap.xml</code>.</p>
+    <p>Den listan är styrd av <em>ändringar</em>, inte publiceringar: en artikel som redigeras dyker upp där på nytt med ny tidsstämpel, även om den publicerades för flera år sedan. Eftersom en rättelse läggs till i efterhand — i vårt material mellan ett dygn och tre veckor efter publicering — betyder det att rättade artiklar dyker upp i listan just när rättelsen görs. Fönstret omfattar ungefär två dygn, och alla artiklar i det hämtas och genomsöks.</p>
+    <p>Hämtningen sker i lugn takt, med en paus mellan varje artikel, och följer SVT:s <code>robots.txt</code>.</p>
+  </div>
+
+  <div class="metod-section">
+    <h2>Så upptäcks rättelser</h2>
+    <p>Varje artikel genomsöks efter kända formuleringar som markerar en rättelse. Etiketterna står oftast först i ett eget stycke sist i artikeln:</p>
+    <div class="trigger-list">
+      <span class="trigger-tag">Rättelse:</span>
+      <span class="trigger-tag">RÄTTELSE.</span>
+      <span class="trigger-tag">Förtydligande:</span>
+      <span class="trigger-tag">I en tidigare version …</span>
+      <span class="trigger-tag">rättelse</span>
+      <span class="trigger-tag">rättat</span>
+    </div>
+    <p>De två sista söks bara som fristående ord. Svenskan är full av sammansättningar som innehåller dem — <em>berättelse</em>, <em>berättat</em>, <em>upprättat</em>, <em>inrättat</em>, <em>avrättelse</em> — och de ska inte ge träff.</p>
+    <p>Uttrycken <code>det stämmer inte</code> och <code>rätt är att</code> förekommer ofta i rättelser, men också i vanlig text (till exempel i citat). De bevakas därför men används inte ensamma som utlösare.</p>
+  </div>
+
+  <div class="metod-section">
+    <h2>Kvalitetskontroll</h2>
+    <p>Att en artikel innehåller ordet "rättelse" betyder inte att den innehåller en rättelse. Varje träff granskas därför av en språkmodell (Google Gemini) som klassificerar den som en verklig rättelse, som osäker, eller som ingen rättelse alls — och som skriver en kort sammanfattning av vad som rättades, samt kategoriserar ämne och feltyp.</p>
+    <p>Poster som bedöms <em>inte</em> vara rättelser filtreras bort och visas inte här. Vanliga fall är artiklar som uppdaterats med ny information utan att något var fel, och löpande nyhetshändelser som fylls på efter hand.</p>
+    <p>Originaltexten sparas alltid och kan visas för varje post, så att bedömningen går att kontrollera mot källan.</p>
+  </div>
+
+  <div class="metod-section caveat-section">
+    <h2>Begränsningar</h2>
+    <p>Översikten är inte komplett, och det finns kända luckor:</p>
+    <ul>
+      <li><strong>Omärkta ändringar.</strong> Rättelser som görs tyst, utan någon rättelsenotis, kan inte upptäckas med den här metoden.</li>
+      <li><strong>Tidsfönstret.</strong> Sitemapen sträcker sig bara omkring två dygn bakåt. Om insamlingen ligger nere längre än så kan ändringar under den perioden missas.</li>
+      <li><strong>Ingen historik.</strong> SVT publicerar inget arkiv av äldre sitemaps, så äldre rättelser måste hittas på andra vägar. Materialet är därför tunnare bakåt i tiden.</li>
+      <li><strong>Liveblogg och video.</strong> Rättelser inne i enskilda liveblogginlägg, och i videoklippens beskrivningar, omfattas ännu inte.</li>
+      <li><strong>Automatisk bedömning.</strong> Klassificeringen görs maskinellt och kan bli fel. Läs originaltexten och den länkade artikeln innan du drar slutsatser.</li>
+    </ul>
+    <p>Antalet rättelser här säger alltså mer om vad som gått att hitta än om exakt hur många fel som rättats.</p>
+  </div>
+
+  <div class="metod-section">
+    <h2>Rätta oss</h2>
+    <p>Om en post är felaktig, saknas, eller inte borde vara med: sidan är ett öppen källkod-projekt och felen går att rapportera via <a href="https://github.com/annar-bohn/nrk-rettelser" target="_blank" rel="noopener">projektets GitHub-sida</a>. Underlaget kan laddas ned som JSON från startsidan.</p>
+  </div>
+</main>
+
+<footer>
+  SVT Rättelser är ett oberoende projekt och drivs inte av SVT.
+</footer>
+
+</body>
+</html>

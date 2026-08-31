@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVT Rättelser</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230e7d3d'/%3E%3Ctext x='16' y='23' font-family='system-ui,sans-serif' font-size='19' font-weight='700' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: #f0f0ee;
+      color: #1a1a1a;
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #fff;
+      border-bottom: 3px solid #0e7d3d;
+    }
+
+    .header-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+    }
+
+    .logo {
+      flex-shrink: 0;
+      width: 4.6rem;
+      height: 4.6rem;
+      border-radius: 6px;
+      background: #0e7d3d;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+    }
+
+    .site-name h1 {
+      font-size: 1.45rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+    }
+
+    .site-name .tagline {
+      font-size: 0.78rem;
+      color: #999;
+      margin-top: 0.15rem;
+    }
+
+    .site-name .nav-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.45rem;
+    }
+
+    .site-name .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #0e7d3d;
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+    .site-name .nav-links a:hover { text-decoration: underline; }
+
+    /* ── Main ── */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 0.5rem;
+    }
+
+    /* ── Search ── */
+    .search-wrap { margin-bottom: 1.25rem; }
+
+    #search {
+      width: 100%;
+      padding: 0.65rem 0.9rem;
+      font-size: 0.95rem;
+      font-family: inherit;
+      border: 1.5px solid #ccc;
+      border-radius: 3px;
+      background: #fff;
+      color: #1a1a1a;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search:focus { border-color: #0e7d3d; }
+    #search::placeholder { color: #aaa; }
+
+    /* ── Cards ── */
+    .correction-item {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-left: 4px solid #0e7d3d;
+      border-radius: 2px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.65rem;
+    }
+
+    .correction-date {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 0.3rem;
+    }
+
+    .correction-title {
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.45rem;
+    }
+
+    .correction-text {
+      font-size: 0.875rem;
+      color: #444;
+      line-height: 1.55;
+    }
+
+    .correction-link {
+      display: inline-block;
+      margin-top: 0.55rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #0e7d3d;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .correction-link:hover { text-decoration: underline; }
+
+    .correction-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.4rem;
+    }
+
+    .badge {
+      background: #e6f2ea;
+      color: #0e7d3d;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 2px;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .badge--type {
+      background: #f0f0ee;
+      color: #555;
+    }
+
+    .correction-section {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #bbb;
+      margin-left: 0.2rem;
+    }
+
+    .correction-description {
+      font-size: 0.88rem;
+      color: #333;
+      line-height: 1.55;
+      margin-bottom: 0.3rem;
+    }
+
+    .raw-toggle {
+      background: none;
+      border: none;
+      color: #0e7d3d;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0.2rem 0;
+      letter-spacing: 0.02em;
+    }
+    .raw-toggle:hover { text-decoration: underline; }
+
+    .correction-raw {
+      display: none;
+      font-size: 0.8rem;
+      color: #666;
+      line-height: 1.5;
+      margin-top: 0.3rem;
+      padding: 0.6rem 0.8rem;
+      background: #f8f8f6;
+      border-left: 2px solid #ddd;
+      border-radius: 2px;
+    }
+    .correction-raw.open { display: block; }
+
+    .correction-byline {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      color: #999;
+      margin-top: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .correction-byline .sep {
+      color: #ccc;
+    }
+
+    /* ── Filters ── */
+    .filter-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+
+    .filter-row select {
+      font-family: inherit;
+      font-size: 0.82rem;
+      padding: 0.4rem 0.6rem;
+      border: 1.5px solid #ccc;
+      border-radius: 3px;
+      background: #fff;
+      color: #1a1a1a;
+      outline: none;
+      transition: border-color 0.15s;
+      cursor: pointer;
+    }
+    .filter-row select:focus { border-color: #0e7d3d; }
+
+    .empty {
+      text-align: center;
+      color: #aaa;
+      padding: 3rem 0;
+      font-size: 0.95rem;
+    }
+
+    /* ── Footer ── */
+    footer {
+      max-width: 760px;
+      margin: 0.75rem auto 2rem;
+      padding: 0 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.72rem;
+      color: #bbb;
+    }
+
+    .export-link { color: #bbb; text-decoration: none; }
+    .export-link:hover { color: #666; text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">SVT</div>
+    <div class="site-name">
+      <h1>SVT Rättelser</h1>
+      <p class="tagline">En samlad översikt över SVT:s publicerade rättelser</p>
+      <div class="nav-links">
+        <a href="metod.html">Metod</a>
+        <a href="/nrk/">NRK Rettelser</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="search-wrap">
+    <input id="search" type="text" placeholder="Sök i listan" oninput="filterList()">
+  </div>
+  <div class="filter-row">
+    <select id="filterCategory" onchange="filterList()">
+      <option value="">Alla kategorier</option>
+    </select>
+    <select id="filterType" onchange="filterList()">
+      <option value="">Alla feltyper</option>
+    </select>
+    <select id="sortBy" onchange="filterList()">
+      <option value="date">Nyaste först</option>
+      <option value="date_asc">Äldsta först</option>
+      <option value="correction_length">Längsta rättelse</option>
+    </select>
+  </div>
+  <div id="list"></div>
+</main>
+
+<footer>
+  <span id="count"></span>
+  <a href="#" onclick="exportData(); return false;" class="export-link">Exportera JSON</a>
+</footer>
+
+<script>
+  let corrections = [];
+  let currentFiltered = [];
+  const BATCH_SIZE = 50;
+  let renderedCount = 0;
+  let isLoadingMore = false;
+  const DATA_URL = "../data/svt/corrections.json";
+
+  const CATEGORY_LABELS = {
+    sports: 'Sport', culture: 'Kultur', politics: 'Politik',
+    economy: 'Ekonomi', science: 'Vetenskap', health: 'Hälsa',
+    technology: 'Teknik', local: 'Lokalt', world: 'Utrikes',
+    crime: 'Brott', weather: 'Väder', entertainment: 'Nöje',
+    other: 'Övrigt'
+  };
+
+  const TYPE_LABELS = {
+    factual_error: 'Sakfel', wrong_name: 'Fel namn',
+    wrong_number: 'Fel siffra', wrong_image: 'Fel bild',
+    wrong_date: 'Fel datum', wrong_location: 'Fel plats',
+    mistranslation: 'Felöversättning', misleading_title: 'Missvisande rubrik',
+    missing_context: 'Saknad kontext', source_error: 'Källfel',
+    retracted_claim: 'Tillbakadraget påstående',
+    spelling_grammar: 'Skrivfel/språk', attribution_error: 'Attributionsfel',
+    other: 'Övrigt'
+  };
+
+  async function loadRemoteData() {
+    try {
+      const res = await fetch(DATA_URL + "?t=" + Date.now());
+      corrections = await res.json();
+      populateFilters();
+      filterList();
+    } catch(e) { /* fail silently, show cached */ }
+  }
+
+  function esc(str) {
+    if (!str) return '';
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function formatDate(str) {
+    const d = new Date(str);
+    if (isNaN(d)) return str || '';
+    return d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function formatTimeToCorrect(hours) {
+    if (hours == null) return null;
+    if (hours < 1) return 'Under 1 timme';
+    if (hours < 24) {
+      const h = Math.round(hours);
+      return h === 1 ? '1 timme' : h + ' timmar';
+    }
+    const days = Math.round(hours / 24);
+    return days === 1 ? '1 dag' : days + ' dagar';
+  }
+
+  function populateFilters() {
+    const catSet = new Set(), typeSet = new Set();
+    corrections.forEach(c => {
+      if (c.news_category) catSet.add(c.news_category);
+      if (c.correction_type) typeSet.add(c.correction_type);
+    });
+
+    const catSelect = document.getElementById('filterCategory');
+    const typeSelect = document.getElementById('filterType');
+    const prevCat = catSelect.value, prevType = typeSelect.value;
+
+    catSelect.innerHTML = '<option value="">Alla kategorier</option>';
+    [...catSet].sort((a,b) => (CATEGORY_LABELS[a]||a).localeCompare(CATEGORY_LABELS[b]||b, 'sv'))
+      .forEach(v => { catSelect.innerHTML += `<option value="${v}">${esc(CATEGORY_LABELS[v]||v)}</option>`; });
+
+    typeSelect.innerHTML = '<option value="">Alla feltyper</option>';
+    [...typeSet].sort((a,b) => (TYPE_LABELS[a]||a).localeCompare(TYPE_LABELS[b]||b, 'sv'))
+      .forEach(v => { typeSelect.innerHTML += `<option value="${v}">${esc(TYPE_LABELS[v]||v)}</option>`; });
+
+    catSelect.value = prevCat; typeSelect.value = prevType;
+  }
+
+  function renderItem(c) {
+    const catLabel = CATEGORY_LABELS[c.news_category];
+    const typeLabel = TYPE_LABELS[c.correction_type];
+    const ttc = formatTimeToCorrect(c.time_to_correct_hours);
+    const rawText = c.correction || '';
+    const cleanText = c.correction_text_extract || '';
+    const corrText = cleanText || rawText;
+    const hasDesc = c.correction_description && c.correction_description.length > 5;
+    const itemId = 'raw-' + (c.id || Math.random().toString(36).slice(2));
+
+    let meta = '';
+    if (catLabel || typeLabel || c.section) {
+      meta = '<div class="correction-meta">';
+      if (catLabel) meta += `<span class="badge">${esc(catLabel)}</span>`;
+      if (typeLabel) meta += `<span class="badge badge--type">${esc(typeLabel)}</span>`;
+      if (c.section) meta += `<span class="correction-section">${esc(c.section)}</span>`;
+      meta += '</div>';
+    }
+
+    let mainText = '';
+    let rawBlock = '';
+    if (hasDesc) {
+      mainText = `<p class="correction-description">${esc(c.correction_description)}</p>`;
+      if (corrText && corrText.length > 20) {
+        rawBlock = `<button class="raw-toggle" onclick="document.getElementById('${itemId}').classList.toggle('open');this.textContent=this.textContent==='Visa originaltext ▸'?'Dölj originaltext ▾':'Visa originaltext ▸'">Visa originaltext ▸</button><div class="correction-raw" id="${itemId}">${esc(corrText)}</div>`;
+      }
+    } else {
+      mainText = `<p class="correction-text">${esc(corrText)}</p>`;
+    }
+
+    let byline = '';
+    const parts = [];
+    if (c.journalist) parts.push(esc(c.journalist));
+    if (ttc) parts.push('Rättningstid: ' + esc(ttc));
+    if (parts.length) byline = `<div class="correction-byline">${parts.join('<span class="sep">&middot;</span>')}</div>`;
+
+    return `
+    <div class="correction-item">
+      <div class="correction-date">${esc(formatDate(c.date))}</div>
+      ${meta}
+      <div class="correction-title">${esc(c.title || '')}</div>
+      ${mainText}
+      ${rawBlock}
+      ${byline}
+      <a class="correction-link" href="${esc(c.url)}" target="_blank" rel="noopener">Läs artikeln →</a>
+    </div>`;
+  }
+
+  function renderList(list) {
+    currentFiltered = list !== undefined ? list : [...corrections].sort((a,b) => new Date(b.date) - new Date(a.date));
+    renderedCount = 0;
+    const container = document.getElementById('list');
+
+    if (!currentFiltered.length) {
+      container.innerHTML = '<p class="empty">Inga träffar</p>';
+      document.getElementById('count').textContent = '';
+      return;
+    }
+
+    document.getElementById('count').textContent = currentFiltered.length.toLocaleString('sv-SE') + ' rättelser';
+    container.innerHTML = '';
+    renderMore();
+  }
+
+  function renderMore() {
+    if (isLoadingMore || renderedCount >= currentFiltered.length) return;
+    isLoadingMore = true;
+    const container = document.getElementById('list');
+    const end = Math.min(renderedCount + BATCH_SIZE, currentFiltered.length);
+    const fragment = document.createRange().createContextualFragment(
+      currentFiltered.slice(renderedCount, end).map(renderItem).join('')
+    );
+    container.appendChild(fragment);
+    renderedCount = end;
+    isLoadingMore = false;
+  }
+
+  function filterList() {
+    const term = document.getElementById('search').value.toLowerCase();
+    const catFilter = document.getElementById('filterCategory').value;
+    const typeFilter = document.getElementById('filterType').value;
+
+    let filtered = [...corrections];
+
+    if (catFilter) filtered = filtered.filter(c => c.news_category === catFilter);
+    if (typeFilter) filtered = filtered.filter(c => c.correction_type === typeFilter);
+
+    if (term) {
+      filtered = filtered.filter(c => {
+        const catLabel = CATEGORY_LABELS[c.news_category] || '';
+        const typeLabel = TYPE_LABELS[c.correction_type] || '';
+        return [c.title, c.correction, catLabel, typeLabel, c.journalist, c.correction_description, c.correction_text_extract]
+          .some(t => t && t.toLowerCase().includes(term));
+      });
+    }
+
+    const sortBy = document.getElementById('sortBy').value;
+    if (sortBy === 'date_asc') {
+      filtered.sort((a,b) => new Date(a.date) - new Date(b.date));
+    } else if (sortBy === 'correction_length') {
+      filtered.sort((a,b) => (b.correction_text_raw || b.correction || '').length - (a.correction_text_raw || a.correction || '').length);
+    } else {
+      filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
+    }
+    renderList(filtered);
+  }
+
+  function exportData() {
+    const blob = new Blob([JSON.stringify(corrections, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `svt-rattelser-${new Date().toISOString().slice(0,10)}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  window.addEventListener('load', () => {
+    document.getElementById('list').innerHTML = '<p class="empty">Laddar…</p>';
+    loadRemoteData();
+    setInterval(loadRemoteData, 30 * 60 * 1000);
+  });
+
+  window.addEventListener('scroll', () => {
+    if (renderedCount >= currentFiltered.length) return;
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 600) {
+      renderMore();
+    }
+  });
+</script>
+
+</body>
+</html>
