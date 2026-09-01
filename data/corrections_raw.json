@@ -48354,5 +48354,17 @@
     "news_category": "economy",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1788294155234,
+    "date": "2026-09-01T12:53:47.523Z",
+    "title": "Høstens heteste spill",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Noen få timer etter publisering av denne topp 10-lista, informerte utviklerne av No Rest for the Wicked at spillet nå er utsatt til mars 2027.",
+    "correction": "Noen få timer etter publisering av denne topp 10-lista, informerte utviklerne av No Rest for the Wicked at spillet nå er utsatt til mars 2027.",
+    "url": "https://www.nrk.no/artikkel/hostens-heteste-spill-1526583",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
