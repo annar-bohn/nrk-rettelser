@@ -26,14 +26,10 @@
     "https://www.svt.se/kultur/13-reasons-why-debatt",
     "https://www.svt.se/kultur/15-ars-fangelse-for-attackplan-mot-swiftkonsert"
   ],
-  "cdx_cursors": {
-    "www.svt.se/kultur/*": 200,
-    "www.svt.se/nyheter/inrikes/*": 226000,
-    "www.svt.se/nyheter/utrikes/*": 220000,
-    "www.svt.se/nyheter/lokalt/*": 1000
-  },
+  "cdx_cursors": {},
   "stats": {
     "found_total": 0,
     "runs": 2
-  }
+  },
+  "pending_candidates": []
 }

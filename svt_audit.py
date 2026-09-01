@@ -126,11 +126,19 @@ def fetch_cdx_page(prefix, year_from, year_to, limit, offset):
     return [row[0] for row in rows if row]
 
 
-def discover_urls(prefixes, year_from, year_to, page_size, progress, want):
+def discover_urls(prefixes, year_from, year_to, page_size, progress, want,
+                  deadline=None):
     """Collect candidate article URLs from CDX, skipping ones already checked.
 
     Walks each prefix with a persisted offset cursor so repeat runs continue
     deeper into the index instead of re-reading the same first page.
+
+    `deadline` (a time.time() value) hard-stops discovery. Without it, CDX can
+    eat the entire run: archive.org answers broad prefixes with 503/504 far
+    more often under load than a one-off query suggests, and canonicalising
+    away query strings collapses huge stretches of the index into a handful of
+    distinct articles. The 2026-09-01 run spent four hours paging 226k rows
+    for 600 candidates and then had no budget left to fetch any of them.
     """
     checked = set(progress["checked_urls"])
     known = {c["url"] for c in load_dataset()}
@@ -140,9 +148,15 @@ def discover_urls(prefixes, year_from, year_to, page_size, progress, want):
     for prefix in prefixes:
         if len(candidates) >= want:
             break
+        if deadline and time.time() > deadline:
+            print("  Discovery time budget reached — fetching what we have.")
+            break
         offset = cursors.get(prefix, 0)
         empty_pages = 0
         while len(candidates) < want and empty_pages < 2:
+            if deadline and time.time() > deadline:
+                print("  Discovery time budget reached — fetching what we have.")
+                break
             print(f"  CDX {prefix} offset={offset}")
             urls = fetch_cdx_page(prefix, year_from, year_to, page_size, offset)
             if not urls:
@@ -215,12 +229,28 @@ def main():
     print(f"Already checked: {len(progress['checked_urls'])} URLs")
     print(f"Dataset:         {initial} entries\n")
 
-    print("Discovering candidate URLs from the Wayback CDX index...")
-    candidates = discover_urls(
-        DEFAULT_PREFIXES, args.year_from, args.year_to,
-        args.page_size, progress, args.max_urls,
-    )
-    print(f"\n{len(candidates)} new candidate URLs to check live\n")
+    # Candidates discovered but never fetched (a previous run ran out of time)
+    # are carried over. Without this they would be lost for good: the CDX
+    # cursor has already advanced past them, so re-discovery never sees them.
+    candidates = [u for u in progress.get("pending_candidates", [])
+                  if u not in existing_urls]
+    if candidates:
+        print(f"Carrying over {len(candidates)} candidates from a previous run.")
+
+    if len(candidates) < args.max_urls:
+        # Discovery gets a bounded slice of the budget; the rest is for
+        # fetching, which is the part that actually finds corrections.
+        discovery_deadline = time.time() + args.max_minutes * 60 * 0.3
+        print("Discovering candidate URLs from the Wayback CDX index...")
+        candidates += discover_urls(
+            DEFAULT_PREFIXES, args.year_from, args.year_to,
+            args.page_size, progress, args.max_urls - len(candidates),
+            deadline=discovery_deadline,
+        )
+
+    progress["pending_candidates"] = candidates
+    save_progress(progress)
+    print(f"\n{len(candidates)} candidate URLs to check live\n")
 
     if not candidates:
         print("Nothing new to check — the index cursors may be exhausted for "
@@ -251,6 +281,7 @@ def main():
             print(f"  FAIL [{type(e).__name__}]: {url[:70]} — {e}")
 
         progress["checked_urls"].append(url)
+        progress["pending_candidates"] = candidates[checked_this_run:]
 
         # Persist every 25 URLs so an interrupted run loses almost nothing.
         if checked_this_run % 25 == 0:
@@ -264,6 +295,7 @@ def main():
         time.sleep(sc.FETCH_SLEEP)
 
     found = len(corrections) - initial
+    progress["pending_candidates"] = candidates[checked_this_run:]
     st = progress.setdefault("stats", {})
     st["found_total"] = st.get("found_total", 0) + found
     st["runs"] = st.get("runs", 0) + 1
