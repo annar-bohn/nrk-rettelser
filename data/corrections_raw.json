@@ -48380,5 +48380,17 @@
     "news_category": "entertainment",
     "correction_type": "other",
     "time_to_correct_hours": 4.63
+  },
+  {
+    "id": 1788449715478,
+    "date": "2026-09-03T09:54:35+02:00",
+    "title": "Spania",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne meldingen sto det at over 80 personer var funnet døde. Det var feil.",
+    "correction": "I en tidligere versjon av denne meldingen sto det at over 80 personer var funnet døde. Det var feil.",
+    "url": "https://www.nrk.no/nyheter/spania-1.14865357",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
