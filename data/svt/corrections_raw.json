@@ -362,5 +362,20 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 7.79
+  },
+  {
+    "id": 1788450101274,
+    "url": "https://www.svt.se/nyheter/nyhetstecken/polisen-varnar-bluffdova-tar-sig-in-i-aldres-bostader",
+    "date": "2026-09-03T13:59:53+02:00",
+    "title": "Polisen varnar: Bluffdöva tar sig in i äldres bostäder",
+    "correction": "Förtydligande: SVT är medvetna om att det är olämpligt att använda begreppet ”dövstum”. I detta fall låtsas bedragarna vara både döva och stumma, därför har vi med den formuleringen.",
+    "correction_text_raw": "Förtydligande: SVT är medvetna om att det är olämpligt att använda begreppet ”dövstum”. I detta fall låtsas bedragarna vara både döva och stumma, därför har vi med den formuleringen.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/nyhetstecken",
+    "publication_date": "2026-09-03T13:59:53+02:00",
+    "modified_date": "2026-09-03T16:46:52+02:00"
   }
 ]
