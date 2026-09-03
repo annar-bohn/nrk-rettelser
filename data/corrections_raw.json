@@ -48391,6 +48391,20 @@
     "url": "https://www.nrk.no/nyheter/spania-1.14865357",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Spania",
+    "nrk_section": "nyheter",
+    "publication_date": "2020-01-18T06:41:13+01:00",
+    "modified_date": "2026-09-03T09:54:35+02:00",
+    "intro_text": "",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "3. september 2026 kl. 09:54 Spania Migranter i Europa Flere enn 80 kan være døde utenfor Kanariøyene, ifølge spansk nyhetsbyrå Flere enn 80 mennesker som var om bord på en båt funnet utenfor Kanariøyene, har mistet livet, ifølge det spanske nyhetsbyrået EFE. Båten kom fra Gambia og ble funnet av redningsmannskaper onsdag ettermiddag. Opprinnelig skal det ha vært 128 mennesker på båten, og av disse har over 80 ifølge EFE mistet livet. Det var 45 overlevende i båten. I en tidligere versjon av denne meldingen sto det at over 80 personer var funnet døde. Det var feil.",
+    "correction_description": "NRK presiserer at det ikke var bekreftet at over 80 personer var funnet døde, men at dette er et anslått antall omkomne basert på antall overlevende.",
+    "correction_text_extract": "I en tidligere versjon av denne meldingen sto det at over 80 personer var funnet døde. Det var feil.",
+    "correction_date": "2026-09-03",
+    "news_category": "world",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": null
   }
 ]
