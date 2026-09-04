@@ -448,12 +448,23 @@
     "title": "Två häktade efter kidnappning i Göteborg",
     "correction": "Förtydligande: I en tidigare version stod det i ingressen att sju män häktades efter händelsen. Detta stämmer inte, rätt är att de anhölls.",
     "correction_text_raw": "Förtydligande: I en tidigare version stod det i ingressen att sju män häktades efter händelsen. Detta stämmer inte, rätt är att de anhölls.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/vast",
     "publication_date": "2026-09-04T15:23:09+02:00",
-    "modified_date": "2026-09-04T20:51:34+02:00"
+    "modified_date": "2026-09-04T20:51:34+02:00",
+    "headline": "Två häktade efter kidnappning i Göteborg",
+    "intro_text": "Sju person anhölls efter ett misstänkt människorov i Göteborg under helgen. Nu häktas två av dem.",
+    "journalist": "Carl Liliebäck",
+    "responsible_editor": "Anton Svendsen",
+    "article_body": "Två häktade efter kidnappning i Göteborg Uppdaterad idag 20:51 Publicerad idag 15:23 Sju person anhölls efter ett misstänkt människorov i Göteborg under helgen. Nu häktas två av dem. Händelsen ska ha skett under söndagskvällen. Initialt anhölls sju personer, varav samtliga påträffades tillsammans med kidnappningsoffret i Rannebergen, skriver Göteborgs-Posten. Till GP säger åklagaren Malin Melin att målsägande ska ha varit bortförd i några timmar. Hen ska då körts runt i bil och utpressats. I veckan har dock fem av de misstänkta släppts, men under fredagen beslutade Göteborgs tingsrätt att de återstående två skulle häktas. De misstänks på sannolika skäl för människorov. Enligt häktningshandlingarna nekar de till brott. Förtydligande: I en tidigare version stod det i ingressen att sju män häktades efter händelsen. Detta stämmer inte, rätt är att de anhölls. Kidnappning Göteborg Relaterat Sju anhållna för människorov i Göteborg 31 augusti 2026 Carl Liliebäck Ansvarig utgivare: Anton Svendsen Uppdaterad 4 september 2026 kl 20:51 Publicerad 4 september 2026 kl 15:23 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+    "correction_description": "Det förtydligas att sju personer anhölls, inte häktades, i ett tidigare skede av händelseförloppet.",
+    "correction_text_extract": "Förtydligande: I en tidigare version stod det i ingressen att sju män häktades efter händelsen. Detta stämmer inte, rätt är att de anhölls.",
+    "correction_date": "2026-09-04",
+    "news_category": "crime",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 5.47
   }
 ]
