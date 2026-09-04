@@ -414,5 +414,20 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 0.6
+  },
+  {
+    "id": 1788536525165,
+    "url": "https://www.svt.se/nyheter/lokalt/varmland/nu-infors-sms-livraddning-i-varmland",
+    "date": "2026-09-01T14:34:27+02:00",
+    "title": "Nu införs SMS-livräddning i Värmland",
+    "correction": "Rättelse: I en tidigare version av den här artikeln skrev vi att det var Region Uppsala som har utvecklat och lanserat applikationen Först på plats. Rätt är att applikationen utvecklats och drivs av det privata företaget Alecom.",
+    "correction_text_raw": "Rättelse: I en tidigare version av den här artikeln skrev vi att det var Region Uppsala som har utvecklat och lanserat applikationen Först på plats. Rätt är att applikationen utvecklats och drivs av det privata företaget Alecom.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/varmland",
+    "publication_date": "2026-09-01T14:34:27+02:00",
+    "modified_date": "2026-09-04T13:17:20+02:00"
   }
 ]
