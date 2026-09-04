@@ -422,12 +422,23 @@
     "title": "Nu införs SMS-livräddning i Värmland",
     "correction": "Rättelse: I en tidigare version av den här artikeln skrev vi att det var Region Uppsala som har utvecklat och lanserat applikationen Först på plats. Rätt är att applikationen utvecklats och drivs av det privata företaget Alecom.",
     "correction_text_raw": "Rättelse: I en tidigare version av den här artikeln skrev vi att det var Region Uppsala som har utvecklat och lanserat applikationen Först på plats. Rätt är att applikationen utvecklats och drivs av det privata företaget Alecom.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/varmland",
     "publication_date": "2026-09-01T14:34:27+02:00",
-    "modified_date": "2026-09-04T13:17:20+02:00"
+    "modified_date": "2026-09-04T13:17:20+02:00",
+    "headline": "Nu införs SMS-livräddning i Värmland",
+    "intro_text": "Nu har det beslutats att två applikationer ska införas i Region Värmland för att larma frivilliga vid hjärtstopp.",
+    "journalist": "Anna-Moa Rutgersson",
+    "responsible_editor": "Frank Stenström",
+    "article_body": "Nu ska två applikationer införas i Region Värmland för att larma frivilliga vid hjärtstopp. Foto: Stefan Brännström/SVT Nu införs SMS-livräddning i Värmland Uppdaterad idag 13:17 Publicerad 1 september 2026 Nu har det beslutats att två applikationer ska införas i Region Värmland för att larma frivilliga vid hjärtstopp. Den ena applikationen är S ms-livräddare som ägs av företaget Heartrunner och som femton regioner idag redan är anslutna till. Den andra är Först på plats som ägs av Alecom och som Region Värmland redan har avtal med för andra lösningar och produkter. Under våren införde även Region Uppsala Först på plats för allmänheten. – Vi ska göra en jämförelse över tid för att se för- och nackdelar mellan de olika apparna, berättar kultur- och bildningsnämndens ordförande Sofia Magnusson (S). Beräknas kosta 700 000 kronor En utvärdering av applikationerna ska ske inom tre år. Kostnaden för införandet av applikationen S ms-livräddare beräknas uppgå till 700 000 kronor, där det tillkommer en kostnad på två kronor per användare. Den andra applikationen har regionen tillgång till genom ett samarbete med bland annat Region Uppsala och där tillkommer ingen extra kostnad. Upphandlingen är i slutfasen och när applikationerna kan sjösättas är ännu inte klart. Rättelse: I en tidigare version av den här artikeln skrev vi att det var Region Uppsala som har utvecklat och lanserat applikationen Först på plats. Rätt är att applikationen utvecklats och drivs av det privata företaget Alecom. SMS-livräddning Den som är över 18 år och har en utbildning i hjärt- och lungräddning, HLR, kan registrera sig som sms-livräddare i en app. Befinner man sig nära någon som drabbats av ett misstänkt hjärtstopp får man ett larm i appen och man kan då påbörja en livräddande insats tills ambulans anländer. Region Värmland Livräddning Värmland Relaterat 1 min Region Värmland får sms-livräddare 7 oktober 2025 Politiskt förslag att införa SMS-livräddning i Värmland 24 augusti 2023 1 min Efter regionens ja till sms-livräddning i Värmland: ”Kämpat länge” 7 oktober 2025 1 min Fortfarande ingen sms-livräddning i Värmland – frivillige Carl-Johan kritisk 16 juli 2023 Anna-Moa Rutgersson Ansvarig utgivare: Frank Stenström Uppdaterad 4 september 2026 kl 13:17 Publicerad 1 september 2026 kl 14:34 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+    "correction_description": "SVT har korrigerat uppgiften om vem som utvecklat applikationen Först på plats. Det är företaget Alecom som driver appen, inte Region Uppsala.",
+    "correction_text_extract": "Rättelse: I en tidigare version av den här artikeln skrev vi att det var Region Uppsala som har utvecklat och lanserat applikationen Först på plats. Rätt är att applikationen utvecklats och drivs av det privata företaget Alecom.",
+    "correction_date": "2026-09-01",
+    "news_category": "local",
+    "correction_type": "attribution_error",
+    "time_to_correct_hours": 70.71
   }
 ]
