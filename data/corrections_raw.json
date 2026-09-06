@@ -48406,5 +48406,29 @@
     "news_category": "world",
     "correction_type": "factual_error",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1788724236098,
+    "date": "2026-09-03T15:24:29+02:00",
+    "title": "Dette seier publikum om teaterstykket om Høiby: – Ei sterkare betydning",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon skreiv vi at premieren på «Sønnen» har blitt utsett to gonger. Det riktige er ein gong.",
+    "correction": "Retting: I ein tidlegare versjon skreiv vi at premieren på «Sønnen» har blitt utsett to gonger. Det riktige er ein gong.",
+    "url": "https://www.nrk.no/vestland/kritikarar-er-ueinige-om-premieren-pa-_sonnen_-var-darleg-timing-1.17996030",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1788724236900,
+    "date": "2026-08-28T18:46:58+02:00",
+    "title": "Teatervisning om Høiby-saka – dagen etter kongens død",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon skreiv vi at premieren på «Sønnen» har blitt utsett to gonger. Det riktige er ein gong.",
+    "correction": "Retting: I ein tidlegare versjon skreiv vi at premieren på «Sønnen» har blitt utsett to gonger. Det riktige er ein gong.",
+    "url": "https://www.nrk.no/vestland/teatervisning-om-kongehuset_-held-enno-pa-premiereplanane-1.18004760",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
