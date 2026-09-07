@@ -48458,5 +48458,17 @@
     "news_category": "culture",
     "correction_type": "factual_error",
     "time_to_correct_hours": 214.49
+  },
+  {
+    "id": 1788800354413,
+    "date": "2026-09-07T12:35:41+02:00",
+    "title": "Nato",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: NRK skrev i en tidligere versjon at missilsystemet var i Norge i et par timer før det ble flydd ut av Norge igjen. Etter oppdatert informasjon fra Forsvaret rettet NRK meldingen til at systemet var i landet i en ukes tid. Feilen ble rettet 7. september klokken 17.58.",
+    "correction": "Rettelse: NRK skrev i en tidligere versjon at missilsystemet var i Norge i et par timer før det ble flydd ut av Norge igjen. Etter oppdatert informasjon fra Forsvaret rettet NRK meldingen til at systemet var i landet i en ukes tid. Feilen ble rettet 7. september klokken 17.58.",
+    "url": "https://www.nrk.no/nyheter/nato-1.11614875",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
