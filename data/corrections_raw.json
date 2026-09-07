@@ -48469,6 +48469,20 @@
     "url": "https://www.nrk.no/nyheter/nato-1.11614875",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Nato",
+    "nrk_section": "nyheter",
+    "publication_date": "2014-03-18T19:57:39+01:00",
+    "modified_date": "2026-09-07T12:35:41+02:00",
+    "intro_text": "",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "7. september 2026 kl. 12:35 Nato Russland Russland fordømmer missilsystem i Norge Russland fordømmer det de hevder er en amerikansk utplassering av et missilsystem i Norge. Det melder Reuters . I meldingen advarer russisk UD om at systemene vil bli legitime mål i en konflikt. De mener utplasseringen utgjør en trussel, og kaller det «nok et ledd i Natos destabiliserende opptreden». Forsvarets operative hovedkvarter opplyser til NRK at Den amerikanske marinen fløy dette systemet til Værnes i Trøndelag i forbindelse med øvelsen Operation Atlantic City. – Hensikten var å demonstrere at man hurtig kan mobilisere og fly inn et slikt system hvor det måtte være i verden, sier talsperson Jonny Karlsen. Systemet var i bruk i rundt to timer under øvelsen, men ble oppbevart nedpakket i landet i omtrent en uke. Ifølge Karlsen øver norske styrker jevnlig sammen med allierte. – Da er det heller ikke uvanlig at allierte tar med seg ulikt utstyr til disse øvelsene, sier han. Rettelse: NRK skrev i en tidligere versjon at missilsystemet var i Norge i et par timer før det ble flydd ut av Norge igjen. Etter oppdatert informasjon fra Forsvaret rettet NRK meldingen til at systemet var i landet i en ukes tid. Feilen ble rettet 7. september klokken 17.58.",
+    "correction_description": "NRK rettet informasjon om hvor lenge et amerikansk missilsystem oppholdt seg i Norge, fra et par timer til en ukes tid.",
+    "correction_text_extract": "Rettelse: NRK skrev i en tidligere versjon at missilsystemet var i Norge i et par timer før det ble flydd ut av Norge igjen. Etter oppdatert informasjon fra Forsvaret rettet NRK meldingen til at systemet var i landet i en ukes tid. Feilen ble rettet 7. september klokken 17.58.",
+    "correction_date": "2026-09-07",
+    "news_category": "politics",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": null
   }
 ]
