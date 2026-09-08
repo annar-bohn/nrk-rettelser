@@ -48495,6 +48495,20 @@
     "url": "https://www.nrk.no/nyheter/russland-1.14838354",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Russland",
+    "nrk_section": "nyheter",
+    "publication_date": "2019-12-27T15:43:00+01:00",
+    "modified_date": "2026-09-08T04:05:07+02:00",
+    "intro_text": "",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "8. september 2026 kl. 04:05 Russland Krigen i Ukraina Ukrainsk droneangrep mot Saratov i Russland Et ukrainsk droneangrep har rammet sivil infrastruktur i den russiske byen Saratov ved Volga, og flere personer skal være skadet. Det melder regionens guvernør Roman Busargin på Telegram natt til tirsdag. Saratov-regionen huser et stort oljeraffineri drevet av det statlige oljeselskapet Rosneft, i tillegg til en rekke andre industri- og militæranlegg, melder nyhetsbyrået Reuters. Meldingen kommer etter at Russland gjenopptok angrepene mot Ukraina etter en pause på tre dager.",
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": null,
+    "news_category": "world",
+    "correction_type": "other",
+    "time_to_correct_hours": null
   }
 ]
