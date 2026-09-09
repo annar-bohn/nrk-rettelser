@@ -526,7 +526,7 @@
     "title": "Resandefolket önskade egen lokal – Skellefteå kommun sa ja: ”Kan umgås”",
     "correction": "Rättelse: Den romska gruppen i Skellefteå har ingen koppling till, dialog kring eller del i denna lokalfråga, vilket det framstod som i en tidigare version av den här artikeln.",
     "correction_text_raw": "Rättelse: Den romska gruppen i Skellefteå har ingen koppling till, dialog kring eller del i denna lokalfråga, vilket det framstod som i en tidigare version av den här artikeln.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
@@ -538,6 +538,11 @@
     "journalist": "Madeleine Harrati",
     "responsible_editor": "Karin Wiechel",
     "article_body": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd ”Vi kan umgås, ha olika möten och dra nytta av varandra” – hör föreningen RUNG i Skellefteå berätta om nyttan med den nya lokalen. Foto: SVT Resandefolket önskade egen lokal – Skellefteå kommun sa ja: ”Kan umgås” Uppdaterad idag 14:51 Publicerad 31 augusti 2026 Resandefolket i Skellefteå har fått tillgång till en egen lokal för träffar och möten. Föreningen RUNG har drivit frågan i kommunens samråd. – Där kan vi umgås, ha olika möten och dra nytta av varandra, säger Britt-Inger Hedström Lundqvist från föreningen RUNG i Skellefteå. Regeringens mål är att alla romer som fyller 20 år år 2032 ska ha samma möjligheter i livet som andra unga. I Skellefteå lyfts samarbetet mellan kommunen och resandegruppen genom RUNG fram som ett positivt exempel på hur samarbetet kan fungera i praktiken. Vad har hänt med regeringens mål om romsk inkludering – och varför verkar det gå åt fel håll? Se mer i Sverige romano – valet . Rättelse: Den romska gruppen i Skellefteå har ingen koppling till, dialog kring eller del i denna lokalfråga, vilket det framstod som i en tidigare version av den här artikeln. ”Vi lyfte behovet och det tog dem till sig” – hör mer om hur lokalen kommer att användas i klippet ovan. Foto: SVT Skellefteå kommun Minoriteter Skellefteå Relaterat Se programmet på SVT Play: Sverige romano – valet svtplay.se Madeleine Harrati Ansvarig utgivare: Karin Wiechel Uppdaterad 9 september 2026 kl 14:51 Publicerad 31 augusti 2026 kl 17:59 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-    "time_to_correct_hours": 212.88
+    "time_to_correct_hours": 212.88,
+    "correction_description": "SVT förtydligar att den romska gruppen i Skellefteå inte har någon koppling till den aktuella lokalfrågan, vilket tidigare framstod som felaktigt.",
+    "correction_text_extract": "Rättelse: Den romska gruppen i Skellefteå har ingen koppling till, dialog kring eller del i denna lokalfråga, vilket det framstod som i en tidigare version av den här artikeln.",
+    "correction_date": "2026-09-09",
+    "news_category": "local",
+    "correction_type": "factual_error"
   }
 ]
