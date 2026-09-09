@@ -48510,5 +48510,17 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1788950250747,
+    "date": "2026-09-09T06:16:07.867Z",
+    "title": "Disse deltar i prosesjonen",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/disse-deltar-i-prosesjonen-1527438",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
