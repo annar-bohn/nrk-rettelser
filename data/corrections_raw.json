@@ -48536,5 +48536,29 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 4.41
+  },
+  {
+    "id": 1789035746360,
+    "date": "2026-09-10T05:20:42+02:00",
+    "title": "Viking-blemme – måtte slette innlegg før kampstart",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Innleggene ble så slettet snaue ti minutter etter publisering.",
+    "correction": "Innleggene ble så slettet snaue ti minutter etter publisering.",
+    "url": "https://www.nrk.no/sport/viking-blemme-_-matte-slette-innlegg-for-kampstart-1.18018907",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1789035970930,
+    "date": "2026-09-10T08:13:34.842Z",
+    "title": "Lagmannsretten skal behandle Marius Borg Høibys anke",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/lagmannsretten-skal-behandle-marius-borg-hoibys-anke-1527541",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
