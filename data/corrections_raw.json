@@ -48614,5 +48614,17 @@
     "news_category": "local",
     "correction_type": "attribution_error",
     "time_to_correct_hours": 3.31
+  },
+  {
+    "id": 1789122169831,
+    "date": "2026-09-10T14:28:33+02:00",
+    "title": "Hvert femte lokallag krever at Høyre snur om drivstoff: – Ønsker at de legger øret til bakken",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av saken sto det at Nordland Høyre også hadde signert oppropet. Det er ikke riktig. Feilen ble rettet fredag formiddag.",
+    "correction": "I en tidligere versjon av saken sto det at Nordland Høyre også hadde signert oppropet. Det er ikke riktig. Feilen ble rettet fredag formiddag.",
+    "url": "https://www.nrk.no/nordland/hvert-femte-lokallag-krever-at-hoyre-snur-om-drivstoff-_-blant-disse-hjemkommunen-til-nestleder-1.18014293",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
