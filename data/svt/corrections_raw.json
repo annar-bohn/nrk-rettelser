@@ -544,5 +544,20 @@
     "correction_date": "2026-09-09",
     "news_category": "local",
     "correction_type": "factual_error"
+  },
+  {
+    "id": 1789122580961,
+    "url": "https://www.svt.se/nyheter/lokalt/ost/rekordmanga-fortidsrostar-i-linkoping-okat-med-66-procent",
+    "date": "2026-09-10T16:36:45+02:00",
+    "title": "Rekordmånga förtidsröstar i Linköping – ökat med 51 procent",
+    "correction": "I en tidigare version uppgav vi att förtidsröstningen hade ökat med 66 procent. På fredagsförmiddagen meddelade Linköpings kommun att de hade skickat felaktiga siffror. Den korrekta ökningen är 51 procent.",
+    "correction_text_raw": "I en tidigare version uppgav vi att förtidsröstningen hade ökat med 66 procent. På fredagsförmiddagen meddelade Linköpings kommun att de hade skickat felaktiga siffror. Den korrekta ökningen är 51 procent.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/ost",
+    "publication_date": "2026-09-10T16:36:45+02:00",
+    "modified_date": "2026-09-11T10:47:15+02:00"
   }
 ]
