@@ -570,5 +570,35 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 18.18
+  },
+  {
+    "id": 1789141585128,
+    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+    "date": "2025-11-19T09:41:54+01:00",
+    "title": "Valet 2026 – senaste nytt om svensk politik",
+    "correction": "Ebba Buschs presschef uppger för tidningen att man krävt en rättelse från Sveriges Radio gällande statistiken om vårdköer.",
+    "correction_text_raw": "Ebba Buschs presschef uppger för tidningen att man krävt en rättelse från Sveriges Radio gällande statistiken om vårdköer.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/inrikes",
+    "publication_date": "2025-11-19T09:41:54+01:00",
+    "modified_date": "2026-09-11T17:45:36+02:00"
+  },
+  {
+    "id": 1789141658450,
+    "url": "https://www.svt.se/kultur/ebba-busch-kd-anmaler-sveriges-radio-till-granskningsnamnden",
+    "date": "2026-09-11T14:02:29+02:00",
+    "title": "Ebba Busch (KD) anmäler Sveriges radio till Granskningsnämnden",
+    "correction": "”Sveriges Radio måste gå ut med en rättelse omgående, som motsvarar den tyngd som felaktigheten i utfrågningen medfört.” skriver Ebba Buschs presschef i ett mejl till Aftonbladet.",
+    "correction_text_raw": "”Sveriges Radio måste gå ut med en rättelse omgående, som motsvarar den tyngd som felaktigheten i utfrågningen medfört.” skriver Ebba Buschs presschef i ett mejl till Aftonbladet.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "kultur",
+    "publication_date": "2026-09-11T14:02:29+02:00",
+    "modified_date": "2026-09-11T16:15:40+02:00"
   }
 ]
