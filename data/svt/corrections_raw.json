@@ -552,12 +552,23 @@
     "title": "Rekordmånga förtidsröstar i Linköping – ökat med 51 procent",
     "correction": "I en tidigare version uppgav vi att förtidsröstningen hade ökat med 66 procent. På fredagsförmiddagen meddelade Linköpings kommun att de hade skickat felaktiga siffror. Den korrekta ökningen är 51 procent.",
     "correction_text_raw": "I en tidigare version uppgav vi att förtidsröstningen hade ökat med 66 procent. På fredagsförmiddagen meddelade Linköpings kommun att de hade skickat felaktiga siffror. Den korrekta ökningen är 51 procent.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/ost",
     "publication_date": "2026-09-10T16:36:45+02:00",
-    "modified_date": "2026-09-11T10:47:15+02:00"
+    "modified_date": "2026-09-11T10:47:15+02:00",
+    "headline": "Rekordmånga förtidsröstar i Linköping – ökat med 51 procent",
+    "intro_text": "Förtidsröstningen i Linköping slår rekord. Under de två första veckorna har nära 40 000 förtidsröster tagits emot, enligt kommunen. Särskilt stora ökningar syns i Berga och Skäggetorp.",
+    "journalist": "Donya Gaziani Askbom",
+    "responsible_editor": "Tobias Wallin",
+    "article_body": "Arkivbild. Foto: Fredrik Sandberg/TT Rekordmånga förtidsröstar i Linköping – ökat med 51 procent Uppdaterad idag 10:47 Publicerad igår 16:36 Val 2026 Valkompass Valresultat Förtidsröstningen i Linköping slår rekord. Under de två första veckorna har nära 40 000 förtidsröster tagits emot, enligt kommunen. Särskilt stora ökningar syns i Berga och Skäggetorp. Förtidsröstningen i Linköping har ökat med 51 procent jämfört med samma period inför valet 2022. Störst är ökningen i Berga och Skäggetorp, där antalet förtidsröster ökat med 293, respektive 145 procent. I en tidigare version uppgav vi att förtidsröstningen hade ökat med 66 procent. På fredagsförmiddagen meddelade Linköpings kommun att de hade skickat felaktiga siffror. Den korrekta ökningen är 51 procent. Linköping – val 2026 Så förbereder Valla folkhögskola nya väljare inför valet SD skriver på Dumpen-avtal – sexbrott mot barn ska prioriteras Kommunen lyfter fram satsningen på fler och mer lättillgängliga förtidsröstningslokaler som en förklaring till utvecklingen. Samtidigt har Sverigedemokraterna i Linköping polisanmält uppgifter om att företrädare för vissa partier ska ha försökt påverka väljare i anslutning till förtidsröstningen i Skäggetorp. – Uppgifterna som har framkommit är så pass allvarliga att det finns anledning att utreda om vallagens bestämmelser har överträtts, skriver Jonas Andersson (SD) i ett pressmeddelande. ”Politiska partierna har tagit till sig” Enligt bestämmelserna från regelverket i Valmyndigheten ska svenska medborgare kunna genomföra sin röstning utan politisk påtryckning, vilket betyder att politikerna ska hålla sig på behörigt avstånd från förtidsröstningslokalerna. – Valkansliet gick ut med ett brev till våra gruppledare i de politiska partierna igår, där han förklarade vad det är som gäller. Vi upplever att de politiska partierna har tagit till sig det, säger Kent Valtersson, valnämndens ordförande. Linköping – val 2026 Sverigedemokraterna Förtidsröstning Linköping Skäggetorp Donya Gaziani Askbom Ebba Nysjö Ansvarig utgivare: Tobias Wallin Uppdaterad 11 september 2026 kl 10:47 Publicerad 10 september 2026 kl 16:36 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Linköping – val 2026 1 min Val 2026 Så förbereder Valla folkhögskola nya väljare inför valet Gemensam förtidsröstning • Rektor hoppas det ger ökat valdeltagande 1 min Val 2026 SD skriver på Dumpen-avtal – sexbrott mot barn ska prioriteras Höll pressträff i Linköping • Dumpen hoppas fler partier skriver på 2 min Val 2026 Så ska trafikproblemen lösas i Linköping: ”Stora åtgärder” Bilköer och framkomlighet en av de stora valfrågorna Mer i ämnet",
+    "correction_description": "SVT har korrigerat siffran för ökningen av förtidsröster i Linköping från 66 procent till 51 procent efter att kommunen lämnat felaktiga uppgifter.",
+    "correction_text_extract": "I en tidigare version uppgav vi att förtidsröstningen hade ökat med 66 procent. På fredagsförmiddagen meddelade Linköpings kommun att de hade skickat felaktiga siffror. Den korrekta ökningen är 51 procent.",
+    "correction_date": "2026-09-11",
+    "news_category": "local",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": 18.18
   }
 ]
