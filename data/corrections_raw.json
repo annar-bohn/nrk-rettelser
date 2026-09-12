@@ -48666,5 +48666,17 @@
     "news_category": "economy",
     "correction_type": "factual_error",
     "time_to_correct_hours": 11.63
+  },
+  {
+    "id": 1789206823999,
+    "date": "2026-09-12T07:36:18+02:00",
+    "title": "Evig eies kun det tapte",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Men noen få timer etter publisering, ble også oktober-spillet «No Rest for the Wicked» utsatt til 2027.",
+    "correction": "Men noen få timer etter publisering, ble også oktober-spillet «No Rest for the Wicked» utsatt til 2027.",
+    "url": "https://www.nrk.no/spillbrevet/spillbrevet-_004-_-slutt-pa-fysiske-spill-1.18018914",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
