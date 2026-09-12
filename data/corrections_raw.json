@@ -48692,5 +48692,17 @@
     "news_category": "technology",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1789243116755,
+    "date": "2026-09-12T14:46:49+02:00",
+    "title": "Verste sommaren for ukrainske barn så langt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering: NRK har endret teksten til å omfatta både drepne og skadde, ikke bare drepne. Tala kjem frå Unicef., og endringa er gjort laurdag 12.09.26 klokka 18.27",
+    "correction": "Presisering: NRK har endret teksten til å omfatta både drepne og skadde, ikke bare drepne. Tala kjem frå Unicef., og endringa er gjort laurdag 12.09.26 klokka 18.27",
+    "url": "https://www.nrk.no/urix/verste-sommaren-for-ukrainske-barn-sa-langt-1.18022675",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
