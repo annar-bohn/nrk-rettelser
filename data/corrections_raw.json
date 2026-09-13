@@ -48718,5 +48718,17 @@
     "news_category": "world",
     "correction_type": "factual_error",
     "time_to_correct_hours": 3.71
+  },
+  {
+    "id": 1789296793152,
+    "date": "2026-09-13T11:05:51+02:00",
+    "title": "Skiltinga ved turistperle skapar forvirring: – Hæ? Er det gratis?",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Hustadvika kommune klaga eller svara ikkje på vedtaket med pålegg om retting.",
+    "correction": "Hustadvika kommune klaga eller svara ikkje på vedtaket med pålegg om retting.",
+    "url": "https://www.nrk.no/mr/hustadvika-kommune-ma-betale-tvangsmulkt-etter-parkeringskonflikt-med-statens-vegvesen-1.18017583",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
