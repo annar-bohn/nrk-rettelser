@@ -48744,5 +48744,17 @@
     "news_category": "local",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1789313084553,
+    "date": "2026-09-13T11:36:24+02:00",
+    "title": "– Det er jul, bursdag og 17. mai på én gang",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: Dobbel bom.",
+    "correction": "Rettelse: Dobbel bom.",
+    "url": "https://www.nrk.no/tromsogfinnmark/_-det-er-jul_-bursdag-og-17.-mai-pa-en-gang-1.18023006",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
