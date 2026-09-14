@@ -48822,5 +48822,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 16.57
+  },
+  {
+    "id": 1789406783292,
+    "date": "2026-09-13T17:40:13.228Z",
+    "title": "SVT: Partitoppene i Sverige samles til samtaler",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/svt-partitoppene-i-sverige-samles-til-samtaler-1527771",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
