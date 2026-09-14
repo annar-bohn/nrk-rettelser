@@ -48770,5 +48770,29 @@
     "news_category": "local",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1789385089020,
+    "date": "2026-09-14T08:53:43+02:00",
+    "title": "Migranter i Europa",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av denne meldingen sto det at over 80 personer var funnet døde. Det var feil.",
+    "correction": "I en tidligere versjon av denne meldingen sto det at over 80 personer var funnet døde. Det var feil.",
+    "url": "https://www.nrk.no/nyheter/migranter-i-europa-1.17976062",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1789385360876,
+    "date": "2026-09-13T17:40:13.228Z",
+    "title": "Valgresultatet i Sverige fortsatt uavklart",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/valgresultatet-i-sverige-fortsatt-uavklart-1527771",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
