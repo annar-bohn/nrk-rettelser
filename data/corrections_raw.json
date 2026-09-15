@@ -48848,5 +48848,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 18.31
+  },
+  {
+    "id": 1789469278477,
+    "date": "2026-09-15T05:52:10+02:00",
+    "title": "Europas romfartshåp ligger i en lutfattig kommune: – Folk takker nei til jobb her",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK beklager feilen. Feilen ble rettet 15. september klokken 07.44.",
+    "correction": "NRK beklager feilen. Feilen ble rettet 15. september klokken 07.44.",
+    "url": "https://www.nrk.no/nordland/andoya-kan-bli-senter-for-en-milliardindustri.-men-sliter-voldsomt-med-okonomien-1.17822246",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
