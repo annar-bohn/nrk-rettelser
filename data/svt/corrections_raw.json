@@ -656,12 +656,23 @@
     "title": "Succé för nya vårdpartiet – vad händer i Region Kronoberg nu?",
     "correction": "Rättelse: I en tidigare version av klippet sades att det beslutats att koncentrera ”länets akutvård” till Växjö. Rätt är att det beslutades att koncentrera ”den mest avancerade akutvården till Växjö”. I Ljungby finns fortfarande en akutmottagning på sjukhuset.",
     "correction_text_raw": "Rättelse: I en tidigare version av klippet sades att det beslutats att koncentrera ”länets akutvård” till Växjö. Rätt är att det beslutades att koncentrera ”den mest avancerade akutvården till Växjö”. I Ljungby finns fortfarande en akutmottagning på sjukhuset.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/smaland",
     "publication_date": "2026-09-14T06:00:41+02:00",
-    "modified_date": "2026-09-15T11:15:24+02:00"
+    "modified_date": "2026-09-15T11:15:24+02:00",
+    "headline": "Succé för nya vårdpartiet – vad händer i Region Kronoberg nu?",
+    "intro_text": "Striden om Ljungby sjukhus har präglat regionpolitiken det senaste året. Som svar på majoritetens beslut om att lägga ner iva i Ljungby startades det nya partiet Vård i Kronoberg – och det blev succé direkt.",
+    "journalist": "Clary Kroon",
+    "responsible_editor": "Tomas Lundström",
+    "article_body": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Vad betyder valet för IVA i Ljungby. Se analysen från SVT:s reporter. Foto: SVT Succé för nya vårdpartiet – vad händer i Region Kronoberg nu? Uppdaterad idag 11:15 Publicerad igår 06:00 Val 2026 Valkompass Valresultat Striden om Ljungby sjukhus har präglat regionpolitiken det senaste året. Som svar på majoritetens beslut om att lägga ner iva i Ljungby startades det nya partiet Vård i Kronoberg – och det blev succé direkt. Majoritetsstyret med Socialdemokraterna och Moderaterna, som drev igenom iva-beslutet, spricker. Nybildade Vård i Kronoberg ser ut att plocka sex mandat i regionen. Region Kronoberg – val 2026 Oklart vem som tar makten i Region Kronoberg Efter striden om Ljungby sjukhus – Vård i Kronoberg stormar in i regionen Så frågan är – vad händer nu? Rättelse: I en tidigare version av klippet sades att det beslutats att koncentrera ”länets akutvård” till Växjö. Rätt är att det beslutades att koncentrera ”den mest avancerade akutvården till Växjö”. I Ljungby finns fortfarande en akutmottagning på sjukhuset. Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Hör vad Vård i Kronoberg vill göra i regionen Foto: SVT Region Kronoberg – val 2026 Politik Sjukvård Ljungby Relaterat Efter striden om Ljungby sjukhus – Vård i Kronoberg stormar in i regionen Igår 04:33 2 min Ljungby sjukhus – hetaste valfrågan för Region Kronoberg 9 september 2026 2 min Iva-platserna på Ljungby sjukhus – Moderaterna i Kronoberg inte överens 9 september 2026 Clary Kroon Ansvarig utgivare: Tomas Lundström Uppdaterad 15 september 2026 kl 11:15 Publicerad 14 september 2026 kl 06:00 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Region Kronoberg – val 2026 1 min M: ”Öppna för  samarbete med alla partier” Oklart vem som tar makten i Region Kronoberg Efter sjukhusstriden – Vård i Kronoberg stormar in i regionen Väljarna övergav S • Tappar fyra mandat 2 min Snackisar inför valet – de tre hetaste valstriderna Hemliga gästen säger sitt • ”Kan bidra till att S och M tappar sin majoritet” Mer i ämnet",
+    "correction_description": "SVT förtydligar att det är den mest avancerade akutvården som koncentreras till Växjö, inte all akutvård, då Ljungby sjukhus har kvar en akutmottagning.",
+    "correction_text_extract": "Rättelse: I en tidigare version av klippet sades att det beslutats att koncentrera ”länets akutvård” till Växjö. Rätt är att det beslutades att koncentrera ”den mest avancerade akutvården till Växjö”. I Ljungby finns fortfarande en akutmottagning på sjukhuset.",
+    "correction_date": "2026-09-14",
+    "news_category": "politics",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 29.25
   }
 ]
