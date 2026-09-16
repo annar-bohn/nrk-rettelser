@@ -708,12 +708,23 @@
     "title": "Här är Hagforspartiet Oberoende realisters toppkandidater till regionvalet",
     "correction": "Alexander Paulsson var tidigare ordförande i SSU i Värmland, tills han tog en uppmärksammad öl med en medlem i ungsvenskarna och därmed inte fick förnyat förtroende. Rättelse: I en tidigare version av artikeln skrev vi att Alexander Paulsson sparkades av partiet, men det stämmer inte. Han valde att lämna partiet självmant.",
     "correction_text_raw": "Alexander Paulsson var tidigare ordförande i SSU i Värmland, tills han tog en uppmärksammad öl med en medlem i ungsvenskarna och därmed inte fick förnyat förtroende. Rättelse: I en tidigare version av artikeln skrev vi att Alexander Paulsson sparkades av partiet, men det stämmer inte. Han valde att lämna partiet självmant.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/varmland",
     "publication_date": "2026-01-29T17:04:07+01:00",
-    "modified_date": "2026-09-16T13:07:18+02:00"
+    "modified_date": "2026-09-16T13:07:18+02:00",
+    "headline": "Här är Hagforspartiet Oberoende realisters toppkandidater till regionvalet",
+    "intro_text": "Hagforspartiet Oberoende Realister, OR, kommer ställa upp i regionvalet i höst. Under torsdagen presenterades de tre toppnamnen på partiets lista under en pressträff i Karlstad. – Vi ser att det behövs, vi ser att det händer för lite, säger Boo Westlund (OR).",
+    "journalist": "Maria Haglund",
+    "responsible_editor": "Frank Stenström",
+    "article_body": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Hör varför OR tycker att de behövs i regionfullmäktige. Foto: Maria Haglund/SVT Här är Hagforspartiet Oberoende realisters toppkandidater till regionvalet Uppdaterad idag 13:07 Publicerad 29 januari 2026 Val 2026 Valkompass Valresultat Hagforspartiet Oberoende Realister, OR, kommer ställa upp i regionvalet i höst. Under torsdagen presenterades de tre toppnamnen på partiets lista under en pressträff i Karlstad. – Vi ser att det behövs, vi ser att det händer för lite, säger Boo Westlund (OR). Michael Kjellstrand, Alexander Paulsson och Ann-Sofi Andersson är tre toppkandidater på listan inför regionvalet 2026. Symboliskt hölls pressträffen utanför Regionens Hus i Karlstad. – Jag är helt övertygad om att vi kommer in, säger Boo Westlund (OR), som snart blir nytt kommunalråd i Hagfors. Val 2026 En majoritet för Region Jämtland Härjedalen är långt borta Mandatrysare i Botkyrka – ett mandat skiljer blocken Alexander Paulsson var tidigare ordförande i SSU i Värmland, tills han tog en uppmärksammad öl med en medlem i ungsvenskarna och därmed inte fick förnyat förtroende. Rättelse: I en tidigare version av artikeln skrev vi att Alexander Paulsson sparkades av partiet, men det stämmer inte. Han valde att lämna partiet självmant. Val 2026 Region Värmland – val 2026 Region Värmland Oberoende realister Politik Hagfors Relaterat 3 min Hagfors kommunalråd Jens Fischer (OR) avgår 25 november 2025 47 sek Statsvetaren dissar Oberoende realisters regiondröm 14 mars 2025 1 min Uppstickarpartiet Oberoende realister siktar mot regionfullmäktige 10 mars 2025 Maria Haglund Ansvarig utgivare: Frank Stenström Uppdaterad 16 september 2026 kl 13:07 Publicerad 29 januari 2026 kl 17:04 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Val 2026 2 min En majoritet för Region Jämtland Härjedalen är långt borta Moderaterna: Vi tror på ett minoritetsstyre 2 min Mandatrysare i Botkyrka – ett mandat skiljer blocken Både S och M siktar på makten • ”Är det någon som kan få ihop det så är det jag” 51 sek Vad händer nu Här är norrbottningarna som kan ta plats i riksdagen M ser ut att ta ett mandat från S Mer i ämnet",
+    "correction_description": "SVT har korrigerat uppgiften om att Alexander Paulsson blev sparkad från SSU. Han lämnade partiet självmant.",
+    "correction_text_extract": "Rättelse: I en tidigare version av artikeln skrev vi att Alexander Paulsson sparkades av partiet, men det stämmer inte. Han valde att lämna partiet självmant.",
+    "correction_date": "2026-01-29",
+    "news_category": "politics",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 5515.05
   }
 ]
