@@ -700,5 +700,20 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4195.95
+  },
+  {
+    "id": 1789574476098,
+    "url": "https://www.svt.se/nyheter/lokalt/varmland/har-ar-hagforspartiet-oberoende-realisters-toppkandidater-till-regionvalet",
+    "date": "2026-01-29T17:04:07+01:00",
+    "title": "Här är Hagforspartiet Oberoende realisters toppkandidater till regionvalet",
+    "correction": "Alexander Paulsson var tidigare ordförande i SSU i Värmland, tills han tog en uppmärksammad öl med en medlem i ungsvenskarna och därmed inte fick förnyat förtroende. Rättelse: I en tidigare version av artikeln skrev vi att Alexander Paulsson sparkades av partiet, men det stämmer inte. Han valde att lämna partiet självmant.",
+    "correction_text_raw": "Alexander Paulsson var tidigare ordförande i SSU i Värmland, tills han tog en uppmärksammad öl med en medlem i ungsvenskarna och därmed inte fick förnyat förtroende. Rättelse: I en tidigare version av artikeln skrev vi att Alexander Paulsson sparkades av partiet, men det stämmer inte. Han valde att lämna partiet självmant.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/varmland",
+    "publication_date": "2026-01-29T17:04:07+01:00",
+    "modified_date": "2026-09-16T13:07:18+02:00"
   }
 ]
