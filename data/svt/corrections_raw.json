@@ -760,12 +760,23 @@
     "title": "Svampexperten om explosionen av karljohan: ”Går jävligt fort”",
     "correction": "I en tidigare version av klippet ovan benämns tallsopp som en karl johan, vilket inte stämmer.",
     "correction_text_raw": "I en tidigare version av klippet ovan benämns tallsopp som en karl johan, vilket inte stämmer.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/halland",
     "publication_date": "2026-09-18T05:30:07+02:00",
-    "modified_date": "2026-09-18T13:54:29+02:00"
+    "modified_date": "2026-09-18T13:54:29+02:00",
+    "headline": "Svampexperten om explosionen av karljohan: ”Går jävligt fort”",
+    "intro_text": "Runt om i landet är skogar nu fulla av karljohanssvamp. – Det går jävligt fort just nu, säger svampkännaren HG Karlsson om hur de ploppat upp senaste tiden. I klippet berättar han varför svampsorten frodas och vilka som är bäst att plocka.",
+    "journalist": "Peter Osterberger",
+    "responsible_editor": "Malin Syrstad",
+    "article_body": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Varför är det mycket karljohanssvamp? Vilka ska man plocka? Följ ut i skogen – svampexperten HG Karlsson ger dig svaren. Foto: Peter Osterberger/reporter Svampexperten om explosionen av karljohan: ”Går jävligt fort” Uppdaterad idag 13:54 Publicerad idag 05:30 Runt om i landet är skogar nu fulla av karljohanssvamp. – Det går jävligt fort just nu, säger svampkännaren HG Karlsson om hur de ploppat upp senaste tiden. I klippet berättar han varför svampsorten frodas och vilka som är bäst att plocka. Även på sociala medier märks svampexplosionen. Där sprids många inlägg om karljohanssvamp till försäljning. I en tidigare version av klippet ovan benämns tallsopp som en karl johan, vilket inte stämmer. Varbergaren Marzanna var upptagen med svampplockning – röstade i sista stund Svampplockning kan även användas för eftertanke. På valdagen begrundade Marzanna Baczynska sina val genom att hålla till i svampskogen. Till vallokalen kom hon i sista stund. Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd ”Skogen ropar på mig”. Möt svampfantasten Marzanna Baczynska i klippet. Foto: Johanna Heed/SVT Svampar Varberg Relaterat 1 min Så ska du tänka när du letar svamp i skogen 3 september 2023 Peter Osterberger Ansvarig utgivare: Malin Syrstad Uppdaterad 18 september 2026 kl 13:54 Publicerad 18 september 2026 kl 05:30 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+    "correction_description": "I en tidigare version av klippet benämndes tallsopp felaktigt som karljohanssvamp.",
+    "correction_text_extract": "I en tidigare version av klippet ovan benämns tallsopp som en karl johan, vilket inte stämmer.",
+    "correction_date": "2026-09-18",
+    "news_category": "local",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 8.41
   }
 ]
