@@ -752,5 +752,20 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 8.29
+  },
+  {
+    "id": 1789746202111,
+    "url": "https://www.svt.se/nyheter/lokalt/halland/svampexperten-om-explosionen-av-karljohan-gar-javligt-fort",
+    "date": "2026-09-18T05:30:07+02:00",
+    "title": "Svampexperten om explosionen av karljohan: ”Går jävligt fort”",
+    "correction": "I en tidigare version av klippet ovan benämns tallsopp som en karl johan, vilket inte stämmer.",
+    "correction_text_raw": "I en tidigare version av klippet ovan benämns tallsopp som en karl johan, vilket inte stämmer.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/halland",
+    "publication_date": "2026-09-18T05:30:07+02:00",
+    "modified_date": "2026-09-18T13:54:29+02:00"
   }
 ]
