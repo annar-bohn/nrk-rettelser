@@ -48874,5 +48874,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 1.92
+  },
+  {
+    "id": 1789726904417,
+    "date": "2026-09-18T08:46:49+02:00",
+    "title": "Nyhetssenter Buskerud",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av nyhetsmeldingen ble det slått fast at det blir et lokalt politikontor i Vestfossen. Dette er feil, da politiet enda ikke har uttalt seg om saken. Feilen ble rettet 18.09 kl. 05.07.",
+    "correction": "I en tidligere versjon av nyhetsmeldingen ble det slått fast at det blir et lokalt politikontor i Vestfossen. Dette er feil, da politiet enda ikke har uttalt seg om saken. Feilen ble rettet 18.09 kl. 05.07.",
+    "url": "https://www.nrk.no/buskerud/nyhetssenter-buskerud-1.17463202",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
