@@ -48900,5 +48900,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 10918.46
+  },
+  {
+    "id": 1789872398925,
+    "date": "2026-09-19T20:20:37+02:00",
+    "title": "Nyhetssenter Vestfold og Telemark",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Oppdatering:Etter publisering av denne nyhetsmeldingen har CK Production tatt kontakt med NRK.",
+    "correction": "Oppdatering:Etter publisering av denne nyhetsmeldingen har CK Production tatt kontakt med NRK.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/nyhetssenter-vestfold-og-telemark-1.16231022",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
