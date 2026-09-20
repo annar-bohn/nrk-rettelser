@@ -48911,6 +48911,20 @@
     "url": "https://www.nrk.no/vestfoldogtelemark/nyhetssenter-vestfold-og-telemark-1.16231022",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "not_a_correction",
+    "headline": "Nyhetssenter Vestfold og Telemark",
+    "nrk_section": "vestfoldogtelemark",
+    "publication_date": "2022-12-22T12:38:39+01:00",
+    "modified_date": "2026-09-19T20:20:37+02:00",
+    "intro_text": "",
+    "journalist": "",
+    "responsible_editor": "",
+    "article_body": "19. september 2026 kl. 20:20 Nyhetssenter Vestfold og Telemark Slagsmål i Skien Lørdag kveld fikk politiet melding om et pågående slagsmål ved Matkroken i Skien. Politiet var raskt på stedet med flere patruljer og fikk kontroll på de involverte, noen av dem var oppspilte. Det ble tatt imot forklaringer på stedet. To mistenkte ble bortvist fra Skien sentrum de neste 48 timene.",
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": "2026-09-19",
+    "news_category": "crime",
+    "correction_type": "other",
+    "time_to_correct_hours": 32814.7
   }
 ]
