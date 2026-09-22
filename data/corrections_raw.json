@@ -48952,5 +48952,29 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 19.09
+  },
+  {
+    "id": 1790093010322,
+    "date": "2026-09-22T08:53:27.638Z",
+    "title": "Russen reagerer på at russetida kan bli kutta til ni dagar: – Drastisk",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK endrar: Etter publisering har Kunnskapsdepartementet tatt kontakt med NRK, og seier at dei formidla feil svar frå Kari Nessa Nordtun. Nordtun står ikkje bak sitatet om at «ni dagars russefeiring høyrest kort ut». Nordland fylkeskommune har også presisert sitt standpunkt i saka. Endringa gjort 22. september kl. 14.06.",
+    "correction": "NRK endrar: Etter publisering har Kunnskapsdepartementet tatt kontakt med NRK, og seier at dei formidla feil svar frå Kari Nessa Nordtun. Nordtun står ikkje bak sitatet om at «ni dagars russefeiring høyrest kort ut». Nordland fylkeskommune har også presisert sitt standpunkt i saka. Endringa gjort 22. september kl. 14.06.",
+    "url": "https://www.nrk.no/artikkel/russen-reagerer-pa-at-russetida-kan-bli-kutta-til-ni-dagar-drastisk-1528006",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1790093232027,
+    "date": "2026-09-22T12:48:17.666Z",
+    "title": "Ambassadevakt dømt til fengsel for grov spionasje",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/ambassadevakt-domt-til-fengsel-for-grov-spionasje-1528389",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
