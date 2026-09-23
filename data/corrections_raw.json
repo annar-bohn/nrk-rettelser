@@ -49004,5 +49004,29 @@
     "correction_date": null,
     "news_category": "crime",
     "correction_type": "other"
+  },
+  {
+    "id": 1790159645063,
+    "date": "2026-09-23T03:32:11.841Z",
+    "title": "Omstridt streik rammer en togsektor i knestående",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I den opprinnelige versjonen stod det at | Rettelse publisert 07:57.",
+    "correction": "Rettelse: I den opprinnelige versjonen stod det at | Rettelse publisert 07:57.",
+    "url": "https://www.nrk.no/artikkel/omstridt-streik-rammer-en-togsektor-i-knestaende-1528332",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1790159678587,
+    "date": "2026-01-27T09:02:49+01:00",
+    "title": "«Sell America» er tilbake",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Bakgrunnen for endringen er at det etter publisering er kommet frem at flere faglige poenger om hvorfor et europeisk nedsalg av amerikanske obligasjoner er lite realistisk, er sammenfallende med resonnementer og formuleringer i Drydens tekst.",
+    "correction": "Bakgrunnen for endringen er at det etter publisering er kommet frem at flere faglige poenger om hvorfor et europeisk nedsalg av amerikanske obligasjoner er lite realistisk, er sammenfallende med resonnementer og formuleringer i Drydens tekst.",
+    "url": "https://www.nrk.no/ytring/_sell-america_-er-tilbake-1.17744260",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
