@@ -49056,5 +49056,17 @@
     "news_category": "economy",
     "correction_type": "attribution_error",
     "time_to_correct_hours": 5735.92
+  },
+  {
+    "id": 1790178805713,
+    "date": "2026-09-23T06:08:18+02:00",
+    "title": "NRK møtte Terje Rød-Larsen på Paxos",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av artikkelen stod det at det var en rapport av revisjonsselskapet KPMG som hadde konkludert med at det ikke var brutt noen lover eller regler i kontakten med Epstein. Det korrekte var at dette var enundersøkelse gjennomført av styremedlem Cliff Perlman i IPI.",
+    "correction": "Rettelse: I en tidligere versjon av artikkelen stod det at det var en rapport av revisjonsselskapet KPMG som hadde konkludert med at det ikke var brutt noen lover eller regler i kontakten med Epstein. Det korrekte var at dette var enundersøkelse gjennomført av styremedlem Cliff Perlman i IPI.",
+    "url": "https://www.nrk.no/dokumentar/xl/terje-rod-larsen-forteller-om-vennskapet-til-jeffrey-epstein-1.18023859",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
