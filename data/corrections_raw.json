@@ -49108,5 +49108,17 @@
     "news_category": "economy",
     "correction_type": "factual_error",
     "time_to_correct_hours": 2.85
+  },
+  {
+    "id": 1790353274147,
+    "date": "2026-09-25T13:47:48.791Z",
+    "title": "Svensk 59-åring siktet i Lørenskog-saken",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/svensk-59-aring-siktet-i-lorenskog-saken-1528907",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
