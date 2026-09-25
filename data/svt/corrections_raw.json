@@ -890,7 +890,7 @@
     "title": "Valet 2026 – senaste nytt om politiken i Västerbotten",
     "correction": "Hej Emma! Vi hade fel siffror till listan inledningsvis, men nu har vi rättat till det så att Linda Lotare (V) finns med. | Rättelse: Tidigare angavs felaktigt att Bore Sköld fått flest personkryss för Vänsterpartiet.",
     "correction_text_raw": "Hej Emma! Vi hade fel siffror till listan inledningsvis, men nu har vi rättat till det så att Linda Lotare (V) finns med. | Rättelse: Tidigare angavs felaktigt att Bore Sköld fått flest personkryss för Vänsterpartiet.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
@@ -902,6 +902,11 @@
     "journalist": "Anna BergmanSVT",
     "responsible_editor": "Karin Wiechel",
     "article_body": "Maria Brändström SVT Idag 16:46 Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd \"En positiv överraskning kombinerat med chock\" - hör hur toppnamnet My Henriksson (DKL) ser på valframgången och varför hon tvekar att tacka ja till att bli kommunalråd. DKL:s toppnamn tvekar om kommunalrådsposten: ”Älskar mitt jobb” Dorotea kommunlista stormade tillbaka in i politiken och fick över 36 procent av rösterna i kommunvalet. Men nu tvekar partiets toppnamn om kommunalrådsposten eftersom hon är den enda läraren i Risbäck skola. – Jag älskar mitt jobb, säger My Henriksson (DKL). Visa inlägg",
-    "time_to_correct_hours": 4074.6
+    "time_to_correct_hours": 4074.6,
+    "correction_description": "Artikeln har rättats för att inkludera Linda Lotare (V) i listan över personkryss, då det tidigare felaktigt angavs att Bore Sköld fått flest kryss.",
+    "correction_text_extract": "Rättelse: Tidigare angavs felaktigt att Bore Sköld fått flest personkryss för Vänsterpartiet.",
+    "correction_date": "2026-04-07",
+    "news_category": "politics",
+    "correction_type": "factual_error"
   }
 ]
