@@ -49082,5 +49082,17 @@
     "correction_date": "2026-09-23",
     "news_category": "crime",
     "correction_type": "factual_error"
+  },
+  {
+    "id": 1790333713945,
+    "date": "2026-09-25T09:36:21+02:00",
+    "title": "Streik rammer Equinors anlegg i hele landet: – Uten renholdere går det ikke",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken siterte vi Ellen Maria Skjelsbæk i Equinor på at boliger ved Monstad og Kårstø var stengt. Dette stemmer ikke. Det er kun boliger på Mongstad som er stengt.",
+    "correction": "Rettelse: I en tidligere versjon av saken siterte vi Ellen Maria Skjelsbæk i Equinor på at boliger ved Monstad og Kårstø var stengt. Dette stemmer ikke. Det er kun boliger på Mongstad som er stengt.",
+    "url": "https://www.nrk.no/tromsogfinnmark/streik-rammer-equinors-gassanlegg-i-hele-landet-1.18036398",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
