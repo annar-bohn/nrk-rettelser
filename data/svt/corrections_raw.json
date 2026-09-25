@@ -908,5 +908,20 @@
     "correction_date": "2026-04-07",
     "news_category": "politics",
     "correction_type": "factual_error"
+  },
+  {
+    "id": 1790334123913,
+    "url": "https://www.svt.se/nyheter/lokalt/sormland/larm-om-misstankt-skottlossning-i-strangnas",
+    "date": "2026-09-24T18:12:23+02:00",
+    "title": "Skottlossning i Strängnäs – unga killar gripna",
+    "correction": "Rättelse: I en tidigare version skrev vi att de misstänkta killarna är under 15 år. Polisen har bara gått ut med att de är i 15-årsåldern.",
+    "correction_text_raw": "Rättelse: I en tidigare version skrev vi att de misstänkta killarna är under 15 år. Polisen har bara gått ut med att de är i 15-årsåldern.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/sormland",
+    "publication_date": "2026-09-24T18:12:23+02:00",
+    "modified_date": "2026-09-25T10:42:39+02:00"
   }
 ]
