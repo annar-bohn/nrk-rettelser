@@ -916,12 +916,23 @@
     "title": "Skottlossning i Strängnäs – unga killar gripna",
     "correction": "Rättelse: I en tidigare version skrev vi att de misstänkta killarna är under 15 år. Polisen har bara gått ut med att de är i 15-årsåldern.",
     "correction_text_raw": "Rättelse: I en tidigare version skrev vi att de misstänkta killarna är under 15 år. Polisen har bara gått ut med att de är i 15-årsåldern.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/sormland",
     "publication_date": "2026-09-24T18:12:23+02:00",
-    "modified_date": "2026-09-25T10:42:39+02:00"
+    "modified_date": "2026-09-25T10:42:39+02:00",
+    "headline": "Skottlossning i Strängnäs – unga killar gripna",
+    "intro_text": "Polisen har larmats till centrala Strängnäs med anledning av en misstänkt skottlossning. På sin hemsida skriver de att händelsen utreds som försök till mord. Två killar i 15-årsåldern har gripits i ärendet.",
+    "journalist": "Carl Liliebäck",
+    "responsible_editor": "Tobias Wallin",
+    "article_body": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd SVT Sörmlands reporter Albin Aghamn var på plats strax efter att larmet kom. Foto: Albin Aghman/SVT Skottlossning i Strängnäs – unga killar gripna Uppdaterad idag 10:42 Publicerad igår 18:12 Polisen har larmats till centrala Strängnäs med anledning av en misstänkt skottlossning. På sin hemsida skriver de att händelsen utreds som försök till mord. Två killar i 15-årsåldern har gripits i ärendet. Rättelse: I en tidigare version skrev vi att de misstänkta killarna är under 15 år. Polisen har bara gått ut med att de är i 15-årsåldern. Larmet kom in strax innan klockan 18:00 på torsdagen. Polisen hade då fått in rapporter om höga smällar. En kort tid efter att patrullerna kommit till platsen kunde två misstänkta gärningspersoner gripas. De båda är i 15-årsåldern. – En person sköt och den andra filmade, säger ett vittne på platsen. Polisen skriver på sin hemsida att det är en byggnad som träffats av skotten, och att ärendet utreds som försök till mord. – Sen kan det tillkomma fler rubriceringar, till exempel vapenbrott, säger Torbjörn Lindqvist, vakthavande befäl hos polisen i region Öst. Flera skott ska ha avlossats mot byggnaden. Foto: Albin Aghamn/SVT I nuläget kan polisen inte säga något om vad som kan ha varit motivet till skjutningen. Inte heller har de några fler detaljer att ge kring vad det rörde sig om för vapen. Det finns inga uppgifter om att någon person blivit skadad i samband med händelsen. Skjutningar och skottlossningar Strängnäs Carl Liliebäck Albin Aghamn David Berg Ansvarig utgivare: Tobias Wallin Uppdaterad 25 september 2026 kl 10:42 Publicerad 24 september 2026 kl 18:12 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+    "correction_description": "Artikeln rättades för att förtydliga att de misstänkta är i 15-årsåldern, inte under 15 år som tidigare uppgetts.",
+    "correction_text_extract": "Rättelse: I en tidigare version skrev vi att de misstänkta killarna är under 15 år. Polisen har bara gått ut med att de är i 15-årsåldern.",
+    "correction_date": "2026-09-24",
+    "news_category": "crime",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 16.5
   }
 ]
