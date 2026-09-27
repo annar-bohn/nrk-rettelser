@@ -49134,5 +49134,17 @@
     "news_category": "crime",
     "correction_type": "other",
     "time_to_correct_hours": 0.98
+  },
+  {
+    "id": 1790507301519,
+    "date": "2026-09-26T19:00:08+02:00",
+    "title": "No hevar bankane renta: – Dei må ikkje sette ho opp, seier Forbrukarrådet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: Det var opprinnelig publisert et bilde av SpareBank 1 i saken. Dette var feil, og bildet ble fjernet kl. 08.58.",
+    "correction": "Rettelse: Det var opprinnelig publisert et bilde av SpareBank 1 i saken. Dette var feil, og bildet ble fjernet kl. 08.58.",
+    "url": "https://www.nrk.no/norge/no-hevar-bankane-renta_-_-dei-ma-ikkje-sette-ho-opp_-seier-forbrukarradet-1.18037350",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
