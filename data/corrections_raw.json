@@ -49160,5 +49160,29 @@
     "news_category": "economy",
     "correction_type": "wrong_image",
     "time_to_correct_hours": 14.27
+  },
+  {
+    "id": 1790682922243,
+    "date": "2026-09-29T08:30:02.636Z",
+    "title": "Sp vil bygge oljeraffineri – Ikke å anbefale, mener FFI",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Etter publisering tok Equinor kontakt med NRK hvor de skrev at «Økokrim har endret tiltalen og fjernet påstanden om dødelig konsentrasjon og at det var tilfeldigheter som gjorde at ikke liv gikk tapt».",
+    "correction": "Etter publisering tok Equinor kontakt med NRK hvor de skrev at «Økokrim har endret tiltalen og fjernet påstanden om dødelig konsentrasjon og at det var tilfeldigheter som gjorde at ikke liv gikk tapt».",
+    "url": "https://www.nrk.no/artikkel/sp-vil-bygge-oljeraffineri-ikke-a-anbefale-mener-ffi-1529093",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1790682929062,
+    "date": "2026-09-29T09:56:12+02:00",
+    "title": "Ny rapport: Datasentre sluker strøm – gir begrenset verdiskapning",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELOGG: I en tidligere versjon av saken skrev vi at ni av ti datasentre har utenlandske eiere. Saken er oppdatert og endret. Det riktige er at 90 prosent av datasenterkapasiteten er utenlandsk eid. Det vil si at 90 prosent av strømmen datasentre i Norge bruker, benyttes av utenlandske aktører.",
+    "correction": "RETTELOGG: I en tidligere versjon av saken skrev vi at ni av ti datasentre har utenlandske eiere. Saken er oppdatert og endret. Det riktige er at 90 prosent av datasenterkapasiteten er utenlandsk eid. Det vil si at 90 prosent av strømmen datasentre i Norge bruker, benyttes av utenlandske aktører.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/ny-rapport_-datasentre-sluker-strom-_-gir-begrenset-verdiskapning-1.18036425",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
