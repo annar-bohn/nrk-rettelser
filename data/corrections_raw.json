@@ -49212,5 +49212,29 @@
     "news_category": "technology",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 3.0
+  },
+  {
+    "id": 1790768538376,
+    "date": "2026-09-28T14:38:42+02:00",
+    "title": "Streik rammer Equinor-ansatte: – 14 timers skift i seks grader og vind uten ordentlig mat",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Samtidig må vi forholde oss til streikesituasjonen og rammene den gir.Rettelse: 30. september rettet NRK en upresis formulering i saken om at de streikede jobber i Equinor. Det riktige er at de er ansatt hos firmaer som har oppdrag for Equinor.",
+    "correction": "Samtidig må vi forholde oss til streikesituasjonen og rammene den gir.Rettelse: 30. september rettet NRK en upresis formulering i saken om at de streikede jobber i Equinor. Det riktige er at de er ansatt hos firmaer som har oppdrag for Equinor.",
+    "url": "https://www.nrk.no/tromsogfinnmark/streik-rammer-arbeidere-pa-melkoya-og-karsto-som-er-sliten-av-a-ga-uten-ordentlig-mat-1.18038672",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1790768543715,
+    "date": "2026-09-30T12:09:02+02:00",
+    "title": "Arbeidstilsynet: Flere feil må rettes ved Stavangers største barneskole",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I den beskrives en rekke regelbrudd og krav om retting.",
+    "correction": "I den beskrives en rekke regelbrudd og krav om retting.",
+    "url": "https://www.nrk.no/rogaland/arbeidstilsynets-rapport-om-vaulen-skole-er-klar-1.18039617",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
