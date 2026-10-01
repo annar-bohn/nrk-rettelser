@@ -49264,5 +49264,29 @@
     "correction_date": null,
     "news_category": "local",
     "correction_type": "other"
+  },
+  {
+    "id": 1790892721193,
+    "date": "2026-09-30T13:33:48+02:00",
+    "title": "Én person omkom etter dykkerulykke i Narvik",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere utgave av saken sto det at det var snakk om fridykkere. Det riktige er fritidsdykkere. Opplysningen ble rettet torsdag 1. oktober klokken 07.47.",
+    "correction": "Rettelse: I en tidligere utgave av saken sto det at det var snakk om fridykkere. Det riktige er fritidsdykkere. Opplysningen ble rettet torsdag 1. oktober klokken 07.47.",
+    "url": "https://www.nrk.no/nordland/dykkerulykke-i-narvik-_-seks-personer-involvert-1.18041050",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1790892760321,
+    "date": "2026-06-18T14:00:04+02:00",
+    "title": "Psykolog dømt for overgrep mot datter gjennom syv år – Siste nytt – NRK",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Hun synes selvfølgelig det er trist at saken er anket fordi hun hadde sett frem til å legge saken bak seg, sier bistandsadvokat Monica Lindbeck til NRK.NRK har etter publisering fjernet enkelte detaljer i omtalen av dommen av presseetiske hensyn. Endringen ble gjort 1. oktober klokken 11.31.",
+    "correction": "Hun synes selvfølgelig det er trist at saken er anket fordi hun hadde sett frem til å legge saken bak seg, sier bistandsadvokat Monica Lindbeck til NRK.NRK har etter publisering fjernet enkelte detaljer i omtalen av dommen av presseetiske hensyn. Endringen ble gjort 1. oktober klokken 11.31.",
+    "url": "https://www.nrk.no/nyheter/psykolog-domt-for-overgrep-mot-datter-gjennom-syv-ar-1.17926849",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
