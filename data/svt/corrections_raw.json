@@ -4592,5 +4592,20 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 2741.18
+  },
+  {
+    "id": 1790893299925,
+    "url": "https://www.svt.se/nyheter/lokalt/varmland/region-varmland-koper-mark-for-elva-miljoner-kronor-vill-inte-beratta-vad-den-ska-anvandas-till",
+    "date": "2026-09-30T15:08:23+02:00",
+    "title": "Region Värmland köper mark för elva miljoner kronor – vill inte berätta vad den ska användas till",
+    "correction": "Fotnot: I en tidigare version av den här artikeln hade en nolla fallit bort gällande hur stor byggrätten är. Den är 17 000 kvadratmeter.",
+    "correction_text_raw": "Fotnot: I en tidigare version av den här artikeln hade en nolla fallit bort gällande hur stor byggrätten är. Den är 17 000 kvadratmeter.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/varmland",
+    "publication_date": "2026-09-30T15:08:23+02:00",
+    "modified_date": "2026-10-01T14:01:57+02:00"
   }
 ]
