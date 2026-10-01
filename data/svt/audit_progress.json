@@ -24,15 +24,7 @@
     "https://www.svt.se/kultur/127-forfattare-i-upprop-valjer-att-inte-narvara-vid-bokmassan",
     "https://www.svt.se/kultur/13-personer-slutar-pa-tt",
     "https://www.svt.se/kultur/13-reasons-why-debatt",
-    "https://www.svt.se/kultur/15-ars-fangelse-for-attackplan-mot-swiftkonsert"
-  ],
-  "cdx_cursors": {},
-  "stats": {
-    "found_total": 0,
-    "runs": 2,
-    "brave_queries_total": 12
-  },
-  "pending_candidates": [
+    "https://www.svt.se/kultur/15-ars-fangelse-for-attackplan-mot-swiftkonsert",
     "https://www.svt.se/nyheter/utrikes/israel-ja-till-dodsstraff",
     "https://www.svt.se/nyheter/inrikes/efter-valu-debatten-valjarna-som-avgjorde",
     "https://www.svt.se/nyheter/lokalt/vastmanland/svardattack-pa-skola-i-fagersta-folj-svts-direktrapport",
@@ -62,6 +54,13 @@
     "https://www.svt.se/nyheter/lokalt/blekinge/nytt-yttrande-om-fiberaffaren-i-ronneby-rattens-beslut-drojer",
     "https://www.svt.se/nyheter/lokalt/jamtland/mark-och-miljooverdomstolen-sager-nej-till-hyttstens-avverkning"
   ],
+  "cdx_cursors": {},
+  "stats": {
+    "found_total": 17,
+    "runs": 3,
+    "brave_queries_total": 12
+  },
+  "pending_candidates": [],
   "brave_done": [
     "site:svt.se \"Rättelse:\"|2026-01-01to2026-12-31",
     "site:svt.se \"Förtydligande:\"|2026-01-01to2026-12-31",
