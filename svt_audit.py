@@ -68,16 +68,31 @@ BRAVE_MAX_OFFSET = 9   # API maximum page index — so 200 results per query at 
 BRAVE_SLEEP = 1.1      # stay under 1 request/second regardless of plan
 BRAVE_RETRIES = 3
 
-# One search per phrase per date slice. Mirrors svt_collect.py's active
-# triggers plus the standalone-article wording; the live fetch + extraction
-# decides what is a correction, so these only need to surface candidates.
-BRAVE_QUERIES = [
-    'site:svt.se "Rättelse:"',
-    'site:svt.se "Förtydligande:"',
-    'site:svt.se "i en tidigare version"',
-    'site:svt.se "SVT rättar"',
-    'site:svt.se rättelse',
+# Query set chosen from the 2026-10-01 recall probe (svt_brave_probe.py). No
+# single query surfaces more than about a fifth of known corrections; each
+# finds a different handful, so coverage comes from the union. The live fetch
+# + extraction decides what is a correction — these only surface candidates.
+_PHRASES = [
+    '"Rättelse:"', '"Förtydligande:"', '"i en tidigare version"', "rättelse",
+    '"Rättelse"', "förtydligande", '"tidigare version"',
+    '"tidigare version av artikeln"', '"tidigare version av videon"',
+    '"tidigare version av texten"', '"tidigare version stod"',
+    '"rätt är att"', '"korrekt är att"', '"har förtydligats"',
+    '"artikeln har uppdaterats"', "rättelse tidigare version",
+    'inbody:"rättelse"',
 ]
+_SECTIONS = [
+    "nyheter/inrikes", "nyheter/utrikes", "nyheter/lokalt", "nyheter/lokalt/vast",
+    "nyheter/lokalt/varmland", "nyheter/lokalt/skane", "sport", "kultur",
+]
+# Searched once per year (and month by month if a year fills all 200 results).
+BRAVE_QUERIES = [f"site:svt.se {p}" for p in _PHRASES] + [
+    f"site:svt.se/{sec} {w}" for sec in _SECTIONS
+    for w in ("rättelse", '"tidigare version"')
+]
+# Always searched month by month as well: a narrower date slice makes Brave
+# return different results for the same phrase, not just fewer.
+BRAVE_MONTHLY_QUERIES = ['site:svt.se "Rättelse:"', "site:svt.se rättelse"]
 
 CDX_SLEEP = 2.0     # archive.org is a shared free service — query it gently
 CDX_TIMEOUT = 120   # broad wildcard queries are slow even when they succeed
@@ -279,8 +294,13 @@ def discover_brave(year_from, year_to, progress, want, max_queries, api_key,
     st = progress.setdefault("stats", {})
 
     # (date slice, year or None, queries to run on it)
-    slices = [(f"{y}-01-01to{y}-12-31", y, BRAVE_QUERIES)
-              for y in range(year_to, year_from - 1, -1)]
+    slices = []
+    for y in range(year_to, year_from - 1, -1):
+        slices.append((f"{y}-01-01to{y}-12-31", y, BRAVE_QUERIES))
+        slices += [(ms, None, BRAVE_MONTHLY_QUERIES) for ms in month_slices(y)]
+    # Which queries surfaced each candidate — lets the fetch step report a
+    # hit rate per query, so noisy ones can be dropped on evidence.
+    origin = progress.setdefault("brave_origin", {})
     used = 0
     found = 0
     while slices and found < want:
@@ -288,7 +308,8 @@ def discover_brave(year_from, year_to, progress, want, max_queries, api_key,
         for query in queries:
             key = f"{query}|{freshness}"
             if key in done_set:
-                if key in saturated_keys and year is not None:
+                if (key in saturated_keys and year is not None
+                        and query not in BRAVE_MONTHLY_QUERIES):
                     slices += [(ms, None, [query]) for ms in month_slices(year)]
                 continue
             if used >= max_queries:
@@ -320,7 +341,11 @@ def discover_brave(year_from, year_to, progress, want, max_queries, api_key,
                     seen_known.add(url)
                     continue
                 skip, _ = sc.should_skip(url)
-                if skip or url in checked or url in queued:
+                if skip or url in checked:
+                    continue
+                if query not in origin.setdefault(url, []):
+                    origin[url].append(query)
+                if url in queued:
                     continue
                 pending.append(url)
                 queued.add(url)
@@ -334,7 +359,8 @@ def discover_brave(year_from, year_to, progress, want, max_queries, api_key,
                 done_set.add(key)
                 if saturated:
                     saturated_keys.append(key)
-                if saturated and year is not None:
+                if (saturated and year is not None
+                        and query not in BRAVE_MONTHLY_QUERIES):
                     # Truncated at 200 — split this query's year into months.
                     # (Month slices carry year=None so they never split again.)
                     slices += [(ms, None, [query]) for ms in month_slices(year)]
@@ -464,6 +490,8 @@ def main():
     }
 
     checked_this_run = 0
+    origin = progress.get("brave_origin", {})
+    yield_by_query = {}   # query -> [fetched, found]
     for url in candidates:
         elapsed_min = (time.time() - start) / 60
         if elapsed_min > args.max_minutes:
@@ -478,6 +506,10 @@ def main():
                                source=f"audit_{args.discovery}")
         except Exception as e:
             print(f"  FAIL [{type(e).__name__}]: {url[:70]} — {e}")
+        for q in origin.pop(url, []):
+            tally = yield_by_query.setdefault(q, [0, 0])
+            tally[0] += 1
+            tally[1] += url in existing_urls
 
         progress["checked_urls"].append(url)
         progress["pending_candidates"] = candidates[checked_this_run:] + carry_over
@@ -512,6 +544,11 @@ def main():
     print(f"  Compound-word guard held on: {stats['compound_guard_worked']} pages")
     print(f"  Dataset now:             {len(corrections)} entries")
     print(f"  Total checked all runs:  {len(progress['checked_urls'])}")
+    if yield_by_query:
+        print("\n=== Yield per query (a URL counts under every query that surfaced it) ===")
+        for q, (n, hit) in sorted(yield_by_query.items(),
+                                  key=lambda kv: -kv[1][1]):
+            print(f"  {hit:4d} / {n:4d}  {hit / n * 100:5.1f}%  {q}")
 
 
 if __name__ == "__main__":
