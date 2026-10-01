@@ -78,11 +78,25 @@ jobs:
             --max-urls "${MAX:-500}" --max-queries "${QUERIES:-200}" \
             --max-minutes 240 $EXTRA
 
-      - name: Validate data contract
-        run: python validate_data.py --outlet svt
-
+      # Commit before enriching or validating. New finds are `pending` in raw
+      # and not yet in the frontend file, which the validator's cross-file
+      # check rejects — validating here once discarded a whole run's finds.
       - name: Commit audit results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "SVT historical audit"
           file_pattern: data/svt/corrections_raw.json data/svt/audit_progress.json
+
+      - name: Run SVT enrichment + QA
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python enrich_qa.py --outlet svt --max-entries 450
+
+      - name: Commit SVT enriched data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "SVT enrichment + QA update"
+          file_pattern: data/svt/corrections_raw.json data/svt/corrections.json
+
+      - name: Validate data contract
+        run: python validate_data.py --outlet svt
