@@ -29,7 +29,58 @@
   "cdx_cursors": {},
   "stats": {
     "found_total": 0,
-    "runs": 2
+    "runs": 2,
+    "brave_queries_total": 12
   },
-  "pending_candidates": []
+  "pending_candidates": [
+    "https://www.svt.se/nyheter/utrikes/israel-ja-till-dodsstraff",
+    "https://www.svt.se/nyheter/inrikes/efter-valu-debatten-valjarna-som-avgjorde",
+    "https://www.svt.se/nyheter/lokalt/vastmanland/svardattack-pa-skola-i-fagersta-folj-svts-direktrapport",
+    "https://www.svt.se/nyheter/lokalt/vast/pappan-och-sonen-raddades-48-minuter-efter-olyckan",
+    "https://www.svt.se/nyheter/lokalt/skane/kustbevakningen-har-bordat-nytt-fartyg",
+    "https://www.svt.se/nyheter/lokalt/ost/grovt-brott-i-vastra-norrkoping",
+    "https://www.svt.se/nyheter/lokalt/uppsala/vardgarantin-halls-inte-sa-vill-partierna-korta-vantetiderna",
+    "https://www.svt.se/nyheter/lokalt/varmland/planer-pa-besprutning-for-att-lindra-myggplagan-i-skare",
+    "https://www.svt.se/nyheter/inrikes/uppgift-sas-bestaller-nya-flygplan",
+    "https://www.svt.se/nyheter/lokalt/uppsala/unga-nara-karnkraftverk-har-samre-koll-pa-sina-jodtabletter-brist-pa-information",
+    "https://www.svt.se/nyheter/lokalt/norrbotten/har-anlander-forsta-persontaget-fran-finland-till-sverige-pa-38-ar",
+    "https://www.svt.se/nyheter/sapmi/inget-gemensamt-uttalande-om-kd-utspelet-fran-sametinget",
+    "https://www.svt.se/nyheter/lokalt/norrbotten/pitea-kommun-anlitar-hjalp-att-tomma-diskmaskinen-for-sexsiffrigt-belopp",
+    "https://www.svt.se/nyheter/lokalt/skane/krock-utanfor-skurup-e65-avstangd",
+    "https://www.svt.se/nyheter/lokalt/smaland/tva-man-atalas-for-grovt-djurplageri-pa-olandsgarden",
+    "https://www.svt.se/kultur/anklagelsen-forradarna-har-snott-reglerna-fran-spelet-maffia",
+    "https://www.svt.se/nyheter/lokalt/stockholm/lakare-och-apotekare-misstanks-lurat-region-stockholm-pa-miljoner",
+    "https://www.svt.se/sport/parasport/ryssland-rekryterar-krigsskadade-till-paralympics-direkt-fran-sjukhusen",
+    "https://www.svt.se/nyheter/lokalt/jonkoping/vattern-har-krympt-varsta-aprilnivan-pa-7-ar",
+    "https://www.svt.se/kultur/grova-brott-stadas-bort-fran-rattsdatabaserna-i-hemlighet",
+    "https://www.svt.se/nyheter/lokalt/stockholm/efter-ar-av-miljokaos-nu-kommer-hovrattens-dom-i-think-pink-harvan",
+    "https://www.svt.se/nyheter/lokalt/stockholm/man-frias-for-11-ar-gammalt-mord-i-sigtuna",
+    "https://www.svt.se/nyheter/lokalt/uppsala/22-aringen-doms-till-livstids-fangelse-for-trippelmordet-i-uppsala",
+    "https://www.svt.se/nyheter/lokalt/vast/hovratten-sex-ars-fangelse-for-mamman-efter-branden-i-biskopsgarden",
+    "https://www.svt.se/nyheter/utrikes/rattegangen-i-norge-mot-bonusprinsen-marius-borg-hoiby",
+    "https://www.svt.se/nyheter/lokalt/vastmanland/hovratten-faststaller-livstidsdomen-for-hedersmordet-i-vasteras",
+    "https://www.svt.se/nyheter/lokalt/blekinge/nytt-yttrande-om-fiberaffaren-i-ronneby-rattens-beslut-drojer",
+    "https://www.svt.se/nyheter/lokalt/jamtland/mark-och-miljooverdomstolen-sager-nej-till-hyttstens-avverkning"
+  ],
+  "brave_done": [
+    "site:svt.se \"Rättelse:\"|2026-01-01to2026-12-31",
+    "site:svt.se \"Förtydligande:\"|2026-01-01to2026-12-31",
+    "site:svt.se \"i en tidigare version\"|2026-01-01to2026-12-31",
+    "site:svt.se \"SVT rättar\"|2026-01-01to2026-12-31",
+    "site:svt.se rättelse|2026-01-01to2026-12-31"
+  ],
+  "brave_saturated": [],
+  "brave_seen_known": [
+    "https://www.svt.se/kultur/ebba-busch-kd-anmaler-sveriges-radio-till-granskningsnamnden",
+    "https://www.svt.se/nyheter/inrikes/har-ar-nya-lagar-och-regler-som-infors-1-juli-2026",
+    "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+    "https://www.svt.se/nyheter/lokalt/dalarna/aklagare-utreder-misstankt-valfusk-i-borlange",
+    "https://www.svt.se/nyheter/lokalt/norrbotten/flicka-fastbunden-och-strypt-av-medintagen-sis-hem-foljde-inte-sakerhetsregler",
+    "https://www.svt.se/nyheter/lokalt/skane/tagtrafik-installd-pa-oresundsbron-i-helgen-detta-ska-du-tanka-pa",
+    "https://www.svt.se/nyheter/lokalt/vast/batolyckan-utanfor-tjorn-detta-vet-vi-om-forloppet",
+    "https://www.svt.se/nyheter/lokalt/vast/idrottsprofilen-stefan-holm-attackerade-journalisten-emil-persson-vid-bokmassan",
+    "https://www.svt.se/nyheter/lokalt/vasterbotten/m-kritik-mot-brister-i-vallokal-i-skelleftea-allvarligt",
+    "https://www.svt.se/nyheter/lokalt/vasternorrland/norrlandspartiet-kallar-till-presskonferens-svt-ar-pa-plats",
+    "https://www.svt.se/nyheter/nyhetstecken/polisen-varnar-bluffdova-tar-sig-in-i-aldres-bostader"
+  ]
 }
