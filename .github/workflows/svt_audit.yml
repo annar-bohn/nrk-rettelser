@@ -1,7 +1,11 @@
 name: SVT historical audit
 
 # Sweeps historical SVT articles that the 48h sitemap window can never reach,
-# discovering URLs from the Wayback CDX index and fetching them live. Long and
+# discovering URLs via the Brave Search API (trigger phrases, sliced by date)
+# and fetching them live. Brave is paid per query: max_queries caps the spend
+# of one run. discover_only runs the searches without fetching — the pilot
+# mode, which also prints how many already-collected entries the searches
+# surfaced (the recall signal). Long and
 # resumable, like backfill_sitemap.yml: progress is saved as it goes, so a run
 # that hits its time budget simply continues next time it is dispatched.
 #
@@ -23,6 +27,15 @@ on:
         description: 'Max live article fetches this run'
         required: false
         default: '500'
+      max_queries:
+        description: 'Max paid Brave requests this run'
+        required: false
+        default: '200'
+      discover_only:
+        description: 'Search only, fetch nothing (pilot / recall check)'
+        type: boolean
+        required: false
+        default: false
 
 concurrency:
   group: nrk-rettelser
@@ -52,12 +65,18 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Run historical audit
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
         run: |
           FROM="${{ github.event.inputs.year_from }}"
           TO="${{ github.event.inputs.year_to }}"
           MAX="${{ github.event.inputs.max_urls }}"
+          QUERIES="${{ github.event.inputs.max_queries }}"
+          EXTRA=""
+          if [ "${{ github.event.inputs.discover_only }}" = "true" ]; then EXTRA="--discover-only"; fi
           python svt_audit.py --from "${FROM:-2020}" --to "${TO:-2026}" \
-            --max-urls "${MAX:-500}" --max-minutes 240
+            --max-urls "${MAX:-500}" --max-queries "${QUERIES:-200}" \
+            --max-minutes 240 $EXTRA
 
       - name: Validate data contract
         run: python validate_data.py --outlet svt

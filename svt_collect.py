@@ -430,7 +430,8 @@ def fetch_with_retry(url):
     return None
 
 
-def process_article(url, sitemap_lastmod, corrections, existing_urls, stats, verbose=False):
+def process_article(url, sitemap_lastmod, corrections, existing_urls, stats, verbose=False,
+                    source="sitemap"):
     """Fetch and process one article URL. Mutates corrections, existing_urls, stats.
 
     verbose=True prints the extracted correction verbatim (used for gate checks).
@@ -504,7 +505,7 @@ def process_article(url, sitemap_lastmod, corrections, existing_urls, stats, ver
             "correction_text_raw": correction,
             "qa_status": "pending",
             "auto": True,
-            "source": "sitemap",
+            "source": source,
             "outlet": "svt",
             "section": section,
             "publication_date": pub_date,

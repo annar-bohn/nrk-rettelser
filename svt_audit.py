@@ -6,11 +6,17 @@ Why this exists: svt_collect.py can only see the ~48h window of SVT's news
 sitemap, and SVT publishes no sitemap archive and has no site search. So
 anything older than that window is invisible to the ongoing collector.
 
-Strategy: discover historical article URLs from the Internet Archive's CDX
-index, then fetch each one LIVE. Fetching live (not the archived snapshot) is
-the point — corrections are appended to an article after publication, so the
-current page is what carries them, while the archive is only used as a
-catalogue of URLs that ever existed.
+Strategy: discover candidate article URLs, then fetch each one LIVE. Fetching
+live is the point — corrections are appended to an article after publication,
+so the current page is what carries them; discovery only supplies URLs.
+
+Two discovery sources (--discovery):
+  brave (default) — Brave Search API, `site:svt.se` + each trigger phrase,
+      sliced by date. Goes directly at pages likely to hold a correction.
+      Paid per query: needs BRAVE_API_KEY and is capped by --max-queries.
+  cdx — Internet Archive CDX index, brute-force by path prefix. Kept for
+      reference; the 2026-08-31 run showed discovery there eats the whole
+      budget for a near-zero yield.
 
 Extraction is imported from svt_collect.py rather than copied. That module
 guards its entry point with __main__, so importing it runs nothing.
@@ -19,14 +25,18 @@ Progress is written after every batch, so a run killed mid-flight resumes
 where it stopped — the same pattern as backfill_sitemap.py.
 
 Usage:
+  python3 svt_audit.py --from 2026 --to 2026 --discover-only --max-queries 60
+                                                           # pilot: recall check
   python3 svt_audit.py --from 2020 --to 2026 --max-urls 500
   python3 svt_audit.py --max-urls 2000 --max-minutes 240   # unattended
   python3 svt_audit.py --stats                             # progress only
 """
 
 import argparse
+import calendar
 import json
 import os
+import sys
 import time
 import urllib.parse
 
@@ -50,6 +60,23 @@ DEFAULT_PREFIXES = [
     "www.svt.se/kultur/*",
     "www.svt.se/sport/*",
     "www.svt.se/vader/*",
+]
+
+BRAVE_URL = "https://api.search.brave.com/res/v1/web/search"
+BRAVE_PAGE_SIZE = 20   # API maximum per request
+BRAVE_MAX_OFFSET = 9   # API maximum page index — so 200 results per query at most
+BRAVE_SLEEP = 1.1      # stay under 1 request/second regardless of plan
+BRAVE_RETRIES = 3
+
+# One search per phrase per date slice. Mirrors svt_collect.py's active
+# triggers plus the standalone-article wording; the live fetch + extraction
+# decides what is a correction, so these only need to surface candidates.
+BRAVE_QUERIES = [
+    'site:svt.se "Rättelse:"',
+    'site:svt.se "Förtydligande:"',
+    'site:svt.se "i en tidigare version"',
+    'site:svt.se "SVT rättar"',
+    'site:svt.se rättelse',
 ]
 
 CDX_SLEEP = 2.0     # archive.org is a shared free service — query it gently
@@ -183,6 +210,139 @@ def discover_urls(prefixes, year_from, year_to, page_size, progress, want,
     return candidates
 
 
+def brave_search(query, freshness, offset, api_key):
+    """One Brave web-search request. Returns (urls, more_available), or None
+    when the request failed for good (the slice is then retried next run)."""
+    params = {
+        "q": query,
+        "count": BRAVE_PAGE_SIZE,
+        "offset": offset,
+        "freshness": freshness,
+        "country": "SE",
+        "search_lang": "sv",
+        "result_filter": "web",
+        "text_decorations": "false",
+    }
+    headers = {"Accept": "application/json", "X-Subscription-Token": api_key}
+    for attempt in range(BRAVE_RETRIES + 1):
+        try:
+            r = requests.get(BRAVE_URL, params=params, headers=headers, timeout=30)
+        except requests.exceptions.RequestException as e:
+            print(f"  Brave {type(e).__name__} — attempt {attempt + 1}")
+            time.sleep(5 * (attempt + 1))
+            continue
+        if r.status_code == 200:
+            data = r.json()
+            results = (data.get("web") or {}).get("results") or []
+            more = bool((data.get("query") or {}).get("more_results_available"))
+            return [x["url"] for x in results if x.get("url")], more
+        if r.status_code in (429, 500, 502, 503, 504) and attempt < BRAVE_RETRIES:
+            wait = 5 * (attempt + 1)
+            print(f"  Brave HTTP {r.status_code} — retry in {wait}s")
+            time.sleep(wait)
+            continue
+        # 401/403/422 etc. will not fix themselves; show why and stop retrying.
+        print(f"  Brave HTTP {r.status_code}: {r.text[:300]}")
+        return None
+    return None
+
+
+def month_slices(year):
+    return [
+        f"{year}-{m:02d}-01to{year}-{m:02d}-{calendar.monthrange(year, m)[1]:02d}"
+        for m in range(1, 13)
+    ]
+
+
+def discover_brave(year_from, year_to, progress, want, max_queries, api_key,
+                   seen_known):
+    """Collect candidate URLs from Brave, newest year first.
+
+    Each (query, date slice) is searched once and recorded in
+    progress["brave_done"], so a re-run never pays for the same slice twice.
+    A year slice that fills all 200 available results is truncated, not
+    exhausted — it is re-searched month by month instead.
+
+    Candidates and progress are saved after every slice: each request costs
+    money, so nothing discovered may live only in memory.
+
+    `seen_known` collects result URLs already in the dataset — the recall
+    signal for a pilot over a period the sitemap collector has covered.
+    """
+    checked = set(progress["checked_urls"])
+    known = {c["url"] for c in load_dataset()}
+    done = progress.setdefault("brave_done", [])
+    done_set = set(done)
+    pending = progress.setdefault("pending_candidates", [])
+    queued = set(pending)
+    saturated_keys = progress.setdefault("brave_saturated", [])
+    st = progress.setdefault("stats", {})
+
+    # (date slice, year or None, queries to run on it)
+    slices = [(f"{y}-01-01to{y}-12-31", y, BRAVE_QUERIES)
+              for y in range(year_to, year_from - 1, -1)]
+    used = 0
+    found = 0
+    while slices and found < want:
+        freshness, year, queries = slices.pop(0)
+        for query in queries:
+            key = f"{query}|{freshness}"
+            if key in done_set:
+                if key in saturated_keys and year is not None:
+                    slices += [(ms, None, [query]) for ms in month_slices(year)]
+                continue
+            if used >= max_queries:
+                print(f"  Query budget reached ({max_queries}); resumable.")
+                return found
+            urls, complete, saturated = [], True, False
+            for offset in range(BRAVE_MAX_OFFSET + 1):
+                if used >= max_queries:
+                    complete = False
+                    break
+                res = brave_search(query, freshness, offset, api_key)
+                used += 1
+                st["brave_queries_total"] = st.get("brave_queries_total", 0) + 1
+                time.sleep(BRAVE_SLEEP)
+                if res is None:
+                    complete = False
+                    break
+                page, more = res
+                urls += page
+                if not more or not page:
+                    break
+                if offset == BRAVE_MAX_OFFSET:
+                    saturated = True
+
+            new = 0
+            for raw in urls:
+                url = sc.canonical_url(raw.strip()).replace("http://", "https://", 1)
+                if url in known:
+                    seen_known.add(url)
+                    continue
+                skip, _ = sc.should_skip(url)
+                if skip or url in checked or url in queued:
+                    continue
+                pending.append(url)
+                queued.add(url)
+                new += 1
+            found += new
+            note = " SATURATED" if saturated else ""
+            print(f"  {freshness}  {query}: {len(urls)} results, {new} new{note}")
+
+            if complete:
+                done.append(key)
+                done_set.add(key)
+                if saturated:
+                    saturated_keys.append(key)
+                if saturated and year is not None:
+                    # Truncated at 200 — split this query's year into months.
+                    # (Month slices carry year=None so they never split again.)
+                    slices += [(ms, None, [query]) for ms in month_slices(year)]
+            progress["brave_seen_known"] = sorted(seen_known)
+            save_progress(progress)
+    return found
+
+
 def load_dataset():
     if os.path.exists(sc.DATA_FILE):
         with open(sc.DATA_FILE, encoding="utf-8") as f:
@@ -204,6 +364,12 @@ def main():
                         help="CDX rows per request (default 1000)")
     parser.add_argument("--max-minutes", type=int, default=240,
                         help="Time budget in minutes (default 240)")
+    parser.add_argument("--discovery", choices=("brave", "cdx"), default="brave",
+                        help="Where candidate URLs come from (default brave)")
+    parser.add_argument("--max-queries", type=int, default=200,
+                        help="Max paid Brave requests this run (default 200)")
+    parser.add_argument("--discover-only", action="store_true",
+                        help="Run discovery, save candidates, fetch nothing")
     parser.add_argument("--stats", action="store_true",
                         help="Print progress state and exit")
     args = parser.parse_args()
@@ -216,6 +382,9 @@ def main():
         print(f"Corrections found:      {st.get('found_total', 0)}")
         print(f"Runs completed:         {st.get('runs', 0)}")
         print(f"CDX cursors:            {progress.get('cdx_cursors', {})}")
+        print(f"Brave queries (total):  {st.get('brave_queries_total', 0)}")
+        print(f"Brave slices done:      {len(progress.get('brave_done', []))}")
+        print(f"Pending candidates:     {len(progress.get('pending_candidates', []))}")
         print(f"Dataset size:           {len(load_dataset())}")
         return
 
@@ -237,7 +406,30 @@ def main():
     if candidates:
         print(f"Carrying over {len(candidates)} candidates from a previous run.")
 
-    if len(candidates) < args.max_urls:
+    progress["pending_candidates"] = candidates
+    # Persisted so the recall signal survives a pilot split across runs.
+    seen_known = set(progress.get("brave_seen_known", []))
+    if args.discovery == "brave" and (args.discover_only
+                                      or len(candidates) < args.max_urls):
+        api_key = os.environ.get("BRAVE_API_KEY", "").strip()
+        if not api_key:
+            # Fail loudly: a silent skip here would look like "nothing found".
+            sys.exit("BRAVE_API_KEY is not set — cannot run Brave discovery.")
+        print("Discovering candidate URLs from Brave Search...")
+        want = args.max_urls - len(candidates)
+        if args.discover_only:
+            want = float("inf")
+        discover_brave(args.year_from, args.year_to, progress, want,
+                       args.max_queries, api_key, seen_known)
+        candidates = progress["pending_candidates"]
+        in_range = [c["url"] for c in corrections
+                    if args.year_from <= int((c.get("date") or "0000")[:4] or 0)
+                    <= args.year_to]
+        hit = sum(1 for u in in_range if u in seen_known)
+        print(f"\nRecall signal: {hit} of {len(in_range)} dataset entries "
+              f"published {args.year_from}–{args.year_to} appeared in results "
+              f"({len(seen_known)} known URLs seen in total).")
+    elif len(candidates) < args.max_urls:
         # Discovery gets a bounded slice of the budget; the rest is for
         # fetching, which is the part that actually finds corrections.
         discovery_deadline = time.time() + args.max_minutes * 60 * 0.3
@@ -251,6 +443,12 @@ def main():
     progress["pending_candidates"] = candidates
     save_progress(progress)
     print(f"\n{len(candidates)} candidate URLs to check live\n")
+
+    if args.discover_only:
+        print("--discover-only: candidates saved, nothing fetched.")
+        return
+    candidates = candidates[:args.max_urls]
+    carry_over = progress["pending_candidates"][len(candidates):]
 
     if not candidates:
         print("Nothing new to check — the index cursors may be exhausted for "
@@ -276,12 +474,13 @@ def main():
         stats["fetched"] += 1
         checked_this_run += 1
         try:
-            sc.process_article(url, "", corrections, existing_urls, stats)
+            sc.process_article(url, "", corrections, existing_urls, stats,
+                               source=f"audit_{args.discovery}")
         except Exception as e:
             print(f"  FAIL [{type(e).__name__}]: {url[:70]} — {e}")
 
         progress["checked_urls"].append(url)
-        progress["pending_candidates"] = candidates[checked_this_run:]
+        progress["pending_candidates"] = candidates[checked_this_run:] + carry_over
 
         # Persist every 25 URLs so an interrupted run loses almost nothing.
         if checked_this_run % 25 == 0:
@@ -295,7 +494,7 @@ def main():
         time.sleep(sc.FETCH_SLEEP)
 
     found = len(corrections) - initial
-    progress["pending_candidates"] = candidates[checked_this_run:]
+    progress["pending_candidates"] = candidates[checked_this_run:] + carry_over
     st = progress.setdefault("stats", {})
     st["found_total"] = st.get("found_total", 0) + found
     st["runs"] = st.get("runs", 0) + 1
