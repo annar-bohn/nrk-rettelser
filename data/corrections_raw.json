@@ -49316,5 +49316,17 @@
     "news_category": "crime",
     "correction_type": "other",
     "time_to_correct_hours": 2517.53
+  },
+  {
+    "id": 1790941304145,
+    "date": "2026-10-01T15:08:07+02:00",
+    "title": "Statkraft mener norske klagesaker ikke har noen rettslig betydning i Chile",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon sto det at Fosen-utbyggingen manglet gyldig tillatelse. Det riktige er at det forelå konsesjon, men at denne ble kjent ugyldig av Høyesterett i ettertid. NRK beklager feilen. Saken ble oppdatert 2. oktober kl. 11.38.",
+    "correction": "I en tidligere versjon sto det at Fosen-utbyggingen manglet gyldig tillatelse. Det riktige er at det forelå konsesjon, men at denne ble kjent ugyldig av Høyesterett i ettertid. NRK beklager feilen. Saken ble oppdatert 2. oktober kl. 11.38.",
+    "url": "https://www.nrk.no/sapmi/statkraft-mener-norske-klagesaker-ikke-har-noen-rettslig-betydning-i-chile-1.18041305",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
