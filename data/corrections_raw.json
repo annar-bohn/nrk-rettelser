@@ -49342,5 +49342,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 20.51
+  },
+  {
+    "id": 1790961130705,
+    "date": "2026-10-02T14:27:35.821Z",
+    "title": "NRK erfarer: LO-ledelsen opplever krav fra egne lokfører-medlemmer som utfordrende",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: I en tidligere versjon av saken ble det brukt et bilde av en annen person ved navn Tone Faugli, som ikke har noe med saken å gjøre. Bildet ble endret klokka 16.56.",
+    "correction": "NRK retter: I en tidligere versjon av saken ble det brukt et bilde av en annen person ved navn Tone Faugli, som ikke har noe med saken å gjøre. Bildet ble endret klokka 16.56.",
+    "url": "https://www.nrk.no/artikkel/nrk-erfarer-lo-ledelsen-opplever-krav-fra-egne-lokforer-medlemmer-som-utfordrende-1529174",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
