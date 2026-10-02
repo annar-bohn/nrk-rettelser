@@ -4686,12 +4686,23 @@
     "title": "Högerstyre återvänder i Salem – M, SD, R och KD har gjort upp",
     "correction": "RÄTTELSE: I en tidigare version av artikeln stod det att M vill sänka förskoleavgifterna, korrekt är att ambitionen rör kulturskoleavgifterna. SVT skrev också felaktigt att koalitionen samlar 20 mandat – rätt är 17.",
     "correction_text_raw": "RÄTTELSE: I en tidigare version av artikeln stod det att M vill sänka förskoleavgifterna, korrekt är att ambitionen rör kulturskoleavgifterna. SVT skrev också felaktigt att koalitionen samlar 20 mandat – rätt är 17.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/sodertalje",
     "publication_date": "2026-10-02T09:13:48+02:00",
-    "modified_date": "2026-10-02T12:50:40+02:00"
+    "modified_date": "2026-10-02T12:50:40+02:00",
+    "headline": "Högerstyre återvänder i Salem – M, SD, R och KD har gjort upp",
+    "intro_text": "En högerallians har kommit överens om att styra Salems kommun. – Vi delar ambitionen att ta ansvar för kommunens ekonomi, skriver Rickard Livén (M), tilltänkt kommunstyrelseordförande.",
+    "journalist": "Andreas Tun Hedfors",
+    "responsible_editor": "Geronimo Åkerlund",
+    "article_body": "Jonathan Gomez (KD),  Anders Klerkefors (R), Christian Isaksson (SD) och Rickard Livén (M). Foto: Moderaterna i Salem Högerstyre återvänder i Salem – M, SD, R och KD har gjort upp Uppdaterad idag 12:50 Publicerad idag 09:13 Val 2026 Valresultat En högerallians har kommit överens om att styra Salems kommun. – Vi delar ambitionen att ta ansvar för kommunens ekonomi, skriver Rickard Livén (M), tilltänkt kommunstyrelseordförande. En kraftig sänkning av kulturskoleavgifterna, mer pengar till föreningar och även skattesänkningar står på Moderaternas att-göra-lista, berättar Rickard Livén. Han hänvisar till det budgetförslag partiet lade fram tidigare i år. Salem – val 2026 Supertajt och ovisst – maktkamp i Salem efter valet Många röster kvar att räkna i Salem – kan påverka resultatet Nu följer samtal med de nya koalitionskollegorna Sverigedemokraterna, Rönningepartiet och Kristdemokraterna. Hur ska er politik finansieras? – Det kan jag inte säga i dag. Samtal kommer att börja. Rönningepartiets gruppledare Anders Klerkefors nämner i ett pressmeddelande skola, förskola, ungdomsidrott och en upprustning av Möllebadet som prioriteter. Den nya koalitionen samlar 17 av 31 mandat i fullmäktige. S: Vi har haft tre års parantes Fram till 2023 styrde en högerkoalition Salem i decennier. Då tog Socialdemokraterna över styret, tillsammans med Liberalerna, Centern och Rönningepartiet. S toppnamn tar återgången till högerstyre med ro. – Absolut, vad ska man göra, vi får gå i opposition och så får vi slita, säger Arne Närström, avgående kommunstyrelseordförande. – Vi höjde skatten med ett antal ören och såg till att få ett antal miljoner till skolan. Tittar man på deras budget är det skattesänkningar och mindre pengar till skolan, säger Närström. Båda sidor hade kunnat bilda koalition, men Rönningepartiet var vågmästare. – Vi känner oss glada att åter stå i kommunens ledning, säger Rickard Livén. RÄTTELSE: I en tidigare version av artikeln stod det att M vill sänka förskoleavgifterna, korrekt är att ambitionen rör kulturskoleavgifterna. SVT skrev också felaktigt att koalitionen samlar 20 mandat – rätt är 17. Små förändringar i kommunfullmäktige i Salem, men de räcker för maktskifte. Foto: SVT Salem – val 2026 Moderaterna Salem Relaterat 1 min Supertajt och ovisst – maktkamp i Salem efter valet 15 september 2026 Många röster kvar att räkna i Salem – kan påverka resultatet 15 september 2026 Andreas Tun Hedfors Carlotta Verdi Ansvarig utgivare: Geronimo Åkerlund Uppdaterad 2 oktober 2026 kl 12:50 Publicerad 2 oktober 2026 kl 09:13 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar. Salem – val 2026 1 min Supertajt och ovisst – maktkamp i Salem efter valet Ännu oklart vilket av blocken som tar makten • S-politikern: ”Känner mig trygg” Många röster kvar att räkna i Salem – kan påverka resultatet Valkansliet befarar att resultatet dröjer 2 min Liverapport Valet 2026 – senaste nytt om politiken i Stockholms län SVT på plats på Stockholmspartiernas valvakor Mer i ämnet",
+    "correction_description": "Artikeln rättades gällande vilken avgift som ska sänkas (kulturskola istället för förskola) samt antalet mandat i koalitionen (17 istället för 20).",
+    "correction_text_extract": "RÄTTELSE: I en tidigare version av artikeln stod det att M vill sänka förskoleavgifterna, korrekt är att ambitionen rör kulturskoleavgifterna. SVT skrev också felaktigt att koalitionen samlar 20 mandat – rätt är 17.",
+    "correction_date": "2026-10-02",
+    "news_category": "politics",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 3.61
   }
 ]
