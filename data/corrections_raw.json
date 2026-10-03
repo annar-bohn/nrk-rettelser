@@ -49368,5 +49368,17 @@
     "news_category": "politics",
     "correction_type": "wrong_image",
     "time_to_correct_hours": 0.48
+  },
+  {
+    "id": 1791059391266,
+    "date": "2026-10-03T15:44:26.693Z",
+    "title": "Fengselssjef går av etter mislykket henrettelse",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/fengselssjef-gar-av-etter-mislykket-henrettelse-1529407",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
