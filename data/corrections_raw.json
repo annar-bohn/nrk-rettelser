@@ -49394,5 +49394,41 @@
     "correction_date": null,
     "news_category": "crime",
     "correction_type": "other"
+  },
+  {
+    "id": 1791243170237,
+    "date": "2026-10-05T11:54:58.470Z",
+    "title": "Frykt for lablekkasje etter at russisk pestforsker døde",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: NRK skrev først at forskningsinstituttet for pestbekjempelse ligger i Sjelekhov. Det riktige er at forskningsinstituttet ligger i Irkutsk. Den ansatte ble fraktet til sykehuset i byen Sjelekhov, hvor hun døde. Rettelsen ble gjort 5. oktober 2026, klokken 17.18.",
+    "correction": "Rettelse: NRK skrev først at forskningsinstituttet for pestbekjempelse ligger i Sjelekhov. Det riktige er at forskningsinstituttet ligger i Irkutsk. Den ansatte ble fraktet til sykehuset i byen Sjelekhov, hvor hun døde. Rettelsen ble gjort 5. oktober 2026, klokken 17.18.",
+    "url": "https://www.nrk.no/artikkel/frykt-for-lablekkasje-etter-at-russisk-pestforsker-dode-1529473",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1791243212797,
+    "date": "2026-10-05T17:26:08+02:00",
+    "title": "Signerte ny satellittavtale: – Viktig for beredskap og sikkerhet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "KORRIGERING KL. 19.55: I en tidligere versjon av denne saken skrev NRK at satellittbildene blant annet kan brukes av Forsvaret og politiet, og til etterretning. Det stemmer ikke.",
+    "correction": "KORRIGERING KL. 19.55: I en tidligere versjon av denne saken skrev NRK at satellittbildene blant annet kan brukes av Forsvaret og politiet, og til etterretning. Det stemmer ikke.",
+    "url": "https://www.nrk.no/tromsogfinnmark/ksat-signerer-kontrakt-for-satellitter-med-det-spanske-romfartsselskapet-xoople-1.18045753",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1791243383448,
+    "date": "2026-10-05T20:01:43.121Z",
+    "title": "Cornell-studenter demonstrerer mot ledelsen etter varslingssak",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/cornell-studenter-demonstrerer-mot-ledelsen-etter-varslingssak-1529515",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
