@@ -49472,5 +49472,17 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 3.52
+  },
+  {
+    "id": 1791324402407,
+    "date": "2026-09-30T12:58:53+02:00",
+    "title": "NVE sa nei – regjeringen vil likevel gi landets største vindkraft­verk ny sjanse",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av saken brukte NRK et bilde av et område som ikke gjelder for vindkraftprosjektet. Dette har vi byttet ut 6. oktober.",
+    "correction": "I en tidligere versjon av saken brukte NRK et bilde av et område som ikke gjelder for vindkraftprosjektet. Dette har vi byttet ut 6. oktober.",
+    "url": "https://www.nrk.no/sapmi/regjeringen-overprover-fagetaten_-apner-for-omstridt-vindkraftverk-i-finnmark-1.18040981",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
