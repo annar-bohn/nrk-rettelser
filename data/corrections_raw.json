@@ -49498,5 +49498,17 @@
     "news_category": "politics",
     "correction_type": "wrong_image",
     "time_to_correct_hours": 152.98
+  },
+  {
+    "id": 1791375975367,
+    "date": "2026-10-07T05:13:05.183Z",
+    "title": "Her er regjeringens vaksinedilemma",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Etter publisering har Rojahn tatt kontakt for å presisere at forskning viser  antistoff i noe større grad reduserer risikoen for innleggelse sammenlignet med vaksine gitt til mor under svangerskapet. NRK har derfor lagt inn denne begrunnelsen i saken.",
+    "correction": "Etter publisering har Rojahn tatt kontakt for å presisere at forskning viser  antistoff i noe større grad reduserer risikoen for innleggelse sammenlignet med vaksine gitt til mor under svangerskapet. NRK har derfor lagt inn denne begrunnelsen i saken.",
+    "url": "https://www.nrk.no/artikkel/her-er-regjeringens-vaksinedilemma-1529563",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
