@@ -4730,5 +4730,20 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 1.38
+  },
+  {
+    "id": 1791412637257,
+    "url": "https://www.svt.se/nyheter/nyhetstecken/svts-kartlaggning-dova-patienter-i-hela-landet-far-inte-tolk",
+    "date": "2025-11-03T05:30:07+01:00",
+    "title": "SVT:s kartläggning: Döva patienter i hela landet får inte tolk",
+    "correction": "2025-11-05 Rättelse: Vi vill förtydliga att flera vårdgivare i landet har missat boka tolkar till döva patienter men att det även finns andra anledningar till utebliven tolk.",
+    "correction_text_raw": "2025-11-05 Rättelse: Vi vill förtydliga att flera vårdgivare i landet har missat boka tolkar till döva patienter men att det även finns andra anledningar till utebliven tolk.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/nyhetstecken",
+    "publication_date": "2025-11-03T05:30:07+01:00",
+    "modified_date": "2026-10-07T18:27:39+02:00"
   }
 ]
