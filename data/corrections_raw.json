@@ -49524,5 +49524,17 @@
     "correction_date": "2026-10-07",
     "news_category": "health",
     "correction_type": "factual_error"
+  },
+  {
+    "id": 1791462951557,
+    "date": "2026-10-07T17:01:39+02:00",
+    "title": "1. divisjonsklubb nekta å svare mediene: – Meget problem­atisk",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av saken brukte NRK begrepet «konkursramma» i ingress. Dette ble endra til «konkurstrua» klokka 7.21 torsdag 8. oktober.",
+    "correction": "I en tidligere versjon av saken brukte NRK begrepet «konkursramma» i ingress. Dette ble endra til «konkurstrua» klokka 7.21 torsdag 8. oktober.",
+    "url": "https://www.nrk.no/innlandet/raufoss-il-toppfotball-vil-bare-svare-oppland-arbeiderblad.-norsk-redaktorforening-reagerer-1.18048372",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
