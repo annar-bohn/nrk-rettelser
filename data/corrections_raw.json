@@ -49550,5 +49550,29 @@
     "news_category": "sports",
     "correction_type": "factual_error",
     "time_to_correct_hours": 15.0
+  },
+  {
+    "id": 1791548749483,
+    "date": "2026-09-29T21:16:10+02:00",
+    "title": "Meiner politiet burde etterforska betre under razzia av Karlsøybruket",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon av denne saka stod det at åtte personar var tiltalt for organisert fiskerikriminalitet. Det er ikkje riktig, og er no endra til at sju personar er tiltalt for organisert fiskerikriminalitet og ein person er tiltalt for grovt brot av havressurslova.",
+    "correction": "Retting: I ein tidlegare versjon av denne saka stod det at åtte personar var tiltalt for organisert fiskerikriminalitet. Det er ikkje riktig, og er no endra til at sju personar er tiltalt for organisert fiskerikriminalitet og ein person er tiltalt for grovt brot av havressurslova.",
+    "url": "https://www.nrk.no/tromsogfinnmark/eigar-av-karlsoybruket-med-sterk-kritikk-av-politiet-1.18039984",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1791548835776,
+    "date": "2026-10-09T06:00:34.630Z",
+    "title": "Prisene har gått opp med 3,4 prosent",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/prisene-har-gatt-opp-med-34-prosent-1529858",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
