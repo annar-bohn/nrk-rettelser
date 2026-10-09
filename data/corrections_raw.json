@@ -49602,5 +49602,41 @@
     "news_category": "economy",
     "correction_type": "other",
     "time_to_correct_hours": 0.95
+  },
+  {
+    "id": 1791583519303,
+    "date": "2026-09-14T10:10:44+02:00",
+    "title": "En av Norges største fiskekrimsaker er i gang: – Det er miljøkriminalitet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av denne saken sto det at åtte personer var tiltalt for organisert fiskerikriminalitet. Det er ikke riktig, og nå endret til at syv personer er tiltalt for organisert fiskerikriminalitet og en person er tiltalt for grov overtredelse av havressursloven.",
+    "correction": "Rettelse: I en tidligere versjon av denne saken sto det at åtte personer var tiltalt for organisert fiskerikriminalitet. Det er ikke riktig, og nå endret til at syv personer er tiltalt for organisert fiskerikriminalitet og en person er tiltalt for grov overtredelse av havressursloven.",
+    "url": "https://www.nrk.no/tromsogfinnmark/rettssak-etter-razzia-pa-karlsoybruket_-flere-tiltalt-for-organisert-fiskekriminalitet-1.18022418",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1791583524372,
+    "date": "2026-10-06T18:20:16+02:00",
+    "title": "Retten på plass på Karlsøybruket: – Slepp å spekulere",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon av denne saka stod det at åtte personar var tiltalt for organisert fiskerikriminalitet. Det er ikkje riktig, og er no endra til at sju personar er tiltalt for organisert fiskerikriminalitet og ein person er tiltalt for grovt brot av havressurslova.",
+    "correction": "Retting: I ein tidlegare versjon av denne saka stod det at åtte personar var tiltalt for organisert fiskerikriminalitet. Det er ikkje riktig, og er no endra til at sju personar er tiltalt for organisert fiskerikriminalitet og ein person er tiltalt for grovt brot av havressurslova.",
+    "url": "https://www.nrk.no/tromsogfinnmark/retten-pa-synfaring-pa-karlsoybruket-1.18047016",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1791583525216,
+    "date": "2026-09-28T22:35:39+02:00",
+    "title": "Kaiformann i retten: – Lurte på om eg hadde drepe nokon",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon av denne saka stod det at åtte personar var tiltalt for organisert fiskerikriminalitet. Det er ikkje riktig, og er no endra til at sju personar er tiltalt for organisert fiskerikriminalitet og ein person er tiltalt for grovt brot av havressurslova.",
+    "correction": "Retting: I ein tidlegare versjon av denne saka stod det at åtte personar var tiltalt for organisert fiskerikriminalitet. Det er ikkje riktig, og er no endra til at sju personar er tiltalt for organisert fiskerikriminalitet og ein person er tiltalt for grovt brot av havressurslova.",
+    "url": "https://www.nrk.no/tromsogfinnmark/tiltalt-kaiformann-forklarte-seg-i-retten-i-fiskekrimsak-1.18038502",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
