@@ -4790,12 +4790,23 @@
     "title": "Migrantbåt kapsejsade – dödstalet stiger till 139",
     "correction": "Rättelse: I en tidigare version av texten förekom en felaktig siffra på antalet människor ombord på båten.",
     "correction_text_raw": "Rättelse: I en tidigare version av texten förekom en felaktig siffra på antalet människor ombord på båten.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/utrikes",
     "publication_date": "2026-10-11T12:01:53+02:00",
-    "modified_date": "2026-10-11T18:44:33+02:00"
+    "modified_date": "2026-10-11T18:44:33+02:00",
+    "headline": "Migrantbåt kapsejsade – dödstalet stiger till 139",
+    "intro_text": "Minst 139 människor har omkommit när en båt kapsejsade utanför Djiboutis kust natten till fredagen, uppger FN:s migrationsorganisation IOM på söndagen. Sök- och räddningsinsatserna pågår fortfarande.",
+    "journalist": "Emma Blomström",
+    "responsible_editor": "Karin Ekman",
+    "article_body": "Runt 82 personer överlevde, men det pågår sök- och räddningsinsatser efter de 84 personer som fortfarande saknas. Foto: Salvatore Di Nolfi/TT Migrantbåt kapsejsade – dödstalet stiger till 139 Uppdaterad idag 18:44 Publicerad idag 12:01 Minst 139 människor har omkommit när en båt kapsejsade utanför Djiboutis kust natten till fredagen, uppger FN:s migrationsorganisation IOM på söndagen. Sök- och räddningsinsatserna pågår fortfarande. Under söndagen uppger FN:s migrationsorganisation IOM att ytterligare 30 kroppar återfunnits. Antalet döda är nu minst 139 personer, och bland dödsfallen finns 15 barn. Ytterligare runt 84 personer saknas fortfarande och sök- och räddningsinsatserna fortsätter. Överlevande uppger att fartyget – som hade 305 personer ombord – kapsejsade i havet norr om staden Obock i Djibouti, enligt IOM. Båten var på väg mot Jemen. Den omvända vägen – från Jemen till Djibouti – är en vanlig led för flyktingar från det krigshärjade Jemen. IOM beskriver det som en av de dödligaste båtolyckorna som har registrerats på den östra rutten. Rättelse: I en tidigare version av texten förekom en felaktig siffra på antalet människor ombord på båten. Migration Emma Blomström Ansvarig utgivare: Karin Ekman Uppdaterad 11 oktober 2026 kl 18:44 Publicerad 11 oktober 2026 kl 12:01 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+    "correction_description": "Artikeln rättades då en felaktig siffra gällande antalet människor ombord på båten hade angetts i en tidigare version.",
+    "correction_text_extract": "Rättelse: I en tidigare version av texten förekom en felaktig siffra på antalet människor ombord på båten.",
+    "correction_date": "2026-10-11",
+    "news_category": "world",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": 6.71
   }
 ]
