@@ -49680,5 +49680,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 255.5
+  },
+  {
+    "id": 1791738787236,
+    "date": "2026-10-11T11:23:19.778Z",
+    "title": "Trump ber Ukraina bytte president – får svar fra Zelenskyj",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/trump-ber-ukraina-bytte-president-far-svar-fra-zelenskyj-1529968",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
