@@ -4816,12 +4816,23 @@
     "title": "Klämskola: Så undersöker du dina bröst",
     "correction": "I klippet: ”Klämskola” – så kan du själv undersöka brösten. Rättelse: I en tidigare version av artikeln stod det att 414 kvinnor i Uppsala län drabbades av bröstcancer förra året, och att 48 av dem avled av sjukdomen. Det är fel, rätt är att totalt 48 kvinnor avled av bröstcancer i länet 2025.",
     "correction_text_raw": "I klippet: ”Klämskola” – så kan du själv undersöka brösten. Rättelse: I en tidigare version av artikeln stod det att 414 kvinnor i Uppsala län drabbades av bröstcancer förra året, och att 48 av dem avled av sjukdomen. Det är fel, rätt är att totalt 48 kvinnor avled av bröstcancer i länet 2025.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/uppsala",
     "publication_date": "2026-10-12T12:16:49+02:00",
-    "modified_date": "2026-10-12T15:21:59+02:00"
+    "modified_date": "2026-10-12T15:21:59+02:00",
+    "headline": "Klämskola: Så undersöker du dina bröst",
+    "intro_text": "Förra året fick 414 kvinnor i Uppsala län en bröstcancerdiagnos. Totalt avled 48 kvinnor i länet till följd av sjukdomen under 2025, enligt Bröstcancerföreningen i Uppsala. Föreningen har nu tagit fram ett fejkbröst för att på ett enkelt och pedagogiskt sätt demonstrera hur man själv kan undersöka sina bröst, för att hitta knölar i tid.",
+    "journalist": "Alexandra Rojas Nordqvist",
+    "responsible_editor": "Geronimo Åkerlund",
+    "article_body": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Lisa Thörn, ordförande bröstcancerföreningen i Uppsala, visar hur man undersöker sina bröst. Foto: Alexandra Rojas Nordqvist/SVT Klämskola: Så undersöker du dina bröst Uppdaterad idag 15:21 Publicerad idag 12:16 Förra året fick 414 kvinnor i Uppsala län en bröstcancerdiagnos. Totalt avled 48 kvinnor i länet till följd av sjukdomen under 2025, enligt Bröstcancerföreningen i Uppsala. Föreningen har nu tagit fram ett fejkbröst för att på ett enkelt och pedagogiskt sätt demonstrera hur man själv kan undersöka sina bröst, för att hitta knölar i tid. Oktober uppmärksammas som den rosa månaden, med syfte att öka kunskapen om bröstcancer och vikten av tidig upptäckt av densamma. I år fokuserar Bröstcancerföreningen i Uppsala på att uppmuntra kvinnor att regelbundet undersöka sina bröst själva. – Även om man går på mammografi så behöver man själv klämma igenom sina bröst, säger Lisa Thörn, ordförande bröstcancerföreningen Uppsala. I klippet: ”Klämskola” – så kan du själv undersöka brösten. Rättelse: I en tidigare version av artikeln stod det att 414 kvinnor i Uppsala län drabbades av bröstcancer förra året, och att 48 av dem avled av sjukdomen. Det är fel, rätt är att totalt 48 kvinnor avled av bröstcancer i länet 2025. Cancer Bröstcancer Kvinnor Alexandra Rojas Nordqvist Ansvarig utgivare: Geronimo Åkerlund Uppdaterad 12 oktober 2026 kl 15:21 Publicerad 12 oktober 2026 kl 12:16 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+    "correction_description": "Artikeln rättade ett felaktigt påstående om att 48 av de 414 kvinnorna som fick en bröstcancerdiagnos avled, och förtydligade att 48 kvinnor totalt avled i länet under 2025.",
+    "correction_text_extract": "Rättelse: I en tidigare version av artikeln stod det att 414 kvinnor i Uppsala län drabbades av bröstcancer förra året, och att 48 av dem avled av sjukdomen. Det är fel, rätt är att totalt 48 kvinnor avled av bröstcancer i länet 2025.",
+    "correction_date": "2026-10-12",
+    "news_category": "health",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": 3.09
   }
 ]
