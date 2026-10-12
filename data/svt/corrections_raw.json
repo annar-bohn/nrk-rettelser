@@ -4808,5 +4808,20 @@
     "news_category": "world",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 6.71
+  },
+  {
+    "id": 1791814280102,
+    "url": "https://www.svt.se/nyheter/lokalt/uppsala/klamskola-sa-undersoker-du-dina-brost",
+    "date": "2026-10-12T12:16:49+02:00",
+    "title": "Klämskola: Så undersöker du dina bröst",
+    "correction": "I klippet: ”Klämskola” – så kan du själv undersöka brösten. Rättelse: I en tidigare version av artikeln stod det att 414 kvinnor i Uppsala län drabbades av bröstcancer förra året, och att 48 av dem avled av sjukdomen. Det är fel, rätt är att totalt 48 kvinnor avled av bröstcancer i länet 2025.",
+    "correction_text_raw": "I klippet: ”Klämskola” – så kan du själv undersöka brösten. Rättelse: I en tidigare version av artikeln stod det att 414 kvinnor i Uppsala län drabbades av bröstcancer förra året, och att 48 av dem avled av sjukdomen. Det är fel, rätt är att totalt 48 kvinnor avled av bröstcancer i länet 2025.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/uppsala",
+    "publication_date": "2026-10-12T12:16:49+02:00",
+    "modified_date": "2026-10-12T15:21:59+02:00"
   }
 ]
