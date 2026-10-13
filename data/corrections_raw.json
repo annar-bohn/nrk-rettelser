@@ -49706,5 +49706,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 4.53
+  },
+  {
+    "id": 1791849665536,
+    "date": "2026-10-11T16:40:51+02:00",
+    "title": "Mann i 60-åra knivstukket i Trondheim – var nabo til institusjon",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "12/10: I en tidligere versjon av denne saken sto det at «Innsatsleder på stedet sier til Adresseavisen at det var en krangel der den siktede hadde brukt en kniv». Den fornærmede forklarer i en e-post til NRK at det ikke var noen krangel på forhånd og at han ikke har hatt noe med den siktede mannen å gjøre tidligere.",
+    "correction": "12/10: I en tidligere versjon av denne saken sto det at «Innsatsleder på stedet sier til Adresseavisen at det var en krangel der den siktede hadde brukt en kniv». Den fornærmede forklarer i en e-post til NRK at det ikke var noen krangel på forhånd og at han ikke har hatt noe med den siktede mannen å gjøre tidligere.",
+    "url": "https://www.nrk.no/trondelag/mann-i-60-ara-knivstukket-i-trondheim-1.18051905",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
