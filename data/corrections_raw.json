@@ -49732,5 +49732,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 28.6
+  },
+  {
+    "id": 1791897453053,
+    "date": "2026-10-13T05:53:24+02:00",
+    "title": "Viktig Nato-kommando i nord mangler fortsatt store deler av staben",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse 13.10.26, 0900: NRK skrev først at Nato-kommandoen ble midlertidig etablert i et fjellanlegg inne på flystasjonen. Dette er ikke riktig, og opplysningene er endret.",
+    "correction": "Rettelse 13.10.26, 0900: NRK skrev først at Nato-kommandoen ble midlertidig etablert i et fjellanlegg inne på flystasjonen. Dette er ikke riktig, og opplysningene er endret.",
+    "url": "https://www.nrk.no/nordland/nato-kommando-i-bodo-ett-ar-etter-_-sa-mange-stillinger-er-besatt-1.18050273",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
