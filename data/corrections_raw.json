@@ -49758,5 +49758,29 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 3.33
+  },
+  {
+    "id": 1791994610994,
+    "date": "2026-10-14T10:45:49+02:00",
+    "title": "Flyttet 10 millioner kroner på 26 dager: Dømt for grov hvitvasking",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse:I en tidligere versjon av saken sto det at den dømte mannen hadde direkte kontakt med den svenske gjenglederen Ismail Abdo. Dette var basert på opplysninger i dommen. NRK har senere fått opplyst fra forsvareren at opplysningene om kontakten skyldes en navneforveksling i dommen. Feilen ble rettet onsdag klokken 16.25.",
+    "correction": "Rettelse:I en tidligere versjon av saken sto det at den dømte mannen hadde direkte kontakt med den svenske gjenglederen Ismail Abdo. Dette var basert på opplysninger i dommen. NRK har senere fått opplyst fra forsvareren at opplysningene om kontakten skyldes en navneforveksling i dommen. Feilen ble rettet onsdag klokken 16.25.",
+    "url": "https://www.nrk.no/ostfold/hvitvasket-10-millioner-narko-kroner_-fikk-tre-og-et-halvt-ars-fengsel-1.18054524",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1791994763147,
+    "date": "2026-10-14T15:31:14.891Z",
+    "title": "Sally Rooney slutter å selge bøker i Storbritannia",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/sally-rooney-slutter-a-selge-boker-i-storbritannia-1530206",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
