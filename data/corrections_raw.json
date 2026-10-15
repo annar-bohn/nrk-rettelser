@@ -49836,5 +49836,17 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 0.72
+  },
+  {
+    "id": 1792080302719,
+    "date": "2026-10-14T19:28:26+02:00",
+    "title": "Kan gå konkurs for tredje gang – bostyrer reagerer på at ingen har grepet inn",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: I en tidligere versjon av saken sto det at Maxship Inter AS har et skattekrav på snart 6 millioner. Det riktige og totale beløpet for alle kravene mot selskapet er på nærmere 14,6 millioner kroner.",
+    "correction": "NRK retter: I en tidligere versjon av saken sto det at Maxship Inter AS har et skattekrav på snart 6 millioner. Det riktige og totale beløpet for alle kravene mot selskapet er på nærmere 14,6 millioner kroner.",
+    "url": "https://www.nrk.no/mr/brodrene-adamczewski-har-to-konkurser-bak-seg-_-na-er-et-tredje-maxship-selskap-i-krise-1.18054855",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
