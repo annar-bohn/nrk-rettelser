@@ -4834,5 +4834,20 @@
     "news_category": "health",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 3.09
+  },
+  {
+    "id": 1792146923838,
+    "url": "https://www.svt.se/nyheter/lokalt/jamtland/trots-personalavtal-stoppades-utbetalningar-till-halsocentralen-fjallvivan",
+    "date": "2026-10-16T05:30:07+02:00",
+    "title": "Trots personalavtal stoppades utbetalningar till hälsocentralen Fjällvivan",
+    "correction": "Trots att regionen fick information om detta stoppade de utbetalningarna bara två veckor efter att regionens beställarchef skickat en skrivelse till Fjällvivan. I skrivelsen framgår det tydligt att företaget hade 30 dagar på sig att vidta rättelse.",
+    "correction_text_raw": "Trots att regionen fick information om detta stoppade de utbetalningarna bara två veckor efter att regionens beställarchef skickat en skrivelse till Fjällvivan. I skrivelsen framgår det tydligt att företaget hade 30 dagar på sig att vidta rättelse.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/jamtland",
+    "publication_date": "2026-10-16T05:30:07+02:00",
+    "modified_date": ""
   }
 ]
