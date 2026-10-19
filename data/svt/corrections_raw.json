@@ -4860,5 +4860,20 @@
     "news_category": "local",
     "correction_type": "other",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1792433596451,
+    "url": "https://www.svt.se/nyheter/lokalt/vast/barn-lanade-dark-romance-bok-biblioteket-gjorde-en-orosanmalan",
+    "date": "2026-10-16T10:05:09+02:00",
+    "title": "Barn lånade ”dark romance”-bok – biblioteket gjorde en orosanmälan",
+    "correction": "Rättelse: I en tidigare version av videoklippet fanns en bild på en bok som inte har någon koppling till den aktuella händelsen. Den bok det faktiskt handlar om är ”Haunting Adeline”.",
+    "correction_text_raw": "Rättelse: I en tidigare version av videoklippet fanns en bild på en bok som inte har någon koppling till den aktuella händelsen. Den bok det faktiskt handlar om är ”Haunting Adeline”.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/vast",
+    "publication_date": "2026-10-16T10:05:09+02:00",
+    "modified_date": "2026-10-19T16:14:12+02:00"
   }
 ]
