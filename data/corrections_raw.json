@@ -49862,5 +49862,41 @@
     "news_category": "economy",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 19.2
+  },
+  {
+    "id": 1792410310534,
+    "date": "2026-10-19T05:04:40.198Z",
+    "title": "Regjeringen vil ha 16-årsgrense for Snapchat, TikTok og Roblox",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere utgave av saken sto det at du fra neste år må du ha gått et halvt år på videregående før du kan bruke populære sosiale medier som Snapchat, TikTok og Instagram eller Roblox. Det riktige er at du må være 16 eller fylle 16 i inneværende år.",
+    "correction": "Rettelse: I en tidligere utgave av saken sto det at du fra neste år må du ha gått et halvt år på videregående før du kan bruke populære sosiale medier som Snapchat, TikTok og Instagram eller Roblox. Det riktige er at du må være 16 eller fylle 16 i inneværende år.",
+    "url": "https://www.nrk.no/artikkel/regjeringen-vil-ha-16-arsgrense-for-snapchat-tiktok-og-roblox-1530252",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1792410316429,
+    "date": "2026-10-19T13:41:37+02:00",
+    "title": "Nyheitssenter Møre og Romsdal",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon stod det at transporten kunne koste mellom 46 og 65 millionar kroner. Det er riktige er at transporten kan koste 22 millionar kroner, viser oppdaterte tal frå Kystverket.",
+    "correction": "Retting: I ein tidlegare versjon stod det at transporten kunne koste mellom 46 og 65 millionar kroner. Det er riktige er at transporten kan koste 22 millionar kroner, viser oppdaterte tal frå Kystverket.",
+    "url": "https://www.nrk.no/mr/nyheitssenter-more-og-romsdal-1.17432755",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1792410317166,
+    "date": "2026-10-19T09:47:46+02:00",
+    "title": "Stad skipstunnel",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon stod det at transporten kunne koste mellom 46 og 65 millionar kroner. Det er riktige er at transporten kan koste 22 millionar kroner, viser oppdaterte tal frå Kystverket.",
+    "correction": "Retting: I ein tidlegare versjon stod det at transporten kunne koste mellom 46 og 65 millionar kroner. Det er riktige er at transporten kan koste 22 millionar kroner, viser oppdaterte tal frå Kystverket.",
+    "url": "https://www.nrk.no/mr/stad-skipstunnel-1.13591778",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
