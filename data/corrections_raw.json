@@ -49940,5 +49940,41 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": null
+  },
+  {
+    "id": 1792433170468,
+    "date": "2026-10-18T19:31:01.748Z",
+    "title": "Bloomberg: Zelenskyj seier Trump pressar Ukraina til å kapitulere",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse kl 12:43: I ein tidligare versjon av denne artikkelen skrev vi at «tempoet av missilleveransar skal ha sokke med ein fjerdedel samanlikna med leveransane under tidlegare president Joe Biden. » Det riktige er at det nåværende tempoet er en fjerdedel av det gamle.",
+    "correction": "Rettelse kl 12:43: I ein tidligare versjon av denne artikkelen skrev vi at «tempoet av missilleveransar skal ha sokke med ein fjerdedel samanlikna med leveransane under tidlegare president Joe Biden. » Det riktige er at det nåværende tempoet er en fjerdedel av det gamle.",
+    "url": "https://www.nrk.no/artikkel/bloomberg-zelenskyj-seier-trump-pressar-ukraina-til-a-kapitulere-1530469",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1792433181879,
+    "date": "2026-10-19T12:33:18+02:00",
+    "title": "Skipsarresten på Svalbard: Advokat hevder arrestasjonen ble truet med store konsekvenser",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering etter publisering 19.10: Truslene advokat Herman Steen uttaler seg om skal ha kommet 2. september da arrestasjonen faktisk skjedde. Ikke den 1. september, da arrestasjonen først ble forsøkt forkynt.",
+    "correction": "Presisering etter publisering 19.10: Truslene advokat Herman Steen uttaler seg om skal ha kommet 2. september da arrestasjonen faktisk skjedde. Ikke den 1. september, da arrestasjonen først ble forsøkt forkynt.",
+    "url": "https://www.nrk.no/tromsogfinnmark/_professor-moltsjanov_-i-arrest_-advokat-hevder-arrestasjonen-ble-truet-med-store-konsekvenser-1.18057606",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1792433347115,
+    "date": "2026-10-19T17:47:12.185Z",
+    "title": "Portforbud innføres i franske byer",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/portforbud-innfores-i-franske-byer-1530547",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
