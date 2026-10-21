@@ -50018,5 +50018,17 @@
     "correction_date": null,
     "news_category": "world",
     "correction_type": "other"
+  },
+  {
+    "id": 1792580274774,
+    "date": "2026-10-12T20:36:48+02:00",
+    "title": "Nå kommer Haakon VIII til byen som ikke ville ha Haakon VII",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: I en tidligere versjon sto det at også Ålesund hadde flertall for republikk. Etter publisering er NRK gjort oppmerksom på at dette er feil. Saken ble oppsummert 21. oktober klokken 11.31.",
+    "correction": "NRK retter: I en tidligere versjon sto det at også Ålesund hadde flertall for republikk. Etter publisering er NRK gjort oppmerksom på at dette er feil. Saken ble oppsummert 21. oktober klokken 11.31.",
+    "url": "https://www.nrk.no/nordland/na-kommer-haakon-viii-til-narvik-som-ikke-ville-ha-haakon-vii-1.18051019",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
