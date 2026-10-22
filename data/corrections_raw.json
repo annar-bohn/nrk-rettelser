@@ -50044,5 +50044,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 206.91
+  },
+  {
+    "id": 1792703051116,
+    "date": "2026-10-22T04:41:37.134Z",
+    "title": "Parkinson: Sprøytemidler kan være en årsak",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "20:05 Sitter tok kontakt med oss etter publisering og ba oss presisere at det kom mer enn en rapport utav pengene som ble bevilget.",
+    "correction": "20:05 Sitter tok kontakt med oss etter publisering og ba oss presisere at det kom mer enn en rapport utav pengene som ble bevilget.",
+    "url": "https://www.nrk.no/artikkel/parkinson-sproytemidler-kan-vare-en-arsak-1528893",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
