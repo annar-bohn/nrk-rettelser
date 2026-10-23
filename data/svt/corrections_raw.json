@@ -4938,5 +4938,35 @@
     "correction_date": "2026-10-21",
     "news_category": "crime",
     "correction_type": "factual_error"
+  },
+  {
+    "id": 1792772444838,
+    "url": "https://www.svt.se/nyheter/lokalt/varmland/19-personer-atalas-i-bedrageriharva-lurade-jagare-pa-sina-vapen",
+    "date": "2026-10-23T09:52:18+02:00",
+    "title": "19 personer åtalas i bedrägerihärva – lurade jägare på deras vapen",
+    "correction": "I en tidigare version av den här artikeln uppgavs att huvudmannen var en värmlänning. Det stämmer inte. Rätt är att huvudmannen är från Järfälla.",
+    "correction_text_raw": "I en tidigare version av den här artikeln uppgavs att huvudmannen var en värmlänning. Det stämmer inte. Rätt är att huvudmannen är från Järfälla.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/varmland",
+    "publication_date": "2026-10-23T09:52:18+02:00",
+    "modified_date": "2026-10-23T15:27:24+02:00"
+  },
+  {
+    "id": 1792772475855,
+    "url": "https://www.svt.se/nyheter/lokalt/blekinge/djuragare-kritiska-mot-skyddsrumslag-hade-inte-lamnat-hunden",
+    "date": "2026-10-20T05:30:07+02:00",
+    "title": "Djurägare kritiska mot skyddsrumslag: ”Hade inte lämnat hunden”",
+    "correction": "Rättelse: I en tidigare version av texten kunde det tolkas som att det är Myndigheten för civilt försvar som fattat beslutet om att husdjur inte är välkomna i skyddsrum. Myndigheten för civilt försvar informerar bara om vad som står i lagen.",
+    "correction_text_raw": "Rättelse: I en tidigare version av texten kunde det tolkas som att det är Myndigheten för civilt försvar som fattat beslutet om att husdjur inte är välkomna i skyddsrum. Myndigheten för civilt försvar informerar bara om vad som står i lagen.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/blekinge",
+    "publication_date": "2026-10-20T05:30:07+02:00",
+    "modified_date": "2026-10-23T13:57:47+02:00"
   }
 ]
