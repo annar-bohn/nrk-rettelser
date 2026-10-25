@@ -50642,5 +50642,29 @@
     "news_category": "technology",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1792941708840,
+    "date": "2026-10-25T08:34:35+01:00",
+    "title": "Avbestilte kinesiske busser – nå saksøkes de for en halv milliard",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av denne saken sto det at Unibuss blir saksøkt etter å ha trukket seg fra en avtale om å importere flere busser fra den kinesiske produsenten Yutong. Det stemmer ikke. Den riktige produsenten er kinesiske CRRC.",
+    "correction": "Rettelse: I en tidligere versjon av denne saken sto det at Unibuss blir saksøkt etter å ha trukket seg fra en avtale om å importere flere busser fra den kinesiske produsenten Yutong. Det stemmer ikke. Den riktige produsenten er kinesiske CRRC.",
+    "url": "https://www.nrk.no/stor-oslo/avbestilte-kinesiske-busser-_-na-saksokes-de-for-en-halv-milliard-1.18062920",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1792941711969,
+    "date": "2026-10-14T05:38:59.716Z",
+    "title": "Tiltalt for krigsforbrytelse etter Nord Stream-sabotasjen",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken sto det at Tysklands riksadvokat hadde tatt ut tiltale mot Roman Tsjervinskij i juni. Det er feil. Rikasdvokaten har ikke tatt ut tiltale mot Tsjervinskij.",
+    "correction": "Rettelse: I en tidligere versjon av saken sto det at Tysklands riksadvokat hadde tatt ut tiltale mot Roman Tsjervinskij i juni. Det er feil. Rikasdvokaten har ikke tatt ut tiltale mot Tsjervinskij.",
+    "url": "https://www.nrk.no/artikkel/tiltalt-for-krigsforbrytelse-etter-nord-stream-sabotasjen-1530027",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
