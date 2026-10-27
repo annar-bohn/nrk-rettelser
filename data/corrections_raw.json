@@ -50694,5 +50694,17 @@
     "correction_date": "2026-10-14",
     "news_category": "world",
     "correction_type": "factual_error"
+  },
+  {
+    "id": 1793120976455,
+    "date": "2026-10-27T12:27:07+01:00",
+    "title": "Rykka ut til brann i sponsilo i Stjørdal – dei tilsette sløkte brannen sjølv",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: Politiet meldte først at det brann i ein kornsilo. Det rette er at det brann i ein sponsilo med sagflis. Rettinga blei gjort klokka 13.17.",
+    "correction": "Retting: Politiet meldte først at det brann i ein kornsilo. Det rette er at det brann i ein sponsilo med sagflis. Rettinga blei gjort klokka 13.17.",
+    "url": "https://www.nrk.no/trondelag/rykker-ut-til-brann-i-kornsilo-i-stjordal-1.18066024",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
