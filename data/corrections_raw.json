@@ -50705,6 +50705,20 @@
     "url": "https://www.nrk.no/trondelag/rykker-ut-til-brann-i-kornsilo-i-stjordal-1.18066024",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Rykka ut til brann i sponsilo i Stjørdal – dei tilsette sløkte brannen sjølv",
+    "nrk_section": "trondelag",
+    "publication_date": "2026-10-27T12:27:07+01:00",
+    "modified_date": "2026-10-27T13:20:03+01:00",
+    "intro_text": "Naudetatane rykka ut til Stjørdal etter melding om brann i ein sponsilo. Dei tilsette sløkte brannen sjølv.",
+    "journalist": "Sunniva Skurtveit",
+    "responsible_editor": "",
+    "article_body": "Rykka ut til brann i sponsilo i Stjørdal – dei tilsette sløkte brannen sjølv Naudetatane rykka ut til Stjørdal etter melding om brann i ein sponsilo. Dei tilsette sløkte brannen sjølv. BRANN: Brannvesenet er på staden ved ein silo i Stjørdal. Foto: Arne Kristian Gansmo / NRK Sunniva Skurtveit – Journalist Journalist Publisert 27.10.2026, kl. 12.27 Oppdatert 27.10.2026, kl. 13.20 Publisert 27.10.2026, kl. 12.27 Oppdatert 27.10.2026, kl. 13.20 – Tilsette på staden har klart å halde flammane nede så langt. Ingen personskade meldt så langt. Det melder operasjonsleiar Svein Erik Wagnild i Trøndelag politidistrikt. Politiet fekk melding om brannen klokka 12.15. Siloen ligg i Stjørdal kommune. Både brannvesenet og politiet er på staden. – Verken flammar eller mykje røyk på staden, legg Wagnild til. Politiet er i kontakt med dei tilsette på kornsiloen. Retting: Politiet meldte først at det brann i ein kornsilo. Det rette er at det brann i ein sponsilo med sagflis. Rettinga blei gjort klokka 13.17. For to veker sidan begynte det å brenne i to forskjellige korntørkarar i Trondheim: Les også Omfattende brann i Felleskjøpets anlegg: – Vil være ute av drift i lang tid Les også Brann i mølle i Trondheim: – Brannvesenet har nå kontroll Publisert 27.10.2026, kl. 12.27 Oppdatert 27.10.2026, kl. 13.20 Branner Mann siktet etter boligbrann på Nesodden Eitt år sidan skulen brann ned: – Som på film + Vis flere Mer om: Branner",
+    "correction_description": "Politiet meldte først feilaktig at det brant i en kornsilo. Det korrekte er at det brant i en sponsilo med sagflis.",
+    "correction_text_extract": "Retting: Politiet meldte først at det brann i ein kornsilo. Det rette er at det brann i ein sponsilo med sagflis. Rettinga blei gjort klokka 13.17.",
+    "correction_date": "2026-10-27",
+    "news_category": "local",
+    "correction_type": "factual_error",
+    "time_to_correct_hours": 0.88
   }
 ]
