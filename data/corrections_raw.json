@@ -50720,5 +50720,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 0.88
+  },
+  {
+    "id": 1793188513414,
+    "date": "2026-10-28T05:46:15.065Z",
+    "title": "Dressfolka trudde dei kunne ta Sauda. Så møtte dei Håvard (22).",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I fyrste omgang skreiv NRK at Sauda kommune sendte ut spørsmålskjema til dei selskapa som alt hadde kontakta kommunen. Vi har føyd til at kommunen også har kontakta andre i bransjen, og at det fyrst var planar om ammoniakkfabrikk på tomta.",
+    "correction": "Retting: I fyrste omgang skreiv NRK at Sauda kommune sendte ut spørsmålskjema til dei selskapa som alt hadde kontakta kommunen. Vi har føyd til at kommunen også har kontakta andre i bransjen, og at det fyrst var planar om ammoniakkfabrikk på tomta.",
+    "url": "https://www.nrk.no/artikkel/dressfolka-trudde-dei-kunne-ta-sauda-sa-motte-dei-havard-22-1529678",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
