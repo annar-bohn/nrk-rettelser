@@ -5024,12 +5024,23 @@
     "title": "Senaste nytt om kriget i Ukraina",
     "correction": "I en intervju med VG tillbakavisas detta av Norges statsminister Jonas Gahr Støre, som kräver att tidningen gör en rättelse. | Financial Times säger dock till VG att de står fast vid sin journalistik och inte kommer att göra någon rättelse.",
     "correction_text_raw": "I en intervju med VG tillbakavisas detta av Norges statsminister Jonas Gahr Støre, som kräver att tidningen gör en rättelse. | Financial Times säger dock till VG att de står fast vid sin journalistik och inte kommer att göra någon rättelse.",
-    "qa_status": "pending",
+    "qa_status": "not_a_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/utrikes",
     "publication_date": "2022-01-24T09:26:49+01:00",
-    "modified_date": "2026-10-29T15:39:18+01:00"
+    "modified_date": "2026-10-29T15:39:18+01:00",
+    "headline": "Senaste nytt om kriget i Ukraina",
+    "intro_text": "Rysslands storskaliga invasion av Ukraina har pågått sedan den 24 februari 2022, då ryska trupper anföll Ukraina från flera håll. Ryssland ockuperar flera regioner i östra och södra Ukraina. Följ SVT:s liverapport med senaste nytt om kriget.",
+    "journalist": "Edith Lindvall",
+    "responsible_editor": "Christofer Brask",
+    "article_body": "Edith Lindvall SVT reporter 5 min En person död i Kyjiv Flera distrikt i den ukrainska huvudstaden har utsatts för ryska drönarattacker under torsdagskvällen, meddelar den militära administrationen i Kyjiv. Ett lagerhus i Darnytskyj-distriktet har börjat brinna, området nära ett bostadshus har träffats av vrakdelar i Dnipro-distriktet. ”Tyvärr har en person omkommit till följd av en fiendeattack. Våra djupaste kondoleanser till familjen och de anhöriga”, skriver de strax före klockan klockan elva på kvällen. Visa inlägg",
+    "correction_description": "",
+    "correction_text_extract": "",
+    "correction_date": null,
+    "news_category": "world",
+    "correction_type": "other",
+    "time_to_correct_hours": 41742.21
   }
 ]
