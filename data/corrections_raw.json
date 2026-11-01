@@ -50850,5 +50850,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 9.68
+  },
+  {
+    "id": 1793536069708,
+    "date": "2026-11-01T06:51:43.630Z",
+    "title": "Tre omkom over usikra kraftverk – regelverket blir endra etter ulukka",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I ein tidlegare versjon av saka stod det at damsikkerheitsforskrifta alt var endra og oppdatert. Endringane er formelt ikkje gjort. Endringa blei gjort 13.12.",
+    "correction": "Retting: I ein tidlegare versjon av saka stod det at damsikkerheitsforskrifta alt var endra og oppdatert. Endringane er formelt ikkje gjort. Endringa blei gjort 13.12.",
+    "url": "https://www.nrk.no/artikkel/tre-omkom-over-usikra-kraftverk-regelverket-blir-endra-etter-ulukka-1531015",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
