@@ -50876,5 +50876,17 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 5.75
+  },
+  {
+    "id": 1793799307658,
+    "date": "2026-10-30T15:47:10+01:00",
+    "title": "Mann i 30-åra tiltalt for å ha kjøpt vin og kunst med jobben sine pengar",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Presisering:Artikkelen er 4oppdatert med presisering av at omtala forlik er gjort opp, samt partane si rolle. Endringa er gjort 4. november kl. 07.32.",
+    "correction": "Presisering:Artikkelen er 4oppdatert med presisering av at omtala forlik er gjort opp, samt partane si rolle. Endringa er gjort 4. november kl. 07.32.",
+    "url": "https://www.nrk.no/vestland/fra-lagt-bort-millionunderslag-til-tiltale_-tidlegare-tilsett-ma-mote-i-retten-1.18069153",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
