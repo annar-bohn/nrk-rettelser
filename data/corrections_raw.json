@@ -50923,5 +50923,17 @@
     "correction_date": "2026-11-04",
     "news_category": "sports",
     "correction_type": "wrong_location"
+  },
+  {
+    "id": 1793886777686,
+    "date": "2026-11-05T05:48:48+01:00",
+    "title": "Vil gjøre fremmedspråk valgfritt: – Kan dø ut",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Les ogsåAnonym retting av heldagsprøver: – Verdt å teste ut",
+    "correction": "Les ogsåAnonym retting av heldagsprøver: – Verdt å teste ut",
+    "url": "https://www.nrk.no/sorlandet/udir-vil-gjore-fremmedsprak-valgfritt-pa-studieforberedende---elever-og-laerere-reagerer-1.18064840",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
