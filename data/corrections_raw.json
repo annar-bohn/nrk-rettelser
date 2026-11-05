@@ -50954,5 +50954,29 @@
     "news_category": "local",
     "correction_type": "other",
     "time_to_correct_hours": 4.61
+  },
+  {
+    "id": 1793919947339,
+    "date": "2026-11-05T21:28:43+01:00",
+    "title": "Felishia (19) ber politikarane høyre på dei unge: – Føler utsegnene våre ikkje blir lesne",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "– Vi kjem til å forklare kvifor vi ønsker anonym retting av store prøver, slik at fylkestinget veit kva ungdomsrådet meiner før dei behandlar saka, seier Ottem. | Fylkesdirektøren har anbefaltat det ikkje blir gjennomført forsøk med anonym retting av prøver i vidaregåande opplæring. | Skal vi tru forskinga, kan dei vinne fram med kravet om anonym retting. | På agendaen står mellom anna ei sak omanonym retting.",
+    "correction": "– Vi kjem til å forklare kvifor vi ønsker anonym retting av store prøver, slik at fylkestinget veit kva ungdomsrådet meiner før dei behandlar saka, seier Ottem. | Fylkesdirektøren har anbefaltat det ikkje blir gjennomført forsøk med anonym retting av prøver i vidaregåande opplæring. | Skal vi tru forskinga, kan dei vinne fram med kravet om anonym retting. | På agendaen står mellom anna ei sak omanonym retting.",
+    "url": "https://www.nrk.no/vestfoldogtelemark/ungdomsrad-far-sjeldan-gjennomslag-i-politiske-saker-_-foler-seg-likevel-hoyrde-1.18042045",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1793919948126,
+    "date": "2026-11-05T15:17:59+01:00",
+    "title": "Kollegaer dømde til fengsel i ni og seks år etter grov vald og valdtekt på brakkerigg",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I den første versjonen sto det at begge mennene var dømde for grov kroppsskade og grov valdtekt. Det korrekte er at den eine er dømd for medverknad til dette. Retta klokka 16.15.",
+    "correction": "Retting: I den første versjonen sto det at begge mennene var dømde for grov kroppsskade og grov valdtekt. Det korrekte er at den eine er dømd for medverknad til dette. Retta klokka 16.15.",
+    "url": "https://www.nrk.no/mr/to-menn-domde-til-9-og-6-ars-fengsel-for-vald-og-valdtekt-pa-brakkerigg-i-ulstein-1.18063110",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
