@@ -5042,5 +5042,50 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 41742.21
+  },
+  {
+    "id": 1793886941247,
+    "url": "https://www.svt.se/nyheter/inrikes/regeringen-aterinfor-granskontroller-i-sex-manader",
+    "date": "2026-11-05T13:38:46+01:00",
+    "title": "Regeringen förlänger gränskontroller i sex månader",
+    "correction": "I en tidigare version av artikel användes ordet ”återinförs” utifrån regeringens pressmeddelande. Det är nu ändrat till ”förlängs”.",
+    "correction_text_raw": "I en tidigare version av artikel användes ordet ”återinförs” utifrån regeringens pressmeddelande. Det är nu ändrat till ”förlängs”.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/inrikes",
+    "publication_date": "2026-11-05T13:38:46+01:00",
+    "modified_date": "2026-11-05T14:00:23+01:00"
+  },
+  {
+    "id": 1793886998540,
+    "url": "https://www.svt.se/nyheter/lokalt/vast/vardanstalld-filmade-psykiskt-sjuk-patient-la-upp-klippen-pa-sociala-medier",
+    "date": "2026-11-04T05:30:02+01:00",
+    "title": "Vårdanställd filmade psykiskt sjuk patient – la upp klippen på sociala medier",
+    "correction": "FÖRTYDLIGANDE: I en tidigare version av inslaget benämndes hakkorset som en nynazistisk runa. Rätt ska vara att det är en symbol.",
+    "correction_text_raw": "FÖRTYDLIGANDE: I en tidigare version av inslaget benämndes hakkorset som en nynazistisk runa. Rätt ska vara att det är en symbol.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/vast",
+    "publication_date": "2026-11-04T05:30:02+01:00",
+    "modified_date": "2026-11-05T10:16:07+01:00"
+  },
+  {
+    "id": 1793887014493,
+    "url": "https://www.svt.se/nyheter/lokalt/varmland/19-infor-ratta-i-stor-bedrageriharva-falska-polislegitimationer-och-stulna-vapen",
+    "date": "2026-11-05T05:30:05+01:00",
+    "title": "19 inför rätta i stor bedrägerihärva – falska polislegitimationer och stulna vapen",
+    "correction": "I en tidigare version av artikeln uppgavs att jägare i dalarna blivit lurade på vapen. Det var inte korrekt. Där hade bedragarna lurat till sig pengar.",
+    "correction_text_raw": "I en tidigare version av artikeln uppgavs att jägare i dalarna blivit lurade på vapen. Det var inte korrekt. Där hade bedragarna lurat till sig pengar.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/varmland",
+    "publication_date": "2026-11-05T05:30:05+01:00",
+    "modified_date": "2026-11-05T08:53:44+01:00"
   }
 ]
