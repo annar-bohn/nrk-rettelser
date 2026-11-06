@@ -5146,5 +5146,35 @@
     "news_category": "crime",
     "correction_type": "wrong_image",
     "time_to_correct_hours": 26.59
+  },
+  {
+    "id": 1793972405878,
+    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/kommunchefens-hemliga-dubbelliv-porrproducent-sakerhetsrisk",
+    "date": "2026-11-04T10:55:26+01:00",
+    "title": "Kommunchefens hemliga dubbelliv – porrproducent: ”Säkerhetsrisk”",
+    "correction": "Rättelse I en tidigare version av texten uppgavs att avgångsvederlaget motsvarar sex månadslöner. Enligt överenskommelsen handlar det om sju månadslöner.",
+    "correction_text_raw": "Rättelse I en tidigare version av texten uppgavs att avgångsvederlaget motsvarar sex månadslöner. Enligt överenskommelsen handlar det om sju månadslöner.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/norrbotten",
+    "publication_date": "2026-11-04T10:55:26+01:00",
+    "modified_date": "2026-11-06T10:26:25+01:00"
+  },
+  {
+    "id": 1793972410726,
+    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/efter-svts-granskning-kommunchefen-sags-upp",
+    "date": "2026-11-04T11:41:14+01:00",
+    "title": "Efter SVT:s granskning – Jokkmokks kommunchef sägs upp",
+    "correction": "Rättelse: I en tidigare version av texten uppgav SVT att avgångsvederlaget motsvarar sex månadslöner. Enligt den undertecknade överenskommelsen handlar det om sju månadslöner, totalt 594 104 kronor före skatt.",
+    "correction_text_raw": "Rättelse: I en tidigare version av texten uppgav SVT att avgångsvederlaget motsvarar sex månadslöner. Enligt den undertecknade överenskommelsen handlar det om sju månadslöner, totalt 594 104 kronor före skatt.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "nyheter/lokalt/norrbotten",
+    "publication_date": "2026-11-04T11:41:14+01:00",
+    "modified_date": "2026-11-06T10:08:00+01:00"
   }
 ]
