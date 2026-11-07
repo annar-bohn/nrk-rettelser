@@ -51006,5 +51006,41 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 1.14
+  },
+  {
+    "id": 1794086198016,
+    "date": "2026-11-07T15:23:34.693Z",
+    "title": "Ni døde i skyting i Krakow",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I innledende fase skrev NRK at den polske avisenGazeta Krakowskamelder at det trolig dreier seg om et oppgjør mellom kriminelle bander. NRK fjernet denne opplysningen 17.32 da det ikke var bekreftet fra annet hold.",
+    "correction": "Rettelse: I innledende fase skrev NRK at den polske avisenGazeta Krakowskamelder at det trolig dreier seg om et oppgjør mellom kriminelle bander. NRK fjernet denne opplysningen 17.32 da det ikke var bekreftet fra annet hold.",
+    "url": "https://www.nrk.no/artikkel/ni-dode-i-skyting-i-krakow-1532407",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794086236702,
+    "date": "2026-11-07T12:43:48+01:00",
+    "title": "Etter vannkriser i nord og sør: – Man må dele mer kunnskap",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Oppdatering: I en tidligere versjon av denne saken ble det brukt et tenkt eksempel som kunne gi inntrykk av at Tromsø og Bardufoss deler vannforsyning. Det stemmer ikke. Eksempelet var et hypotetisk bilde fra intervjuobjektet for å illustrere sårbarheten ved sentraliserte anlegg, og avsnittet er nå omformulert for å tydeliggjøre dette.",
+    "correction": "Oppdatering: I en tidligere versjon av denne saken ble det brukt et tenkt eksempel som kunne gi inntrykk av at Tromsø og Bardufoss deler vannforsyning. Det stemmer ikke. Eksempelet var et hypotetisk bilde fra intervjuobjektet for å illustrere sårbarheten ved sentraliserte anlegg, og avsnittet er nå omformulert for å tydeliggjøre dette.",
+    "url": "https://www.nrk.no/tromsogfinnmark/vannberedskap_-_-vi-ma-vaere-flinkere-til-a-dele-kunnskap-1.18075488",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794086350958,
+    "date": "2026-11-07T15:07:03.040Z",
+    "title": "Mann trengte seg inn i hjemmet til Marius Borg Høiby på Skaugum og dyttet ham",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/mann-trengte-seg-inn-i-hjemmet-til-marius-borg-hoiby-pa-skaugum-og-dyttet-ham-1532406",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
