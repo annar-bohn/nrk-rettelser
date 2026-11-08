@@ -51084,5 +51084,17 @@
     "news_category": "crime",
     "correction_type": "other",
     "time_to_correct_hours": 2.4
+  },
+  {
+    "id": 1794109519041,
+    "date": "2026-11-07T15:23:34.693Z",
+    "title": "Ni drept i Krakow – statsministeren kaller skytingen terror",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I innledende fase skrev NRK at den polske avisenGazeta Krakowskamelder at det trolig dreier seg om et oppgjør mellom kriminelle bander. NRK fjernet denne opplysningen 17.32 da det ikke var bekreftet fra annet hold.",
+    "correction": "Rettelse: I innledende fase skrev NRK at den polske avisenGazeta Krakowskamelder at det trolig dreier seg om et oppgjør mellom kriminelle bander. NRK fjernet denne opplysningen 17.32 da det ikke var bekreftet fra annet hold.",
+    "url": "https://www.nrk.no/artikkel/ni-drept-i-krakow-statsministeren-kaller-skytingen-terror-1532407",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
