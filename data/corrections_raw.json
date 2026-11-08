@@ -51110,5 +51110,17 @@
     "news_category": "crime",
     "correction_type": "retracted_claim",
     "time_to_correct_hours": 7.77
+  },
+  {
+    "id": 1794141239570,
+    "date": "2026-11-07T15:23:34.693Z",
+    "title": "Ni drept i Polen – etterforskes som terror",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I en tidligere versjon av saken sto det at ni personer ble drept i Kraków. Det korrekte er at seks personer ble drept i skytingen i Kraków, mens tre personer ble funnet drept i Ostrowiec Świętokrzyski, som ligger cirka 190 kilometer unna. Dette ble endret søndag klokka 08.40. | NRK retter: I innledende fase skrev NRK at den polske avisenGazeta Krakowskamelder at det trolig dreier seg om et oppgjør mellom kriminelle bander. NRK fjernet denne opplysningen 17.32 da det ikke var bekreftet fra annet hold.",
+    "correction": "I en tidligere versjon av saken sto det at ni personer ble drept i Kraków. Det korrekte er at seks personer ble drept i skytingen i Kraków, mens tre personer ble funnet drept i Ostrowiec Świętokrzyski, som ligger cirka 190 kilometer unna. Dette ble endret søndag klokka 08.40. | NRK retter: I innledende fase skrev NRK at den polske avisenGazeta Krakowskamelder at det trolig dreier seg om et oppgjør mellom kriminelle bander. NRK fjernet denne opplysningen 17.32 da det ikke var bekreftet fra annet hold.",
+    "url": "https://www.nrk.no/artikkel/ni-drept-i-polen-etterforskes-som-terror-1532407",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
