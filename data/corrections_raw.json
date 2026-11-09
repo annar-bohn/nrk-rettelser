@@ -51136,5 +51136,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 19.53
+  },
+  {
+    "id": 1794235997901,
+    "date": "2026-11-09T14:29:34.077Z",
+    "title": "Komikar Russell Brand dømd til fengsel i 10,5 år",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/komikar-russell-brand-domd-til-fengsel-i-105-ar-1531380",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
