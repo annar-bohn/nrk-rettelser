@@ -51370,5 +51370,29 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 26.22
+  },
+  {
+    "id": 1794319391244,
+    "date": "2026-11-09T14:39:23.983Z",
+    "title": "Nvidia-aksjen falt nesten 8 prosent på børsen",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon ble Birger Steen omtalt som styreleder i Nordic Semiconductor. Han gikk ut av styret i april 2025. Dette ble korrigert 10.11 kl. 12.50.",
+    "correction": "RETTELSE: I en tidligere versjon ble Birger Steen omtalt som styreleder i Nordic Semiconductor. Han gikk ut av styret i april 2025. Dette ble korrigert 10.11 kl. 12.50.",
+    "url": "https://www.nrk.no/artikkel/nvidia-aksjen-falt-nesten-8-prosent-pa-borsen-1532530",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794319435229,
+    "date": "2026-11-05T18:48:32+01:00",
+    "title": "Får ikke skyte ulven: – Veldig trist når barna spør om det er deres rein",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "07:30:I en tidligere versjon av denne saken ble det brukt et arkivkart der Rendalen kommune var markert med rød farge sammen med ulvesonen. Kartet og bildeteksten ga et misvisende inntrykk av at Rendalen er en del av ulvesonen. Rendalen ligger utenfor ulvesonen. Bildet ble byttet ut til et korrekt kart over ulvesone",
+    "correction": "07:30:I en tidligere versjon av denne saken ble det brukt et arkivkart der Rendalen kommune var markert med rød farge sammen med ulvesonen. Kartet og bildeteksten ga et misvisende inntrykk av at Rendalen er en del av ulvesonen. Rendalen ligger utenfor ulvesonen. Bildet ble byttet ut til et korrekt kart over ulvesone",
+    "url": "https://www.nrk.no/sapmi/far-ikke-skyte-ulven_-_-veldig-trist-nar-barna-spor-om-det-er-deres-rein-1.18067905",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
