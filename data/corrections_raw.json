@@ -51162,5 +51162,101 @@
     "news_category": "crime",
     "correction_type": "other",
     "time_to_correct_hours": 0.55
+  },
+  {
+    "id": 1794272508680,
+    "date": "2026-05-04T08:09:04+02:00",
+    "title": "Mangler samisk samlingspunkt: – Et tomrom",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/samisk-hus-er-enna-ikke-pa-plass-i-trondheim-_-bystyret-mener-saken-haster-1.17859695",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794272579762,
+    "date": "2026-11-09T16:30:15+01:00",
+    "title": "NRK Sápmi – Åarjelsaemien",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/nrk-sapmi-_-aarjelsaemien-1.12132134",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794272646837,
+    "date": "2026-10-24T09:39:15+02:00",
+    "title": "Man ålov diedá Giellavahko birra?",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/man-alov-dieda-giellavahko-birra_-1.18062863",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794272649089,
+    "date": "2026-11-08T17:26:18+01:00",
+    "title": "80 år på lufta: Les om reisen til NRK Sápmi",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/80-ar-pa-lufta_-les-om-reisen-til-nrk-sapmi-1.18074941",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794272703231,
+    "date": "2026-10-27T15:17:10+01:00",
+    "title": "Gáibidit buot oaidnit direktevrraraporttas",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/samediggedirektevra-a__is_-lavdegoddi-gaibida-oaidnit-guorahallanraportta-1.18065236",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794272729036,
+    "date": "2026-11-07T17:05:35+01:00",
+    "title": "Mari Boine fyller 70 år: – Jeg har akseptert at jeg har en fot i himmelen",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/_-jeg-har-akseptert-at-jeg-har-en-fot-i-himmelen_-og-den-andre-nesten-i-helvete-1.18075791",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794272779142,
+    "date": "2026-10-16T15:12:22+02:00",
+    "title": "Áiggošedje bissehit stáhta miljonbuođu: - Sáhttá vahágahttit min luosa",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/aiggo_edje-bissehit-stahta-miljonbuo_u_---sahtta-vahagahttit-min-luosa-1.18056945",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794272797512,
+    "date": "2026-10-13T19:34:04+02:00",
+    "title": "SG:s sámestuimmit: – Bellodagas šaddet birasberoštumit ja sámi vuoigatvuođat vuostálagaid",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "correction": "NRK retter: Det ble meldt på mandag at halvparten av kommunene i Nord-Norge har bedt Stortinget om hjelp i et felles opprop om den krevende økonomiske situasjonen i en melding. Det er ikke det statssekretæren har svart på. Det Sigrid Ina Simonsen svarte på var spørsmål om arbeidsplasser i nord.",
+    "url": "https://www.nrk.no/sapmi/sg_s-samestuimmit_-samepolitihkala_-a__it-haddjejit-bellodaga-1.18053909",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
