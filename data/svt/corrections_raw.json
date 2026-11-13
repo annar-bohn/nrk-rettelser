@@ -5258,12 +5258,23 @@
     "title": "Övervägde att lägga ner  yrkesprogram – vände utvecklingen",
     "correction": "Rättelse: I en tidigare version stod det att det var 77 elever på programmet.",
     "correction_text_raw": "Rättelse: I en tidigare version stod det att det var 77 elever på programmet.",
-    "qa_status": "pending",
+    "qa_status": "genuine_correction",
     "auto": true,
     "source": "sitemap",
     "outlet": "svt",
     "section": "nyheter/lokalt/sormland",
     "publication_date": "2026-11-12T06:39:53+01:00",
-    "modified_date": "2026-11-13T14:18:29+01:00"
+    "modified_date": "2026-11-13T14:18:29+01:00",
+    "headline": "Övervägde att lägga ner  yrkesprogram – vände utvecklingen",
+    "intro_text": "För några år sedan var det så få sökande till industritekniska programmet i Eskilstuna att Rinmangymnasiet övervägde att skrota det helt. Men nu växer det för varje år – och Skolverket vill se en jätteökning i länet. – Det går väldigt bra för de elever som läser industritekniska programmet. De får jobb och verkar vara efterfrågade på arbetsmarknaden, säger Skolverkets utredare Agnes Duregård.",
+    "journalist": "Albin Aghamn",
+    "responsible_editor": "Tobias Wallin",
+    "article_body": "Javascript är avstängt Javascript måste vara påslaget för att kunna spela video Läs mer om webbläsarstöd Rinmangymnasiets rektor Sara Berglund om utvecklingen för industritekniska programmet. Foto: SVT / Albin Aghamn Övervägde att lägga ner  yrkesprogram – vände utvecklingen Uppdaterad idag 14:18 Publicerad igår 06:39 För några år sedan var det så få sökande till industritekniska programmet i Eskilstuna att Rinmangymnasiet övervägde att skrota det helt. Men nu växer det för varje år – och Skolverket vill se en jätteökning i länet. – Det går väldigt bra för de elever som läser industritekniska programmet. De får jobb och verkar vara efterfrågade på arbetsmarknaden, säger Skolverkets utredare Agnes Duregård. Enligt Skolverket finns det risk för stor brist på utbildad arbetskraft inom området på sikt. Statistik visar också att många av dem som går programmet får jobb efter utbildningen. På Rinmangymnasiet i Eskilstuna har intresset ökat efter en satsning på bland annat nya maskiner, utbildad personal och samarbete med lokala företag. Antalet elever på programmet har ökat från 45 stycken år 2021 till 115 i dag, enligt Eskilstuna kommun. Men fler utbildningsplatser kräver också fler praktikplatser. Eleverna måste kunna genomföra arbetsplatsförlagt lärande, APL, hos företagen. – Utmaningen handlar om APL-platser. Vi måste kunna erbjuda varje ungdom en bra arbetsplatsförlagd utbildning, säger Eskilstuna kommuns gymnasiechef Fredrik Karlsson. Kommunen vill fortsätta öka antalet platser, men ser inte en tredubbling som självklar. Det kräver fortsatt samverkan mellan skolan, kommunen och industriföretagen. Rättelse: I en tidigare version stod det att det var 77 elever på programmet. Skola Yrken Industri Eskilstuna Relaterat 1 min Theo, 19, fick fast jobb direkt efter studenten: ”Det är en stor trygghet” 26 juni 2026 52 sek Gymnasieprogrammen där (nästan) alla får jobb efter examen 16 januari 2026 59 sek Allt fler tjejer vill köra lastbil – Filippas mål: Queen of the road 27 februari 2025 Albin Aghamn Ansvarig utgivare: Tobias Wallin Uppdaterad 13 november 2026 kl 14:18 Publicerad 12 november 2026 kl 06:39 Hittat språk- eller faktafel i texten? Skriv och berätta. Så arbetar vi SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+    "correction_description": "Antalet elever på industritekniska programmet har korrigerats från 77 till 115.",
+    "correction_text_extract": "Rättelse: I en tidigare version stod det att det var 77 elever på programmet.",
+    "correction_date": "2026-11-12",
+    "news_category": "local",
+    "correction_type": "wrong_number",
+    "time_to_correct_hours": 31.64
   }
 ]
