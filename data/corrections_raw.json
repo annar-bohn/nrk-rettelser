@@ -51552,5 +51552,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 0.0
+  },
+  {
+    "id": 1794660668348,
+    "date": "2026-11-14T11:24:13.541Z",
+    "title": "Mann varetektsfengsla etter ransforsøk av familie i Kvam",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/mann-varetektsfengsla-etter-ransforsok-av-familie-i-kvam-1533021",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
