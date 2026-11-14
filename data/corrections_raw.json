@@ -51500,5 +51500,29 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 1.73
+  },
+  {
+    "id": 1794630655742,
+    "date": "2026-11-13T20:59:52.490Z",
+    "title": "Flystansen i USA er over",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/flystansen-i-usa-er-over-1532983",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794630669074,
+    "date": "2026-11-14T02:23:49.618Z",
+    "title": "Trump bekrefter: Møter Putin og Xi i Kina",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/trump-bekrefter-moter-putin-og-xi-i-kina-1532986",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
