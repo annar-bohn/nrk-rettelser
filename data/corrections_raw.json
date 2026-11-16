@@ -51630,5 +51630,17 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 13.23
+  },
+  {
+    "id": 1794802524059,
+    "date": "2026-11-14T02:23:49.618Z",
+    "title": "Kina: Trump, Xi og Putin møtes",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/kina-trump-xi-og-putin-motes-1532986",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
