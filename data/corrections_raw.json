@@ -51656,5 +51656,17 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 48.93
+  },
+  {
+    "id": 1794928748566,
+    "date": "2026-11-16T10:36:03+01:00",
+    "title": "Venstre ønskjer lengre kollektivbillett",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Etter publisering blei NRK gjord merksam på at det i Buskerud ikkje er billettar til 45 minutt.",
+    "correction": "Etter publisering blei NRK gjord merksam på at det i Buskerud ikkje er billettar til 45 minutt.",
+    "url": "https://www.nrk.no/buskerud/venstre-onskjer-lengre-kollektivbillett-1.18082638",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
