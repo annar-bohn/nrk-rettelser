@@ -5302,5 +5302,20 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 4.17
+  },
+  {
+    "id": 1795014153575,
+    "url": "https://www.svt.se/sport/fotboll/kif-orebro-begars-i-konkurs-dagen-innan-kvalet",
+    "date": "2026-11-18T07:57:41+01:00",
+    "title": "Kif Örebro begärs i konkurs",
+    "correction": "I en tidigare version av artikeln uppgavs det att Kif Örebro riskerade att uteslutas redan innan kvalspelet började. SvFF har sedan dess samlat på sig mer information och nu lämnat ett korrekt uttalande.",
+    "correction_text_raw": "I en tidigare version av artikeln uppgavs det att Kif Örebro riskerade att uteslutas redan innan kvalspelet började. SvFF har sedan dess samlat på sig mer information och nu lämnat ett korrekt uttalande.",
+    "qa_status": "pending",
+    "auto": true,
+    "source": "sitemap",
+    "outlet": "svt",
+    "section": "sport/fotboll",
+    "publication_date": "2026-11-18T07:57:41+01:00",
+    "modified_date": "2026-11-18T13:29:35+01:00"
   }
 ]
