@@ -51734,5 +51734,29 @@
     "news_category": "politics",
     "correction_type": "other",
     "time_to_correct_hours": 1.33
+  },
+  {
+    "id": 1795013642283,
+    "date": "2026-11-18T08:41:32+01:00",
+    "title": "Fillerfesten fra helvete",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Dessuten er retting av kosmetiske inngrep ikke noe sykehusene prioriterer, fortalte han. De har mye annet å bruke ressursene på. Legens råd var derfor å oppsøke stedet hun hadde fått sprøytene.",
+    "correction": "Dessuten er retting av kosmetiske inngrep ikke noe sykehusene prioriterer, fortalte han. De har mye annet å bruke ressursene på. Legens råd var derfor å oppsøke stedet hun hadde fått sprøytene.",
+    "url": "https://www.nrk.no/dokumentar/xl/fikk-filler-ved-kjokkenbordet-1.18065757",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1795013885034,
+    "date": "2026-11-17T16:36:31.430Z",
+    "title": "Nvidia-styret: Ingen planer om å gjeninnsette Huang",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/nvidia-styret-ingen-planer-om-a-gjeninnsette-huang-1533257",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
