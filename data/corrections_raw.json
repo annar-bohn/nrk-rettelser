@@ -51682,5 +51682,29 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 24.13
+  },
+  {
+    "id": 1794961387143,
+    "date": "2026-11-17T16:36:31.430Z",
+    "title": "Nvidia-styret: Ingen planer om å gjeninsette Huang",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/nvidia-styret-ingen-planer-om-a-gjeninsette-huang-1533257",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1794961491781,
+    "date": "2026-11-17T19:39:11.902Z",
+    "title": "Konsernsjefen stilte ikke i Debatten om Posten-kutt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Artikkelen er oppdatert, last inn på nytt",
+    "correction": "Artikkelen er oppdatert, last inn på nytt",
+    "url": "https://www.nrk.no/artikkel/konsernsjefen-stilte-ikke-i-debatten-om-posten-kutt-1533267",
+    "auto": true,
+    "source": "sitemap",
+    "qa_status": "pending"
   }
 ]
