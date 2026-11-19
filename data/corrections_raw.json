@@ -51860,5 +51860,17 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 2.07
+  },
+  {
+    "id": 1795100395699,
+    "date": "2026-11-19T01:01:13+01:00",
+    "title": "Tysk vogntog av veien i Troms",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon av saken stod det at kjøretøyet er militært. Politiet har senere rettet opplysningene sine. Kjøretøyet er et utenlandsk frakt-kjøretøy som var leid inn for en militærøvelse i området.",
+    "correction": "Rettelse: I en tidligere versjon av saken stod det at kjøretøyet er militært. Politiet har senere rettet opplysningene sine. Kjøretøyet er et utenlandsk frakt-kjøretøy som var leid inn for en militærøvelse i området.",
+    "url": "https://www.nrk.no/tromsogfinnmark/tysk-vogntog-kjorte-av-veien-i-troms-1.18084632",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
