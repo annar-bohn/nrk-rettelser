@@ -51886,5 +51886,29 @@
     "news_category": "local",
     "correction_type": "factual_error",
     "time_to_correct_hours": 13.23
+  },
+  {
+    "id": 1795133172437,
+    "date": "2026-11-19T19:28:42.296Z",
+    "title": "Norske verft meiner dei blir utestengde frå stor forsvarskontrakt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: Sitatet om at det berre er eitt norsk verft som  har økonomisk kapasitet, blei først kreditert kommunikasjonssjefen i Vard. Det rette er Strønen, som er dagleg leiar i Norske Verft. Dette blei retta 19.11 klokka 23.10.",
+    "correction": "Retting: Sitatet om at det berre er eitt norsk verft som  har økonomisk kapasitet, blei først kreditert kommunikasjonssjefen i Vard. Det rette er Strønen, som er dagleg leiar i Norske Verft. Dette blei retta 19.11 klokka 23.10.",
+    "url": "https://www.nrk.no/artikkel/norske-verft-meiner-dei-blir-utestengde-fra-stor-forsvarskontrakt-1533376",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1795133173166,
+    "date": "2026-11-05T19:47:21.068Z",
+    "title": "Vart kalla «jihadist» av Trump – no inntek han Senatet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: I den opphavlege versjonen av denne saka vart El-Sayed omtalt som lege. Det rette er at han har medisinsk utdanning frå Columbia University, men ikkje har fullført spesialisering eller hatt autorisasjon til å praktisere som lege. Han har arbeidd med epidemiologi. Endringa vart gjord 19. november kl. 21.02.",
+    "correction": "Retting: I den opphavlege versjonen av denne saka vart El-Sayed omtalt som lege. Det rette er at han har medisinsk utdanning frå Columbia University, men ikkje har fullført spesialisering eller hatt autorisasjon til å praktisere som lege. Han har arbeidd med epidemiologi. Endringa vart gjord 19. november kl. 21.02.",
+    "url": "https://www.nrk.no/artikkel/vart-kalla-jihadist-av-trump-no-inntek-han-senatet-1532125",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
