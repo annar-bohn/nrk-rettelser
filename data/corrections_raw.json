@@ -51938,5 +51938,17 @@
     "news_category": "politics",
     "correction_type": "factual_error",
     "time_to_correct_hours": 336.38
+  },
+  {
+    "id": 1795217539076,
+    "date": "2026-11-20T10:24:19.717Z",
+    "title": "Raser mot Russland etter drapsplaner: – Dere er gjennomskuet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: II en tidligere versjon av denne saken ble gruppen Loyal to Familia omtalt som en MC-gjeng. Det riktige er at gruppen er en kriminell gategjeng. Feilen ble rettet klokken 15.56.",
+    "correction": "RETTELSE: II en tidligere versjon av denne saken ble gruppen Loyal to Familia omtalt som en MC-gjeng. Det riktige er at gruppen er en kriminell gategjeng. Feilen ble rettet klokken 15.56.",
+    "url": "https://www.nrk.no/artikkel/raser-mot-russland-etter-drapsplaner-dere-er-gjennomskuet-1533580",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
