@@ -51964,5 +51964,17 @@
     "news_category": "crime",
     "correction_type": "factual_error",
     "time_to_correct_hours": 9.65
+  },
+  {
+    "id": 1795269568352,
+    "date": "2026-11-21T11:14:30+01:00",
+    "title": "Verdensmesteren fikk utdrikningslaget avslørt av NRK: – Fikk meg en god hakeslepp",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "I guttegjengen er smilene store når NRK beklager at planene ble avslørt.",
+    "correction": "I guttegjengen er smilene store når NRK beklager at planene ble avslørt.",
+    "url": "https://www.nrk.no/sport/verdensmesteren-fikk-utdrikningslaget-avslort-av-nrk_-_-fikk-meg-en-god-hakeslepp-1.18086273",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
