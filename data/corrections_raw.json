@@ -51990,5 +51990,17 @@
     "news_category": "sports",
     "correction_type": "other",
     "time_to_correct_hours": 2.61
+  },
+  {
+    "id": 1795300792748,
+    "date": "2026-11-20T18:19:24.193Z",
+    "title": "Tuvalu bygger opp landet: – Hvordan skal vi forberede oss?",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Oppdatering: Etter publisering er saken presisert med mer informasjon om hvordan Tuvalus kystlinje endrer seg.",
+    "correction": "Oppdatering: Etter publisering er saken presisert med mer informasjon om hvordan Tuvalus kystlinje endrer seg.",
+    "url": "https://www.nrk.no/artikkel/tuvalu-bygger-opp-landet-hvordan-skal-vi-forberede-oss-1533555",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
