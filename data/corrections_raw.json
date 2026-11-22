@@ -52016,5 +52016,17 @@
     "news_category": "world",
     "correction_type": "other",
     "time_to_correct_hours": 23.63
+  },
+  {
+    "id": 1795355527857,
+    "date": "2026-11-21T11:00:55.148Z",
+    "title": "Finsk kystvakt bekrefter at Ukraina står bak angrep på russisk båt",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "RETTELSE: I en tidligere versjon stod det at øya Hogland var finsk. Det korrekte er at øya er russisk. Dette ble korrigert kl. 01.35 søndag.",
+    "correction": "RETTELSE: I en tidligere versjon stod det at øya Hogland var finsk. Det korrekte er at øya er russisk. Dette ble korrigert kl. 01.35 søndag.",
+    "url": "https://www.nrk.no/artikkel/finsk-kystvakt-bekrefter-at-ukraina-star-bak-angrep-pa-russisk-bat-1533648",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
