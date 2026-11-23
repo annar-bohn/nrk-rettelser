@@ -52094,5 +52094,17 @@
     "news_category": "local",
     "correction_type": "wrong_number",
     "time_to_correct_hours": 2.57
+  },
+  {
+    "id": 1795453242471,
+    "date": "2026-11-23T13:04:02+01:00",
+    "title": "Full furore etter at julelys blei vinterlys: – Tatt ut av kontekst",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Tidens Krav gjorde endringar i saka etter publisering, for å tydeleggjere kva komiteen eigentleg meinte. Likevel gjekk toget vidare.",
+    "correction": "Tidens Krav gjorde endringar i saka etter publisering, for å tydeleggjere kva komiteen eigentleg meinte. Likevel gjekk toget vidare.",
+    "url": "https://www.nrk.no/mr/vinterlys-for-julelys-i-surnadal-skapte-furore_-_-sitatet-blei-tatt-ut-av-kontekst-1.18085903",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
