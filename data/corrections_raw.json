@@ -52120,5 +52120,29 @@
     "correction_date": null,
     "news_category": "local",
     "correction_type": "other"
+  },
+  {
+    "id": 1795538927356,
+    "date": "2026-11-22T18:43:10.798Z",
+    "title": "Usynlig pappa",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Etter publisering er NRK blitt gjort oppmerksom på at teksten i denne kronikken er generert ved hjelp av KI. Innsenderen opplyser at han står inne for innholdet i kronikken og at synspunktene som fremkommer er hans egne.",
+    "correction": "Etter publisering er NRK blitt gjort oppmerksom på at teksten i denne kronikken er generert ved hjelp av KI. Innsenderen opplyser at han står inne for innholdet i kronikken og at synspunktene som fremkommer er hans egne.",
+    "url": "https://www.nrk.no/artikkel/usynlig-pappa-1533221",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1795538934350,
+    "date": "2026-11-01T10:53:28+01:00",
+    "title": "Vil forby turistene å ta med seg fisk ut av Norge",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "NRK presiserer: I en tidligere versjon av denne saken ble det slått fast at«fisketurister i løpet av de siste årene har tatt med seg fisk for over fire milliarder ut av Norge». NRK understreker at tallet baserer seg på en utregning gjort av Fiskeribladet. Dette er nå tydeliggjort i artikkelen. Saken er oppdatert 24/11-26 kl. 14.04.",
+    "correction": "NRK presiserer: I en tidligere versjon av denne saken ble det slått fast at«fisketurister i løpet av de siste årene har tatt med seg fisk for over fire milliarder ut av Norge». NRK understreker at tallet baserer seg på en utregning gjort av Fiskeribladet. Dette er nå tydeliggjort i artikkelen. Saken er oppdatert 24/11-26 kl. 14.04.",
+    "url": "https://www.nrk.no/nordland/fisketurister-har-tatt-med-seg-fisk-for-milliarder-ut-av-norge.-ordforer-etterlyser-forbud-1.18066011",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
