@@ -52172,5 +52172,17 @@
     "correction_date": "2026-11-24",
     "news_category": "local",
     "correction_type": "attribution_error"
+  },
+  {
+    "id": 1795656256069,
+    "date": "2026-11-25T19:43:27.382Z",
+    "title": "Slakteri får bot av Mattilsynet",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I en tidligere versjon stod det i tittelen: – frykter gris ble kokt levende. Dette er fjernet fordi det kan gi inntrykk av at skåldingen tok livet av grisen. Rapporten konkluderer ikke med hva grisen døde av.",
+    "correction": "Rettelse: I en tidligere versjon stod det i tittelen: – frykter gris ble kokt levende. Dette er fjernet fordi det kan gi inntrykk av at skåldingen tok livet av grisen. Rapporten konkluderer ikke med hva grisen døde av.",
+    "url": "https://www.nrk.no/artikkel/slakteri-far-bot-av-mattilsynet-1534032",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
