@@ -52183,6 +52183,20 @@
     "url": "https://www.nrk.no/artikkel/slakteri-far-bot-av-mattilsynet-1534032",
     "auto": true,
     "source": "search",
-    "qa_status": "pending"
+    "qa_status": "genuine_correction",
+    "headline": "Slakteri får bot av Mattilsynet",
+    "nrk_section": "artikkel",
+    "publication_date": "2026-11-25T19:43:27.382Z",
+    "modified_date": "2026-11-25T22:30:28.810Z",
+    "intro_text": "Fatland slakteri i Oslo har fått bot på 200.000 kroner av Mattilsynet. Tilsynet fant en gris som ikke var avlivet korrekt før skålding. Slakteriet beklager.",
+    "journalist": "Jens Christian Sundby",
+    "responsible_editor": "",
+    "article_body": "Hovedemne: Dyrevelferd Slakteri får bot av Mattilsynet Fatland slakteri i Oslo har fått bot på 200.000 kroner av Mattilsynet. Tilsynet fant en gris som ikke var avlivet korrekt før skålding. Slakteriet beklager. Foto: Cornelius Poppe / Cornelius Poppe / NTB Hovedemne: Dyrevelferd Slakteri får bot av Mattilsynet Fatland slakteri i Oslo har fått bot på 200.000 kroner av Mattilsynet. Tilsynet fant en gris som ikke var avlivet korrekt før skålding. Slakteriet beklager. Jens Christian Sundby Journalist Publisert 25. nov. kl. 20:43 Oppdatert 25. nov. kl. 23:30 Rettelse: I en tidligere versjon stod det i tittelen: – frykter gris ble kokt levende. Dette er fjernet fordi det kan gi inntrykk av at skåldingen tok livet av grisen. Rapporten konkluderer ikke med hva grisen døde av. – Vi mener at det er klar sannsynlighetsovervekt for at regelverket er brutt grovt uaktsomt, skriver Mattilsynet i sin rapport etter en kontroll på Fatland slakteri på Furuset i Oslo 23. juli i år, ifølge Dagbladet. Ingen tegn til stikksår Der ble det funnet en gris som var full av blod i både skrott og indre organer. Grisen hadde heller ingen tegn til stikksår for såkalt avblødning på skrotten. Denne grisen kan derfor ha våknet opp fra bedøvelsen og vært bevisst under skålding, ifølge Mattilsynets rapport. « Det er enkelt å se om det er stikksår eller om det renner blod fra en opphengt gris», står det i rapporten. Det å sende en gris til skålding uten stikking eller avblødning er et brudd på dyrevelferdsloven. En tilsvarende hendelse ble avdekket ved slakteriet rundt samme tidspunkt i 2025, noe Mattilsynet skriver er kritikkverdig. Mattilsynet gjorde funnet under kjøttkontrollen ved Fatland Oslo 23. juli 2026. Foto: Bjørn Sigurdsøn / Bjørn Sigurdsøn / NTB Tungt for alle som jobber der – Dette er en vond hendelse, og vi beklager dette på det sterkeste, sier daglig leder Ove Malvin Knutsen i Fatland Oslo til avisen. Han forteller at dyrevelferd er kjernen i driften deres. – Tanken på at et dyr kan ha vært utsatt for unødig påkjenning eller lidelse, er tung for alle oss som jobber her, sier Knutsen. Fatland slakteri har allerede betalt boten på litt over 200.000 kroner. Også tidligere er slakteriet Fatland i Oslo blitt bøtelagt for dyreplageri. I 2015 måtte slakteriet betale et gebyr på 17.200 kroner for brudd på dyrevelferdsloven etter å ha påført griser unødig lidelse. I 2009 ble slakteriet dømt i Høyesterett til å betale en foretaksstraff på 300.000 kroner for dyremishandling. Les også Fatland må betale 300.000 (NTB) Publisert 25. nov. kl. 20:43 Oppdatert 25. nov. kl. 23:30 Tilknyttede emner til denne saken Dyrevelferd Mattilsynet Matbransjen Oslo",
+    "correction_description": "Tittelen ble endret fordi formuleringen «frykter gris ble kokt levende» kunne gi et feilaktig inntrykk av dødsårsaken, da rapporten ikke konkluderer med hva grisen døde av.",
+    "correction_text_extract": "Rettelse: I en tidligere versjon stod det i tittelen: – frykter gris ble kokt levende. Dette er fjernet fordi det kan gi inntrykk av at skåldingen tok livet av grisen. Rapporten konkluderer ikke med hva grisen døde av.",
+    "correction_date": "2026-11-25",
+    "news_category": "crime",
+    "correction_type": "misleading_title",
+    "time_to_correct_hours": 2.78
   }
 ]
