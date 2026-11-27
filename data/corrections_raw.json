@@ -52198,5 +52198,29 @@
     "news_category": "crime",
     "correction_type": "misleading_title",
     "time_to_correct_hours": 2.78
+  },
+  {
+    "id": 1795794936054,
+    "date": "2026-11-26T21:54:45.675Z",
+    "title": "Amnesty: Israels handlinger hindrer fødsler i Gaza",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Rettelse: I den opprinnelige tittelen i denne saken stod det at Amnesty mener at Israel vil hindre fødsler i Gaza. Det er ikke en riktig gjengivelse av det som står i rapporten. Det korrekte er at Amnesty mener Israels handlinger hindrer fødsler i Gaza. Navnet på sykehuset som er omtalt i rapporten ble endret fra Al-Shifa til Kamal Adwan. Det er også lagt inn fødselstall for oktober 2026, som ikke dekkes av rapporten. Saken ble endret fredag 27. november 12.45.",
+    "correction": "Rettelse: I den opprinnelige tittelen i denne saken stod det at Amnesty mener at Israel vil hindre fødsler i Gaza. Det er ikke en riktig gjengivelse av det som står i rapporten. Det korrekte er at Amnesty mener Israels handlinger hindrer fødsler i Gaza. Navnet på sykehuset som er omtalt i rapporten ble endret fra Al-Shifa til Kamal Adwan. Det er også lagt inn fødselstall for oktober 2026, som ikke dekkes av rapporten. Saken ble endret fredag 27. november 12.45.",
+    "url": "https://www.nrk.no/artikkel/amnesty-israels-handlinger-hindrer-fodsler-i-gaza-1533865",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
+  },
+  {
+    "id": 1795794940828,
+    "date": "2026-11-26T10:05:38.760Z",
+    "title": "– Metta feitt er betre enn sitt rykte",
+    "what": "Feil i tidligere versjon (automatisk oppdaget)",
+    "correction_text_raw": "Retting: NRK har 27.11. klokka 1500 retta at 193 personer fekk lågkarbodiett. Det riktige er at ein tredel av desse fekk denne dietten, medan resten fekk eit anna kosthald. Utviklinga i helse vart så målt mellom dei ulike gruppene. NRK presiserer at ikkje alle personane deltok i studia over heile perioden på to år.",
+    "correction": "Retting: NRK har 27.11. klokka 1500 retta at 193 personer fekk lågkarbodiett. Det riktige er at ein tredel av desse fekk denne dietten, medan resten fekk eit anna kosthald. Utviklinga i helse vart så målt mellom dei ulike gruppene. NRK presiserer at ikkje alle personane deltok i studia over heile perioden på to år.",
+    "url": "https://www.nrk.no/artikkel/metta-feitt-er-betre-enn-sitt-rykte-1533321",
+    "auto": true,
+    "source": "search",
+    "qa_status": "pending"
   }
 ]
